@@ -8,7 +8,7 @@
   <title>Web Video Podcasts</title>
   <link rel="icon" href="./favicon.svg?v=6" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css?v=6">
-  <script src="./app.js?v=5" type="module"></script>
+  <script src="./app.js?v=6" type="module"></script>
 </head>
 <body>
   <main class="page">
@@ -55,6 +55,10 @@
     <div class="watch-info">
       <h2 id="watch-title"></h2>
       <p id="watch-published" class="watch-published"></p>
+      <div class="watch-seek-controls" role="group" aria-label="播放進度控制">
+        <button type="button" class="pill" data-seek-relative="-10" aria-keyshortcuts="ArrowLeft">← 後退 10 秒</button>
+        <button type="button" class="pill" data-seek-relative="10" aria-keyshortcuts="ArrowRight">前進 10 秒 →</button>
+      </div>
       <p id="watch-state" role="status"></p>
       <div id="chapters" class="chapters" hidden></div>
       <a id="source" class="pill" target="_blank" rel="noopener noreferrer">在原平台觀看</a>
