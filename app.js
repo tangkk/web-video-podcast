@@ -195,6 +195,12 @@ function renderRoute() {
   }
   $('#continue').hidden = true;
   if (detailId === id) {
+    const star = elements.detail.querySelector('[data-favorite]');
+    if (star) {
+      const active = favorites.has(show.id);
+      star.setAttribute('aria-pressed', String(active));
+      star.textContent = active ? '★' : '☆';
+    }
     renderShowEpisodes(show);
     return;
   }
