@@ -168,7 +168,7 @@ function render() {
 function renderShowEpisodes(show) {
   const query = normalize(detailSearch.trim());
   let matching = show.episodes.filter(episode =>
-    normalize(episode.title + ' ' + (episode.title.match(/#\\d+/)?.[0] || '')).includes(query)
+    normalize(episode.title + ' ' + (episode.title.match(/#\d+/)?.[0] || '')).includes(query)
   );
   if (detailOrder === 'oldest') matching = [...matching].reverse();
   const visible = matching.slice(0, detailPage * DETAIL_PAGE_SIZE);
@@ -182,7 +182,7 @@ function renderShowEpisodes(show) {
 }
 
 function renderRoute() {
-  const id = /^#show\\/([a-z0-9-]+)$/.exec(location.hash)?.[1];
+  const id = /^#show\/([a-z0-9-]+)$/.exec(location.hash)?.[1];
   const show = shows.get(id);
   elements.browse.hidden = Boolean(show);
   elements.detail.hidden = !show;
