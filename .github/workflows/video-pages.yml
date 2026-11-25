@@ -75,7 +75,7 @@ jobs:
         if: steps.catalog.outputs.deploy == 'true'
         run: |
           mkdir public
-          cp index.html app.js styles.css favicon.svg catalog.json episodes.json public/
+          cp index.html app.js sync.js styles.css favicon.svg catalog.json episodes.json public/
       - uses: actions/upload-pages-artifact@v3
         if: steps.catalog.outputs.deploy == 'true'
         with:
