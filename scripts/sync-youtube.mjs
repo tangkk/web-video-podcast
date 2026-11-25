@@ -122,8 +122,12 @@ for (const source of target) {
     console.error(source.showId + ': ' + error.message);
   }
 }
-if (failed === target.length || (backfill && failed > 0)) {
-  throw new Error(failed + ' sources failed during ' + (backfill ? 'full historical backfill' : 'daily sync') + '; preserving existing catalog.');
+if (failed === target.length) {
+  throw new Error('All ' + failed + ' sources failed; preserving existing catalog.');
+}
+if (failed > 0) {
+  console.warn('PARTIAL SYNC: ' + failed + '/' + target.length +
+    ' sources failed. Previous episodes for unavailable sources remain in the catalog.');
 }
 
 // Validate ALL catalogued YouTube videos, including old manually curated ones and
@@ -141,7 +145,7 @@ const retained = [...merged.values()].filter(e => allowedShows.has(e.showId));
 retained.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || a.id.localeCompare(b.id));
 const result = {...catalog, episodes: retained};
 console.log(JSON.stringify({backfill, dryRun, checkedSources: target.length - failed,
-  scannedUploads: scanned, newlyFound: discovered, excludedUnavailable: dropped, totalEpisodes: retained.length}));
+  scannedUploads: scanned, newlyFound: discovered, failedSources: failed, excludedUnavailable: dropped, totalEpisodes: retained.length}));
 if (!dryRun) {
   const output = JSON.stringify(result, null, 2) + '\n';
   if (output !== await fs.readFile(catalogFile, 'utf8')) {
