@@ -1,4 +1,4 @@
-name: Verify video archive upgrade
+name: Verify and backfill video podcast archives
 
 on:
   push:
@@ -8,29 +8,46 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Validate JavaScript and catalog
+      - name: Validate source and catalog
         run: |
           node --input-type=module --check < app.js
           node --input-type=module --check < sync.js
           node --check scripts/sync-youtube.mjs
           node scripts/validate-catalog.mjs
-      - name: Test YouTube historical scan for Lex Fridman (read-only)
+      - name: Historical backfill on feature branch
+        if: github.event_name == 'push' && github.ref == 'refs/heads/feature/full-youtube-archive'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           if [ -z "$YOUTUBE_API_KEY" ]; then
-            echo "::error::YOUTUBE_API_KEY secret not available"
+            echo "::error::YOUTUBE_API_KEY secret is missing"
             exit 1
           fi
-          node scripts/sync-youtube.mjs --backfill --dry-run --show=lex-fridman
+          node scripts/sync-youtube.mjs --backfill --show=lex-fridman
+          if ! git diff --quiet -- episodes.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add episodes.json
+            git commit -m 'Backfill Lex Fridman full YouTube episode history'
+            git push origin HEAD:feature/full-youtube-archive
+          fi
+          node scripts/sync-youtube.mjs --backfill
+          node scripts/validate-catalog.mjs
+          if ! git diff --quiet -- episodes.json; then
+            git add episodes.json
+            git commit -m 'Backfill full video podcast archive'
+            git push origin HEAD:feature/full-youtube-archive
+          fi
