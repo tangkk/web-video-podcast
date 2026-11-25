@@ -1,0 +1,34 @@
+name: Verify video archive upgrade
+
+on:
+  push:
+    branches: [feature/full-youtube-archive]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate JavaScript and catalog
+        run: |
+          node --input-type=module --check < app.js
+          node --input-type=module --check < sync.js
+          node --check scripts/sync-youtube.mjs
+          node scripts/validate-catalog.mjs
+      - name: Test YouTube historical scan for Lex Fridman (read-only)
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          if [ -z "$YOUTUBE_API_KEY" ]; then
+            echo "::error::YOUTUBE_API_KEY secret not available"
+            exit 1
+          fi
+          node scripts/sync-youtube.mjs --backfill --dry-run --show=lex-fridman
