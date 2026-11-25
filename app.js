@@ -370,6 +370,7 @@ document.addEventListener('click', event => {
     render();
   }
   if (button.dataset.seek) current?.player?.seekTo(Number(button.dataset.seek), true);
+  if (button.dataset.seekRelative) seekRelative(Number(button.dataset.seekRelative));
   if (button.hasAttribute('data-load-more')) {
     detailPage++;
     renderShowEpisodes(shows.get(detailId));
@@ -400,7 +401,27 @@ $('#close-watch').addEventListener('click', () => elements.watch.close());
 elements.watch.addEventListener('close', closeVideo);
 window.addEventListener('hashchange', renderRoute);
 window.addEventListener('pagehide', () => { if (current) saveProgress(current); });
+function seekRelative(deltaSeconds) {
+  const player = current?.player;
+  if (!elements.watch.open || typeof player?.getCurrentTime !== 'function' || typeof player?.seekTo !== 'function') return;
+  const position = Number(player.getCurrentTime());
+  if (!Number.isFinite(position)) return;
+  const duration = Number(player.getDuration?.());
+  const next = Math.max(0, Number.isFinite(duration) && duration > 0
+    ? Math.min(duration, position + deltaSeconds)
+    : position + deltaSeconds);
+  player.seekTo(next, true);
+  saveProgress(current, true);
+}
+
 document.addEventListener('keydown', event => {
+  if (elements.watch.open && (event.key === 'ArrowLeft' || event.key === 'ArrowRight')
+    && !event.altKey && !event.ctrlKey && !event.metaKey
+    && !event.target.closest('input, textarea, select, [contenteditable]')) {
+    event.preventDefault();
+    seekRelative(event.key === 'ArrowLeft' ? -10 : 10);
+    return;
+  }
   if (event.key === '/' && !elements.watch.open && !event.target.closest('input, textarea, [contenteditable]') && !elements.search.closest('[hidden]')) {
     event.preventDefault();
     elements.search.focus();
