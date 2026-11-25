@@ -20,13 +20,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
-      - name: Confirm rollout still needed
+      - name: Check whether complete archive already exists
         id: pending
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          merged="$(gh api repos/${GITHUB_REPOSITORY}/pulls/1 --jq '.merged')"
-          if [ "$merged" = "true" ]; then
+          if gh api "repos/${GITHUB_REPOSITORY}/contents/scripts/backfill-report.json?ref=main" >/dev/null 2>&1; then
             echo "needed=false" >> "$GITHUB_OUTPUT"
           else
             echo "needed=true" >> "$GITHUB_OUTPUT"
@@ -34,7 +33,7 @@ jobs:
       - uses: actions/checkout@v4
         if: steps.pending.outputs.needed == 'true'
         with:
-          ref: feature/full-youtube-archive
+          ref: main
           fetch-depth: 0
       - uses: actions/setup-node@v4
         if: steps.pending.outputs.needed == 'true'
@@ -75,7 +74,7 @@ jobs:
           console.log('Verified', data.episodes.length, 'episodes in', catalog.shows.length, 'shows.');
           for (const id of replacements) console.log(id + ': ' + latest.get(id));
           NODE
-      - name: Preserve complete backfill on feature branch
+      - name: Save complete archive on main
         if: steps.pending.outputs.needed == 'true'
         run: |
           git config user.name 'github-actions[bot]'
@@ -84,36 +83,20 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m 'Save verified complete video podcast archive [skip ci]'
             for attempt in 1 2 3; do
-              git fetch origin feature/full-youtube-archive
-              git rebase origin/feature/full-youtube-archive
-              if git push origin HEAD:feature/full-youtube-archive; then
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then
                 break
               fi
               if [ "$attempt" = "3" ]; then exit 1; fi
             done
           fi
-      - name: Merge validated upgrade and start Pages deployment
+      - name: Deploy verified archive to GitHub Pages
         if: steps.pending.outputs.needed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          sha="$(git rev-parse HEAD)"
-          if [ "$(gh pr view 1 --json isDraft --jq '.isDraft')" = "true" ]; then
-            gh pr ready 1
-          fi
-          gh api -X PUT "repos/${GITHUB_REPOSITORY}/pulls/1/merge" \
-            -f sha="$sha" -f merge_method=merge
           gh workflow run video-pages.yml --ref main
-      - name: Retire one-time rollout workflow
-        if: steps.pending.outputs.needed == 'true'
-        run: |
-          git fetch origin main
-          git checkout -B remove-rollout-workflow origin/main
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git rm .github/workflows/complete-video-archive.yml
-          git commit -m 'Remove completed one-time archive rollout workflow'
-          git push origin HEAD:main
       - name: Upload diagnostic logs if unsuccessful
         if: failure()
         uses: actions/upload-artifact@v4
