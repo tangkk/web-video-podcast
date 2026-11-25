@@ -1,3 +1,5 @@
+import { setupSync } from './sync.js';
+
 const $ = selector => document.querySelector(selector);
 const elements = {
   search: $('#search'), languages: $('#languages'), topics: $('#topics'),
@@ -28,8 +30,8 @@ function writeLocal(key, value) {
   }
 }
 
-const favorites = new Set(readLocal('favorites', []));
-const progress = new Map(Object.entries(readLocal('progress', {})));
+const favorites = new Set();
+const progress = new Map();
 const state = { language: 'all', topic: 'all', view: 'episodes', favoritesOnly: false };
 let shows = new Map();
 let episodes = new Map();
@@ -236,17 +238,14 @@ function loadYouTube() {
   return youtubeApi;
 }
 
-function saveProgress(session) {
+function saveProgress(session, immediate = false) {
   const seconds = Math.floor(session.player?.getCurrentTime?.() ?? 0);
   const duration = session.player?.getDuration?.() ?? 0;
   if (seconds < 5 || !Number.isFinite(seconds)) return;
-  if (duration > 0 && seconds >= duration - 8) {
-    progress.delete(session.episode.id);
-  } else {
-    progress.set(session.episode.id, { seconds, updatedAt: Date.now() });
-  }
-  const history = [...progress.entries()].sort((a, b) => b[1].updatedAt - a[1].updatedAt).slice(0, 60);
-  writeLocal('progress', Object.fromEntries(history));
+  const position = duration > 0 && seconds >= duration - 8 ? 0 : seconds;
+  if (position === session.lastSavedPosition) return;
+  session.lastSavedPosition = position;
+  sync.position(session.episode.id, position, immediate);
 }
 
 function renderChapters(session) {
@@ -271,7 +270,7 @@ async function openVideo(episode, trigger) {
   frame.allow = 'autoplay; encrypted-media; picture-in-picture';
   frame.allowFullscreen = true;
   frame.src = `https://www.youtube.com/embed/${episode.youtube}?${options}`;
-  const session = { episode, player: null };
+  const session = { episode, player: null, lastSavedPosition: resume ?? 0 };
   const defaultMessage = resume ? `從 ${time(resume)} 繼續觀看` : '由 YouTube 播放';
   session.readyTimeout = setTimeout(() => {
     if (current === session) {
@@ -307,7 +306,7 @@ async function openVideo(episode, trigger) {
         session.timer = setInterval(() => saveProgress(session), 5000);
       },
       onStateChange: event => {
-        if (current === session && (event.data === 2 || event.data === 0)) saveProgress(session);
+        if (current === session && (event.data === 2 || event.data === 0)) saveProgress(session, true);
       },
       onAutoplayBlocked: () => {
         if (current === session) elements.watchState.textContent = '請按播放器中的播放鍵。';
@@ -327,7 +326,8 @@ async function openVideo(episode, trigger) {
 
 function closeVideo() {
   if (current) {
-    saveProgress(current);
+    saveProgress(current, true);
+    sync.flushSoon();
     clearInterval(current.timer);
     clearTimeout(current.readyTimeout);
     current.player?.destroy?.();
@@ -345,11 +345,7 @@ document.addEventListener('click', event => {
   if (button.dataset.watch) openVideo(episodes.get(button.dataset.watch), button);
   if (button.dataset.favorite) {
     const id = button.dataset.favorite;
-    if (favorites.has(id)) favorites.delete(id);
-    else favorites.add(id);
-    writeLocal('favorites', [...favorites]);
-    render();
-    renderRoute();
+    sync.favorite(id, !favorites.has(id));
     document.querySelector(`[data-favorite="${id}"]`)?.focus();
   }
   if (button.dataset.view) {
@@ -382,6 +378,7 @@ elements.detail.addEventListener('change', event => {
     renderShowEpisodes(shows.get(detailId));
   }
 });
+
 elements.favorites.addEventListener('click', () => {
   state.favoritesOnly = !state.favoritesOnly;
   if (state.favoritesOnly) state.view = 'shows';
@@ -423,5 +420,25 @@ async function boot() {
     elements.summary.textContent = '無法載入目錄。請重新整理頁面。';
   }
 }
+
+const sync = setupSync({
+  readLocal,
+  writeLocal,
+  onState({ favorites: nextFavorites, progress: nextProgress, favoritesChanged, progressChanged }) {
+    if (favoritesChanged) {
+      favorites.clear();
+      for (const id of nextFavorites) favorites.add(id);
+      if (shows.size) {
+        render();
+        renderRoute();
+      }
+    }
+    if (progressChanged) {
+      progress.clear();
+      for (const [id, entry] of Object.entries(nextProgress)) progress.set(id, entry);
+      if (elements.detail.hidden && !elements.watch.open) renderRecent();
+    }
+  }
+});
 
 boot();
