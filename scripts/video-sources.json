@@ -293,7 +293,7 @@
     "channelId": "UCzQUP1qoWDoEbmsQxvdjxgQ",
     "minMinutes": 60,
     "titlePattern": "^Joe Rogan Experience\\s*#\\d+\\b|^JRE MMA Show\\s*#\\d+\\b",
-    "excludePattern": "(?i:clips?|highlights?|preview|trailer|shorts?)"
+    "excludePattern": "Clips?|Highlights?|Preview|Trailer|Shorts?"
   },
   {
     "showId": "theo-von",
