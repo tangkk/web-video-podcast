@@ -1,10 +1,6 @@
 name: Verify and import five official podcast channels
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/verify-new-podcasts.yml'
   schedule:
     # Reset of YouTube daily API quota is at midnight US Pacific (08:00 UTC in November).
     - cron: '10 8 * * *'
@@ -34,7 +30,7 @@ jobs:
           const eps = JSON.parse(fs.readFileSync('episodes.json')).episodes;
           const ids = ['joe-rogan','theo-von','shawn-ryan','all-in-podcast','broken-record'];
           const done = ids.every(id => eps.some(e => e.showId === id && e.youtube));
-          fs.appendFileSync(process.env.GITHUB_OUTPUT, 'needed=' + (!done) + '\\n');
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, 'needed=' + (!done) + String.fromCharCode(10));
           console.log(done ? 'All five shows have verified video entries.' : 'Full video verification pending.');
           NODE
       - uses: actions/setup-node@v4
