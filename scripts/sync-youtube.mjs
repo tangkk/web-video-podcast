@@ -90,6 +90,7 @@ const merged = new Map(existing);
 let discovered = 0;
 let scanned = 0;
 let failed = 0;
+const sourceResults = [];
 
 for (const source of target) {
   try {
@@ -116,9 +117,11 @@ for (const source of target) {
       count++;
       if (!old) discovered++;
     }
+    sourceResults.push({showId: source.showId, scanned: ids.length, eligible: count, status: 'ok'});
     console.log(source.showId + ': ' + count + ' eligible of ' + ids.length + ' uploaded videos');
   } catch (error) {
     failed++;
+    sourceResults.push({showId: source.showId, scanned: 0, eligible: 0, status: 'error', error: error.message});
     console.error(source.showId + ': ' + error.message);
   }
 }
@@ -146,6 +149,15 @@ retained.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || a.id.local
 const result = {...catalog, episodes: retained};
 console.log(JSON.stringify({backfill, dryRun, checkedSources: target.length - failed,
   scannedUploads: scanned, newlyFound: discovered, failedSources: failed, excludedUnavailable: dropped, totalEpisodes: retained.length}));
+if (!dryRun && backfill) {
+  const reportFile = new URL('../scripts/backfill-report.json', import.meta.url);
+  const report = {
+    generatedAt: new Date().toISOString(),
+    sources: sourceResults,
+    totals: {sources: target.length, checked: target.length - failed, failed, newlyFound: discovered, episodes: retained.length}
+  };
+  await fs.writeFile(reportFile, JSON.stringify(report, null, 2) + '\n');
+}
 if (!dryRun) {
   const output = JSON.stringify(result, null, 2) + '\n';
   if (output !== await fs.readFile(catalogFile, 'utf8')) {
