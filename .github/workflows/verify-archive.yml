@@ -7,6 +7,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+concurrency:
+  group: verify-archive-feature
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
