@@ -19,7 +19,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .page { width: min(1160px, calc(100% - 48px)); margin: auto; padding: 42px 0 32px; }
 .intro { margin-bottom: 28px; }
 .brand { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: .8rem; letter-spacing: .12em; font-weight: 750; text-decoration: none; }
-.brand-icon { display: grid; place-items: center; width: 23px; height: 17px; background: var(--accent); color: white; border-radius: 4px; font-size: 10px; letter-spacing: 0; }
+.brand-icon { display: grid; place-items: center; width: 23px; height: 17px; background: #fff; color: #111; border: 1px solid #111; border-radius: 4px; font-size: 10px; letter-spacing: 0; }
 h1 { margin: 12px 0 8px; font-size: clamp(2.6rem, 6vw, 4.5rem); line-height: 1.04; letter-spacing: -.064em; }
 h1 span { color: var(--ink); }
 .intro p { margin: 0; color: var(--muted); }
