@@ -243,5 +243,17 @@
     "channelId": "UCOAFW0tkbLagst9cYJsrMCw",
     "minMinutes": 20,
     "titlePattern": "與Son對話|與 Son 對話"
+  },
+  {
+    "showId": "npr-newsmakers",
+    "channelId": "UCJnS2EsPfv46u1JR8cnD0NA",
+    "minMinutes": 20,
+    "titlePattern": "Newsmakers"
+  },
+  {
+    "showId": "dashu-mandarin",
+    "channelId": "UCfsNycNoClXZA1FuUJSGT0w",
+    "minMinutes": 20,
+    "titlePattern": "Podcast|EP\\s*\\d+|Chinese Podcast"
   }
 ]
