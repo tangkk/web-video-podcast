@@ -45,10 +45,10 @@ jobs:
       - name: Commit validated archive once
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/feature/full-youtube-archive'
         run: |
-          if ! git diff --quiet -- episodes.json; then
+          git add episodes.json scripts/backfill-report.json
+          if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add episodes.json
             git commit -m 'Backfill complete YouTube video podcast archive [skip ci]'
             git push origin HEAD:feature/full-youtube-archive
           fi
