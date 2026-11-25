@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/verify-new-podcasts.yml'
+  schedule:
+    # Reset of YouTube daily API quota is at midnight US Pacific (08:00 UTC in November).
+    - cron: '10 8 * * *'
   workflow_dispatch:
 
 permissions:
@@ -23,10 +26,23 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+      - name: Skip if five official video catalogs are already populated
+        id: pending
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const eps = JSON.parse(fs.readFileSync('episodes.json')).episodes;
+          const ids = ['joe-rogan','theo-von','shawn-ryan','all-in-podcast','broken-record'];
+          const done = ids.every(id => eps.some(e => e.showId === id && e.youtube));
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, 'needed=' + (!done) + '\\n');
+          console.log(done ? 'All five shows have verified video entries.' : 'Full video verification pending.');
+          NODE
       - uses: actions/setup-node@v4
+        if: steps.pending.outputs.needed == 'true'
         with:
           node-version: 22
       - name: Verify official video uploads and import embeddable full episodes
+        if: steps.pending.outputs.needed == 'true'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
@@ -36,6 +52,7 @@ jobs:
           node scripts/sync-youtube.mjs --backfill --show=joe-rogan,theo-von,shawn-ryan,all-in-podcast,broken-record --strict-sources
           node scripts/validate-catalog.mjs
       - name: Independently check all five show collections
+        if: steps.pending.outputs.needed == 'true'
         run: |
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
@@ -50,6 +67,7 @@ jobs:
           }
           NODE
       - name: Commit verified episodes with safe remote reconciliation
+        if: steps.pending.outputs.needed == 'true'
         run: |
           git add episodes.json
           if git diff --cached --quiet; then
