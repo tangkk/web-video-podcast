@@ -6,7 +6,12 @@
       "afei",
       "orangetalk",
       "green-bean",
-      "yue-talk"
+      "yue-talk",
+      "today-in-focus",
+      "taiwan-law",
+      "han-talk",
+      "broadcast-drive",
+      "hong-kong-bean"
     ],
     "tech": [
       "diary-of-a-ceo",
@@ -16,14 +21,23 @@
       "pivot",
       "valley101",
       "xroads",
-      "randgad"
+      "randgad",
+      "lenny",
+      "vergecast",
+      "waveform",
+      "no-priors",
+      "twit",
+      "acquired",
+      "hard-fork",
+      "high-energy"
     ],
     "culture": [
       "rest-is-history",
       "luyu",
       "houhousyut",
       "cinespot",
-      "philosophy-live"
+      "philosophy-live",
+      "thirteen-talks"
     ],
     "science": [
       "huberman-lab",
@@ -38,7 +52,13 @@
       "drinking-library",
       "drink-with-mario",
       "laichieagle",
-      "roadside"
+      "roadside",
+      "mel",
+      "zhixing",
+      "shen-talk",
+      "spoti-talk",
+      "do-show",
+      "uson"
     ]
   },
   "episodes": [
@@ -230,7 +250,8 @@
       "showId": "green-bean",
       "title": "EP223｜新世界發展供股、中美俄峰會、英國青年就業",
       "publishedAt": "2026-11-21",
-      "url": "https://greenbean.media/ep223%EF%BD%9C%E6%96%B0%E4%B8%96%E7%95%8C%E7%99%BC%E5%B1%95%E3%80%8C1%E4%BE%9B11%E3%80%8D-%E9%9C%87%E6%92%BC%E5%B8%82%E5%A0%B4-%E9%A1%8F%E5%AF%B6%E5%89%9B%EF%BC%9A%E5%AE%98%E6%96%B9%E7%9B%A3%E7%AE%A1/"
+      "youtube": "ZuRDSWtjc8A",
+      "duration": 2610
     },
     {
       "id": "yue-talk-2026-11-23",
@@ -252,6 +273,257 @@
       "title": "Nilay Answers the Decoder Questions (2025 Edition)",
       "publishedAt": "2025-12-18",
       "youtube": "vDrYywM1nUM"
+    },
+    {
+      "id": "yt-4Unch--PmW0",
+      "showId": "diary-of-a-ceo",
+      "title": "Financial Crash Expert | Steve Eisman",
+      "publishedAt": "2026-11-23",
+      "youtube": "4Unch--PmW0"
+    },
+    {
+      "id": "yt-EV7WhVT270Q",
+      "showId": "lex-fridman",
+      "title": "State of AI in 2026 | Lex Fridman Podcast #490",
+      "publishedAt": "2026-01-31",
+      "youtube": "EV7WhVT270Q"
+    },
+    {
+      "id": "yt-hrHAk5Er8io",
+      "showId": "modern-wisdom",
+      "title": "The Strange Freedom to Be Disliked | James Blunt",
+      "publishedAt": "2026-11-16",
+      "youtube": "hrHAk5Er8io"
+    },
+    {
+      "id": "yt-zuWGsfw_P4g",
+      "showId": "rich-roll",
+      "title": "Ross Edgley: Swimming Around Iceland",
+      "publishedAt": "2026-11-16",
+      "youtube": "zuWGsfw_P4g"
+    },
+    {
+      "id": "yt-LQ4eIAxEtaA",
+      "showId": "rest-is-history",
+      "title": "1066: The Battle of Stamford Bridge",
+      "publishedAt": "2025-04-09",
+      "youtube": "LQ4eIAxEtaA"
+    },
+    {
+      "id": "yt-FhPhMErV1To",
+      "showId": "boyin",
+      "title": "EP251｜沒感覺掉髮，也可能正在慢慢禿頭 ft. 簡銘成醫師",
+      "publishedAt": "2026-11-16",
+      "youtube": "FhPhMErV1To"
+    },
+    {
+      "id": "xroads-2026-11-17",
+      "showId": "xroads",
+      "title": "陳曉卿 × 羅永浩｜紀錄片導演的來時路",
+      "publishedAt": "2026-11-17",
+      "url": "https://jingxuan.douyin.com/m/video/7708936107697638682"
+    },
+    {
+      "id": "luyu-2026-10-19",
+      "showId": "luyu",
+      "title": "EP27｜魯豫對話王凱：出道 20 年，一個演員的「不妥協」",
+      "publishedAt": "2026-10-19",
+      "url": "https://www.bilibili.com/video/BV1wZJD6NEku/",
+      "duration": 11021
+    },
+    {
+      "id": "yt-3cEnM9ZJy38",
+      "showId": "drink-with-mario",
+      "title": "S8 EP186｜城市光榮感 ft. 黃世杰",
+      "publishedAt": "2026-11-13",
+      "youtube": "3cEnM9ZJy38"
+    },
+    {
+      "id": "yt-ez9sBZaVKcc",
+      "showId": "onyourpsy",
+      "title": "被討厭的勇氣：溫和而堅定的阿德勒心理學 ft. 李家雯",
+      "publishedAt": "2026-06-14",
+      "youtube": "ez9sBZaVKcc"
+    },
+    {
+      "id": "yt-2UnVeiw8QtU",
+      "showId": "roadside",
+      "title": "Coco 講最尷尬的約會",
+      "publishedAt": "2026-11",
+      "youtube": "2UnVeiw8QtU",
+      "duration": 1217
+    },
+    {
+      "id": "yt-_pLwj8r9iP8",
+      "showId": "philosophy-live",
+      "title": "文仔雪仔哲學台｜11 月 7 日",
+      "publishedAt": "2026-11-07",
+      "youtube": "_pLwj8r9iP8"
+    },
+    {
+      "id": "yt-hRtmV1mCBSE",
+      "showId": "lenny",
+      "title": "Why “Everyone’s a Builder” Isn’t Working | Sherif Mansour",
+      "publishedAt": "2026-11-22",
+      "youtube": "hRtmV1mCBSE"
+    },
+    {
+      "id": "yt-g_wMpEGgc1Q",
+      "showId": "mel",
+      "title": "This One Episode Will Motivate You to Change Your Entire Life | Gary Vee",
+      "publishedAt": "2026-09",
+      "youtube": "g_wMpEGgc1Q"
+    },
+    {
+      "id": "yt-B6RMk8mLs_8",
+      "showId": "vergecast",
+      "title": "The Week Everything Fell Apart",
+      "publishedAt": "2026-11-20",
+      "youtube": "B6RMk8mLs_8"
+    },
+    {
+      "id": "yt-mrC4CFnI0wE",
+      "showId": "waveform",
+      "title": "Instagram Wants to Be YouTube Now?",
+      "publishedAt": "2026-11-06",
+      "youtube": "mrC4CFnI0wE"
+    },
+    {
+      "id": "yt-TOsNrV3bXtQ",
+      "showId": "no-priors",
+      "title": "The 2026 AI Forecast with Sarah & Elad",
+      "publishedAt": "2025-12",
+      "youtube": "TOsNrV3bXtQ"
+    },
+    {
+      "id": "yt-rp4GxlnvujE",
+      "showId": "twit",
+      "title": "TWiT #1111 | That’s What Xi Said",
+      "publishedAt": "2026-11-22",
+      "youtube": "rp4GxlnvujE"
+    },
+    {
+      "id": "yt-d6EMk6dyrOU",
+      "showId": "acquired",
+      "title": "10 Years of Acquired (with Michael Lewis)",
+      "publishedAt": "2026",
+      "youtube": "d6EMk6dyrOU",
+      "duration": 10057
+    },
+    {
+      "id": "yt-YQV_TLAER_A",
+      "showId": "hard-fork",
+      "title": "How A.I. Agents Are Going to Transform Our Lives",
+      "publishedAt": "2026-10-02",
+      "youtube": "YQV_TLAER_A"
+    },
+    {
+      "id": "yt-eFMfunVF1og",
+      "showId": "zhixing",
+      "title": "影片播客 EP03｜對話李筱懿：我決定不再做一個「更強」的人",
+      "publishedAt": "2026-09-02",
+      "youtube": "eFMfunVF1og"
+    },
+    {
+      "id": "high-energy-2026-10-02",
+      "showId": "high-energy",
+      "title": "李翔對話李豐：從美元加息週期到 AI 發展邊界",
+      "publishedAt": "2026-10-02",
+      "url": "https://www.bilibili.com/video/BV1qbaS6EEwK/",
+      "duration": 5412
+    },
+    {
+      "id": "thirteen-talks-2026-07-13",
+      "showId": "thirteen-talks",
+      "title": "第九季 EP01｜許知遠對話姚明",
+      "publishedAt": "2026-07-13",
+      "url": "https://wetv.vip/zh-cn/play/7za06kan0mbbnjc"
+    },
+    {
+      "id": "yt-Zq271AHFaAE",
+      "showId": "taiwan-law",
+      "title": "政治歸政治｜大人都戒不掉 AI 與短影音，要怎麼教小孩？",
+      "publishedAt": "2026-11-19",
+      "youtube": "Zq271AHFaAE"
+    },
+    {
+      "id": "yt-QOZyHyc6rVg",
+      "showId": "han-talk",
+      "title": "EP426｜沈伯洋談台北市政與選戰",
+      "publishedAt": "2026-11-14",
+      "youtube": "QOZyHyc6rVg"
+    },
+    {
+      "id": "yt-PF5qrb0bRmI",
+      "showId": "shen-talk",
+      "title": "S2 EP07｜沈春華專訪蔣萬安",
+      "publishedAt": "2026-11-03",
+      "youtube": "PF5qrb0bRmI"
+    },
+    {
+      "id": "broadcast-drive-2026-10-09",
+      "showId": "broadcast-drive",
+      "title": "港交所陳翊庭談「T+1」改革與香港金融市場",
+      "publishedAt": "2026-10-09",
+      "url": "https://www.rthk.hk/tv/dtt32/programme/onbroadcastdrive/episode/1119633?lang=zh-hant"
+    },
+    {
+      "id": "yt-noN_qRrA0p0",
+      "showId": "spoti-talk",
+      "title": "EP56｜Alma 郭爾君：舞台與銀幕之間",
+      "publishedAt": "2026-04-22",
+      "youtube": "noN_qRrA0p0"
+    },
+    {
+      "id": "yt-67yoE6Ci7l0",
+      "showId": "do-show",
+      "title": "海外特別篇｜Bruno Mars：The Romantic Tour",
+      "publishedAt": "2026-09-03",
+      "youtube": "67yoE6Ci7l0"
+    },
+    {
+      "id": "yt-XLq6unqSNOw",
+      "showId": "hong-kong-bean",
+      "title": "EP03｜宏福苑火災悼念、土地查冊與瑪麗醫院",
+      "publishedAt": "2026-11-16",
+      "youtube": "XLq6unqSNOw"
+    },
+    {
+      "id": "yt-vg_yLwSPt_A",
+      "showId": "uson",
+      "title": "陳志雲（下集）｜與 Son 對話",
+      "publishedAt": "2026-08-25",
+      "youtube": "vg_yLwSPt_A"
+    },
+    {
+      "id": "today-in-focus-2026-11-23",
+      "showId": "today-in-focus",
+      "title": "David Byrne on the Great Ideas That Got Away",
+      "publishedAt": "2026-11-23",
+      "url": "https://www.theguardian.com/news/video/2026/nov/20/david-byrne-on-the-great-ideas-that-got-away-today-in-focus",
+      "duration": 1410
+    },
+    {
+      "id": "yt-xHUjOd5J5LM",
+      "showId": "randgad",
+      "title": "第 840 集｜薩爾達時之笛、Muse AI、MacBook Pro 初體驗",
+      "publishedAt": "2026-11-02",
+      "youtube": "xHUjOd5J5LM"
+    },
+    {
+      "id": "yt-8NFgK71hVG0",
+      "showId": "cinespot",
+      "title": "《哥斯拉-0.0》影評：續集有冇新突破？",
+      "publishedAt": "2026-11",
+      "youtube": "8NFgK71hVG0"
+    },
+    {
+      "id": "yt-pijDwJt93qE",
+      "showId": "pivot",
+      "title": "Hillary Clinton on the Midterms | Pivot Live",
+      "publishedAt": "2026-11",
+      "youtube": "pijDwJt93qE",
+      "duration": 4615
     }
   ]
 }

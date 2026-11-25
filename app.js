@@ -42,7 +42,9 @@ const escape = value => String(value).replace(/[&<>"']/g, char => ({
 })[char]);
 const normalize = value => value.normalize('NFKC').toLocaleLowerCase();
 const date = value => new Intl.DateTimeFormat('zh-Hant', {
-  timeZone: 'UTC', year: 'numeric', month: 'short', day: 'numeric'
+  timeZone: 'UTC', year: 'numeric',
+  ...(value.length >= 7 ? { month: 'short' } : {}),
+  ...(value.length === 10 ? { day: 'numeric' } : {})
 }).format(new Date(value));
 
 function time(seconds) {
@@ -234,10 +236,16 @@ async function openVideo(episode, trigger) {
   frame.allowFullscreen = true;
   frame.src = `https://www.youtube.com/embed/${episode.youtube}?${options}`;
   const session = { episode, player: null };
+  const defaultMessage = resume ? `從 ${time(resume)} 繼續觀看` : '由 YouTube 播放';
+  session.readyTimeout = setTimeout(() => {
+    if (current === session) {
+      elements.watchState.textContent = '播放器載入時間較長，也可在原平台觀看。';
+    }
+  }, 12000);
   current = session;
   elements.watchTitle.textContent = episode.title;
   elements.watchShow.textContent = show.name;
-  elements.watchState.textContent = resume ? `從 ${time(resume)} 繼續觀看` : '由 YouTube 播放';
+  elements.watchState.textContent = defaultMessage;
   elements.source.href = episodeUrl(episode);
   elements.chapters.hidden = true;
   elements.chapters.replaceChildren();
@@ -245,11 +253,19 @@ async function openVideo(episode, trigger) {
   elements.watch.showModal();
 
   const api = await loadYouTube();
-  if (!api || current !== session) return;
+  if (current !== session) return;
+  if (!api) {
+    youtubeApi = undefined;
+    clearTimeout(session.readyTimeout);
+    elements.watchState.textContent = '如果播放器未載入，可在原平台觀看。';
+    return;
+  }
   session.player = new api.Player(frame, {
     events: {
       onReady: event => {
         if (current !== session) return;
+        clearTimeout(session.readyTimeout);
+        elements.watchState.textContent = defaultMessage;
         session.player = event.target;
         renderChapters(session);
         session.timer = setInterval(() => saveProgress(session), 5000);
@@ -257,9 +273,16 @@ async function openVideo(episode, trigger) {
       onStateChange: event => {
         if (current === session && (event.data === 2 || event.data === 0)) saveProgress(session);
       },
-      onError: () => {
+      onAutoplayBlocked: () => {
+        if (current === session) elements.watchState.textContent = '請按播放器中的播放鍵。';
+      },
+      onError: ({ data }) => {
         if (current !== session) return;
-        elements.watchState.textContent = '這部影片無法在此播放，請在原平台觀看。';
+        clearTimeout(session.readyTimeout);
+        clearInterval(session.timer);
+        elements.watchState.textContent = data === 101 || data === 150
+          ? '發布者限制嵌入播放，請在 YouTube 觀看。'
+          : '站內播放器無法載入這部影片，請開啟原平台。';
         elements.chapters.hidden = true;
       }
     }
@@ -270,6 +293,7 @@ function closeVideo() {
   if (current) {
     saveProgress(current);
     clearInterval(current.timer);
+    clearTimeout(current.readyTimeout);
     current.player?.destroy?.();
     current = null;
   }
@@ -331,7 +355,7 @@ async function boot() {
     const [catalog, video] = await Promise.all([loadJson('./catalog.json'), loadJson('./episodes.json')]);
     const categories = new Map(Object.entries(video.categories).flatMap(([category, ids]) => ids.map(id => [id, category])));
     shows = new Map(catalog.shows.map(show => [show.id, { ...show, category: categories.get(show.id), episodes: [] }]));
-    for (const episode of video.episodes) {
+    for (const episode of [...video.episodes].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))) {
       shows.get(episode.showId).episodes.push(episode);
       episodes.set(episode.id, episode);
     }

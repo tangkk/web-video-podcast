@@ -42,7 +42,7 @@
       "name": "Modern Wisdom",
       "language": "en",
       "topic": "心理、文化与人物",
-      "url": "https://chriswillx.com/",
+      "url": "https://www.youtube.com/@ChrisWillx",
       "recentVideoEvidence": "2026-11",
       "notes": "主持人官网和正片入口"
     },
@@ -177,7 +177,7 @@
       "name": "陈鲁豫·慢谈",
       "language": "cmn",
       "topic": "文化与人物访谈",
-      "url": "https://search.bilibili.com/zh-Hans/all?keyword=%E9%99%88%E9%B2%81%E8%B1%AB%C2%B7%E6%85%A2%E8%B0%88",
+      "url": "https://space.bilibili.com/1479442448",
       "recentVideoEvidence": "2026-11",
       "notes": "B 站核对官方账号「陈鲁豫-慢谈」，分季更新，已查到 EP27"
     },
@@ -196,7 +196,7 @@
       "name": "哇賽心理學",
       "language": "cmn",
       "topic": "心理学与生活",
-      "url": "https://podcasts.apple.com/tw/podcast/id1500162537",
+      "url": "https://www.youtube.com/@onyourpsy",
       "recentVideoEvidence": "2026-11",
       "notes": "Apple Podcasts 提供视频节目；不同子栏目逐集核对视频标记",
       "evidenceUrl": "https://www.youtube.com/@onyourpsy"
@@ -215,7 +215,7 @@
       "name": "圍爐 StarTalk Podcast",
       "language": "yue",
       "topic": "香港民生与时事",
-      "url": "https://www.orangenews.hk/video/index.shtml",
+      "url": "https://www.youtube.com/@hkorangenews",
       "recentVideoEvidence": "2026-11-16",
       "notes": "橙新闻节目，已查到 EP13、EP14",
       "evidenceUrl": "https://www.youtube.com/watch?v=H4V9VioZIS8"
@@ -287,6 +287,166 @@
       "recentVideoEvidence": "2026-11-23",
       "notes": "粵精彩希望之聲发布的固定对谈栏目，查到 11 月 16、21、23 日连续更新。频道也有其他节目，按栏目名筛选",
       "evidenceUrl": "https://www.ganjingworld.com/video/1j0u56pnqha4zDfBHPdp9KMkL1ih1c"
+    },
+    {
+      "id": "lenny",
+      "name": "Lenny’s Podcast",
+      "language": "en",
+      "topic": "科技與產品",
+      "url": "https://www.youtube.com/@LennysPodcast",
+      "recentVideoEvidence": "2026-11"
+    },
+    {
+      "id": "mel",
+      "name": "The Mel Robbins Podcast",
+      "language": "en",
+      "topic": "心理與生活",
+      "url": "https://www.melrobbins.com/podcast/",
+      "recentVideoEvidence": "2026-11"
+    },
+    {
+      "id": "vergecast",
+      "name": "The Vergecast",
+      "language": "en",
+      "topic": "科技與數位文化",
+      "url": "https://www.youtube.com/@TheVergecast",
+      "recentVideoEvidence": "2026-11-20"
+    },
+    {
+      "id": "waveform",
+      "name": "Waveform: The MKBHD Podcast",
+      "language": "en",
+      "topic": "消費科技",
+      "url": "https://www.youtube.com/channel/UCEcrRXW3oEYfUctetZTAWLw",
+      "recentVideoEvidence": "2026-11-06"
+    },
+    {
+      "id": "today-in-focus",
+      "name": "Today in Focus",
+      "language": "en",
+      "topic": "國際新聞與人物",
+      "url": "https://www.theguardian.com/news/series/today-in-focus-video",
+      "recentVideoEvidence": "2026-11-23"
+    },
+    {
+      "id": "no-priors",
+      "name": "No Priors",
+      "language": "en",
+      "topic": "AI 與創業",
+      "url": "https://www.youtube.com/channel/UCSI7h9hydQ40K5MJHnCrQvw",
+      "recentVideoEvidence": "2026-11-19"
+    },
+    {
+      "id": "twit",
+      "name": "This Week in Tech",
+      "language": "en",
+      "topic": "科技新聞圓桌",
+      "url": "https://twit.tv/shows/this-week-in-tech",
+      "recentVideoEvidence": "2026-11-22"
+    },
+    {
+      "id": "acquired",
+      "name": "Acquired",
+      "language": "en",
+      "topic": "商業史與人物",
+      "url": "https://www.youtube.com/@AcquiredFM",
+      "recentVideoEvidence": "2026"
+    },
+    {
+      "id": "hard-fork",
+      "name": "Hard Fork",
+      "language": "en",
+      "topic": "科技新聞與文化",
+      "url": "https://www.youtube.com/@hardfork",
+      "recentVideoEvidence": "2026-11"
+    },
+    {
+      "id": "zhixing",
+      "name": "知行小酒馆",
+      "language": "cmn",
+      "topic": "投資與生活",
+      "url": "https://www.youtube.com/@allinthebeer",
+      "recentVideoEvidence": "2026-10"
+    },
+    {
+      "id": "high-energy",
+      "name": "高能量",
+      "language": "cmn",
+      "topic": "財經與創投",
+      "url": "https://space.bilibili.com/479078694",
+      "recentVideoEvidence": "2026-10-02"
+    },
+    {
+      "id": "thirteen-talks",
+      "name": "十三邀",
+      "language": "cmn",
+      "topic": "文化與人物",
+      "url": "https://wetv.vip/zh-cn/play/7za06kan0mbbnjc",
+      "recentVideoEvidence": "2026"
+    },
+    {
+      "id": "taiwan-law",
+      "name": "法客電台",
+      "language": "cmn",
+      "topic": "法律與公共議題",
+      "url": "https://soundflow.media/shows/plainlaw/",
+      "recentVideoEvidence": "2026-11"
+    },
+    {
+      "id": "han-talk",
+      "name": "下班瀚你聊",
+      "language": "cmn",
+      "topic": "公共政策與時事",
+      "url": "https://guantaiwan.com/program/1200.html",
+      "recentVideoEvidence": "2026-11"
+    },
+    {
+      "id": "shen-talk",
+      "name": "發生沈麼事",
+      "language": "cmn",
+      "topic": "人物與社會",
+      "url": "https://www.youtube.com/@%E6%B2%88%E6%98%A5%E8%8F%AFxAmbie",
+      "recentVideoEvidence": "2026-11"
+    },
+    {
+      "id": "broadcast-drive",
+      "name": "廣播道會客室",
+      "language": "yue",
+      "topic": "香港公共議題與人物",
+      "url": "https://www.rthk.hk/tv/dtt31/programme/onbroadcastdrive",
+      "recentVideoEvidence": "2026-11-20"
+    },
+    {
+      "id": "spoti-talk",
+      "name": "吹水・SpotiTalk",
+      "language": "yue",
+      "topic": "人物與文化",
+      "url": "https://www.youtube.com/watch?v=noN_qRrA0p0",
+      "recentVideoEvidence": "2026-09"
+    },
+    {
+      "id": "do-show",
+      "name": "The Do Show",
+      "language": "yue",
+      "topic": "影視與音樂人物",
+      "url": "https://www.youtube.com/@thedoshow0909",
+      "recentVideoEvidence": "2026-09-03"
+    },
+    {
+      "id": "hong-kong-bean",
+      "name": "香港Bean啲事",
+      "language": "yue",
+      "topic": "香港時事圓桌",
+      "url": "https://podcasts.apple.com/hk/podcast/id1709859743",
+      "recentVideoEvidence": "2026-11-16"
+    },
+    {
+      "id": "uson",
+      "name": "與Son對話",
+      "language": "yue",
+      "topic": "人物與職場",
+      "url": "https://www.youtube.com/channel/UCOAFW0tkbLagst9cYJsrMCw",
+      "recentVideoEvidence": "2026-10"
     }
   ]
 }
