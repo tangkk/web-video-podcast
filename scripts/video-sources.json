@@ -255,5 +255,37 @@
     "channelId": "UCfsNycNoClXZA1FuUJSGT0w",
     "minMinutes": 20,
     "titlePattern": "Podcast|EP\\s*\\d+|Chinese Podcast"
+  },
+  {
+    "showId": "rest-is-politics",
+    "channelId": "UCsufaClk5if2RGqABb-09Uw",
+    "minMinutes": 25,
+    "excludePattern": "AD FREE|MEMBERS|EXCLUSIVE|Highlights|Clips|Shorts"
+  },
+  {
+    "showId": "rest-is-politics-us",
+    "channelId": "UCII84rxnNkEjtk1zC3qTtbg",
+    "minMinutes": 25,
+    "excludePattern": "AD FREE|MEMBERS|EXCLUSIVE|Highlights|Clips|Shorts"
+  },
+  {
+    "showId": "one-night-talk",
+    "channelId": "UCgG4IGajFZInARcha1R59bw",
+    "minMinutes": 20,
+    "titlePattern": "三姑亂噏嘢|三姑乱噏嘢",
+    "excludePattern": "精華|预告|預告"
+  },
+  {
+    "showId": "outcasts-853",
+    "channelId": "UCbrpMMu9vrm2O3I25USJK8A",
+    "minMinutes": 20,
+    "titlePattern": "Outcasts the Podca|Outcasts 853",
+    "excludePattern": "Highlights|Shorts"
+  },
+  {
+    "showId": "manki-cantonese-podcast",
+    "channelId": "UC9xosUh_LZUdQv-kw38RehA",
+    "minMinutes": 15,
+    "titlePattern": "Intermediate Cantonese Podcast"
   }
 ]
