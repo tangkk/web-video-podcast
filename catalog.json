@@ -1,0 +1,292 @@
+{
+  "researchedOn": "2026-11-25",
+  "shows": [
+    {
+      "id": "diary-of-a-ceo",
+      "name": "The Diary of a CEO",
+      "language": "en",
+      "topic": "商业、健康与人物",
+      "url": "https://stevenbartlett.com/doac/episodes/",
+      "recentVideoEvidence": "2026-11",
+      "notes": "官网单集档案"
+    },
+    {
+      "id": "huberman-lab",
+      "name": "Huberman Lab",
+      "language": "en",
+      "topic": "科学与健康",
+      "url": "https://www.hubermanlab.com/podcast",
+      "recentVideoEvidence": "2026-11-23",
+      "notes": "官网单集档案和官方视频入口"
+    },
+    {
+      "id": "lex-fridman",
+      "name": "Lex Fridman Podcast",
+      "language": "en",
+      "topic": "科技、历史与长访谈",
+      "url": "https://lexfridman.com/podcast/",
+      "recentVideoEvidence": "2026-11",
+      "notes": "官网逐集列出视频和逐字稿"
+    },
+    {
+      "id": "dwarkesh",
+      "name": "Dwarkesh Podcast",
+      "language": "en",
+      "topic": "AI、科技与经济",
+      "url": "https://www.dwarkesh.com/podcast",
+      "recentVideoEvidence": "2026-11",
+      "notes": "官方档案，访谈单集提供 YouTube"
+    },
+    {
+      "id": "modern-wisdom",
+      "name": "Modern Wisdom",
+      "language": "en",
+      "topic": "心理、文化与人物",
+      "url": "https://chriswillx.com/",
+      "recentVideoEvidence": "2026-11",
+      "notes": "主持人官网和正片入口"
+    },
+    {
+      "id": "rich-roll",
+      "name": "The Rich Roll Podcast",
+      "language": "en",
+      "topic": "耐力运动与人物",
+      "url": "https://richroll.com/podcast/",
+      "recentVideoEvidence": "2026-11",
+      "notes": "官网节目档案"
+    },
+    {
+      "id": "conan",
+      "name": "Conan O’Brien Needs a Friend",
+      "language": "en",
+      "topic": "喜剧与人物",
+      "url": "https://teamcoco.com/podcasts/conan-obrien-needs-a-friend/videos",
+      "recentVideoEvidence": "2026-11",
+      "notes": "Team Coco 视频区混有片段，选 Full Episode",
+      "evidenceUrl": "https://www.youtube.com/watch?v=bzFbtAt_wiQ"
+    },
+    {
+      "id": "decoder",
+      "name": "Decoder with Nilay Patel",
+      "language": "en",
+      "topic": "科技与商业",
+      "url": "https://www.theverge.com/podcast/846750/decoder-mailbag-qa-nilay-patel-interview-2025",
+      "recentVideoEvidence": "2026-11",
+      "notes": "The Verge 确认每周发布完整视频",
+      "evidenceUrl": "https://www.theverge.com/podcast/1036484/jon-favreau-pod-save-america-offline-crooked-media-trump-big-tech-ai-2028-election"
+    },
+    {
+      "id": "pivot",
+      "name": "Pivot",
+      "language": "en",
+      "topic": "商业、科技与政治",
+      "url": "https://www.youtube.com/@pivot",
+      "recentVideoEvidence": "2026-11",
+      "notes": "Vox Media 确认发布完整视频",
+      "evidenceUrl": "https://www.voxmedia.com/2025/10/1/24481186/vox-media-kara-swisher-and-scott-galloway-bring-pivot-to-live-audiences-with-national-tour/"
+    },
+    {
+      "id": "startalk",
+      "name": "StarTalk",
+      "language": "en",
+      "topic": "天文与科学",
+      "url": "https://startalkmedia.com/about-us",
+      "recentVideoEvidence": "2026-11",
+      "notes": "官网确认每周完整视频，频道也混有短片",
+      "evidenceUrl": "https://www.youtube.com/watch?v=HDoPPFsVHmw"
+    },
+    {
+      "id": "rest-is-history",
+      "name": "The Rest Is History",
+      "language": "en",
+      "topic": "历史",
+      "url": "https://www.youtube.com/@restishistorypod",
+      "recentVideoEvidence": "2026-11",
+      "notes": "官方 YouTube 有完整单集，结合官网档案核对",
+      "evidenceUrl": "https://therestishistory.com/episodes"
+    },
+    {
+      "id": "bailingguo",
+      "name": "百靈果 News",
+      "language": "cmn",
+      "topic": "时事与访谈",
+      "url": "https://www.youtube.com/channel/UCD2KoUc0f4Bv2Bz0mbOah8g",
+      "recentVideoEvidence": "2026-11",
+      "notes": "同频道混有《The KK Show》，按节目标题筛选",
+      "evidenceUrl": "https://www.bailingguonews.com/"
+    },
+    {
+      "id": "valley101",
+      "name": "硅谷 101 播客",
+      "language": "cmn",
+      "topic": "科技与创业",
+      "url": "https://www.youtube.com/@valley101podcast",
+      "recentVideoEvidence": "2026-11",
+      "notes": "按单集筛选正片，部分访谈有英语原声"
+    },
+    {
+      "id": "bumingbai",
+      "name": "不明白播客",
+      "language": "cmn",
+      "topic": "社会与人物访谈",
+      "url": "https://www.youtube.com/@bumingbai",
+      "recentVideoEvidence": "2026-10",
+      "notes": "选有官方视频版的单集",
+      "evidenceUrl": "https://www.youtube.com/watch?v=W1q_V5TyDaw"
+    },
+    {
+      "id": "afei",
+      "name": "斐姨所思",
+      "language": "cmn",
+      "topic": "时事与公共议题",
+      "url": "https://www.youtube.com/@fanamericantime",
+      "recentVideoEvidence": "2026-11",
+      "notes": "按《阿姨想知道》完整访谈筛选，已查到 EP323 及 EP326",
+      "evidenceUrl": "https://feiyi.firstory.io/"
+    },
+    {
+      "id": "boyin",
+      "name": "博音",
+      "language": "cmn",
+      "topic": "社会、生活与访谈",
+      "url": "https://podcasts.apple.com/tw/podcast/id1605731163",
+      "recentVideoEvidence": "2026-11",
+      "notes": "Apple Podcasts 有视频版，查到 EP250–252"
+    },
+    {
+      "id": "drinking-library",
+      "name": "只能喝酒的圖書館",
+      "language": "cmn",
+      "topic": "人物、文化与生活",
+      "url": "https://www.youtube.com/@DrinkingLibrary",
+      "recentVideoEvidence": "2026-11",
+      "notes": "官方频道说明每周更新，10 月与 11 月都有完整长访谈"
+    },
+    {
+      "id": "xroads",
+      "name": "罗永浩的十字路口",
+      "language": "cmn",
+      "topic": "创业与人物访谈",
+      "url": "https://www.mgtv.com/h/862989.html",
+      "recentVideoEvidence": "2026-11-04",
+      "notes": "芒果 TV 正片节目页，另有 YouTube 官方频道",
+      "evidenceUrl": "https://www.youtube.com/channel/UC33VP_gIBzCVcEvaGKBocZA"
+    },
+    {
+      "id": "luyu",
+      "name": "陈鲁豫·慢谈",
+      "language": "cmn",
+      "topic": "文化与人物访谈",
+      "url": "https://search.bilibili.com/zh-Hans/all?keyword=%E9%99%88%E9%B2%81%E8%B1%AB%C2%B7%E6%85%A2%E8%B0%88",
+      "recentVideoEvidence": "2026-11",
+      "notes": "B 站核对官方账号「陈鲁豫-慢谈」，分季更新，已查到 EP27"
+    },
+    {
+      "id": "drink-with-mario",
+      "name": "馬力歐陪你喝一杯",
+      "language": "cmn",
+      "topic": "人物与职场",
+      "url": "https://www.youtube.com/@DrinkwithMario",
+      "recentVideoEvidence": "2026-11-13",
+      "notes": "官方频道与官网单集档案，已查到 S8EP186",
+      "evidenceUrl": "https://drinkwithmario.thenewslens.com/season/8"
+    },
+    {
+      "id": "onyourpsy",
+      "name": "哇賽心理學",
+      "language": "cmn",
+      "topic": "心理学与生活",
+      "url": "https://podcasts.apple.com/tw/podcast/id1500162537",
+      "recentVideoEvidence": "2026-11",
+      "notes": "Apple Podcasts 提供视频节目；不同子栏目逐集核对视频标记",
+      "evidenceUrl": "https://www.youtube.com/@onyourpsy"
+    },
+    {
+      "id": "laichieagle",
+      "name": "勵志鷹",
+      "language": "yue",
+      "topic": "生活、游戏与闲谈",
+      "url": "https://www.youtube.com/channel/UCfsegxiqHJZS02-mEsKODqA",
+      "recentVideoEvidence": "2026-10",
+      "notes": "官方频道确认 EP606、EP607 均为长视频，11 月另有音频更新"
+    },
+    {
+      "id": "orangetalk",
+      "name": "圍爐 StarTalk Podcast",
+      "language": "yue",
+      "topic": "香港民生与时事",
+      "url": "https://www.orangenews.hk/video/index.shtml",
+      "recentVideoEvidence": "2026-11-16",
+      "notes": "橙新闻节目，已查到 EP13、EP14",
+      "evidenceUrl": "https://www.youtube.com/watch?v=H4V9VioZIS8"
+    },
+    {
+      "id": "randgad",
+      "name": "亂gad",
+      "language": "yue",
+      "topic": "科技与数码",
+      "url": "https://www.randgad.com/",
+      "recentVideoEvidence": "2026-11-02",
+      "notes": "官网有按集嵌入视频，每周更新；接入时确认画面和回放"
+    },
+    {
+      "id": "houhousyut",
+      "name": "好好傾 Podcast",
+      "language": "yue",
+      "topic": "广州、香港与粤语文化",
+      "url": "https://www.youtube.com/@houhousyut",
+      "recentVideoEvidence": "2026-10-10",
+      "notes": "查到 EP11、EP12，部分早期节目分上下集",
+      "evidenceUrl": "https://www.youtube.com/watch?v=8Scw1lslfPc"
+    },
+    {
+      "id": "cinespot",
+      "name": "動映網台・今期流行",
+      "language": "yue",
+      "topic": "电影评论",
+      "url": "https://www.cinespot.com/podcast/",
+      "recentVideoEvidence": "2026-11-11",
+      "notes": "官网按期嵌入视频；接入时确认画面和回放"
+    },
+    {
+      "id": "roadside",
+      "name": "路邊電台",
+      "language": "yue",
+      "topic": "人物与关系访谈",
+      "url": "https://www.youtube.com/channel/UCDFLMwJn7YGeJZNj1hhb_fQ",
+      "recentVideoEvidence": "2026-11",
+      "notes": "从官方人物访谈正片挑选",
+      "evidenceUrl": "https://6bpodcasts.com/episodes"
+    },
+    {
+      "id": "green-bean",
+      "name": "兩邊走走",
+      "language": "yue",
+      "topic": "香港与英国公共议题",
+      "url": "https://greenbean.media/category/%E6%99%82%E4%BA%8B/%E5%85%A9%E9%82%8A%E8%B5%B0%E8%B5%B0/",
+      "recentVideoEvidence": "2026-11-21",
+      "notes": "围绕固定栏目选片，官网已列第 223 集",
+      "evidenceUrl": "https://greenbean.media/"
+    },
+    {
+      "id": "philosophy-live",
+      "name": "好青年荼毒室・哲學台",
+      "language": "yue",
+      "topic": "哲学与文化",
+      "url": "https://www.youtube.com/@corrupttheyouthhk/streams",
+      "recentVideoEvidence": "2026-11-07",
+      "notes": "完整直播回放候选，接入时确认该集仍可公开回看",
+      "evidenceUrl": "https://www.youtube.com/watch?v=_pLwj8r9iP8"
+    },
+    {
+      "id": "yue-talk",
+      "name": "粵講粵有理",
+      "language": "yue",
+      "topic": "时事对谈",
+      "url": "https://www.ganjingworld.com/channel/1f7ov9242t05Sm4kw1nMxzWRQ1g70c",
+      "recentVideoEvidence": "2026-11-23",
+      "notes": "粵精彩希望之聲发布的固定对谈栏目，查到 11 月 16、21、23 日连续更新。频道也有其他节目，按栏目名筛选",
+      "evidenceUrl": "https://www.ganjingworld.com/video/1j0u56pnqha4zDfBHPdp9KMkL1ih1c"
+    }
+  ]
+}

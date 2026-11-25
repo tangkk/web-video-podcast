@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="搜尋並觀看英語、國語與粵語的完整影片播客。">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Web Video Podcasts</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <main class="page">
+    <header class="intro">
+      <a class="brand" href="#" aria-label="Web Video Podcasts 首頁"><span class="brand-icon" aria-hidden="true">▶</span> WEB VIDEO PODCASTS</a>
+      <h1>Web Video Podcasts<span>.</span></h1>
+      <p>完整單集，隨時開看。探索英語、國語與粵語的影片播客。</p>
+    </header>
+    <section class="toolbar" aria-label="搜尋與篩選">
+      <label class="search">
+        <span class="sr-only">搜尋節目、單集或主題</span>
+        <input id="search" type="search" placeholder="搜尋節目、單集或主題" autocomplete="off">
+        <kbd aria-hidden="true">/</kbd>
+      </label>
+      <div class="filter-group"><span>語言</span><div id="languages" class="chips" role="group" aria-label="語言"></div></div>
+      <div class="filter-group"><span>主題</span><div id="topics" class="chips" role="group" aria-label="主題"></div></div>
+    </section>
+    <section id="continue" class="continue" aria-labelledby="continue-title" hidden>
+      <h2 id="continue-title">繼續看</h2>
+      <div id="recent" class="recent"></div>
+    </section>
+    <section id="browse">
+      <div class="viewbar">
+        <div class="tabs" role="group" aria-label="顯示內容">
+          <button class="tab" data-view="episodes" aria-pressed="true" type="button">精選單集</button>
+          <button class="tab" data-view="shows" aria-pressed="false" type="button">全部節目</button>
+        </div>
+        <button id="favorites" class="pill" type="button" aria-pressed="false"><span aria-hidden="true">☆</span> 只看收藏</button>
+      </div>
+      <div class="summary" aria-live="polite" id="summary">正在載入目錄…</div>
+      <div class="directory" id="directory"></div>
+    </section>
+    <section id="detail" hidden></section>
+    <footer><span>Web Video Podcasts</span><span id="footer-count"></span></footer>
+  </main>
+
+  <dialog id="watch" aria-labelledby="watch-title">
+    <div class="watch-top">
+      <span class="watch-show" id="watch-show"></span>
+      <button id="close-watch" class="icon" type="button" aria-label="關閉播放器" autofocus>×</button>
+    </div>
+    <div id="screen" class="screen"></div>
+    <div class="watch-info">
+      <h2 id="watch-title"></h2>
+      <p id="watch-state" role="status"></p>
+      <div id="chapters" class="chapters" hidden></div>
+      <a id="source" class="pill" target="_blank" rel="noopener noreferrer">在原平台觀看</a>
+    </div>
+  </dialog>
+</body>
+</html>

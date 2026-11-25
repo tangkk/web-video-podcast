@@ -1,0 +1,257 @@
+{
+  "categories": {
+    "current": [
+      "bailingguo",
+      "bumingbai",
+      "afei",
+      "orangetalk",
+      "green-bean",
+      "yue-talk"
+    ],
+    "tech": [
+      "diary-of-a-ceo",
+      "lex-fridman",
+      "dwarkesh",
+      "decoder",
+      "pivot",
+      "valley101",
+      "xroads",
+      "randgad"
+    ],
+    "culture": [
+      "rest-is-history",
+      "luyu",
+      "houhousyut",
+      "cinespot",
+      "philosophy-live"
+    ],
+    "science": [
+      "huberman-lab",
+      "startalk",
+      "onyourpsy"
+    ],
+    "people": [
+      "modern-wisdom",
+      "rich-roll",
+      "conan",
+      "boyin",
+      "drinking-library",
+      "drink-with-mario",
+      "laichieagle",
+      "roadside"
+    ]
+  },
+  "episodes": [
+    {
+      "id": "yt-brzkTni-nTQ",
+      "showId": "huberman-lab",
+      "title": "Access the Power of Now to Experience Life More Fully | Eckhart Tolle",
+      "publishedAt": "2026-11-23",
+      "youtube": "brzkTni-nTQ",
+      "duration": 7573,
+      "chapters": [
+        [
+          0,
+          "開場"
+        ],
+        [
+          98,
+          "當下覺察"
+        ],
+        [
+          566,
+          "語言與存在"
+        ],
+        [
+          958,
+          "自我、身份與衝突"
+        ],
+        [
+          1399,
+          "心理痛苦"
+        ],
+        [
+          2804,
+          "心流與創造力"
+        ]
+      ]
+    },
+    {
+      "id": "yt-7mEK5wZHpto",
+      "showId": "huberman-lab",
+      "title": "Mushrooms for the Mind & Immune System | Paul Stamets",
+      "publishedAt": "2026-11-16",
+      "youtube": "7mEK5wZHpto"
+    },
+    {
+      "id": "yt-m3ezi7ZnT_0",
+      "showId": "conan",
+      "title": "Eric Idle (Full Episode)",
+      "publishedAt": "2026-11-23",
+      "youtube": "m3ezi7ZnT_0"
+    },
+    {
+      "id": "yt-bzFbtAt_wiQ",
+      "showId": "conan",
+      "title": "Adam Brody (Full Episode)",
+      "publishedAt": "2026-11-16",
+      "youtube": "bzFbtAt_wiQ"
+    },
+    {
+      "id": "yt-rNpJ_m8xJtY",
+      "showId": "conan",
+      "title": "Olivia Colman (Full Episode)",
+      "publishedAt": "2026-11-02",
+      "youtube": "rNpJ_m8xJtY"
+    },
+    {
+      "id": "yt-HDoPPFsVHmw",
+      "showId": "startalk",
+      "title": "Neil & Jordan Confront Conspiracies | Cosmic Queries #116",
+      "publishedAt": "2026-11-17",
+      "youtube": "HDoPPFsVHmw"
+    },
+    {
+      "id": "yt-aV26V1UvkJw",
+      "showId": "dwarkesh",
+      "title": "Dylan Patel: Two Labs Will Soon Control Most of the World’s Workforce",
+      "publishedAt": "2026-08-25",
+      "youtube": "aV26V1UvkJw",
+      "duration": 4613
+    },
+    {
+      "id": "yt-ifyzclKzVOA",
+      "showId": "valley101",
+      "title": "E245｜藏在大模型背后的新闻人：GPT们的回复是这样写出来的",
+      "publishedAt": "2026-07-23",
+      "youtube": "ifyzclKzVOA",
+      "duration": 2761
+    },
+    {
+      "id": "yt-ZtlAUdsq57A",
+      "showId": "afei",
+      "title": "EP326｜人口不減反增，桃園做對了什麼？ ft. 張善政",
+      "publishedAt": "2026-11-23",
+      "youtube": "ZtlAUdsq57A",
+      "chapters": [
+        [
+          55,
+          "桃園人口"
+        ],
+        [
+          443,
+          "人口增長"
+        ]
+      ]
+    },
+    {
+      "id": "yt-_2cYwwCO7qM",
+      "showId": "afei",
+      "title": "EP325｜嘉義抓住世界潮流開始起飛？ ft. 翁章梁",
+      "publishedAt": "2026-11-16",
+      "youtube": "_2cYwwCO7qM"
+    },
+    {
+      "id": "yt-TdNGZoBqsGY",
+      "showId": "drinking-library",
+      "title": "EP150｜萬惡的建商？ ft. 葉曉甄",
+      "publishedAt": "2026-11-17",
+      "youtube": "TdNGZoBqsGY",
+      "duration": 4553
+    },
+    {
+      "id": "yt-G2P3S-4Dmkw",
+      "showId": "drinking-library",
+      "title": "EP148｜那個被國民黨訓練出來的男人 ft. 沈伯洋",
+      "publishedAt": "2026-10-12",
+      "youtube": "G2P3S-4Dmkw",
+      "duration": 5450
+    },
+    {
+      "id": "yt-W1q_V5TyDaw",
+      "showId": "bumingbai",
+      "title": "《唯红花绽放》作者谈新书：在叙利亚打仗的维吾尔人",
+      "publishedAt": "2026-10-23",
+      "youtube": "W1q_V5TyDaw",
+      "duration": 3751
+    },
+    {
+      "id": "yt-mJKyi2jHaro",
+      "showId": "bailingguo",
+      "title": "蔡康永訪談看到哭、中國豆腐渣工程、巴西選舉左派逆轉勝",
+      "publishedAt": "2026-11-01",
+      "youtube": "mJKyi2jHaro",
+      "duration": 3352
+    },
+    {
+      "id": "yt-H4V9VioZIS8",
+      "showId": "orangetalk",
+      "title": "EP14｜贏在起跑線？透視學童精神健康",
+      "publishedAt": "2026-11-16",
+      "youtube": "H4V9VioZIS8"
+    },
+    {
+      "id": "yt-aDhUIJ1wEgo",
+      "showId": "orangetalk",
+      "title": "票尾經濟有「價」有「市」？",
+      "publishedAt": "2026-07-21",
+      "youtube": "aDhUIJ1wEgo"
+    },
+    {
+      "id": "yt-JDi364GR9tk",
+      "showId": "green-bean",
+      "title": "兩邊走走｜黃之鋒案、北都大學城與英國對中政策",
+      "publishedAt": "2026-11-07",
+      "youtube": "JDi364GR9tk"
+    },
+    {
+      "id": "yt-8Scw1lslfPc",
+      "showId": "houhousyut",
+      "title": "EP12｜廣州人眼中的香港是怎樣的？",
+      "publishedAt": "2026-10-10",
+      "youtube": "8Scw1lslfPc"
+    },
+    {
+      "id": "yt-MXFwpg9_GEU",
+      "showId": "houhousyut",
+      "title": "EP11｜廣州的粵語現狀如何？",
+      "publishedAt": "2026-09-10",
+      "youtube": "MXFwpg9_GEU"
+    },
+    {
+      "id": "yt-F-nngU5uUCc",
+      "showId": "laichieagle",
+      "title": "EP598｜玩完呢隻 Game 智力會直線下降",
+      "publishedAt": "2026-09-14",
+      "youtube": "F-nngU5uUCc"
+    },
+    {
+      "id": "green-bean-2026-11-21",
+      "showId": "green-bean",
+      "title": "EP223｜新世界發展供股、中美俄峰會、英國青年就業",
+      "publishedAt": "2026-11-21",
+      "url": "https://greenbean.media/ep223%EF%BD%9C%E6%96%B0%E4%B8%96%E7%95%8C%E7%99%BC%E5%B1%95%E3%80%8C1%E4%BE%9B11%E3%80%8D-%E9%9C%87%E6%92%BC%E5%B8%82%E5%A0%B4-%E9%A1%8F%E5%AF%B6%E5%89%9B%EF%BC%9A%E5%AE%98%E6%96%B9%E7%9B%A3%E7%AE%A1/"
+    },
+    {
+      "id": "yue-talk-2026-11-23",
+      "showId": "yue-talk",
+      "title": "宏福一周年全球悼念；王岸然疾風知勁草",
+      "publishedAt": "2026-11-23",
+      "url": "https://www.ganjingworld.com/video/1j0u56pnqha4zDfBHPdp9KMkL1ih1c"
+    },
+    {
+      "id": "yue-talk-2026-11-16",
+      "showId": "yue-talk",
+      "title": "川習普深圳破天荒會面，誰在為誰作嫁衣裳？",
+      "publishedAt": "2026-11-16",
+      "url": "https://www.ganjingworld.com/video/1j0ciea0mbe7q1bxJc96ylbr51qo1c"
+    },
+    {
+      "id": "yt-vDrYywM1nUM",
+      "showId": "decoder",
+      "title": "Nilay Answers the Decoder Questions (2025 Edition)",
+      "publishedAt": "2025-12-18",
+      "youtube": "vDrYywM1nUM"
+    }
+  ]
+}
