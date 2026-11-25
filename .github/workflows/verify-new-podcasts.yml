@@ -70,7 +70,7 @@ jobs:
           fs.writeFileSync('scripts/new-podcasts-verified.json', JSON.stringify({
             verifiedAt:new Date().toISOString(), shows:result,
             policy:'Full channel uploads scanned; public, embeddable, length and title filters validated by YouTube Data API v3'
-          }, null, 2)+'\\n');
+          }, null, 2)+String.fromCharCode(10));
           NODE
       - name: Commit verified episodes with safe remote reconciliation
         if: steps.pending.outputs.needed == 'true'
