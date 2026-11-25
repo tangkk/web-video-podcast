@@ -12,7 +12,7 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 ## 自動更新
 
-GitHub Actions 每 6 小時檢查一次官方 YouTube 節目源，也可在 Actions 的 **Update and deploy video podcasts** 手動執行。新增且可嵌入的完整單集會寫入 `episodes.json`，同一次工作流程會部署到 GitHub Pages。定時檢查沒有新增時保留線上版本。
+GitHub Actions 每天在台北時間 08:17 檢查一次官方 YouTube 節目源，也可在 Actions 的 **Update and deploy video podcasts** 手動執行。新增且可嵌入的完整單集會寫入 `episodes.json`，同一次工作流程會部署到 GitHub Pages。定時檢查沒有新增時保留線上版本。
 
 `scripts/video-sources.json` 登錄可自動更新的官方頻道、單集時長與各節目的標題篩選。來源暫時失敗時保留既有單集。未登錄更新源的節目可繼續手動新增。每檔節目保留最近 20 集自動收錄的單集及全部手工選片。
 
