@@ -92,3 +92,11 @@ dialog::backdrop { background: #151514bf; }
   .card h2, .card h3 { font-size: .94rem; }
   .meta { font-size: .8rem; }
 }
+
+/* Large episode archives */
+.archive-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 12px 0 22px; }
+.archive-controls input, .archive-controls select { max-width: 100%; min-height: 42px; padding: 9px 12px; border: 1px solid var(--line, #687181); border-radius: 10px; background: var(--surface, transparent); color: inherit; font: inherit; }
+.archive-controls input { width: min(360px, 78vw); }
+.archive-controls select { width: 150px; }
+.archive-more { text-align: center; margin: 24px 0 36px; }
+.archive-more button[hidden] { display: none; }
