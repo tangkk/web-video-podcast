@@ -163,25 +163,6 @@
       "notes": "官方频道说明每周更新，10 月与 11 月都有完整长访谈"
     },
     {
-      "id": "xroads",
-      "name": "罗永浩的十字路口",
-      "language": "cmn",
-      "topic": "创业与人物访谈",
-      "url": "https://www.mgtv.com/h/862989.html",
-      "recentVideoEvidence": "2026-11-04",
-      "notes": "芒果 TV 正片节目页，另有 YouTube 官方频道",
-      "evidenceUrl": "https://www.youtube.com/channel/UC33VP_gIBzCVcEvaGKBocZA"
-    },
-    {
-      "id": "luyu",
-      "name": "陈鲁豫·慢谈",
-      "language": "cmn",
-      "topic": "文化与人物访谈",
-      "url": "https://space.bilibili.com/1479442448",
-      "recentVideoEvidence": "2026-11",
-      "notes": "B 站核对官方账号「陈鲁豫-慢谈」，分季更新，已查到 EP27"
-    },
-    {
       "id": "drink-with-mario",
       "name": "馬力歐陪你喝一杯",
       "language": "cmn",
@@ -279,16 +260,6 @@
       "evidenceUrl": "https://www.youtube.com/watch?v=_pLwj8r9iP8"
     },
     {
-      "id": "yue-talk",
-      "name": "粵講粵有理",
-      "language": "yue",
-      "topic": "时事对谈",
-      "url": "https://www.ganjingworld.com/channel/1f7ov9242t05Sm4kw1nMxzWRQ1g70c",
-      "recentVideoEvidence": "2026-11-23",
-      "notes": "粵精彩希望之聲发布的固定对谈栏目，查到 11 月 16、21、23 日连续更新。频道也有其他节目，按栏目名筛选",
-      "evidenceUrl": "https://www.ganjingworld.com/video/1j0u56pnqha4zDfBHPdp9KMkL1ih1c"
-    },
-    {
       "id": "lenny",
       "name": "Lenny’s Podcast",
       "language": "en",
@@ -319,14 +290,6 @@
       "topic": "消費科技",
       "url": "https://www.youtube.com/channel/UCEcrRXW3oEYfUctetZTAWLw",
       "recentVideoEvidence": "2026-11-06"
-    },
-    {
-      "id": "today-in-focus",
-      "name": "Today in Focus",
-      "language": "en",
-      "topic": "國際新聞與人物",
-      "url": "https://www.theguardian.com/news/series/today-in-focus-video",
-      "recentVideoEvidence": "2026-11-23"
     },
     {
       "id": "no-priors",
@@ -369,22 +332,6 @@
       "recentVideoEvidence": "2026-10"
     },
     {
-      "id": "high-energy",
-      "name": "高能量",
-      "language": "cmn",
-      "topic": "財經與創投",
-      "url": "https://space.bilibili.com/479078694",
-      "recentVideoEvidence": "2026-10-02"
-    },
-    {
-      "id": "thirteen-talks",
-      "name": "十三邀",
-      "language": "cmn",
-      "topic": "文化與人物",
-      "url": "https://wetv.vip/zh-cn/play/7za06kan0mbbnjc",
-      "recentVideoEvidence": "2026"
-    },
-    {
       "id": "taiwan-law",
       "name": "法客電台",
       "language": "cmn",
@@ -407,14 +354,6 @@
       "topic": "人物與社會",
       "url": "https://www.youtube.com/@%E6%B2%88%E6%98%A5%E8%8F%AFxAmbie",
       "recentVideoEvidence": "2026-11"
-    },
-    {
-      "id": "broadcast-drive",
-      "name": "廣播道會客室",
-      "language": "yue",
-      "topic": "香港公共議題與人物",
-      "url": "https://www.rthk.hk/tv/dtt31/programme/onbroadcastdrive",
-      "recentVideoEvidence": "2026-11-20"
     },
     {
       "id": "spoti-talk",
@@ -447,6 +386,22 @@
       "topic": "人物與職場",
       "url": "https://www.youtube.com/channel/UCOAFW0tkbLagst9cYJsrMCw",
       "recentVideoEvidence": "2026-10"
+    },
+    {
+      "id": "npr-newsmakers",
+      "name": "NPR Newsmakers",
+      "language": "en",
+      "topic": "时事与深度访谈",
+      "url": "https://www.npr.org/",
+      "notes": "NPR 官方 YouTube 频道完整访谈"
+    },
+    {
+      "id": "dashu-mandarin",
+      "name": "Dashu Mandarin Podcast",
+      "language": "cmn",
+      "topic": "社会文化与人物访谈",
+      "url": "https://www.youtube.com/channel/UCfsNycNoClXZA1FuUJSGT0w",
+      "notes": "官方 YouTube 视频播客"
     }
   ]
 }
