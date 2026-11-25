@@ -6,12 +6,10 @@
       "afei",
       "orangetalk",
       "green-bean",
-      "yue-talk",
-      "today-in-focus",
       "taiwan-law",
       "han-talk",
-      "broadcast-drive",
-      "hong-kong-bean"
+      "hong-kong-bean",
+      "npr-newsmakers"
     ],
     "tech": [
       "diary-of-a-ceo",
@@ -20,7 +18,6 @@
       "decoder",
       "pivot",
       "valley101",
-      "xroads",
       "randgad",
       "lenny",
       "vergecast",
@@ -28,16 +25,14 @@
       "no-priors",
       "twit",
       "acquired",
-      "hard-fork",
-      "high-energy"
+      "hard-fork"
     ],
     "culture": [
       "rest-is-history",
-      "luyu",
       "houhousyut",
       "cinespot",
       "philosophy-live",
-      "thirteen-talks"
+      "dashu-mandarin"
     ],
     "science": [
       "huberman-lab",
@@ -254,20 +249,6 @@
       "duration": 2610
     },
     {
-      "id": "yue-talk-2026-11-23",
-      "showId": "yue-talk",
-      "title": "宏福一周年全球悼念；王岸然疾風知勁草",
-      "publishedAt": "2026-11-23",
-      "url": "https://www.ganjingworld.com/video/1j0u56pnqha4zDfBHPdp9KMkL1ih1c"
-    },
-    {
-      "id": "yue-talk-2026-11-16",
-      "showId": "yue-talk",
-      "title": "川習普深圳破天荒會面，誰在為誰作嫁衣裳？",
-      "publishedAt": "2026-11-16",
-      "url": "https://www.ganjingworld.com/video/1j0ciea0mbe7q1bxJc96ylbr51qo1c"
-    },
-    {
       "id": "yt-vDrYywM1nUM",
       "showId": "decoder",
       "title": "Nilay Answers the Decoder Questions (2025 Edition)",
@@ -315,21 +296,6 @@
       "title": "EP251｜沒感覺掉髮，也可能正在慢慢禿頭 ft. 簡銘成醫師",
       "publishedAt": "2026-11-16",
       "youtube": "FhPhMErV1To"
-    },
-    {
-      "id": "xroads-2026-11-17",
-      "showId": "xroads",
-      "title": "陳曉卿 × 羅永浩｜紀錄片導演的來時路",
-      "publishedAt": "2026-11-17",
-      "url": "https://jingxuan.douyin.com/m/video/7708936107697638682"
-    },
-    {
-      "id": "luyu-2026-10-19",
-      "showId": "luyu",
-      "title": "EP27｜魯豫對話王凱：出道 20 年，一個演員的「不妥協」",
-      "publishedAt": "2026-10-19",
-      "url": "https://www.bilibili.com/video/BV1wZJD6NEku/",
-      "duration": 11021
     },
     {
       "id": "yt-3cEnM9ZJy38",
@@ -425,21 +391,6 @@
       "youtube": "eFMfunVF1og"
     },
     {
-      "id": "high-energy-2026-10-02",
-      "showId": "high-energy",
-      "title": "李翔對話李豐：從美元加息週期到 AI 發展邊界",
-      "publishedAt": "2026-10-02",
-      "url": "https://www.bilibili.com/video/BV1qbaS6EEwK/",
-      "duration": 5412
-    },
-    {
-      "id": "thirteen-talks-2026-07-13",
-      "showId": "thirteen-talks",
-      "title": "第九季 EP01｜許知遠對話姚明",
-      "publishedAt": "2026-07-13",
-      "url": "https://wetv.vip/zh-cn/play/7za06kan0mbbnjc"
-    },
-    {
       "id": "yt-Zq271AHFaAE",
       "showId": "taiwan-law",
       "title": "政治歸政治｜大人都戒不掉 AI 與短影音，要怎麼教小孩？",
@@ -459,13 +410,6 @@
       "title": "S2 EP07｜沈春華專訪蔣萬安",
       "publishedAt": "2026-11-03",
       "youtube": "PF5qrb0bRmI"
-    },
-    {
-      "id": "broadcast-drive-2026-10-09",
-      "showId": "broadcast-drive",
-      "title": "港交所陳翊庭談「T+1」改革與香港金融市場",
-      "publishedAt": "2026-10-09",
-      "url": "https://www.rthk.hk/tv/dtt32/programme/onbroadcastdrive/episode/1119633?lang=zh-hant"
     },
     {
       "id": "yt-noN_qRrA0p0",
@@ -494,14 +438,6 @@
       "title": "陳志雲（下集）｜與 Son 對話",
       "publishedAt": "2026-08-25",
       "youtube": "vg_yLwSPt_A"
-    },
-    {
-      "id": "today-in-focus-2026-11-23",
-      "showId": "today-in-focus",
-      "title": "David Byrne on the Great Ideas That Got Away",
-      "publishedAt": "2026-11-23",
-      "url": "https://www.theguardian.com/news/video/2026/nov/20/david-byrne-on-the-great-ideas-that-got-away-today-in-focus",
-      "duration": 1410
     },
     {
       "id": "yt-xHUjOd5J5LM",
