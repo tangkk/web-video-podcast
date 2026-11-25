@@ -292,14 +292,14 @@
     "showId": "joe-rogan",
     "channelId": "UCzQUP1qoWDoEbmsQxvdjxgQ",
     "minMinutes": 60,
-    "titlePattern": "^Joe Rogan Experience\\\\s*#\\\\d+\\\\b|^JRE MMA Show\\\\s*#\\\\d+\\\\b",
+    "titlePattern": "^Joe Rogan Experience\\s*#\\d+\\b|^JRE MMA Show\\s*#\\d+\\b",
     "excludePattern": "(?i:clips?|highlights?|preview|trailer|shorts?)"
   },
   {
     "showId": "theo-von",
     "channelId": "UC5AQEUAwCh1sGDvkQtkDWUQ",
     "minMinutes": 55,
-    "titlePattern": "This Past Weekend.*#\\\\d+|#\\\\d{3,4}\\\\b",
+    "titlePattern": "This Past Weekend.*#\\d+|#\\d{3,4}\\b",
     "excludePattern": "clips?|highlights?|preview|trailer|shorts?"
   },
   {
@@ -312,7 +312,7 @@
     "showId": "all-in-podcast",
     "channelId": "UCESLZhusAkFfsNsApnjF_Cg",
     "minMinutes": 40,
-    "titlePattern": "All-In|E\\\\d+|EP\\\\s*\\\\d+|Full Episode|Interview|Summit",
+    "titlePattern": "All-In|E\\d+|EP\\s*\\d+|Full Episode|Interview|Summit",
     "excludePattern": "Highlights?|Clips?|Shorts?|Trailer|Preview"
   },
   {
