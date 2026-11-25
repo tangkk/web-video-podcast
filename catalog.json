@@ -442,6 +442,41 @@
       "topic": "粤语语言文化与学习",
       "url": "https://www.youtube.com/channel/UC9xosUh_LZUdQv-kw38RehA",
       "notes": "官方 YouTube 视频播客，需通过 API 核验历史单集"
+    },
+    {
+      "id": "joe-rogan",
+      "name": "The Joe Rogan Experience",
+      "language": "en",
+      "topic": "長訪談、喜劇、科學與文化",
+      "url": "https://www.youtube.com/channel/UCzQUP1qoWDoEbmsQxvdjxgQ"
+    },
+    {
+      "id": "theo-von",
+      "name": "This Past Weekend with Theo Von",
+      "language": "en",
+      "topic": "喜劇、人物與長訪談",
+      "url": "https://www.youtube.com/channel/UC5AQEUAwCh1sGDvkQtkDWUQ"
+    },
+    {
+      "id": "shawn-ryan",
+      "name": "Shawn Ryan Show",
+      "language": "en",
+      "topic": "人物、軍事與深度訪談",
+      "url": "https://www.youtube.com/channel/UCkoujZQZatbqy4KGcgjpVxQ"
+    },
+    {
+      "id": "all-in-podcast",
+      "name": "All-In Podcast",
+      "language": "en",
+      "topic": "創投、科技、金融與政策",
+      "url": "https://www.youtube.com/channel/UCESLZhusAkFfsNsApnjF_Cg"
+    },
+    {
+      "id": "broken-record",
+      "name": "Broken Record Podcast",
+      "language": "en",
+      "topic": "音樂人與創作深度訪談",
+      "url": "https://www.youtube.com/channel/UCZ8_-dTIxnLOLt3jfH5XHJw"
     }
   ]
 }
