@@ -402,6 +402,46 @@
       "topic": "社会文化与人物访谈",
       "url": "https://www.youtube.com/channel/UCfsNycNoClXZA1FuUJSGT0w",
       "notes": "官方 YouTube 视频播客"
+    },
+    {
+      "id": "rest-is-politics",
+      "name": "The Rest Is Politics",
+      "language": "en",
+      "topic": "英国与国际政治",
+      "url": "https://www.youtube.com/channel/UCsufaClk5if2RGqABb-09Uw",
+      "notes": "官方 YouTube 视频播客，需通过 API 核验历史单集"
+    },
+    {
+      "id": "rest-is-politics-us",
+      "name": "The Rest Is Politics US",
+      "language": "en",
+      "topic": "美国政治与深度讨论",
+      "url": "https://www.youtube.com/channel/UCII84rxnNkEjtk1zC3qTtbg",
+      "notes": "官方 YouTube 视频播客，需通过 API 核验历史单集"
+    },
+    {
+      "id": "one-night-talk",
+      "name": "OneNightTalk 一夜傾",
+      "language": "yue",
+      "topic": "粤语生活文化与时事",
+      "url": "https://www.youtube.com/channel/UCgG4IGajFZInARcha1R59bw",
+      "notes": "官方 YouTube 视频播客，需通过 API 核验历史单集"
+    },
+    {
+      "id": "outcasts-853",
+      "name": "OUTCASTS 853",
+      "language": "yue",
+      "topic": "粤语文化与人物生活",
+      "url": "https://www.youtube.com/channel/UCbrpMMu9vrm2O3I25USJK8A",
+      "notes": "官方 YouTube 视频播客，需通过 API 核验历史单集"
+    },
+    {
+      "id": "manki-cantonese-podcast",
+      "name": "Manki Cantonese Podcast",
+      "language": "yue",
+      "topic": "粤语语言文化与学习",
+      "url": "https://www.youtube.com/channel/UC9xosUh_LZUdQv-kw38RehA",
+      "notes": "官方 YouTube 视频播客，需通过 API 核验历史单集"
     }
   ]
 }
