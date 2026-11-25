@@ -14,6 +14,7 @@ on:
       - episodes.json
   schedule:
     - cron: '17 0 * * *'
+    - cron: '43 1 * * 0'
   workflow_dispatch:
 
 concurrency:
@@ -23,7 +24,7 @@ concurrency:
 jobs:
   prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     permissions:
       contents: write
     outputs:
@@ -35,9 +36,26 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Refresh official video sources
+      - name: Sync official YouTube episodes
         if: github.event_name != 'push'
-        run: node scripts/update-videos.mjs
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          if [ -z "$YOUTUBE_API_KEY" ]; then
+            echo "::error::Configure repository secret YOUTUBE_API_KEY before scheduling the new sync."
+            exit 1
+          fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "43 1 * * 0" ]; then
+            node scripts/sync-youtube.mjs --backfill
+          else
+            node scripts/sync-youtube.mjs
+          fi
+      - name: Validate scripts and catalog
+        run: |
+          node --input-type=module --check < app.js
+          node --input-type=module --check < sync.js
+          node --check scripts/sync-youtube.mjs
+          node scripts/validate-catalog.mjs
       - name: Commit updated episodes
         id: catalog
         env:

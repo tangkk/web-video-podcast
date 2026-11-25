@@ -1,0 +1,93 @@
+name: Verify and backfill video podcast archives
+
+on:
+  push:
+    branches: [feature/full-youtube-archive]
+    paths:
+      - '.github/workflows/verify-archive.yml'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: verify-archive-feature
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate source and catalog
+        run: |
+          node --input-type=module --check < app.js
+          node --input-type=module --check < sync.js
+          node --check scripts/sync-youtube.mjs
+          node scripts/validate-catalog.mjs
+      - name: Full historical backfill (feature branch only)
+        id: backfill
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/feature/full-youtube-archive'
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          set +e
+          if [ -z "$YOUTUBE_API_KEY" ]; then
+            echo "YOUTUBE_API_KEY secret is unavailable" | tee /tmp/backfill.log
+            code=1
+          else
+            node scripts/sync-youtube.mjs --backfill 2>&1 | tee /tmp/backfill.log
+            code=${PIPESTATUS[0]}
+          fi
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -ne 0 ]; then
+            {
+              echo "# Backfill error report"
+              echo ""
+              echo "Commit: $GITHUB_SHA"
+              echo "Run: $GITHUB_RUN_ID"
+              echo "Exit code: $code"
+              echo ""
+              echo '## Last 80 lines'
+              echo '~~~'
+              tail -n 80 /tmp/backfill.log
+              echo '~~~'
+            } > scripts/backfill-failure.md
+          else
+            rm -f scripts/backfill-failure.md
+            node scripts/validate-catalog.mjs
+          fi
+      - name: Commit validated archive once
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/feature/full-youtube-archive'
+        run: |
+          git add -A -- episodes.json scripts/
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Record YouTube archive backfill results [skip ci]'
+            # The API scan takes several minutes. Preserve commits pushed while it ran.
+            # Rebase the generated data commit onto the current feature head; never force-push.
+            for attempt in 1 2 3; do
+              git fetch origin feature/full-youtube-archive
+              git rebase origin/feature/full-youtube-archive
+              if git push origin HEAD:feature/full-youtube-archive; then
+                echo "Archive committed to the latest feature branch."
+                exit 0
+              fi
+              echo "Remote moved again; retrying safe rebase ($attempt/3)"
+            done
+            echo "::error::Unable to push backfill after three safe attempts"
+            exit 1
+          fi
+      - name: Mark backfill unsuccessful
+        if: github.event_name != 'pull_request' && steps.backfill.outputs.exit_code != '0'
+        run: exit 1
