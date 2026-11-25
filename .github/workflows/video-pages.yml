@@ -1,0 +1,81 @@
+name: Update and deploy video podcasts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/video-pages.yml
+      - scripts/**
+      - '*.html'
+      - '*.js'
+      - '*.css'
+      - '*.svg'
+      - catalog.json
+      - episodes.json
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: video-podcast-pages
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    outputs:
+      deploy: ${{ steps.catalog.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh official video sources
+        if: github.event_name != 'push'
+        run: node scripts/update-videos.mjs
+      - name: Commit updated episodes
+        id: catalog
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          deploy=true
+          if ! git diff --quiet -- episodes.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add episodes.json
+            git commit -m 'Update video podcast episodes'
+            git push origin HEAD:main
+          elif [ "$EVENT_NAME" = schedule ]; then
+            deploy=false
+          fi
+          echo "deploy=$deploy" >> "$GITHUB_OUTPUT"
+      - name: Package site
+        if: steps.catalog.outputs.deploy == 'true'
+        run: |
+          mkdir public
+          cp index.html app.js styles.css favicon.svg catalog.json episodes.json public/
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.catalog.outputs.deploy == 'true'
+        with:
+          path: public
+
+  deploy:
+    needs: prepare
+    if: needs.prepare.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,247 @@
+[
+  {
+    "showId": "diary-of-a-ceo",
+    "channelId": "UCGq-a57w-aPwyi3pW7XLiHw",
+    "minMinutes": 30,
+    "excludePattern": "Essentials|Most Replayed"
+  },
+  {
+    "showId": "huberman-lab",
+    "channelId": "UC2D2CMWXMOVWx7giW1n3LIg",
+    "minMinutes": 25
+  },
+  {
+    "showId": "lex-fridman",
+    "channelId": "UCSHZKyawb77ixDdsGog4iWA",
+    "minMinutes": 30,
+    "titlePattern": "Lex Fridman Podcast\\s*#\\d+"
+  },
+  {
+    "showId": "dwarkesh",
+    "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+    "minMinutes": 25
+  },
+  {
+    "showId": "modern-wisdom",
+    "channelId": "UCIaH-gZIVC432YRjNVvnyCA",
+    "minMinutes": 35
+  },
+  {
+    "showId": "rich-roll",
+    "channelId": "UCpjlh0e319ksmoOD7bQFSiw",
+    "minMinutes": 30
+  },
+  {
+    "showId": "conan",
+    "channelId": "UCi7GJNg51C3jgmYTUwqoUXA",
+    "minMinutes": 15,
+    "titlePattern": "full episode.*needs a friend|needs a friend.*full episode"
+  },
+  {
+    "showId": "decoder",
+    "channelId": "UCYRwJnCWfBqFHEHrgc18FFw",
+    "minMinutes": 25
+  },
+  {
+    "showId": "pivot",
+    "channelId": "UCBHGZpDF2fsqPIPi0pNyuTg",
+    "minMinutes": 25
+  },
+  {
+    "showId": "startalk",
+    "channelId": "UCqoAEDirJPjEUFcF2FklnBA",
+    "minMinutes": 25
+  },
+  {
+    "showId": "rest-is-history",
+    "channelId": "UCUYK0BJZF3yNb2fw1EdAXUQ",
+    "minMinutes": 25
+  },
+  {
+    "showId": "bailingguo",
+    "channelId": "UCD2KoUc0f4Bv2Bz0mbOah8g",
+    "minMinutes": 20,
+    "titlePattern": "百[靈灵]果\\s*NEWS"
+  },
+  {
+    "showId": "valley101",
+    "channelId": "UChnNjLyx_5rk_iDPQ2BQDQA",
+    "minMinutes": 20,
+    "titlePattern": "^E\\d+|硅谷101专访|矽谷101專訪"
+  },
+  {
+    "showId": "bumingbai",
+    "channelId": "UCAf2O_wWu1YCS9YLUqnyqDA",
+    "minMinutes": 25,
+    "titlePattern": "不明白播客"
+  },
+  {
+    "showId": "afei",
+    "channelId": "UC2VKL-DkRvXtWkfjMzkYvmw",
+    "minMinutes": 20,
+    "titlePattern": "斐姨所思.*阿姨想知道|阿姨想知道.*斐姨所思"
+  },
+  {
+    "showId": "boyin",
+    "channelId": "UCfcv1yf1JWU_Dftvsql31yg",
+    "minMinutes": 20,
+    "titlePattern": "博音.*EP\\s*\\d+"
+  },
+  {
+    "showId": "drinking-library",
+    "channelId": "UClaztfReW23d-jf2RRhXu1g",
+    "minMinutes": 25,
+    "titlePattern": "(?:EP|第)\\s*\\d+"
+  },
+  {
+    "showId": "drink-with-mario",
+    "channelId": "UCBVWt_Z_ZpoB1p4Ez1mfPqg",
+    "minMinutes": 18,
+    "titlePattern": "S\\d+\\s*EP\\d+|管理通靈信箱|管理通灵信箱"
+  },
+  {
+    "showId": "onyourpsy",
+    "channelId": "UCb4CEGKZuAW8emEuP9JCKEg",
+    "minMinutes": 18,
+    "titlePattern": "哇賽(?:心觀點|療心室|讀心書|宅心追劇)"
+  },
+  {
+    "showId": "laichieagle",
+    "channelId": "UCfsegxiqHJZS02-mEsKODqA",
+    "minMinutes": 18,
+    "titlePattern": "EP\\s*\\d+"
+  },
+  {
+    "showId": "orangetalk",
+    "channelId": "UCBP0Ym0Z5dGh7U72VTtstoQ",
+    "minMinutes": 15,
+    "titlePattern": "圍爐\\s*Star\\s*Talk\\s*Podcast"
+  },
+  {
+    "showId": "randgad",
+    "channelId": "UCFPAwIW39LR4JwwXFr8DhpQ",
+    "minMinutes": 25,
+    "titlePattern": "亂gad.*第\\s*\\d+\\s*集"
+  },
+  {
+    "showId": "houhousyut",
+    "channelId": "UCJ3udCkcOSMvHv5c_2HgYfg",
+    "minMinutes": 10,
+    "titlePattern": "好好傾.*EP\\s*\\d+"
+  },
+  {
+    "showId": "cinespot",
+    "channelId": "UC98IxsoR9r3Aq4W2m_fhqUw",
+    "minMinutes": 12,
+    "titlePattern": "今期流行|動映網台|影評"
+  },
+  {
+    "showId": "roadside",
+    "channelId": "UCDFLMwJn7YGeJZNj1hhb_fQ",
+    "minMinutes": 18
+  },
+  {
+    "showId": "green-bean",
+    "channelId": "UCLYWo70xBDrPYJgJsxoX7Qg",
+    "minMinutes": 25,
+    "titlePattern": "兩邊走走|两边走走"
+  },
+  {
+    "showId": "philosophy-live",
+    "channelId": "UCljo-rxFnc2gl9l8NhhJ66Q",
+    "minMinutes": 25,
+    "titlePattern": "哲學台|哲学台"
+  },
+  {
+    "showId": "lenny",
+    "channelId": "UC6t1O76G0jYXOAoYCm153dA",
+    "minMinutes": 25
+  },
+  {
+    "showId": "mel",
+    "channelId": "UCk2U-Oqn7RXf-ydPqfSxG5g",
+    "minMinutes": 20
+  },
+  {
+    "showId": "vergecast",
+    "channelId": "UCddiUEpeqJcYeBxX1IVBKvQ",
+    "minMinutes": 25,
+    "titlePattern": "Vergecast"
+  },
+  {
+    "showId": "waveform",
+    "channelId": "UCEcrRXW3oEYfUctetZTAWLw",
+    "minMinutes": 25
+  },
+  {
+    "showId": "no-priors",
+    "channelId": "UCSI7h9hydQ40K5MJHnCrQvw",
+    "minMinutes": 20
+  },
+  {
+    "showId": "twit",
+    "channelId": "UCagoIYmo_gO1iVaCeeSikEg",
+    "minMinutes": 35
+  },
+  {
+    "showId": "acquired",
+    "channelId": "UCyFqFYfTW2VoIQKylJ04Rtw",
+    "minMinutes": 40,
+    "excludePattern": "\\(Audio\\)|^ACQ2"
+  },
+  {
+    "showId": "hard-fork",
+    "channelId": "UCZcR2SVWaGWNlMqPxvQS3vw",
+    "minMinutes": 25,
+    "titlePattern": "Hard Fork"
+  },
+  {
+    "showId": "zhixing",
+    "channelId": "UC3ezayOvLhJRk5L0QRg_bfQ",
+    "minMinutes": 20,
+    "titlePattern": "视频播客|影片播客|視頻播客"
+  },
+  {
+    "showId": "taiwan-law",
+    "channelId": "UCXd6dUdTQchAg2P0QRh_42Q",
+    "minMinutes": 20,
+    "titlePattern": "政治歸政治|法客電台"
+  },
+  {
+    "showId": "han-talk",
+    "channelId": "UCwWXGnvVmi-6Sfx2wf8S8tQ",
+    "minMinutes": 25,
+    "titlePattern": "下班瀚你聊"
+  },
+  {
+    "showId": "shen-talk",
+    "channelId": "UCc864MoU2oxITKJKrJw6TIA",
+    "minMinutes": 20,
+    "titlePattern": "發生沈麼事|发生沈么事"
+  },
+  {
+    "showId": "spoti-talk",
+    "channelId": "UCRQqjwqrsTOWRApTei2Vl5Q",
+    "minMinutes": 20,
+    "titlePattern": "吹水.*SpotiTalk|SpotiTalk.*吹水"
+  },
+  {
+    "showId": "do-show",
+    "channelId": "UCdTHCanl2svJX40LPI7FZaQ",
+    "minMinutes": 10,
+    "titlePattern": "The Do Show.*訪談",
+    "excludePattern": "海外特別篇"
+  },
+  {
+    "showId": "hong-kong-bean",
+    "channelId": "UCLYWo70xBDrPYJgJsxoX7Qg",
+    "minMinutes": 12,
+    "titlePattern": "香港\\s*Bean啲事"
+  },
+  {
+    "showId": "uson",
+    "channelId": "UCOAFW0tkbLagst9cYJsrMCw",
+    "minMinutes": 20,
+    "titlePattern": "與Son對話|與 Son 對話"
+  }
+]
