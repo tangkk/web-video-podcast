@@ -96,7 +96,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh workflow run video-pages.yml --ref main
+          gh workflow run video-pages.yml --ref main -f deploy_only=true
       - name: Upload diagnostic logs if unsuccessful
         if: failure()
         uses: actions/upload-artifact@v4
