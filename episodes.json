@@ -27,7 +27,8 @@
       "no-priors",
       "twit",
       "acquired",
-      "hard-fork"
+      "hard-fork",
+      "all-in-podcast"
     ],
     "culture": [
       "rest-is-history",
@@ -35,7 +36,8 @@
       "cinespot",
       "philosophy-live",
       "dashu-mandarin",
-      "manki-cantonese-podcast"
+      "manki-cantonese-podcast",
+      "broken-record"
     ],
     "science": [
       "huberman-lab",
@@ -58,7 +60,10 @@
       "do-show",
       "uson",
       "one-night-talk",
-      "outcasts-853"
+      "outcasts-853",
+      "joe-rogan",
+      "theo-von",
+      "shawn-ryan"
     ]
   },
   "episodes": [
