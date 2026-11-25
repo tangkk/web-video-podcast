@@ -37,6 +37,10 @@ let current = null;
 let youtubeApi;
 let focusAfterClose;
 let detailId = '';
+let detailPage = 1;
+let detailSearch = '';
+let detailOrder = 'newest';
+const DETAIL_PAGE_SIZE = 24;
 const escape = value => String(value).replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 })[char]);
@@ -159,8 +163,24 @@ function render() {
   }
 }
 
+function renderShowEpisodes(show) {
+  const query = normalize(detailSearch.trim());
+  let matching = show.episodes.filter(episode =>
+    normalize(episode.title + ' ' + (episode.title.match(/#\\d+/)?.[0] || '')).includes(query)
+  );
+  if (detailOrder === 'oldest') matching = [...matching].reverse();
+  const visible = matching.slice(0, detailPage * DETAIL_PAGE_SIZE);
+  const list = elements.detail.querySelector('[data-show-episodes]');
+  if (!list) return;
+  list.innerHTML = visible.map(episodeCard).join('') ||
+    '<p class="empty">沒有符合條件的單集。</p>';
+  const status = elements.detail.querySelector('[data-episode-count]');
+  status.textContent = '顯示 ' + visible.length + ' / ' + matching.length + ' 集';
+  elements.detail.querySelector('[data-load-more]').hidden = visible.length >= matching.length;
+}
+
 function renderRoute() {
-  const id = /^#show\/([a-z0-9-]+)$/.exec(location.hash)?.[1];
+  const id = /^#show\\/([a-z0-9-]+)$/.exec(location.hash)?.[1];
   const show = shows.get(id);
   elements.browse.hidden = Boolean(show);
   elements.detail.hidden = !show;
@@ -172,6 +192,14 @@ function renderRoute() {
     return;
   }
   $('#continue').hidden = true;
+  if (detailId === id) {
+    renderShowEpisodes(show);
+    return;
+  }
+  detailId = id;
+  detailPage = 1;
+  detailSearch = '';
+  detailOrder = 'newest';
   const source = publicUrl(show.url);
   elements.detail.innerHTML = `<a class="pill" href="#">返回目錄</a>
     <header class="detail-head">
@@ -180,12 +208,20 @@ function renderRoute() {
       <div class="actions"><a class="pill" href="${escape(source)}" target="_blank" rel="noopener noreferrer">官方節目頁</a>${favoriteButton(show)}</div>
     </header>
     <h3 class="detail-heading">完整單集</h3>
-    <div class="directory">${show.episodes.map(episodeCard).join('') || '<p class="empty">站內單集整理中，可在官方節目頁觀看。</p>'}</div>`;
-  if (detailId !== id) {
-    detailId = id;
-    elements.detail.querySelector('h2').focus({ preventScroll: true });
-    window.scrollTo(0, 0);
-  }
+    <div class="archive-controls">
+      <label><span class="sr-only">搜尋本節目單集</span>
+        <input type="search" data-episode-search placeholder="搜尋單集標題或期號" autocomplete="off">
+      </label>
+      <label><span class="sr-only">單集排序</span>
+        <select data-episode-order><option value="newest">最新優先</option><option value="oldest">最舊優先</option></select>
+      </label>
+      <span class="meta" data-episode-count></span>
+    </div>
+    <div class="directory" data-show-episodes></div>
+    <div class="archive-more"><button class="pill" type="button" data-load-more>載入更多單集</button></div>`;
+  renderShowEpisodes(show);
+  elements.detail.querySelector('h2').focus({preventScroll: true});
+  window.scrollTo(0, 0);
 }
 
 function loadYouTube() {
@@ -326,8 +362,26 @@ document.addEventListener('click', event => {
     render();
   }
   if (button.dataset.seek) current?.player?.seekTo(Number(button.dataset.seek), true);
+  if (button.hasAttribute('data-load-more')) {
+    detailPage++;
+    renderShowEpisodes(shows.get(detailId));
+  }
 });
 elements.search.addEventListener('input', render);
+elements.detail.addEventListener('input', event => {
+  if (event.target.matches('[data-episode-search]')) {
+    detailSearch = event.target.value;
+    detailPage = 1;
+    renderShowEpisodes(shows.get(detailId));
+  }
+});
+elements.detail.addEventListener('change', event => {
+  if (event.target.matches('[data-episode-order]')) {
+    detailOrder = event.target.value;
+    detailPage = 1;
+    renderShowEpisodes(shows.get(detailId));
+  }
+});
 elements.favorites.addEventListener('click', () => {
   state.favoritesOnly = !state.favoritesOnly;
   if (state.favoritesOnly) state.view = 'shows';
