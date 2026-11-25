@@ -156,8 +156,11 @@ function render() {
     const items = matching.flatMap(show => show.episodes.filter(item =>
       normalize(`${item.title} ${show.name} ${show.topic}`).includes(query)
     )).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
-    elements.summary.textContent = `${items.length} 集影片`;
-    elements.directory.innerHTML = items.map(episodeCard).join('');
+    const visible = items.slice(0, 120);
+    elements.summary.textContent = items.length > 120
+      ? `${items.length} 集影片 · 顯示前 120 集，進入節目可瀏覽全部`
+      : `${items.length} 集影片`;
+    elements.directory.innerHTML = visible.map(episodeCard).join('');
   }
   if (!elements.directory.children.length) {
     const message = state.favoritesOnly ? '沒有符合條件的收藏。' : '沒有符合條件的內容。';
