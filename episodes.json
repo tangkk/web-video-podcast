@@ -58,6 +58,121 @@
   },
   "episodes": [
     {
+      "id": "yt-aZlaPfp_2-U",
+      "showId": "valley101",
+      "title": "E260｜黄仁勋归来之际，深聊英伟达、CoreWeave和算力信用市场",
+      "publishedAt": "2026-11-25",
+      "youtube": "aZlaPfp_2-U",
+      "duration": 5186,
+      "automatic": true
+    },
+    {
+      "id": "yt-3wai0RyIFTk",
+      "showId": "vergecast",
+      "title": "Jensen Huang is Donald Trump’s Special Boy | The Vergecast",
+      "publishedAt": "2026-11-24",
+      "youtube": "3wai0RyIFTk",
+      "duration": 2292,
+      "automatic": true
+    },
+    {
+      "id": "yt-Em6tbhj9o6A",
+      "showId": "dwarkesh",
+      "title": "The strongest objections to RSI",
+      "publishedAt": "2026-11-24",
+      "youtube": "Em6tbhj9o6A",
+      "duration": 3924,
+      "automatic": true
+    },
+    {
+      "id": "yt-HyQrNGvW4G0",
+      "showId": "hard-fork",
+      "title": "Why Trump Put Jensen Huang Back in Charge at Nvidia | Hard Fork",
+      "publishedAt": "2026-11-24",
+      "youtube": "HyQrNGvW4G0",
+      "duration": 1552,
+      "automatic": true
+    },
+    {
+      "id": "yt-K_nMUmGrez4",
+      "showId": "afei",
+      "title": "花蓮越爛，傅家越穩？傅崐萁光復救災，還要先分自己人？ft. 花蓮縣議長張峻、花蓮縣議員楊華美 | 斐姨所思【阿姨想知道】 EP327",
+      "publishedAt": "2026-11-24",
+      "youtube": "K_nMUmGrez4",
+      "duration": 1975,
+      "automatic": true
+    },
+    {
+      "id": "yt-KAEAzH3Nqqs",
+      "showId": "startalk",
+      "title": "Neil’s Favorite Fun Facts: StarTalk Live! @ 92NY",
+      "publishedAt": "2026-11-24",
+      "youtube": "KAEAzH3Nqqs",
+      "duration": 3060,
+      "automatic": true
+    },
+    {
+      "id": "yt-LD53XAzhMa0",
+      "showId": "pivot",
+      "title": "Kara Swisher: Trump Is Trying to Save the Stock Market—and Himself",
+      "publishedAt": "2026-11-24",
+      "youtube": "LD53XAzhMa0",
+      "duration": 2011,
+      "automatic": true
+    },
+    {
+      "id": "yt-Pv_CfUQs1FY",
+      "showId": "uson",
+      "title": "與Son對話 | 肥姨姨（上集） | 放棄護士之路！由港大護理系走到人氣KOL，與Son姐爆笑交鋒 | 張慧敏 | 職場慧眼 | 中文字幕",
+      "publishedAt": "2026-11-24",
+      "youtube": "Pv_CfUQs1FY",
+      "duration": 3911,
+      "automatic": true
+    },
+    {
+      "id": "yt-1DM0e39fr04",
+      "showId": "decoder",
+      "title": "How one router caused the worst ground stop since 9/11",
+      "publishedAt": "2026-11-23",
+      "youtube": "1DM0e39fr04",
+      "duration": 2546,
+      "automatic": true
+    },
+    {
+      "id": "yt-4t1P7ED10OE",
+      "showId": "vergecast",
+      "title": "Mike Schur has five minutes to get your attention | The Vergecast",
+      "publishedAt": "2026-11-23",
+      "youtube": "4t1P7ED10OE",
+      "duration": 2441,
+      "automatic": true
+    },
+    {
+      "id": "yt-4Unch--PmW0",
+      "showId": "diary-of-a-ceo",
+      "title": "Financial Crash Expert | Steve Eisman",
+      "publishedAt": "2026-11-23",
+      "youtube": "4Unch--PmW0"
+    },
+    {
+      "id": "yt-9vNUWuHG6Hs",
+      "showId": "boyin",
+      "title": "【#博音】EP252｜選擇媒體只是在選自己想聽的話  ft. 許文宜教授",
+      "publishedAt": "2026-11-23",
+      "youtube": "9vNUWuHG6Hs",
+      "duration": 3200,
+      "automatic": true
+    },
+    {
+      "id": "yt-Anlh9h-W7H0",
+      "showId": "mel",
+      "title": "It Took Me 58 Years to Realize What I’ll Tell You in 48 Minutes",
+      "publishedAt": "2026-11-23",
+      "youtube": "Anlh9h-W7H0",
+      "duration": 2937,
+      "automatic": true
+    },
+    {
       "id": "yt-brzkTni-nTQ",
       "showId": "huberman-lab",
       "title": "Access the Power of Now to Experience Life More Fully | Eckhart Tolle",
@@ -92,445 +207,12 @@
       ]
     },
     {
-      "id": "yt-7mEK5wZHpto",
-      "showId": "huberman-lab",
-      "title": "Mushrooms for the Mind & Immune System | Paul Stamets",
-      "publishedAt": "2026-11-16",
-      "youtube": "7mEK5wZHpto"
-    },
-    {
-      "id": "yt-m3ezi7ZnT_0",
-      "showId": "conan",
-      "title": "Eric Idle (Full Episode)",
-      "publishedAt": "2026-11-23",
-      "youtube": "m3ezi7ZnT_0"
-    },
-    {
-      "id": "yt-bzFbtAt_wiQ",
-      "showId": "conan",
-      "title": "Adam Brody (Full Episode)",
-      "publishedAt": "2026-11-16",
-      "youtube": "bzFbtAt_wiQ"
-    },
-    {
-      "id": "yt-rNpJ_m8xJtY",
-      "showId": "conan",
-      "title": "Olivia Colman (Full Episode)",
-      "publishedAt": "2026-11-02",
-      "youtube": "rNpJ_m8xJtY"
-    },
-    {
-      "id": "yt-HDoPPFsVHmw",
-      "showId": "startalk",
-      "title": "Neil & Jordan Confront Conspiracies | Cosmic Queries #116",
-      "publishedAt": "2026-11-17",
-      "youtube": "HDoPPFsVHmw"
-    },
-    {
-      "id": "yt-aV26V1UvkJw",
-      "showId": "dwarkesh",
-      "title": "Dylan Patel: Two Labs Will Soon Control Most of the World’s Workforce",
-      "publishedAt": "2026-08-25",
-      "youtube": "aV26V1UvkJw",
-      "duration": 4613
-    },
-    {
-      "id": "yt-ifyzclKzVOA",
-      "showId": "valley101",
-      "title": "E245｜藏在大模型背后的新闻人：GPT们的回复是这样写出来的",
-      "publishedAt": "2026-07-23",
-      "youtube": "ifyzclKzVOA",
-      "duration": 2761
-    },
-    {
-      "id": "yt-ZtlAUdsq57A",
-      "showId": "afei",
-      "title": "EP326｜人口不減反增，桃園做對了什麼？ ft. 張善政",
-      "publishedAt": "2026-11-23",
-      "youtube": "ZtlAUdsq57A",
-      "chapters": [
-        [
-          55,
-          "桃園人口"
-        ],
-        [
-          443,
-          "人口增長"
-        ]
-      ]
-    },
-    {
-      "id": "yt-_2cYwwCO7qM",
-      "showId": "afei",
-      "title": "EP325｜嘉義抓住世界潮流開始起飛？ ft. 翁章梁",
-      "publishedAt": "2026-11-16",
-      "youtube": "_2cYwwCO7qM"
-    },
-    {
-      "id": "yt-TdNGZoBqsGY",
-      "showId": "drinking-library",
-      "title": "EP150｜萬惡的建商？ ft. 葉曉甄",
-      "publishedAt": "2026-11-17",
-      "youtube": "TdNGZoBqsGY",
-      "duration": 4553
-    },
-    {
-      "id": "yt-G2P3S-4Dmkw",
-      "showId": "drinking-library",
-      "title": "EP148｜那個被國民黨訓練出來的男人 ft. 沈伯洋",
-      "publishedAt": "2026-10-12",
-      "youtube": "G2P3S-4Dmkw",
-      "duration": 5450
-    },
-    {
-      "id": "yt-W1q_V5TyDaw",
-      "showId": "bumingbai",
-      "title": "《唯红花绽放》作者谈新书：在叙利亚打仗的维吾尔人",
-      "publishedAt": "2026-10-23",
-      "youtube": "W1q_V5TyDaw",
-      "duration": 3751
-    },
-    {
-      "id": "yt-mJKyi2jHaro",
-      "showId": "bailingguo",
-      "title": "蔡康永訪談看到哭、中國豆腐渣工程、巴西選舉左派逆轉勝",
-      "publishedAt": "2026-11-01",
-      "youtube": "mJKyi2jHaro",
-      "duration": 3352
-    },
-    {
-      "id": "yt-H4V9VioZIS8",
-      "showId": "orangetalk",
-      "title": "EP14｜贏在起跑線？透視學童精神健康",
-      "publishedAt": "2026-11-16",
-      "youtube": "H4V9VioZIS8"
-    },
-    {
-      "id": "yt-aDhUIJ1wEgo",
-      "showId": "orangetalk",
-      "title": "票尾經濟有「價」有「市」？",
-      "publishedAt": "2026-07-21",
-      "youtube": "aDhUIJ1wEgo"
-    },
-    {
-      "id": "yt-JDi364GR9tk",
-      "showId": "green-bean",
-      "title": "兩邊走走｜黃之鋒案、北都大學城與英國對中政策",
-      "publishedAt": "2026-11-07",
-      "youtube": "JDi364GR9tk"
-    },
-    {
-      "id": "yt-8Scw1lslfPc",
-      "showId": "houhousyut",
-      "title": "EP12｜廣州人眼中的香港是怎樣的？",
-      "publishedAt": "2026-10-10",
-      "youtube": "8Scw1lslfPc"
-    },
-    {
-      "id": "yt-MXFwpg9_GEU",
-      "showId": "houhousyut",
-      "title": "EP11｜廣州的粵語現狀如何？",
-      "publishedAt": "2026-09-10",
-      "youtube": "MXFwpg9_GEU"
-    },
-    {
-      "id": "yt-F-nngU5uUCc",
-      "showId": "laichieagle",
-      "title": "EP598｜玩完呢隻 Game 智力會直線下降",
-      "publishedAt": "2026-09-14",
-      "youtube": "F-nngU5uUCc"
-    },
-    {
-      "id": "green-bean-2026-11-21",
-      "showId": "green-bean",
-      "title": "EP223｜新世界發展供股、中美俄峰會、英國青年就業",
-      "publishedAt": "2026-11-21",
-      "youtube": "ZuRDSWtjc8A",
-      "duration": 2610
-    },
-    {
-      "id": "yt-vDrYywM1nUM",
-      "showId": "decoder",
-      "title": "Nilay Answers the Decoder Questions (2025 Edition)",
-      "publishedAt": "2025-12-18",
-      "youtube": "vDrYywM1nUM"
-    },
-    {
-      "id": "yt-4Unch--PmW0",
-      "showId": "diary-of-a-ceo",
-      "title": "Financial Crash Expert | Steve Eisman",
-      "publishedAt": "2026-11-23",
-      "youtube": "4Unch--PmW0"
-    },
-    {
-      "id": "yt-EV7WhVT270Q",
-      "showId": "lex-fridman",
-      "title": "State of AI in 2026 | Lex Fridman Podcast #490",
-      "publishedAt": "2026-01-31",
-      "youtube": "EV7WhVT270Q"
-    },
-    {
-      "id": "yt-hrHAk5Er8io",
-      "showId": "modern-wisdom",
-      "title": "The Strange Freedom to Be Disliked | James Blunt",
-      "publishedAt": "2026-11-16",
-      "youtube": "hrHAk5Er8io"
-    },
-    {
-      "id": "yt-zuWGsfw_P4g",
-      "showId": "rich-roll",
-      "title": "Ross Edgley: Swimming Around Iceland",
-      "publishedAt": "2026-11-16",
-      "youtube": "zuWGsfw_P4g"
-    },
-    {
-      "id": "yt-LQ4eIAxEtaA",
-      "showId": "rest-is-history",
-      "title": "1066: The Battle of Stamford Bridge",
-      "publishedAt": "2025-04-09",
-      "youtube": "LQ4eIAxEtaA"
-    },
-    {
-      "id": "yt-FhPhMErV1To",
-      "showId": "boyin",
-      "title": "EP251｜沒感覺掉髮，也可能正在慢慢禿頭 ft. 簡銘成醫師",
-      "publishedAt": "2026-11-16",
-      "youtube": "FhPhMErV1To"
-    },
-    {
-      "id": "yt-3cEnM9ZJy38",
+      "id": "yt-H7IwwClahQE",
       "showId": "drink-with-mario",
-      "title": "S8 EP186｜城市光榮感 ft. 黃世杰",
-      "publishedAt": "2026-11-13",
-      "youtube": "3cEnM9ZJy38"
-    },
-    {
-      "id": "yt-ez9sBZaVKcc",
-      "showId": "onyourpsy",
-      "title": "被討厭的勇氣：溫和而堅定的阿德勒心理學 ft. 李家雯",
-      "publishedAt": "2026-06-14",
-      "youtube": "ez9sBZaVKcc"
-    },
-    {
-      "id": "yt-2UnVeiw8QtU",
-      "showId": "roadside",
-      "title": "Coco 講最尷尬的約會",
-      "publishedAt": "2026-11",
-      "youtube": "2UnVeiw8QtU",
-      "duration": 1217
-    },
-    {
-      "id": "yt-_pLwj8r9iP8",
-      "showId": "philosophy-live",
-      "title": "文仔雪仔哲學台｜11 月 7 日",
-      "publishedAt": "2026-11-07",
-      "youtube": "_pLwj8r9iP8"
-    },
-    {
-      "id": "yt-hRtmV1mCBSE",
-      "showId": "lenny",
-      "title": "Why “Everyone’s a Builder” Isn’t Working | Sherif Mansour",
-      "publishedAt": "2026-11-22",
-      "youtube": "hRtmV1mCBSE"
-    },
-    {
-      "id": "yt-g_wMpEGgc1Q",
-      "showId": "mel",
-      "title": "This One Episode Will Motivate You to Change Your Entire Life | Gary Vee",
-      "publishedAt": "2026-09",
-      "youtube": "g_wMpEGgc1Q"
-    },
-    {
-      "id": "yt-B6RMk8mLs_8",
-      "showId": "vergecast",
-      "title": "The Week Everything Fell Apart",
-      "publishedAt": "2026-11-20",
-      "youtube": "B6RMk8mLs_8"
-    },
-    {
-      "id": "yt-mrC4CFnI0wE",
-      "showId": "waveform",
-      "title": "Instagram Wants to Be YouTube Now?",
-      "publishedAt": "2026-11-06",
-      "youtube": "mrC4CFnI0wE"
-    },
-    {
-      "id": "yt-TOsNrV3bXtQ",
-      "showId": "no-priors",
-      "title": "The 2026 AI Forecast with Sarah & Elad",
-      "publishedAt": "2025-12",
-      "youtube": "TOsNrV3bXtQ"
-    },
-    {
-      "id": "yt-rp4GxlnvujE",
-      "showId": "twit",
-      "title": "TWiT #1111 | That’s What Xi Said",
-      "publishedAt": "2026-11-22",
-      "youtube": "rp4GxlnvujE"
-    },
-    {
-      "id": "yt-d6EMk6dyrOU",
-      "showId": "acquired",
-      "title": "10 Years of Acquired (with Michael Lewis)",
-      "publishedAt": "2026",
-      "youtube": "d6EMk6dyrOU",
-      "duration": 10057
-    },
-    {
-      "id": "yt-YQV_TLAER_A",
-      "showId": "hard-fork",
-      "title": "How A.I. Agents Are Going to Transform Our Lives",
-      "publishedAt": "2026-10-02",
-      "youtube": "YQV_TLAER_A"
-    },
-    {
-      "id": "yt-eFMfunVF1og",
-      "showId": "zhixing",
-      "title": "影片播客 EP03｜對話李筱懿：我決定不再做一個「更強」的人",
-      "publishedAt": "2026-09-02",
-      "youtube": "eFMfunVF1og"
-    },
-    {
-      "id": "yt-Zq271AHFaAE",
-      "showId": "taiwan-law",
-      "title": "政治歸政治｜大人都戒不掉 AI 與短影音，要怎麼教小孩？",
-      "publishedAt": "2026-11-19",
-      "youtube": "Zq271AHFaAE"
-    },
-    {
-      "id": "yt-QOZyHyc6rVg",
-      "showId": "han-talk",
-      "title": "EP426｜沈伯洋談台北市政與選戰",
-      "publishedAt": "2026-11-14",
-      "youtube": "QOZyHyc6rVg"
-    },
-    {
-      "id": "yt-PF5qrb0bRmI",
-      "showId": "shen-talk",
-      "title": "S2 EP07｜沈春華專訪蔣萬安",
-      "publishedAt": "2026-11-03",
-      "youtube": "PF5qrb0bRmI"
-    },
-    {
-      "id": "yt-noN_qRrA0p0",
-      "showId": "spoti-talk",
-      "title": "EP56｜Alma 郭爾君：舞台與銀幕之間",
-      "publishedAt": "2026-04-22",
-      "youtube": "noN_qRrA0p0"
-    },
-    {
-      "id": "yt-67yoE6Ci7l0",
-      "showId": "do-show",
-      "title": "海外特別篇｜Bruno Mars：The Romantic Tour",
-      "publishedAt": "2026-09-03",
-      "youtube": "67yoE6Ci7l0"
-    },
-    {
-      "id": "yt-XLq6unqSNOw",
-      "showId": "hong-kong-bean",
-      "title": "EP03｜宏福苑火災悼念、土地查冊與瑪麗醫院",
-      "publishedAt": "2026-11-16",
-      "youtube": "XLq6unqSNOw"
-    },
-    {
-      "id": "yt-vg_yLwSPt_A",
-      "showId": "uson",
-      "title": "陳志雲（下集）｜與 Son 對話",
-      "publishedAt": "2026-08-25",
-      "youtube": "vg_yLwSPt_A"
-    },
-    {
-      "id": "yt-xHUjOd5J5LM",
-      "showId": "randgad",
-      "title": "第 840 集｜薩爾達時之笛、Muse AI、MacBook Pro 初體驗",
-      "publishedAt": "2026-11-02",
-      "youtube": "xHUjOd5J5LM"
-    },
-    {
-      "id": "yt-8NFgK71hVG0",
-      "showId": "cinespot",
-      "title": "《哥斯拉-0.0》影評：續集有冇新突破？",
-      "publishedAt": "2026-11",
-      "youtube": "8NFgK71hVG0"
-    },
-    {
-      "id": "yt-pijDwJt93qE",
-      "showId": "pivot",
-      "title": "Hillary Clinton on the Midterms | Pivot Live",
-      "publishedAt": "2026-11",
-      "youtube": "pijDwJt93qE",
-      "duration": 4615
-    },
-    {
-      "id": "yt-aZlaPfp_2-U",
-      "showId": "valley101",
-      "title": "E260｜黄仁勋归来之际，深聊英伟达、CoreWeave和算力信用市场",
-      "publishedAt": "2026-11-25",
-      "youtube": "aZlaPfp_2-U",
-      "duration": 5186,
-      "automatic": true
-    },
-    {
-      "id": "yt-Em6tbhj9o6A",
-      "showId": "dwarkesh",
-      "title": "The strongest objections to RSI",
-      "publishedAt": "2026-11-24",
-      "youtube": "Em6tbhj9o6A",
-      "duration": 3924,
-      "automatic": true
-    },
-    {
-      "id": "yt-LD53XAzhMa0",
-      "showId": "pivot",
-      "title": "Kara Swisher: Trump Is Trying to Save the Stock Market—and Himself",
-      "publishedAt": "2026-11-24",
-      "youtube": "LD53XAzhMa0",
-      "duration": 2011,
-      "automatic": true
-    },
-    {
-      "id": "yt-KAEAzH3Nqqs",
-      "showId": "startalk",
-      "title": "Neil’s Favorite Fun Facts: StarTalk Live! @ 92NY",
-      "publishedAt": "2026-11-24",
-      "youtube": "KAEAzH3Nqqs",
-      "duration": 3060,
-      "automatic": true
-    },
-    {
-      "id": "yt-K_nMUmGrez4",
-      "showId": "afei",
-      "title": "花蓮越爛，傅家越穩？傅崐萁光復救災，還要先分自己人？ft. 花蓮縣議長張峻、花蓮縣議員楊華美 | 斐姨所思【阿姨想知道】 EP327",
-      "publishedAt": "2026-11-24",
-      "youtube": "K_nMUmGrez4",
-      "duration": 1975,
-      "automatic": true
-    },
-    {
-      "id": "yt-3wai0RyIFTk",
-      "showId": "vergecast",
-      "title": "Jensen Huang is Donald Trump’s Special Boy | The Vergecast",
-      "publishedAt": "2026-11-24",
-      "youtube": "3wai0RyIFTk",
-      "duration": 2292,
-      "automatic": true
-    },
-    {
-      "id": "yt-HyQrNGvW4G0",
-      "showId": "hard-fork",
-      "title": "Why Trump Put Jensen Huang Back in Charge at Nvidia | Hard Fork",
-      "publishedAt": "2026-11-24",
-      "youtube": "HyQrNGvW4G0",
-      "duration": 1552,
-      "automatic": true
-    },
-    {
-      "id": "yt-Pv_CfUQs1FY",
-      "showId": "uson",
-      "title": "與Son對話 | 肥姨姨（上集） | 放棄護士之路！由港大護理系走到人氣KOL，與Son姐爆笑交鋒 | 張慧敏 | 職場慧眼 | 中文字幕",
-      "publishedAt": "2026-11-24",
-      "youtube": "Pv_CfUQs1FY",
-      "duration": 3911,
+      "title": "管理通靈信箱｜EP144｜下屬比我更強，身為主管的我該如何自處？",
+      "publishedAt": "2026-11-23",
+      "youtube": "H7IwwClahQE",
+      "duration": 1525,
       "automatic": true
     },
     {
@@ -543,6 +225,22 @@
       "automatic": true
     },
     {
+      "id": "yt-m3ezi7ZnT_0",
+      "showId": "conan",
+      "title": "Eric Idle (Full Episode)",
+      "publishedAt": "2026-11-23",
+      "youtube": "m3ezi7ZnT_0"
+    },
+    {
+      "id": "yt-TftmdYVKAck",
+      "showId": "drink-with-mario",
+      "title": "下屬比我更強，身為主管的我該如何自處？｜EP144｜管理通靈信箱",
+      "publishedAt": "2026-11-23",
+      "youtube": "TftmdYVKAck",
+      "duration": 1518,
+      "automatic": true
+    },
+    {
       "id": "yt-VRTTdp4Tc-Y",
       "showId": "rich-roll",
       "title": "THE INSANITY BEHIND THE FASTEST MILE IN HISTORY",
@@ -552,21 +250,21 @@
       "automatic": true
     },
     {
-      "id": "yt-1DM0e39fr04",
-      "showId": "decoder",
-      "title": "How one router caused the worst ground stop since 9/11",
-      "publishedAt": "2026-11-23",
-      "youtube": "1DM0e39fr04",
-      "duration": 2546,
-      "automatic": true
-    },
-    {
       "id": "yt-xNDm-XSV-D8",
       "showId": "pivot",
       "title": "Jensen Huang Returns to Nvidia. Kara Swisher Calls It “A Sick Oligarchic Takeover”",
       "publishedAt": "2026-11-23",
       "youtube": "xNDm-XSV-D8",
       "duration": 1704,
+      "automatic": true
+    },
+    {
+      "id": "yt-XVMwJugkiCc",
+      "showId": "laichieagle",
+      "title": "優雅地刷牙追車拍八達通：日常生活都在表演 ft. 總監大人 Joseph｜EP616｜勵志鷹laichieagle",
+      "publishedAt": "2026-11-23",
+      "youtube": "XVMwJugkiCc",
+      "duration": 3017,
       "automatic": true
     },
     {
@@ -588,58 +286,21 @@
       "automatic": true
     },
     {
-      "id": "yt-9vNUWuHG6Hs",
-      "showId": "boyin",
-      "title": "【#博音】EP252｜選擇媒體只是在選自己想聽的話  ft. 許文宜教授",
+      "id": "yt-ZtlAUdsq57A",
+      "showId": "afei",
+      "title": "EP326｜人口不減反增，桃園做對了什麼？ ft. 張善政",
       "publishedAt": "2026-11-23",
-      "youtube": "9vNUWuHG6Hs",
-      "duration": 3200,
-      "automatic": true
-    },
-    {
-      "id": "yt-TftmdYVKAck",
-      "showId": "drink-with-mario",
-      "title": "下屬比我更強，身為主管的我該如何自處？｜EP144｜管理通靈信箱",
-      "publishedAt": "2026-11-23",
-      "youtube": "TftmdYVKAck",
-      "duration": 1518,
-      "automatic": true
-    },
-    {
-      "id": "yt-H7IwwClahQE",
-      "showId": "drink-with-mario",
-      "title": "管理通靈信箱｜EP144｜下屬比我更強，身為主管的我該如何自處？",
-      "publishedAt": "2026-11-23",
-      "youtube": "H7IwwClahQE",
-      "duration": 1525,
-      "automatic": true
-    },
-    {
-      "id": "yt-XVMwJugkiCc",
-      "showId": "laichieagle",
-      "title": "優雅地刷牙追車拍八達通：日常生活都在表演 ft. 總監大人 Joseph｜EP616｜勵志鷹laichieagle",
-      "publishedAt": "2026-11-23",
-      "youtube": "XVMwJugkiCc",
-      "duration": 3017,
-      "automatic": true
-    },
-    {
-      "id": "yt-Anlh9h-W7H0",
-      "showId": "mel",
-      "title": "It Took Me 58 Years to Realize What I’ll Tell You in 48 Minutes",
-      "publishedAt": "2026-11-23",
-      "youtube": "Anlh9h-W7H0",
-      "duration": 2937,
-      "automatic": true
-    },
-    {
-      "id": "yt-4t1P7ED10OE",
-      "showId": "vergecast",
-      "title": "Mike Schur has five minutes to get your attention | The Vergecast",
-      "publishedAt": "2026-11-23",
-      "youtube": "4t1P7ED10OE",
-      "duration": 2441,
-      "automatic": true
+      "youtube": "ZtlAUdsq57A",
+      "chapters": [
+        [
+          55,
+          "桃園人口"
+        ],
+        [
+          443,
+          "人口增長"
+        ]
+      ]
     },
     {
       "id": "yt-h4V4zhEO3hI",
@@ -651,22 +312,26 @@
       "automatic": true
     },
     {
-      "id": "yt-zoGoRBYKQrg",
-      "showId": "modern-wisdom",
-      "title": "The Perfect Storm Reshaping The Global Economy - Steve Keen (4K)",
-      "publishedAt": "2026-11-21",
-      "youtube": "zoGoRBYKQrg",
-      "duration": 5375,
-      "automatic": true
+      "id": "yt-hRtmV1mCBSE",
+      "showId": "lenny",
+      "title": "Why “Everyone’s a Builder” Isn’t Working | Sherif Mansour",
+      "publishedAt": "2026-11-22",
+      "youtube": "hRtmV1mCBSE"
     },
     {
-      "id": "yt-yTR5sD5KwD4",
-      "showId": "decoder",
-      "title": "Jensen Huang’s fall makes Anthropic’s IPO look even stranger",
+      "id": "yt-rp4GxlnvujE",
+      "showId": "twit",
+      "title": "TWiT #1111 | That’s What Xi Said",
+      "publishedAt": "2026-11-22",
+      "youtube": "rp4GxlnvujE"
+    },
+    {
+      "id": "green-bean-2026-11-21",
+      "showId": "green-bean",
+      "title": "EP223｜新世界發展供股、中美俄峰會、英國青年就業",
       "publishedAt": "2026-11-21",
-      "youtube": "yTR5sD5KwD4",
-      "duration": 2151,
-      "automatic": true
+      "youtube": "ZuRDSWtjc8A",
+      "duration": 2610
     },
     {
       "id": "yt-IeKj3a6tNs4",
@@ -684,6 +349,58 @@
       "publishedAt": "2026-11-21",
       "youtube": "Xc_mWstSM6U",
       "duration": 2431,
+      "automatic": true
+    },
+    {
+      "id": "yt-yTR5sD5KwD4",
+      "showId": "decoder",
+      "title": "Jensen Huang’s fall makes Anthropic’s IPO look even stranger",
+      "publishedAt": "2026-11-21",
+      "youtube": "yTR5sD5KwD4",
+      "duration": 2151,
+      "automatic": true
+    },
+    {
+      "id": "yt-zoGoRBYKQrg",
+      "showId": "modern-wisdom",
+      "title": "The Perfect Storm Reshaping The Global Economy - Steve Keen (4K)",
+      "publishedAt": "2026-11-21",
+      "youtube": "zoGoRBYKQrg",
+      "duration": 5375,
+      "automatic": true
+    },
+    {
+      "id": "yt-0HdrplAYXOM",
+      "showId": "waveform",
+      "title": "You Can Now Order a Cybercab***",
+      "publishedAt": "2026-11-20",
+      "youtube": "0HdrplAYXOM",
+      "duration": 5211,
+      "automatic": true
+    },
+    {
+      "id": "yt-B6RMk8mLs_8",
+      "showId": "vergecast",
+      "title": "The Week Everything Fell Apart",
+      "publishedAt": "2026-11-20",
+      "youtube": "B6RMk8mLs_8"
+    },
+    {
+      "id": "yt-BmQScpXgytU",
+      "showId": "uson",
+      "title": "與Son對話 | 鄭麗莎 | 從攀石冠軍到三項鐵人！四孩媽媽如何兼顧家庭、事業與夢想？ | 由演戲到舞臺劇之路 | 張慧敏 | 職場慧眼 | 中文字幕",
+      "publishedAt": "2026-11-20",
+      "youtube": "BmQScpXgytU",
+      "duration": 4053,
+      "automatic": true
+    },
+    {
+      "id": "yt-CaAKSCQiIrE",
+      "showId": "hard-fork",
+      "title": "Is Grand Theft Auto VI the Last Human Video Game? | Hard Fork",
+      "publishedAt": "2026-11-20",
+      "youtube": "CaAKSCQiIrE",
+      "duration": 3840,
       "automatic": true
     },
     {
@@ -705,66 +422,12 @@
       "automatic": true
     },
     {
-      "id": "yt-0HdrplAYXOM",
-      "showId": "waveform",
-      "title": "You Can Now Order a Cybercab***",
-      "publishedAt": "2026-11-20",
-      "youtube": "0HdrplAYXOM",
-      "duration": 5211,
-      "automatic": true
-    },
-    {
-      "id": "yt-CaAKSCQiIrE",
-      "showId": "hard-fork",
-      "title": "Is Grand Theft Auto VI the Last Human Video Game? | Hard Fork",
-      "publishedAt": "2026-11-20",
-      "youtube": "CaAKSCQiIrE",
-      "duration": 3840,
-      "automatic": true
-    },
-    {
-      "id": "yt-BmQScpXgytU",
-      "showId": "uson",
-      "title": "與Son對話 | 鄭麗莎 | 從攀石冠軍到三項鐵人！四孩媽媽如何兼顧家庭、事業與夢想？ | 由演戲到舞臺劇之路 | 張慧敏 | 職場慧眼 | 中文字幕",
-      "publishedAt": "2026-11-20",
-      "youtube": "BmQScpXgytU",
-      "duration": 4053,
-      "automatic": true
-    },
-    {
-      "id": "yt-eocM1C3HfQg",
-      "showId": "diary-of-a-ceo",
-      "title": "Senator Bernie Sanders: Iran Wasn't Trump's Idea. Someone Else Pushed Him Into It!",
-      "publishedAt": "2026-11-19",
-      "youtube": "eocM1C3HfQg",
-      "duration": 5373,
-      "automatic": true
-    },
-    {
       "id": "yt-8YHTMsy0bT8",
       "showId": "huberman-lab",
       "title": "Essentials: Nicotine's Effects on the Brain & Body & How to Quit Smoking or Vaping",
       "publishedAt": "2026-11-19",
       "youtube": "8YHTMsy0bT8",
       "duration": 2147,
-      "automatic": true
-    },
-    {
-      "id": "yt-v1X9Fqs5a14",
-      "showId": "lex-fridman",
-      "title": "GTA 6, Crime, Heists, Mafia, Gangs, Prison, Corrupt Cops, Miami & Money | Lex Fridman Podcast #505",
-      "publishedAt": "2026-11-19",
-      "youtube": "v1X9Fqs5a14",
-      "duration": 12074,
-      "automatic": true
-    },
-    {
-      "id": "yt-qipZy90Mz6U",
-      "showId": "decoder",
-      "title": "Why tech billionaires don’t get politics (w/Crooked Media’s Jon Favreau)",
-      "publishedAt": "2026-11-19",
-      "youtube": "qipZy90Mz6U",
-      "duration": 3891,
       "automatic": true
     },
     {
@@ -777,12 +440,12 @@
       "automatic": true
     },
     {
-      "id": "yt-ssrgKizYMJo",
-      "showId": "onyourpsy",
-      "title": "賺錢不是拼命工作，而是留下時間讓自己增值。從家境不好到為錢執著：真正有錢、有閒、好健康、好關係的富足人生｜哇賽心觀點（ft.郝旭烈）",
+      "id": "yt-eocM1C3HfQg",
+      "showId": "diary-of-a-ceo",
+      "title": "Senator Bernie Sanders: Iran Wasn't Trump's Idea. Someone Else Pushed Him Into It!",
       "publishedAt": "2026-11-19",
-      "youtube": "ssrgKizYMJo",
-      "duration": 2493,
+      "youtube": "eocM1C3HfQg",
+      "duration": 5373,
       "automatic": true
     },
     {
@@ -793,6 +456,40 @@
       "youtube": "PBUMOJ3M0DQ",
       "duration": 3745,
       "automatic": true
+    },
+    {
+      "id": "yt-qipZy90Mz6U",
+      "showId": "decoder",
+      "title": "Why tech billionaires don’t get politics (w/Crooked Media’s Jon Favreau)",
+      "publishedAt": "2026-11-19",
+      "youtube": "qipZy90Mz6U",
+      "duration": 3891,
+      "automatic": true
+    },
+    {
+      "id": "yt-ssrgKizYMJo",
+      "showId": "onyourpsy",
+      "title": "賺錢不是拼命工作，而是留下時間讓自己增值。從家境不好到為錢執著：真正有錢、有閒、好健康、好關係的富足人生｜哇賽心觀點（ft.郝旭烈）",
+      "publishedAt": "2026-11-19",
+      "youtube": "ssrgKizYMJo",
+      "duration": 2493,
+      "automatic": true
+    },
+    {
+      "id": "yt-v1X9Fqs5a14",
+      "showId": "lex-fridman",
+      "title": "GTA 6, Crime, Prison Gangs, Jewel Heists, Miami, Corrupt Cops & Money | Lex Fridman Podcast #505",
+      "publishedAt": "2026-11-19",
+      "youtube": "v1X9Fqs5a14",
+      "duration": 12074,
+      "automatic": true
+    },
+    {
+      "id": "yt-Zq271AHFaAE",
+      "showId": "taiwan-law",
+      "title": "政治歸政治｜大人都戒不掉 AI 與短影音，要怎麼教小孩？",
+      "publishedAt": "2026-11-19",
+      "youtube": "Zq271AHFaAE"
     },
     {
       "id": "yt-s-5JwMXaoC8",
@@ -813,15 +510,6 @@
       "automatic": true
     },
     {
-      "id": "yt-Y2_Fiiy_m9Y",
-      "showId": "taiwan-law",
-      "title": "【民調封關前大預測】沈伯洋、蘇巧慧能翻轉雙北嗎？綠營有辦法扭轉2022年的劣勢嗎？民調領先就真的會選贏嗎？｜法客電台 Video Podcast EP115",
-      "publishedAt": "2026-11-17",
-      "youtube": "Y2_Fiiy_m9Y",
-      "duration": 2596,
-      "automatic": true
-    },
-    {
       "id": "yt-10ZOp2q7HmU",
       "showId": "uson",
       "title": "與Son對話 | 邵美君 | 風車草、婚姻與人生的真實告白 | 張慧敏 | 職場慧眼 | 中文字幕",
@@ -831,39 +519,43 @@
       "automatic": true
     },
     {
-      "id": "yt-1mDHHi398ig",
-      "showId": "diary-of-a-ceo",
-      "title": "Russian Sex Spy: I Was Trained To Control A Man's Mind With Sex! | John Kiriakou & Aliia Roza",
-      "publishedAt": "2026-11-16",
-      "youtube": "1mDHHi398ig",
-      "duration": 7452,
+      "id": "yt-HDoPPFsVHmw",
+      "showId": "startalk",
+      "title": "Neil & Jordan Confront Conspiracies | Cosmic Queries #116",
+      "publishedAt": "2026-11-17",
+      "youtube": "HDoPPFsVHmw"
+    },
+    {
+      "id": "yt-TdNGZoBqsGY",
+      "showId": "drinking-library",
+      "title": "EP150｜萬惡的建商？ ft. 葉曉甄",
+      "publishedAt": "2026-11-17",
+      "youtube": "TdNGZoBqsGY",
+      "duration": 4553
+    },
+    {
+      "id": "yt-Y2_Fiiy_m9Y",
+      "showId": "taiwan-law",
+      "title": "【民調封關前大預測】沈伯洋、蘇巧慧能翻轉雙北嗎？綠營有辦法扭轉2022年的劣勢嗎？民調領先就真的會選贏嗎？｜法客電台 Video Podcast EP115",
+      "publishedAt": "2026-11-17",
+      "youtube": "Y2_Fiiy_m9Y",
+      "duration": 2596,
       "automatic": true
     },
     {
-      "id": "yt-SyHM5hNPAEo",
-      "showId": "dwarkesh",
-      "title": "AIs might overthrow the government within a year – Paul Christiano",
+      "id": "yt-_2cYwwCO7qM",
+      "showId": "afei",
+      "title": "EP325｜嘉義抓住世界潮流開始起飛？ ft. 翁章梁",
       "publishedAt": "2026-11-16",
-      "youtube": "SyHM5hNPAEo",
-      "duration": 5926,
-      "automatic": true
+      "youtube": "_2cYwwCO7qM"
     },
     {
-      "id": "yt-Y1OJSB6k6yQ",
-      "showId": "rest-is-history",
-      "title": "The Battle of Alma: A Masterclass in Winning Incompetently",
+      "id": "yt-_XHcycCTjE8",
+      "showId": "randgad",
+      "title": "亂gad 第841集 ~ 黃仁勳辭去 NVIDIA CEO / Tesla Cybercab 開賣月費 US$299 / Starship Flight 15 仲飛緊",
       "publishedAt": "2026-11-16",
-      "youtube": "Y1OJSB6k6yQ",
-      "duration": 3904,
-      "automatic": true
-    },
-    {
-      "id": "yt-Fq9NmNyK1b4",
-      "showId": "onyourpsy",
-      "title": "我這樣算精神出軌嗎？頻繁和同事聊天，伴侶經過忍不住想藏。ARE理論檢視關係，如何坦白誠實溝通｜哇賽療心室（ft.林紀宇心理師）",
-      "publishedAt": "2026-11-16",
-      "youtube": "Fq9NmNyK1b4",
-      "duration": 1757,
+      "youtube": "_XHcycCTjE8",
+      "duration": 6660,
       "automatic": true
     },
     {
@@ -876,13 +568,20 @@
       "automatic": true
     },
     {
-      "id": "yt-_XHcycCTjE8",
-      "showId": "randgad",
-      "title": "亂gad 第841集 ~ 黃仁勳辭去 NVIDIA CEO / Tesla Cybercab 開賣月費 US$299 / Starship Flight 15 仲飛緊",
+      "id": "yt-1mDHHi398ig",
+      "showId": "diary-of-a-ceo",
+      "title": "Russian Sex Spy: I Was Trained To Control A Man's Mind With Sex! | John Kiriakou & Aliia Roza",
       "publishedAt": "2026-11-16",
-      "youtube": "_XHcycCTjE8",
-      "duration": 6660,
+      "youtube": "1mDHHi398ig",
+      "duration": 7452,
       "automatic": true
+    },
+    {
+      "id": "yt-7mEK5wZHpto",
+      "showId": "huberman-lab",
+      "title": "Mushrooms for the Mind & Immune System | Paul Stamets",
+      "publishedAt": "2026-11-16",
+      "youtube": "7mEK5wZHpto"
     },
     {
       "id": "yt-aXJZ8oXtu1s",
@@ -894,6 +593,52 @@
       "automatic": true
     },
     {
+      "id": "yt-bzFbtAt_wiQ",
+      "showId": "conan",
+      "title": "Adam Brody (Full Episode)",
+      "publishedAt": "2026-11-16",
+      "youtube": "bzFbtAt_wiQ"
+    },
+    {
+      "id": "yt-FhPhMErV1To",
+      "showId": "boyin",
+      "title": "EP251｜沒感覺掉髮，也可能正在慢慢禿頭 ft. 簡銘成醫師",
+      "publishedAt": "2026-11-16",
+      "youtube": "FhPhMErV1To"
+    },
+    {
+      "id": "yt-Fq9NmNyK1b4",
+      "showId": "onyourpsy",
+      "title": "我這樣算精神出軌嗎？頻繁和同事聊天，伴侶經過忍不住想藏。ARE理論檢視關係，如何坦白誠實溝通｜哇賽療心室（ft.林紀宇心理師）",
+      "publishedAt": "2026-11-16",
+      "youtube": "Fq9NmNyK1b4",
+      "duration": 1757,
+      "automatic": true
+    },
+    {
+      "id": "yt-H4V9VioZIS8",
+      "showId": "orangetalk",
+      "title": "EP14｜贏在起跑線？透視學童精神健康",
+      "publishedAt": "2026-11-16",
+      "youtube": "H4V9VioZIS8"
+    },
+    {
+      "id": "yt-hrHAk5Er8io",
+      "showId": "modern-wisdom",
+      "title": "The Strange Freedom to Be Disliked | James Blunt",
+      "publishedAt": "2026-11-16",
+      "youtube": "hrHAk5Er8io"
+    },
+    {
+      "id": "yt-SyHM5hNPAEo",
+      "showId": "dwarkesh",
+      "title": "AIs might overthrow the government within a year – Paul Christiano",
+      "publishedAt": "2026-11-16",
+      "youtube": "SyHM5hNPAEo",
+      "duration": 5926,
+      "automatic": true
+    },
+    {
       "id": "yt-vDLiQYoEnIU",
       "showId": "taiwan-law",
       "title": "政治歸政治 #230｜來看看非六都的候選人怎麼説 ft. 媽媽氣候行動聯盟秘書長 黃品涵",
@@ -901,6 +646,29 @@
       "youtube": "vDLiQYoEnIU",
       "duration": 3586,
       "automatic": true
+    },
+    {
+      "id": "yt-XLq6unqSNOw",
+      "showId": "hong-kong-bean",
+      "title": "EP03｜宏福苑火災悼念、土地查冊與瑪麗醫院",
+      "publishedAt": "2026-11-16",
+      "youtube": "XLq6unqSNOw"
+    },
+    {
+      "id": "yt-Y1OJSB6k6yQ",
+      "showId": "rest-is-history",
+      "title": "The Battle of Alma: A Masterclass in Winning Incompetently",
+      "publishedAt": "2026-11-16",
+      "youtube": "Y1OJSB6k6yQ",
+      "duration": 3904,
+      "automatic": true
+    },
+    {
+      "id": "yt-zuWGsfw_P4g",
+      "showId": "rich-roll",
+      "title": "Ross Edgley: Swimming Around Iceland",
+      "publishedAt": "2026-11-16",
+      "youtube": "zuWGsfw_P4g"
     },
     {
       "id": "yt-WGHv_mVcaDY",
@@ -921,6 +689,13 @@
       "automatic": true
     },
     {
+      "id": "yt-QOZyHyc6rVg",
+      "showId": "han-talk",
+      "title": "EP426｜沈伯洋談台北市政與選戰",
+      "publishedAt": "2026-11-14",
+      "youtube": "QOZyHyc6rVg"
+    },
+    {
       "id": "yt-1NHPDzpfR6Y",
       "showId": "dwarkesh",
       "title": "Recursive self-improvement has started",
@@ -930,21 +705,19 @@
       "automatic": true
     },
     {
+      "id": "yt-3cEnM9ZJy38",
+      "showId": "drink-with-mario",
+      "title": "S8 EP186｜城市光榮感 ft. 黃世杰",
+      "publishedAt": "2026-11-13",
+      "youtube": "3cEnM9ZJy38"
+    },
+    {
       "id": "yt-Fbb5gX2CvoM",
       "showId": "waveform",
       "title": "Cybertruck Ending Production Next Year!",
       "publishedAt": "2026-11-13",
       "youtube": "Fbb5gX2CvoM",
       "duration": 5952,
-      "automatic": true
-    },
-    {
-      "id": "yt-FRoQOzZRcpw",
-      "showId": "diary-of-a-ceo",
-      "title": "The Brain Doctor That Figured Out The Cause Of Dementia - Dr. David Perlmutter",
-      "publishedAt": "2026-11-12",
-      "youtube": "FRoQOzZRcpw",
-      "duration": 6946,
       "automatic": true
     },
     {
@@ -957,12 +730,12 @@
       "automatic": true
     },
     {
-      "id": "yt-q09BfKja-iM",
-      "showId": "onyourpsy",
-      "title": "不怕3C育兒，只怕父母人在心不在。使用的界線在哪裡？如何強化陪伴？懂得接納不完美的《真人養育》｜哇賽讀心書",
+      "id": "yt-FRoQOzZRcpw",
+      "showId": "diary-of-a-ceo",
+      "title": "The Brain Doctor That Figured Out The Cause Of Dementia - Dr. David Perlmutter",
       "publishedAt": "2026-11-12",
-      "youtube": "q09BfKja-iM",
-      "duration": 1462,
+      "youtube": "FRoQOzZRcpw",
+      "duration": 6946,
       "automatic": true
     },
     {
@@ -972,6 +745,15 @@
       "publishedAt": "2026-11-12",
       "youtube": "IiKf3BgBezE",
       "duration": 2356,
+      "automatic": true
+    },
+    {
+      "id": "yt-q09BfKja-iM",
+      "showId": "onyourpsy",
+      "title": "不怕3C育兒，只怕父母人在心不在。使用的界線在哪裡？如何強化陪伴？懂得接納不完美的《真人養育》｜哇賽讀心書",
+      "publishedAt": "2026-11-12",
+      "youtube": "q09BfKja-iM",
+      "duration": 1462,
       "automatic": true
     },
     {
@@ -1011,48 +793,12 @@
       "automatic": true
     },
     {
-      "id": "yt-wbJ_Q1xsDHg",
-      "showId": "huberman-lab",
-      "title": "Overcome Addictions and Obsessions of All Kinds | Dr. Anna Lembke",
-      "publishedAt": "2026-11-09",
-      "youtube": "wbJ_Q1xsDHg",
-      "duration": 8211,
-      "automatic": true
-    },
-    {
-      "id": "yt-G7wWt-tBI1o",
-      "showId": "rich-roll",
-      "title": "Adam Grant Knows Why You Don't Vibe With Everyone (& How To Fix It)",
-      "publishedAt": "2026-11-09",
-      "youtube": "G7wWt-tBI1o",
-      "duration": 5173,
-      "automatic": true
-    },
-    {
       "id": "yt-3K7IWJAnOE8",
       "showId": "valley101",
       "title": "E258｜聊聊硅谷创业“修道院”HF0与OpenRouter早期故事",
       "publishedAt": "2026-11-09",
       "youtube": "3K7IWJAnOE8",
       "duration": 3260,
-      "automatic": true
-    },
-    {
-      "id": "yt-FM0qHwKhCqM",
-      "showId": "boyin",
-      "title": "【#博音】EP250｜少了你也會發生，就代表你沒有責任嗎？ ft. 王一奇教授、王鵬翔研究員",
-      "publishedAt": "2026-11-09",
-      "youtube": "FM0qHwKhCqM",
-      "duration": 3490,
-      "automatic": true
-    },
-    {
-      "id": "yt-KmuBMrWLIlU",
-      "showId": "randgad",
-      "title": "亂gad 第840集 ~ 薩爾達時之笛登場 / Muse AI / MacBook Pro 初體驗",
-      "publishedAt": "2026-11-09",
-      "youtube": "KmuBMrWLIlU",
-      "duration": 4822,
       "automatic": true
     },
     {
@@ -1065,12 +811,39 @@
       "automatic": true
     },
     {
-      "id": "yt-Y1Sd5ow2q48",
-      "showId": "bailingguo",
-      "title": "百靈果NEWS｜德州靠聖經故事翻盤，馬斯克花150億還選輸，美國選舉奧步：找對手媽媽拍廣告抹黑女兒",
-      "publishedAt": "2026-11-08",
-      "youtube": "Y1Sd5ow2q48",
-      "duration": 2279,
+      "id": "yt-FM0qHwKhCqM",
+      "showId": "boyin",
+      "title": "【#博音】EP250｜少了你也會發生，就代表你沒有責任嗎？ ft. 王一奇教授、王鵬翔研究員",
+      "publishedAt": "2026-11-09",
+      "youtube": "FM0qHwKhCqM",
+      "duration": 3490,
+      "automatic": true
+    },
+    {
+      "id": "yt-G7wWt-tBI1o",
+      "showId": "rich-roll",
+      "title": "Adam Grant Knows Why You Don't Vibe With Everyone (& How To Fix It)",
+      "publishedAt": "2026-11-09",
+      "youtube": "G7wWt-tBI1o",
+      "duration": 5173,
+      "automatic": true
+    },
+    {
+      "id": "yt-KmuBMrWLIlU",
+      "showId": "randgad",
+      "title": "亂gad 第840集 ~ 薩爾達時之笛登場 / Muse AI / MacBook Pro 初體驗",
+      "publishedAt": "2026-11-09",
+      "youtube": "KmuBMrWLIlU",
+      "duration": 4822,
+      "automatic": true
+    },
+    {
+      "id": "yt-wbJ_Q1xsDHg",
+      "showId": "huberman-lab",
+      "title": "Overcome Addictions and Obsessions of All Kinds | Dr. Anna Lembke",
+      "publishedAt": "2026-11-09",
+      "youtube": "wbJ_Q1xsDHg",
+      "duration": 8211,
       "automatic": true
     },
     {
@@ -1081,6 +854,36 @@
       "youtube": "qGf2Yvan4Wg",
       "duration": 3513,
       "automatic": true
+    },
+    {
+      "id": "yt-Y1Sd5ow2q48",
+      "showId": "bailingguo",
+      "title": "百靈果NEWS｜德州靠聖經故事翻盤，馬斯克花150億還選輸，美國選舉奧步：找對手媽媽拍廣告抹黑女兒",
+      "publishedAt": "2026-11-08",
+      "youtube": "Y1Sd5ow2q48",
+      "duration": 2279,
+      "automatic": true
+    },
+    {
+      "id": "yt-_pLwj8r9iP8",
+      "showId": "philosophy-live",
+      "title": "文仔雪仔哲學台｜11 月 7 日",
+      "publishedAt": "2026-11-07",
+      "youtube": "_pLwj8r9iP8"
+    },
+    {
+      "id": "yt-JDi364GR9tk",
+      "showId": "green-bean",
+      "title": "兩邊走走｜黃之鋒案、北都大學城與英國對中政策",
+      "publishedAt": "2026-11-07",
+      "youtube": "JDi364GR9tk"
+    },
+    {
+      "id": "yt-mrC4CFnI0wE",
+      "showId": "waveform",
+      "title": "Instagram Wants to Be YouTube Now?",
+      "publishedAt": "2026-11-06",
+      "youtube": "mrC4CFnI0wE"
     },
     {
       "id": "yt-Y1yFz1DytDo",
@@ -1101,13 +904,11 @@
       "automatic": true
     },
     {
-      "id": "yt-zqSJp0O4Lv8",
-      "showId": "boyin",
-      "title": "【#博音】EP249｜內耗跟癌症有關，是科學還是玄學？ ft. 蔡松彥院長",
-      "publishedAt": "2026-11-02",
-      "youtube": "zqSJp0O4Lv8",
-      "duration": 2493,
-      "automatic": true
+      "id": "yt-PF5qrb0bRmI",
+      "showId": "shen-talk",
+      "title": "S2 EP07｜沈春華專訪蔣萬安",
+      "publishedAt": "2026-11-03",
+      "youtube": "PF5qrb0bRmI"
     },
     {
       "id": "yt-CUv64b98wN0",
@@ -1116,6 +917,29 @@
       "publishedAt": "2026-11-02",
       "youtube": "CUv64b98wN0",
       "duration": 9847,
+      "automatic": true
+    },
+    {
+      "id": "yt-rNpJ_m8xJtY",
+      "showId": "conan",
+      "title": "Olivia Colman (Full Episode)",
+      "publishedAt": "2026-11-02",
+      "youtube": "rNpJ_m8xJtY"
+    },
+    {
+      "id": "yt-xHUjOd5J5LM",
+      "showId": "randgad",
+      "title": "第 840 集｜薩爾達時之笛、Muse AI、MacBook Pro 初體驗",
+      "publishedAt": "2026-11-02",
+      "youtube": "xHUjOd5J5LM"
+    },
+    {
+      "id": "yt-zqSJp0O4Lv8",
+      "showId": "boyin",
+      "title": "【#博音】EP249｜內耗跟癌症有關，是科學還是玄學？ ft. 蔡松彥院長",
+      "publishedAt": "2026-11-02",
+      "youtube": "zqSJp0O4Lv8",
+      "duration": 2493,
       "automatic": true
     },
     {
@@ -1135,6 +959,37 @@
       "youtube": "KzS5Qs7vSMg",
       "duration": 5267,
       "automatic": true
+    },
+    {
+      "id": "yt-mJKyi2jHaro",
+      "showId": "bailingguo",
+      "title": "蔡康永訪談看到哭、中國豆腐渣工程、巴西選舉左派逆轉勝",
+      "publishedAt": "2026-11-01",
+      "youtube": "mJKyi2jHaro",
+      "duration": 3352
+    },
+    {
+      "id": "yt-2UnVeiw8QtU",
+      "showId": "roadside",
+      "title": "Coco 講最尷尬的約會",
+      "publishedAt": "2026-11",
+      "youtube": "2UnVeiw8QtU",
+      "duration": 1217
+    },
+    {
+      "id": "yt-8NFgK71hVG0",
+      "showId": "cinespot",
+      "title": "《哥斯拉-0.0》影評：續集有冇新突破？",
+      "publishedAt": "2026-11",
+      "youtube": "8NFgK71hVG0"
+    },
+    {
+      "id": "yt-pijDwJt93qE",
+      "showId": "pivot",
+      "title": "Hillary Clinton on the Midterms | Pivot Live",
+      "publishedAt": "2026-11",
+      "youtube": "pijDwJt93qE",
+      "duration": 4615
     },
     {
       "id": "yt-HVtYS3Ydn4A",
@@ -1173,12 +1028,4640 @@
       "automatic": true
     },
     {
+      "id": "yt-W1q_V5TyDaw",
+      "showId": "bumingbai",
+      "title": "《唯红花绽放》作者谈新书：在叙利亚打仗的维吾尔人",
+      "publishedAt": "2026-10-23",
+      "youtube": "W1q_V5TyDaw",
+      "duration": 3751
+    },
+    {
       "id": "yt-p94JXukJ3QQ",
       "showId": "drinking-library",
       "title": "EP149 想要量產快樂的男人｜蔡英傑",
       "publishedAt": "2026-10-21",
       "youtube": "p94JXukJ3QQ",
       "duration": 2805,
+      "automatic": true
+    },
+    {
+      "id": "yt-G2P3S-4Dmkw",
+      "showId": "drinking-library",
+      "title": "EP148｜那個被國民黨訓練出來的男人 ft. 沈伯洋",
+      "publishedAt": "2026-10-12",
+      "youtube": "G2P3S-4Dmkw",
+      "duration": 5450
+    },
+    {
+      "id": "yt-8Scw1lslfPc",
+      "showId": "houhousyut",
+      "title": "EP12｜廣州人眼中的香港是怎樣的？",
+      "publishedAt": "2026-10-10",
+      "youtube": "8Scw1lslfPc"
+    },
+    {
+      "id": "yt-YQV_TLAER_A",
+      "showId": "hard-fork",
+      "title": "How A.I. Agents Are Going to Transform Our Lives",
+      "publishedAt": "2026-10-02",
+      "youtube": "YQV_TLAER_A"
+    },
+    {
+      "id": "yt-s7d2d8FhevU",
+      "showId": "lex-fridman",
+      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
+      "publishedAt": "2026-09-17",
+      "youtube": "s7d2d8FhevU",
+      "duration": 13016,
+      "automatic": true
+    },
+    {
+      "id": "yt-F-nngU5uUCc",
+      "showId": "laichieagle",
+      "title": "EP598｜玩完呢隻 Game 智力會直線下降",
+      "publishedAt": "2026-09-14",
+      "youtube": "F-nngU5uUCc"
+    },
+    {
+      "id": "yt-MXFwpg9_GEU",
+      "showId": "houhousyut",
+      "title": "EP11｜廣州的粵語現狀如何？",
+      "publishedAt": "2026-09-10",
+      "youtube": "MXFwpg9_GEU"
+    },
+    {
+      "id": "yt-67yoE6Ci7l0",
+      "showId": "do-show",
+      "title": "海外特別篇｜Bruno Mars：The Romantic Tour",
+      "publishedAt": "2026-09-03",
+      "youtube": "67yoE6Ci7l0"
+    },
+    {
+      "id": "yt-eFMfunVF1og",
+      "showId": "zhixing",
+      "title": "影片播客 EP03｜對話李筱懿：我決定不再做一個「更強」的人",
+      "publishedAt": "2026-09-02",
+      "youtube": "eFMfunVF1og"
+    },
+    {
+      "id": "yt-g_wMpEGgc1Q",
+      "showId": "mel",
+      "title": "This One Episode Will Motivate You to Change Your Entire Life | Gary Vee",
+      "publishedAt": "2026-09",
+      "youtube": "g_wMpEGgc1Q"
+    },
+    {
+      "id": "yt-NYFGCESmikA",
+      "showId": "lex-fridman",
+      "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
+      "publishedAt": "2026-08-26",
+      "youtube": "NYFGCESmikA",
+      "duration": 18951,
+      "automatic": true
+    },
+    {
+      "id": "yt-aV26V1UvkJw",
+      "showId": "dwarkesh",
+      "title": "Dylan Patel: Two Labs Will Soon Control Most of the World’s Workforce",
+      "publishedAt": "2026-08-25",
+      "youtube": "aV26V1UvkJw",
+      "duration": 4613
+    },
+    {
+      "id": "yt-vg_yLwSPt_A",
+      "showId": "uson",
+      "title": "陳志雲（下集）｜與 Son 對話",
+      "publishedAt": "2026-08-25",
+      "youtube": "vg_yLwSPt_A"
+    },
+    {
+      "id": "yt-l6USUAIKJls",
+      "showId": "lex-fridman",
+      "title": "Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500",
+      "publishedAt": "2026-08-12",
+      "youtube": "l6USUAIKJls",
+      "duration": 11578,
+      "automatic": true
+    },
+    {
+      "id": "yt-XyXBwO5jYpw",
+      "showId": "lex-fridman",
+      "title": "Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499",
+      "publishedAt": "2026-07-28",
+      "youtube": "XyXBwO5jYpw",
+      "duration": 13578,
+      "automatic": true
+    },
+    {
+      "id": "yt-ifyzclKzVOA",
+      "showId": "valley101",
+      "title": "E245｜藏在大模型背后的新闻人：GPT们的回复是这样写出来的",
+      "publishedAt": "2026-07-23",
+      "youtube": "ifyzclKzVOA",
+      "duration": 2761
+    },
+    {
+      "id": "yt-aDhUIJ1wEgo",
+      "showId": "orangetalk",
+      "title": "票尾經濟有「價」有「市」？",
+      "publishedAt": "2026-07-21",
+      "youtube": "aDhUIJ1wEgo"
+    },
+    {
+      "id": "yt-pv1TUJSEM2k",
+      "showId": "lex-fridman",
+      "title": "The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
+      "publishedAt": "2026-06-30",
+      "youtube": "pv1TUJSEM2k",
+      "duration": 13907,
+      "automatic": true
+    },
+    {
+      "id": "yt-ez9sBZaVKcc",
+      "showId": "onyourpsy",
+      "title": "被討厭的勇氣：溫和而堅定的阿德勒心理學 ft. 李家雯",
+      "publishedAt": "2026-06-14",
+      "youtube": "ez9sBZaVKcc"
+    },
+    {
+      "id": "yt-1M3Vdl6DRkU",
+      "showId": "lex-fridman",
+      "title": "Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497",
+      "publishedAt": "2026-05-29",
+      "youtube": "1M3Vdl6DRkU",
+      "duration": 10423,
+      "automatic": true
+    },
+    {
+      "id": "yt-nepKKz-MzFM",
+      "showId": "lex-fridman",
+      "title": "FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496",
+      "publishedAt": "2026-05-06",
+      "youtube": "nepKKz-MzFM",
+      "duration": 15502,
+      "automatic": true
+    },
+    {
+      "id": "yt-noN_qRrA0p0",
+      "showId": "spoti-talk",
+      "title": "EP56｜Alma 郭爾君：舞台與銀幕之間",
+      "publishedAt": "2026-04-22",
+      "youtube": "noN_qRrA0p0"
+    },
+    {
+      "id": "yt-iKx3gAODybU",
+      "showId": "lex-fridman",
+      "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
+      "publishedAt": "2026-04-09",
+      "youtube": "iKx3gAODybU",
+      "duration": 7404,
+      "automatic": true
+    },
+    {
+      "id": "yt-vif8NQcjVf0",
+      "showId": "lex-fridman",
+      "title": "Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution | Lex Fridman Podcast #494",
+      "publishedAt": "2026-03-23",
+      "youtube": "vif8NQcjVf0",
+      "duration": 8759,
+      "automatic": true
+    },
+    {
+      "id": "yt-H9rF1CSSh-w",
+      "showId": "lex-fridman",
+      "title": "Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming | Lex Fridman Podcast #493",
+      "publishedAt": "2026-03-11",
+      "youtube": "H9rF1CSSh-w",
+      "duration": 18612,
+      "automatic": true
+    },
+    {
+      "id": "yt-1SJiTwbSI58",
+      "showId": "lex-fridman",
+      "title": "Rick Beato: Greatest Guitarists of All Time, History & Future of Music | Lex Fridman Podcast #492",
+      "publishedAt": "2026-03-01",
+      "youtube": "1SJiTwbSI58",
+      "duration": 9228,
+      "automatic": true
+    },
+    {
+      "id": "yt-YFjfBk8HI5o",
+      "showId": "lex-fridman",
+      "title": "OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger | Lex Fridman Podcast #491",
+      "publishedAt": "2026-02-12",
+      "youtube": "YFjfBk8HI5o",
+      "duration": 11752,
+      "automatic": true
+    },
+    {
+      "id": "yt-EV7WhVT270Q",
+      "showId": "lex-fridman",
+      "title": "State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI | Lex Fridman Podcast #490",
+      "publishedAt": "2026-01-31",
+      "youtube": "EV7WhVT270Q",
+      "duration": 15913
+    },
+    {
+      "id": "yt-Z-FRe5AKmCU",
+      "showId": "lex-fridman",
+      "title": "Paul Rosolie: Uncontacted Tribes in the Amazon Jungle | Lex Fridman Podcast #489",
+      "publishedAt": "2026-01-13",
+      "youtube": "Z-FRe5AKmCU",
+      "duration": 11179,
+      "automatic": true
+    },
+    {
+      "id": "yt-d6EMk6dyrOU",
+      "showId": "acquired",
+      "title": "10 Years of Acquired (with Michael Lewis)",
+      "publishedAt": "2026",
+      "youtube": "d6EMk6dyrOU",
+      "duration": 10057
+    },
+    {
+      "id": "yt-14OPT6CcsH4",
+      "showId": "lex-fridman",
+      "title": "Infinity, Paradoxes, Gödel Incompleteness & the Mathematical Multiverse | Lex Fridman Podcast #488",
+      "publishedAt": "2025-12-31",
+      "youtube": "14OPT6CcsH4",
+      "duration": 13938,
+      "automatic": true
+    },
+    {
+      "id": "yt-vDrYywM1nUM",
+      "showId": "decoder",
+      "title": "Nilay Answers the Decoder Questions (2025 Edition)",
+      "publishedAt": "2025-12-18",
+      "youtube": "vDrYywM1nUM"
+    },
+    {
+      "id": "yt-_bBRVNkAfkQ",
+      "showId": "lex-fridman",
+      "title": "Deciphering Secrets of Ancient Civilizations, Noah's Ark, and Flood Myths | Lex Fridman Podcast #487",
+      "publishedAt": "2025-12-12",
+      "youtube": "_bBRVNkAfkQ",
+      "duration": 7513,
+      "automatic": true
+    },
+    {
+      "id": "yt-TOsNrV3bXtQ",
+      "showId": "no-priors",
+      "title": "The 2026 AI Forecast with Sarah & Elad",
+      "publishedAt": "2025-12",
+      "youtube": "TOsNrV3bXtQ"
+    },
+    {
+      "id": "yt-Qp0rCU49lMs",
+      "showId": "lex-fridman",
+      "title": "Michael Levin: Hidden Reality of Alien Intelligence & Biological Life | Lex Fridman Podcast #486",
+      "publishedAt": "2025-11-30",
+      "youtube": "Qp0rCU49lMs",
+      "duration": 11889,
+      "automatic": true
+    },
+    {
+      "id": "yt-m_CFCyc2Shs",
+      "showId": "lex-fridman",
+      "title": "David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy | Lex Fridman Podcast #485",
+      "publishedAt": "2025-11-17",
+      "youtube": "m_CFCyc2Shs",
+      "duration": 9415,
+      "automatic": true
+    },
+    {
+      "id": "yt-o3gbXDjNWyI",
+      "showId": "lex-fridman",
+      "title": "Dan Houser: GTA, Red Dead Redemption, Rockstar, Absurd & Future of Gaming | Lex Fridman Podcast #484",
+      "publishedAt": "2025-10-31",
+      "youtube": "o3gbXDjNWyI",
+      "duration": 9926,
+      "automatic": true
+    },
+    {
+      "id": "yt-7OLVwZeMCfY",
+      "showId": "lex-fridman",
+      "title": "Julia Shaw: Criminal Psychology of Murder, Serial Killers, Memory & Sex | Lex Fridman Podcast #483",
+      "publishedAt": "2025-10-14",
+      "youtube": "7OLVwZeMCfY",
+      "duration": 9727,
+      "automatic": true
+    },
+    {
+      "id": "yt-qjPH9njnaVU",
+      "showId": "lex-fridman",
+      "title": "Pavel Durov: Telegram, Freedom, Censorship, Money, Power & Human Nature | Lex Fridman Podcast #482",
+      "publishedAt": "2025-09-30",
+      "youtube": "qjPH9njnaVU",
+      "duration": 16450,
+      "automatic": true
+    },
+    {
+      "id": "yt-SvKv7D4pBjE",
+      "showId": "lex-fridman",
+      "title": "Norman Ohler: Hitler, Nazis, Drugs, WW2, Blitzkrieg, LSD, MKUltra & CIA | Lex Fridman Podcast #481",
+      "publishedAt": "2025-09-19",
+      "youtube": "SvKv7D4pBjE",
+      "duration": 15945,
+      "automatic": true
+    },
+    {
+      "id": "yt--Qm1_On71Oo",
+      "showId": "lex-fridman",
+      "title": "Dave Hone: T-Rex, Dinosaurs, Extinction, Evolution, and Jurassic Park | Lex Fridman Podcast #480",
+      "publishedAt": "2025-09-04",
+      "youtube": "-Qm1_On71Oo",
+      "duration": 12986,
+      "automatic": true
+    },
+    {
+      "id": "yt-HsLgZzgpz9Y",
+      "showId": "lex-fridman",
+      "title": "Dave Plummer: Programming, Autism, and Old-School Microsoft Stories | Lex Fridman Podcast #479",
+      "publishedAt": "2025-08-29",
+      "youtube": "HsLgZzgpz9Y",
+      "duration": 6629,
+      "automatic": true
+    },
+    {
+      "id": "yt-jdCKiEJpwf4",
+      "showId": "lex-fridman",
+      "title": "Scott Horton: The Case Against War and the Military Industrial Complex | Lex Fridman Podcast #478",
+      "publishedAt": "2025-08-24",
+      "youtube": "jdCKiEJpwf4",
+      "duration": 37591,
+      "automatic": true
+    },
+    {
+      "id": "yt-y3yAVZk3tyA",
+      "showId": "lex-fridman",
+      "title": "Keyu Jin: China's Economy, Tariffs, Trade, Trump, Communism & Capitalism | Lex Fridman Podcast #477",
+      "publishedAt": "2025-08-13",
+      "youtube": "y3yAVZk3tyA",
+      "duration": 6570,
+      "automatic": true
+    },
+    {
+      "id": "yt-U1H1Ob7jk8Q",
+      "showId": "lex-fridman",
+      "title": "Jack Weatherford: Genghis Khan and the Mongol Empire | Lex Fridman Podcast #476",
+      "publishedAt": "2025-07-31",
+      "youtube": "U1H1Ob7jk8Q",
+      "duration": 16202,
+      "automatic": true
+    },
+    {
+      "id": "yt--HzgcbRXUK8",
+      "showId": "lex-fridman",
+      "title": "Demis Hassabis: Future of AI, Simulating Reality, Physics and Video Games | Lex Fridman Podcast #475",
+      "publishedAt": "2025-07-23",
+      "youtube": "-HzgcbRXUK8",
+      "duration": 8895,
+      "automatic": true
+    },
+    {
+      "id": "yt-vagyIcmIGOQ",
+      "showId": "lex-fridman",
+      "title": "DHH: Future of Programming, AI, Ruby on Rails, Productivity & Parenting | Lex Fridman Podcast #474",
+      "publishedAt": "2025-07-12",
+      "youtube": "vagyIcmIGOQ",
+      "duration": 22128,
+      "automatic": true
+    },
+    {
+      "id": "yt-gtmJi8LbAts",
+      "showId": "lex-fridman",
+      "title": "Iran War Debate: Nuclear Weapons, Trump, Peace, Power & the Middle East | Lex Fridman Podcast #473",
+      "publishedAt": "2025-06-26",
+      "youtube": "gtmJi8LbAts",
+      "duration": 14716,
+      "automatic": true
+    },
+    {
+      "id": "yt-HUkBz-cdB-k",
+      "showId": "lex-fridman",
+      "title": "Terence Tao: Hardest Problems in Mathematics, Physics & the Future of AI | Lex Fridman Podcast #472",
+      "publishedAt": "2025-06-14",
+      "youtube": "HUkBz-cdB-k",
+      "duration": 11674,
+      "automatic": true
+    },
+    {
+      "id": "yt-9V6tWC4CdFQ",
+      "showId": "lex-fridman",
+      "title": "Sundar Pichai: CEO of Google and Alphabet | Lex Fridman Podcast #471",
+      "publishedAt": "2025-06-05",
+      "youtube": "9V6tWC4CdFQ",
+      "duration": 7925,
+      "automatic": true
+    },
+    {
+      "id": "yt-cp1lprZUQcE",
+      "showId": "lex-fridman",
+      "title": "James Holland: World War II, Hitler, Churchill, Stalin & Biggest Battles | Lex Fridman Podcast #470",
+      "publishedAt": "2025-05-24",
+      "youtube": "cp1lprZUQcE",
+      "duration": 12276,
+      "automatic": true
+    },
+    {
+      "id": "yt-4OyB3hFb2AA",
+      "showId": "lex-fridman",
+      "title": "Oliver Anthony: Country Music, Blue-Collar America, Fame, Money, and Pain | Lex Fridman Podcast #469",
+      "publishedAt": "2025-05-19",
+      "youtube": "4OyB3hFb2AA",
+      "duration": 8349,
+      "automatic": true
+    },
+    {
+      "id": "yt-A6m4iJIw_84",
+      "showId": "lex-fridman",
+      "title": "Janna Levin: Black Holes, Wormholes, Aliens, Paradoxes & Extra Dimensions | Lex Fridman Podcast #468",
+      "publishedAt": "2025-05-05",
+      "youtube": "A6m4iJIw_84",
+      "duration": 10851,
+      "automatic": true
+    },
+    {
+      "id": "yt-477qF6QNSvc",
+      "showId": "lex-fridman",
+      "title": "Tim Sweeney: Fortnite, Unreal Engine, and the Future of Gaming | Lex Fridman Podcast #467",
+      "publishedAt": "2025-04-30",
+      "youtube": "477qF6QNSvc",
+      "duration": 15919,
+      "automatic": true
+    },
+    {
+      "id": "yt-3W5FWUN5w2Q",
+      "showId": "lex-fridman",
+      "title": "Jeffrey Wasserstrom: China, Xi Jinping, Trade War, Taiwan, Hong Kong, Mao | Lex Fridman Podcast #466",
+      "publishedAt": "2025-04-24",
+      "youtube": "3W5FWUN5w2Q",
+      "duration": 11041,
+      "automatic": true
+    },
+    {
+      "id": "yt-xJoT3bJyHuA",
+      "showId": "lex-fridman",
+      "title": "Robert Rodriguez: Sin City, Desperado, El Mariachi, Alita, and Filmmaking | Lex Fridman Podcast #465",
+      "publishedAt": "2025-04-16",
+      "youtube": "xJoT3bJyHuA",
+      "duration": 12543,
+      "automatic": true
+    },
+    {
+      "id": "yt-LQ4eIAxEtaA",
+      "showId": "rest-is-history",
+      "title": "1066: The Battle of Stamford Bridge",
+      "publishedAt": "2025-04-09",
+      "youtube": "LQ4eIAxEtaA"
+    },
+    {
+      "id": "yt-1V0bJfqEaa4",
+      "showId": "lex-fridman",
+      "title": "Dave Smith: Israel, Hamas, Ukraine, Russia, Conspiracies & Antisemitism | Lex Fridman Podcast #464",
+      "publishedAt": "2025-04-08",
+      "youtube": "1V0bJfqEaa4",
+      "duration": 11941,
+      "automatic": true
+    },
+    {
+      "id": "yt-HvI42TyE5Ww",
+      "showId": "lex-fridman",
+      "title": "Douglas Murray: Putin, Zelenskyy, Trump, Israel, Netanyahu, Hamas & Gaza | Lex Fridman Podcast #463",
+      "publishedAt": "2025-03-30",
+      "youtube": "HvI42TyE5Ww",
+      "duration": 11345,
+      "automatic": true
+    },
+    {
+      "id": "yt-DTPSeeKokdo",
+      "showId": "lex-fridman",
+      "title": "Ezra Klein and Derek Thompson: Politics, Trump, AOC, Elon & DOGE | Lex Fridman Podcast #462",
+      "publishedAt": "2025-03-25",
+      "youtube": "DTPSeeKokdo",
+      "duration": 11718,
+      "automatic": true
+    },
+    {
+      "id": "yt-tNZnLkRBYA8",
+      "showId": "lex-fridman",
+      "title": "ThePrimeagen: Programming, AI, ADHD, Productivity, Addiction, and God | Lex Fridman Podcast #461",
+      "publishedAt": "2025-03-22",
+      "youtube": "tNZnLkRBYA8",
+      "duration": 19208,
+      "automatic": true
+    },
+    {
+      "id": "yt-ZPUtA3W-7_I",
+      "showId": "lex-fridman",
+      "title": "Narendra Modi: Prime Minister of India - Power, Democracy, War & Peace | Lex Fridman Podcast #460",
+      "publishedAt": "2025-03-16",
+      "youtube": "ZPUtA3W-7_I",
+      "duration": 11854,
+      "automatic": true
+    },
+    {
+      "id": "yt-_1f-o0nqpEI",
+      "showId": "lex-fridman",
+      "title": "DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459",
+      "publishedAt": "2025-02-03",
+      "youtube": "_1f-o0nqpEI",
+      "duration": 18379,
+      "automatic": true
+    },
+    {
+      "id": "yt-OHWnPOKh_S0",
+      "showId": "lex-fridman",
+      "title": "Marc Andreessen: Trump, Power, Tech, AI, Immigration & Future of America | Lex Fridman Podcast #458",
+      "publishedAt": "2025-01-26",
+      "youtube": "OHWnPOKh_S0",
+      "duration": 13545,
+      "automatic": true
+    },
+    {
+      "id": "yt-Rz-4ulRKnz4",
+      "showId": "lex-fridman",
+      "title": "Jennifer Burns: Milton Friedman, Ayn Rand, Economics, Capitalism, Freedom | Lex Fridman Podcast #457",
+      "publishedAt": "2025-01-19",
+      "youtube": "Rz-4ulRKnz4",
+      "duration": 14054,
+      "automatic": true
+    },
+    {
+      "id": "yt-u321m25rKXc",
+      "showId": "lex-fridman",
+      "title": "Volodymyr Zelenskyy: Ukraine, War, Peace, Putin, Trump, NATO, and Freedom | Lex Fridman Podcast #456",
+      "publishedAt": "2025-01-05",
+      "youtube": "u321m25rKXc",
+      "duration": 11200,
+      "automatic": true
+    },
+    {
+      "id": "yt-yhZAXXI83-4",
+      "showId": "lex-fridman",
+      "title": "Adam Frank: Alien Civilizations and the Search for Extraterrestrial Life | Lex Fridman Podcast #455",
+      "publishedAt": "2024-12-22",
+      "youtube": "yhZAXXI83-4",
+      "duration": 12400,
+      "automatic": true
+    },
+    {
+      "id": "yt-9xz8i90Hp2A",
+      "showId": "lex-fridman",
+      "title": "Saagar Enjeti: Trump, MAGA, DOGE, Obama, FDR, JFK, History & Politics | Lex Fridman Podcast #454",
+      "publishedAt": "2024-12-08",
+      "youtube": "9xz8i90Hp2A",
+      "duration": 12907,
+      "automatic": true
+    },
+    {
+      "id": "yt-8NLzc9kobDk",
+      "showId": "lex-fridman",
+      "title": "Javier Milei: President of Argentina - Freedom, Economics, and Corruption | Lex Fridman Podcast #453",
+      "publishedAt": "2024-11-19",
+      "youtube": "8NLzc9kobDk",
+      "duration": 7030,
+      "automatic": true
+    },
+    {
+      "id": "yt-ugvHCXCOmm4",
+      "showId": "lex-fridman",
+      "title": "Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity | Lex Fridman Podcast #452",
+      "publishedAt": "2024-11-11",
+      "youtube": "ugvHCXCOmm4",
+      "duration": 18901,
+      "automatic": true
+    },
+    {
+      "id": "yt-abd5hguWKz0",
+      "showId": "lex-fridman",
+      "title": "Rick Spence: CIA, KGB, Illuminati, Secret Societies, Cults & Conspiracies | Lex Fridman Podcast #451",
+      "publishedAt": "2024-10-30",
+      "youtube": "abd5hguWKz0",
+      "duration": 12500,
+      "automatic": true
+    },
+    {
+      "id": "yt-MzkgWDCucNY",
+      "showId": "lex-fridman",
+      "title": "Bernie Sanders Interview | Lex Fridman Podcast #450",
+      "publishedAt": "2024-10-23",
+      "youtube": "MzkgWDCucNY",
+      "duration": 3752,
+      "automatic": true
+    },
+    {
+      "id": "yt-NMHiLvirCb0",
+      "showId": "lex-fridman",
+      "title": "Graham Hancock: Lost Civilization of the Ice Age & Ancient Human History | Lex Fridman Podcast #449",
+      "publishedAt": "2024-10-16",
+      "youtube": "NMHiLvirCb0",
+      "duration": 9182,
+      "automatic": true
+    },
+    {
+      "id": "yt-q8VePUwjB9Y",
+      "showId": "lex-fridman",
+      "title": "Jordan Peterson: Nietzsche, Hitler, God, Psychopathy, Suffering & Meaning | Lex Fridman Podcast #448",
+      "publishedAt": "2024-10-11",
+      "youtube": "q8VePUwjB9Y",
+      "duration": 8585,
+      "automatic": true
+    },
+    {
+      "id": "yt-oFfVt3S51T4",
+      "showId": "lex-fridman",
+      "title": "Cursor Team: Future of Programming with AI | Lex Fridman Podcast #447",
+      "publishedAt": "2024-10-06",
+      "youtube": "oFfVt3S51T4",
+      "duration": 8945,
+      "automatic": true
+    },
+    {
+      "id": "yt-AzzE7GOvYz8",
+      "showId": "lex-fridman",
+      "title": "Ed Barnhart: Maya, Aztec, Inca, and Lost Civilizations of South America | Lex Fridman Podcast #446",
+      "publishedAt": "2024-09-30",
+      "youtube": "AzzE7GOvYz8",
+      "duration": 12531,
+      "automatic": true
+    },
+    {
+      "id": "yt-Q8Qk_3a3lUw",
+      "showId": "lex-fridman",
+      "title": "Vivek Ramaswamy: Trump, Conservatism, Nationalism, Immigration, and War | Lex Fridman Podcast #445",
+      "publishedAt": "2024-09-25",
+      "youtube": "Q8Qk_3a3lUw",
+      "duration": 9626,
+      "automatic": true
+    },
+    {
+      "id": "yt-s1oTH4Sjvzg",
+      "showId": "lex-fridman",
+      "title": "Vejas Liulevicius: Communism, Marxism, Nazism, Stalin, Mao, and Hitler | Lex Fridman Podcast #444",
+      "publishedAt": "2024-09-20",
+      "youtube": "s1oTH4Sjvzg",
+      "duration": 12718,
+      "automatic": true
+    },
+    {
+      "id": "yt-DyoVVSggPjY",
+      "showId": "lex-fridman",
+      "title": "Gregory Aldrete: The Roman Empire - Rise and Fall of Ancient Rome | Lex Fridman Podcast #443",
+      "publishedAt": "2024-09-12",
+      "youtube": "DyoVVSggPjY",
+      "duration": 13341,
+      "automatic": true
+    },
+    {
+      "id": "yt-qCbfTN-caFI",
+      "showId": "lex-fridman",
+      "title": "Donald Trump Interview | Lex Fridman Podcast #442",
+      "publishedAt": "2024-09-03",
+      "youtube": "qCbfTN-caFI",
+      "duration": 3858,
+      "automatic": true
+    },
+    {
+      "id": "yt-QJtPROVsePk",
+      "showId": "lex-fridman",
+      "title": "Cenk Uygur: Trump vs Harris, Progressive Politics, Communism & Capitalism | Lex Fridman Podcast #441",
+      "publishedAt": "2024-08-30",
+      "youtube": "QJtPROVsePk",
+      "duration": 15028,
+      "automatic": true
+    },
+    {
+      "id": "yt-oFtjKbXKqbg",
+      "showId": "lex-fridman",
+      "title": "Pieter Levels: Programming, Viral AI Startups, and Digital Nomad Life | Lex Fridman Podcast #440",
+      "publishedAt": "2024-08-20",
+      "youtube": "oFtjKbXKqbg",
+      "duration": 13414,
+      "automatic": true
+    },
+    {
+      "id": "yt-J7aiEwp1x9k",
+      "showId": "lex-fridman",
+      "title": "Craig Jones: Jiu Jitsu, $2 Million Prize, CJI, ADCC, Ukraine & Trolling | Lex Fridman Podcast #439",
+      "publishedAt": "2024-08-14",
+      "youtube": "J7aiEwp1x9k",
+      "duration": 7925,
+      "automatic": true
+    },
+    {
+      "id": "yt-Kbk9BiPhm7o",
+      "showId": "lex-fridman",
+      "title": "Elon Musk: Neuralink and the Future of Humanity | Lex Fridman Podcast #438",
+      "publishedAt": "2024-08-02",
+      "youtube": "Kbk9BiPhm7o",
+      "duration": 31055,
+      "automatic": true
+    },
+    {
+      "id": "yt-WA9gVKKPsBo",
+      "showId": "lex-fridman",
+      "title": "Jordan Jonas: Survival, Hunting, Siberia, God, and Winning Alone Season 6 | Lex Fridman Podcast #437",
+      "publishedAt": "2024-07-21",
+      "youtube": "WA9gVKKPsBo",
+      "duration": 9980,
+      "automatic": true
+    },
+    {
+      "id": "yt-2oxdDKHdcM8",
+      "showId": "lex-fridman",
+      "title": "Ivanka Trump: Politics, Family, Real Estate, Fashion, Music, and Life | Lex Fridman Podcast #436",
+      "publishedAt": "2024-07-02",
+      "youtube": "2oxdDKHdcM8",
+      "duration": 11048,
+      "automatic": true
+    },
+    {
+      "id": "yt-ZIyB9e_7a4c",
+      "showId": "lex-fridman",
+      "title": "Andrew Huberman: Focus, Controversy, Politics, and Relationships | Lex Fridman Podcast #435",
+      "publishedAt": "2024-06-27",
+      "youtube": "ZIyB9e_7a4c",
+      "duration": 6439,
+      "automatic": true
+    },
+    {
+      "id": "yt-e-gwvmhyU7A",
+      "showId": "lex-fridman",
+      "title": "Aravind Srinivas: Perplexity CEO on Future of AI, Search & the Internet | Lex Fridman Podcast #434",
+      "publishedAt": "2024-06-19",
+      "youtube": "e-gwvmhyU7A",
+      "duration": 10936,
+      "automatic": true
+    },
+    {
+      "id": "yt-wwhTfyX9J34",
+      "showId": "lex-fridman",
+      "title": "Sara Walker: Physics of Life, Time, Complexity, and Aliens | Lex Fridman Podcast #433",
+      "publishedAt": "2024-06-13",
+      "youtube": "wwhTfyX9J34",
+      "duration": 10319,
+      "automatic": true
+    },
+    {
+      "id": "yt-XJTMQtE-MIo",
+      "showId": "lex-fridman",
+      "title": "Kevin Spacey: Power, Controversy, Betrayal, Truth & Love in Film and Life | Lex Fridman Podcast #432",
+      "publishedAt": "2024-06-05",
+      "youtube": "XJTMQtE-MIo",
+      "duration": 8348,
+      "automatic": true
+    },
+    {
+      "id": "yt-NNr6gPelJ3E",
+      "showId": "lex-fridman",
+      "title": "Roman Yampolskiy: Dangers of Superintelligent AI | Lex Fridman Podcast #431",
+      "publishedAt": "2024-06-02",
+      "youtube": "NNr6gPelJ3E",
+      "duration": 8139,
+      "automatic": true
+    },
+    {
+      "id": "yt-4iuepdI3wCU",
+      "showId": "lex-fridman",
+      "title": "Charan Ranganath: Human Memory, Imagination, Deja Vu, and False Memories | Lex Fridman Podcast #430",
+      "publishedAt": "2024-05-25",
+      "youtube": "4iuepdI3wCU",
+      "duration": 11450,
+      "automatic": true
+    },
+    {
+      "id": "yt-pwN8u6HFH8U",
+      "showId": "lex-fridman",
+      "title": "Paul Rosolie: Jungle, Apex Predators, Aliens, Uncontacted Tribes, and God | Lex Fridman Podcast #429",
+      "publishedAt": "2024-05-15",
+      "youtube": "pwN8u6HFH8U",
+      "duration": 14512,
+      "automatic": true
+    },
+    {
+      "id": "yt-tdv7r2JSokI",
+      "showId": "lex-fridman",
+      "title": "Sean Carroll: General Relativity, Quantum Mechanics, Black Holes & Aliens | Lex Fridman Podcast #428",
+      "publishedAt": "2024-04-22",
+      "youtube": "tdv7r2JSokI",
+      "duration": 9324,
+      "automatic": true
+    },
+    {
+      "id": "yt-TXabC2Ave74",
+      "showId": "lex-fridman",
+      "title": "Neil Adams: Judo, Olympics, Winning, Losing, and the Champion Mindset | Lex Fridman Podcast #427",
+      "publishedAt": "2024-04-20",
+      "youtube": "TXabC2Ave74",
+      "duration": 8871,
+      "automatic": true
+    },
+    {
+      "id": "yt-F3Jd9GI6XqE",
+      "showId": "lex-fridman",
+      "title": "Edward Gibson: Human Language, Psycholinguistics, Syntax, Grammar & LLMs | Lex Fridman Podcast #426",
+      "publishedAt": "2024-04-17",
+      "youtube": "F3Jd9GI6XqE",
+      "duration": 10245,
+      "automatic": true
+    },
+    {
+      "id": "yt-yEou104m_P0",
+      "showId": "lex-fridman",
+      "title": "Andrew Callaghan: Channel 5, Gonzo, QAnon, O-Block, Politics & Alex Jones | Lex Fridman Podcast #425",
+      "publishedAt": "2024-04-13",
+      "youtube": "yEou104m_P0",
+      "duration": 10320,
+      "automatic": true
+    },
+    {
+      "id": "yt-sG8u6owzad4",
+      "showId": "lex-fridman",
+      "title": "Bassem Youssef: Israel-Palestine, Gaza, Hamas, Middle East, Satire & Fame | Lex Fridman Podcast #424",
+      "publishedAt": "2024-04-05",
+      "youtube": "sG8u6owzad4",
+      "duration": 9794,
+      "automatic": true
+    },
+    {
+      "id": "yt-_El9riy9Zjw",
+      "showId": "lex-fridman",
+      "title": "Tulsi Gabbard: War, Politics, and the Military Industrial Complex | Lex Fridman Podcast #423",
+      "publishedAt": "2024-04-02",
+      "youtube": "_El9riy9Zjw",
+      "duration": 6642,
+      "automatic": true
+    },
+    {
+      "id": "yt-0cn3VBjfN8g",
+      "showId": "lex-fridman",
+      "title": "Mark Cuban: Shark Tank, DEI & Wokeism Debate, Elon Musk, Politics & Drugs | Lex Fridman Podcast #422",
+      "publishedAt": "2024-03-29",
+      "youtube": "0cn3VBjfN8g",
+      "duration": 7995,
+      "automatic": true
+    },
+    {
+      "id": "yt-k7aQEqDbuf8",
+      "showId": "lex-fridman",
+      "title": "Dana White: UFC, Fighting, Khabib, Conor, Tyson, Ali, Rogan, Elon & Zuck | Lex Fridman Podcast #421",
+      "publishedAt": "2024-03-25",
+      "youtube": "k7aQEqDbuf8",
+      "duration": 5421,
+      "automatic": true
+    },
+    {
+      "id": "yt-GXgGR8KxFao",
+      "showId": "lex-fridman",
+      "title": "Annie Jacobsen: Nuclear War, CIA, KGB, Aliens, Area 51, Roswell & Secrecy | Lex Fridman Podcast #420",
+      "publishedAt": "2024-03-22",
+      "youtube": "GXgGR8KxFao",
+      "duration": 11247,
+      "automatic": true
+    },
+    {
+      "id": "yt-jvqFAi7vkBc",
+      "showId": "lex-fridman",
+      "title": "Sam Altman: OpenAI, GPT-5, Sora, Board Saga, Elon Musk, Ilya, Power & AGI | Lex Fridman Podcast #419",
+      "publishedAt": "2024-03-18",
+      "youtube": "jvqFAi7vkBc",
+      "duration": 6910,
+      "automatic": true
+    },
+    {
+      "id": "yt-1X_KdkoGxSs",
+      "showId": "lex-fridman",
+      "title": "Israel-Palestine Debate: Finkelstein, Destiny, M. Rabbani & Benny Morris | Lex Fridman Podcast #418",
+      "publishedAt": "2024-03-14",
+      "youtube": "1X_KdkoGxSs",
+      "duration": 17835,
+      "automatic": true
+    },
+    {
+      "id": "yt-iAlwZyRUOVM",
+      "showId": "lex-fridman",
+      "title": "Kimbal Musk: The Art of Cooking, Tesla, SpaceX, Zip2, and Family | Lex Fridman Podcast #417",
+      "publishedAt": "2024-03-10",
+      "youtube": "iAlwZyRUOVM",
+      "duration": 6429,
+      "automatic": true
+    },
+    {
+      "id": "yt-5t1vTLU7s40",
+      "showId": "lex-fridman",
+      "title": "Yann Lecun: Meta AI, Open Source, Limits of LLMs, AGI & the Future of AI | Lex Fridman Podcast #416",
+      "publishedAt": "2024-03-07",
+      "youtube": "5t1vTLU7s40",
+      "duration": 10037,
+      "automatic": true
+    },
+    {
+      "id": "yt-qa-wl8_wpZA",
+      "showId": "lex-fridman",
+      "title": "Serhii Plokhy: History of Ukraine, Russia, Soviet Union, KGB, Nazis & War | Lex Fridman Podcast #415",
+      "publishedAt": "2024-03-04",
+      "youtube": "qa-wl8_wpZA",
+      "duration": 12000,
+      "automatic": true
+    },
+    {
+      "id": "yt-f_lRdkH_QoY",
+      "showId": "lex-fridman",
+      "title": "Tucker Carlson: Putin, Navalny, Trump, CIA, NSA, War, Politics & Freedom | Lex Fridman Podcast #414",
+      "publishedAt": "2024-02-27",
+      "youtube": "f_lRdkH_QoY",
+      "duration": 11062,
+      "automatic": true
+    },
+    {
+      "id": "yt-PgGKhsWhUu8",
+      "showId": "lex-fridman",
+      "title": "Bill Ackman: Investing, Financial Battles, Harvard, DEI, X & Free Speech | Lex Fridman Podcast #413",
+      "publishedAt": "2024-02-20",
+      "youtube": "PgGKhsWhUu8",
+      "duration": 12764,
+      "automatic": true
+    },
+    {
+      "id": "yt-5VnbBCm_ZyQ",
+      "showId": "lex-fridman",
+      "title": "Marc Raibert: Boston Dynamics and the Future of Robotics | Lex Fridman Podcast #412",
+      "publishedAt": "2024-02-16",
+      "youtube": "5VnbBCm_ZyQ",
+      "duration": 6227,
+      "automatic": true
+    },
+    {
+      "id": "yt-oFSyNdQf5uk",
+      "showId": "lex-fridman",
+      "title": "Omar Suleiman: Palestine, Gaza, Oct 7, Israel, Resistance, Faith & Islam | Lex Fridman Podcast #411",
+      "publishedAt": "2024-01-31",
+      "youtube": "oFSyNdQf5uk",
+      "duration": 8539,
+      "automatic": true
+    },
+    {
+      "id": "yt-tYrdMjVXyNg",
+      "showId": "lex-fridman",
+      "title": "Ben Shapiro vs Destiny Debate: Politics, Jan 6, Israel, Ukraine & Wokeism | Lex Fridman Podcast #410",
+      "publishedAt": "2024-01-23",
+      "youtube": "tYrdMjVXyNg",
+      "duration": 8405,
+      "automatic": true
+    },
+    {
+      "id": "yt-zMYvGf7BA9o",
+      "showId": "lex-fridman",
+      "title": "Matthew Cox: FBI Most Wanted Con Man - $55 Million in Bank Fraud | Lex Fridman Podcast #409",
+      "publishedAt": "2024-01-17",
+      "youtube": "zMYvGf7BA9o",
+      "duration": 21654,
+      "automatic": true
+    },
+    {
+      "id": "yt-9qfwPv7clEw",
+      "showId": "lex-fridman",
+      "title": "Tal Wilkenfeld: Music, Guitar, Bass, Jeff Beck, Prince, and Leonard Cohen | Lex Fridman Podcast #408",
+      "publishedAt": "2024-01-09",
+      "youtube": "9qfwPv7clEw",
+      "duration": 6609,
+      "automatic": true
+    },
+    {
+      "id": "yt-8fEEbKJoNbU",
+      "showId": "lex-fridman",
+      "title": "Guillaume Verdon: Beff Jezos, E/acc Movement, Physics, Computation & AGI | Lex Fridman Podcast #407",
+      "publishedAt": "2023-12-29",
+      "youtube": "8fEEbKJoNbU",
+      "duration": 10390,
+      "automatic": true
+    },
+    {
+      "id": "yt-CVx9IB_U9X4",
+      "showId": "lex-fridman",
+      "title": "Teddy Atlas: Mike Tyson, Cus D'Amato, Boxing, Loyalty, Fear & Greatness | Lex Fridman Podcast #406",
+      "publishedAt": "2023-12-24",
+      "youtube": "CVx9IB_U9X4",
+      "duration": 7749,
+      "automatic": true
+    },
+    {
+      "id": "yt-DcWqzZ3I2cY",
+      "showId": "lex-fridman",
+      "title": "Jeff Bezos: Amazon and Blue Origin | Lex Fridman Podcast #405",
+      "publishedAt": "2023-12-14",
+      "youtube": "DcWqzZ3I2cY",
+      "duration": 7892,
+      "automatic": true
+    },
+    {
+      "id": "yt-CGiDqhSdLHk",
+      "showId": "lex-fridman",
+      "title": "Lee Cronin: Controversial Nature Paper on Evolution of Life and Universe | Lex Fridman Podcast #404",
+      "publishedAt": "2023-12-09",
+      "youtube": "CGiDqhSdLHk",
+      "duration": 11962,
+      "automatic": true
+    },
+    {
+      "id": "yt-VPaOy3G1-2A",
+      "showId": "lex-fridman",
+      "title": "Lisa Randall: Dark Matter, Theoretical Physics, and Extinction Events | Lex Fridman Podcast #403",
+      "publishedAt": "2023-12-03",
+      "youtube": "VPaOy3G1-2A",
+      "duration": 3565,
+      "automatic": true
+    },
+    {
+      "id": "yt-2yHr9DPnSzk",
+      "showId": "lex-fridman",
+      "title": "Michael Malice: Thanksgiving Pirate Special | Lex Fridman Podcast #402",
+      "publishedAt": "2023-11-25",
+      "youtube": "2yHr9DPnSzk",
+      "duration": 5942,
+      "automatic": true
+    },
+    {
+      "id": "yt-r4wLXNydzeY",
+      "showId": "lex-fridman",
+      "title": "John Mearsheimer: Israel-Palestine, Russia-Ukraine, China, NATO, and WW3 | Lex Fridman Podcast #401",
+      "publishedAt": "2023-11-17",
+      "youtube": "r4wLXNydzeY",
+      "duration": 12402,
+      "automatic": true
+    },
+    {
+      "id": "yt-JN3KPFbWCy8",
+      "showId": "lex-fridman",
+      "title": "Elon Musk: War, AI, Aliens, Politics, Physics, Video Games, and Humanity | Lex Fridman Podcast #400",
+      "publishedAt": "2023-11-09",
+      "youtube": "JN3KPFbWCy8",
+      "duration": 8207,
+      "automatic": true
+    },
+    {
+      "id": "yt-co_MeKSnyAo",
+      "showId": "lex-fridman",
+      "title": "Jared Kushner: Israel, Palestine, Hamas, Gaza, Iran, and the Middle East | Lex Fridman Podcast #399",
+      "publishedAt": "2023-10-11",
+      "youtube": "co_MeKSnyAo",
+      "duration": 13719,
+      "automatic": true
+    },
+    {
+      "id": "yt-MVYrJJNdrEg",
+      "showId": "lex-fridman",
+      "title": "Mark Zuckerberg: First Interview in the Metaverse | Lex Fridman Podcast #398",
+      "publishedAt": "2023-09-28",
+      "youtube": "MVYrJJNdrEg",
+      "duration": 3879,
+      "automatic": true
+    },
+    {
+      "id": "yt-buarAx_u2qg",
+      "showId": "lex-fridman",
+      "title": "Greg Lukianoff: Cancel Culture, Deplatforming, Censorship & Free Speech | Lex Fridman Podcast #397",
+      "publishedAt": "2023-09-24",
+      "youtube": "buarAx_u2qg",
+      "duration": 9118,
+      "automatic": true
+    },
+    {
+      "id": "yt-fUEjCXpOjPY",
+      "showId": "lex-fridman",
+      "title": "James Sexton: Divorce Lawyer on Marriage, Relationships, Sex, Lies & Love | Lex Fridman Podcast #396",
+      "publishedAt": "2023-09-18",
+      "youtube": "fUEjCXpOjPY",
+      "duration": 13477,
+      "automatic": true
+    },
+    {
+      "id": "yt-aGOV5R7M1Js",
+      "showId": "lex-fridman",
+      "title": "Walter Isaacson: Elon Musk, Steve Jobs, Einstein, Da Vinci & Ben Franklin | Lex Fridman Podcast #395",
+      "publishedAt": "2023-09-10",
+      "youtube": "aGOV5R7M1Js",
+      "duration": 7670,
+      "automatic": true
+    },
+    {
+      "id": "yt-XbPHojL_61U",
+      "showId": "lex-fridman",
+      "title": "Neri Oxman: Biology, Art, and Science of Design & Engineering with Nature | Lex Fridman Podcast #394",
+      "publishedAt": "2023-09-01",
+      "youtube": "XbPHojL_61U",
+      "duration": 8306,
+      "automatic": true
+    },
+    {
+      "id": "yt-eTBAxD6lt2g",
+      "showId": "lex-fridman",
+      "title": "Andrew Huberman: Relationships, Drama, Betrayal, Sex, and Love | Lex Fridman Podcast #393",
+      "publishedAt": "2023-08-17",
+      "youtube": "eTBAxD6lt2g",
+      "duration": 7942,
+      "automatic": true
+    },
+    {
+      "id": "yt-e8qJsk1j2zE",
+      "showId": "lex-fridman",
+      "title": "Joscha Bach: Life, Intelligence, Consciousness, AI & the Future of Humans | Lex Fridman Podcast #392",
+      "publishedAt": "2023-08-01",
+      "youtube": "e8qJsk1j2zE",
+      "duration": 10426,
+      "automatic": true
+    },
+    {
+      "id": "yt-34wA_bdG6QQ",
+      "showId": "lex-fridman",
+      "title": "Mohammed El-Kurd: Palestine | Lex Fridman Podcast #391",
+      "publishedAt": "2023-07-24",
+      "youtube": "34wA_bdG6QQ",
+      "duration": 8083,
+      "automatic": true
+    },
+    {
+      "id": "yt-Mde2q7GFCrw",
+      "showId": "lex-fridman",
+      "title": "Yuval Noah Harari: Human Nature, Intelligence, Power, and Conspiracies | Lex Fridman Podcast #390",
+      "publishedAt": "2023-07-17",
+      "youtube": "Mde2q7GFCrw",
+      "duration": 9888,
+      "automatic": true
+    },
+    {
+      "id": "yt-XpC7SVDXimg",
+      "showId": "lex-fridman",
+      "title": "Benjamin Netanyahu: Israel, Palestine, Power, Corruption, Hate, and Peace | Lex Fridman Podcast #389",
+      "publishedAt": "2023-07-12",
+      "youtube": "XpC7SVDXimg",
+      "duration": 4272,
+      "automatic": true
+    },
+    {
+      "id": "yt-NPtBkw5uD-0",
+      "showId": "lex-fridman",
+      "title": "Robert F. Kennedy Jr: CIA, Power, Corruption, War, Freedom, and Meaning | Lex Fridman Podcast #388",
+      "publishedAt": "2023-07-06",
+      "youtube": "NPtBkw5uD-0",
+      "duration": 8918,
+      "automatic": true
+    },
+    {
+      "id": "yt-dNrTrx42DGQ",
+      "showId": "lex-fridman",
+      "title": "George Hotz: Tiny Corp, Twitter, AI Safety, Self-Driving, GPT, AGI & God | Lex Fridman Podcast #387",
+      "publishedAt": "2023-06-29",
+      "youtube": "dNrTrx42DGQ",
+      "duration": 11326,
+      "automatic": true
+    },
+    {
+      "id": "yt--hxeDjAxvJ8",
+      "showId": "lex-fridman",
+      "title": "Marc Andreessen: Future of the Internet, Technology, and AI | Lex Fridman Podcast #386",
+      "publishedAt": "2023-06-22",
+      "youtube": "-hxeDjAxvJ8",
+      "duration": 11495,
+      "automatic": true
+    },
+    {
+      "id": "yt-diJp4zoQPqo",
+      "showId": "lex-fridman",
+      "title": "Jimmy Wales: Wikipedia | Lex Fridman Podcast #385",
+      "publishedAt": "2023-06-18",
+      "youtube": "diJp4zoQPqo",
+      "duration": 11707,
+      "automatic": true
+    },
+    {
+      "id": "yt-8qgIFD0PaWo",
+      "showId": "lex-fridman",
+      "title": "Matthew McConaughey: Freedom, Truth, Family, Hardship, and Love | Lex Fridman Podcast #384",
+      "publishedAt": "2023-06-13",
+      "youtube": "8qgIFD0PaWo",
+      "duration": 8341,
+      "automatic": true
+    },
+    {
+      "id": "yt-Ff4fRgnuFgQ",
+      "showId": "lex-fridman",
+      "title": "Mark Zuckerberg: Future of AI at Meta, Facebook, Instagram, and WhatsApp | Lex Fridman Podcast #383",
+      "publishedAt": "2023-06-08",
+      "youtube": "Ff4fRgnuFgQ",
+      "duration": 9719,
+      "automatic": true
+    },
+    {
+      "id": "yt-8TmV6KEYkK0",
+      "showId": "lex-fridman",
+      "title": "Bert Kreischer: Comedy, Drinking, Rogan, Segura, Churchill & Kim Jong Un | Lex Fridman Podcast #382",
+      "publishedAt": "2023-06-05",
+      "youtube": "8TmV6KEYkK0",
+      "duration": 7684,
+      "automatic": true
+    },
+    {
+      "id": "yt-pdJQ8iVTwj8",
+      "showId": "lex-fridman",
+      "title": "Chris Lattner: Future of Programming and AI | Lex Fridman Podcast #381",
+      "publishedAt": "2023-06-02",
+      "youtube": "pdJQ8iVTwj8",
+      "duration": 12844,
+      "automatic": true
+    },
+    {
+      "id": "yt-YDjOS0VHEr4",
+      "showId": "lex-fridman",
+      "title": "Neil Gershenfeld: Self-Replicating Robots and the Future of Fabrication | Lex Fridman Podcast #380",
+      "publishedAt": "2023-05-28",
+      "youtube": "YDjOS0VHEr4",
+      "duration": 7625,
+      "automatic": true
+    },
+    {
+      "id": "yt-iFXGpKf9VBU",
+      "showId": "lex-fridman",
+      "title": "Randall Kennedy: The N-Word - History of Race, Law, Politics, and Power | Lex Fridman Podcast #379",
+      "publishedAt": "2023-05-24",
+      "youtube": "iFXGpKf9VBU",
+      "duration": 11404,
+      "automatic": true
+    },
+    {
+      "id": "yt-IQnUa5Bq5x4",
+      "showId": "lex-fridman",
+      "title": "Anna Frebel: Origin and Evolution of the Universe, Galaxies, and Stars | Lex Fridman Podcast #378",
+      "publishedAt": "2023-05-18",
+      "youtube": "IQnUa5Bq5x4",
+      "duration": 8330,
+      "automatic": true
+    },
+    {
+      "id": "yt-DgTjSrrf6GQ",
+      "showId": "lex-fridman",
+      "title": "Harvey Silverglate: Freedom of Speech | Lex Fridman Podcast #377",
+      "publishedAt": "2023-05-16",
+      "youtube": "DgTjSrrf6GQ",
+      "duration": 6672,
+      "automatic": true
+    },
+    {
+      "id": "yt-PdE-waSx-d8",
+      "showId": "lex-fridman",
+      "title": "Stephen Wolfram: ChatGPT and the Nature of Truth, Reality & Computation | Lex Fridman Podcast #376",
+      "publishedAt": "2023-05-09",
+      "youtube": "PdE-waSx-d8",
+      "duration": 15274,
+      "automatic": true
+    },
+    {
+      "id": "yt-2i31fDkaK9A",
+      "showId": "lex-fridman",
+      "title": "David Pakman: Politics of Trump, Biden, Bernie, AOC, Socialism & Wokeism | Lex Fridman Podcast #375",
+      "publishedAt": "2023-05-06",
+      "youtube": "2i31fDkaK9A",
+      "duration": 12663,
+      "automatic": true
+    },
+    {
+      "id": "yt-cLVdsZ3I5os",
+      "showId": "lex-fridman",
+      "title": "Robert Playter: Boston Dynamics CEO on Humanoid and Legged Robotics | Lex Fridman Podcast #374",
+      "publishedAt": "2023-04-28",
+      "youtube": "cLVdsZ3I5os",
+      "duration": 8878,
+      "automatic": true
+    },
+    {
+      "id": "yt-wMavKrA-4do",
+      "showId": "lex-fridman",
+      "title": "Manolis Kellis: Evolution of Human Civilization and Superintelligent AI | Lex Fridman Podcast #373",
+      "publishedAt": "2023-04-21",
+      "youtube": "wMavKrA-4do",
+      "duration": 9028,
+      "automatic": true
+    },
+    {
+      "id": "yt-OgIo36F6Fsg",
+      "showId": "lex-fridman",
+      "title": "Simone Giertz: Queen of Sh*tty Robots, Innovative Engineering, and Design | Lex Fridman Podcast #372",
+      "publishedAt": "2023-04-16",
+      "youtube": "OgIo36F6Fsg",
+      "duration": 7154,
+      "automatic": true
+    },
+    {
+      "id": "yt-VcVfceTsD0A",
+      "showId": "lex-fridman",
+      "title": "Max Tegmark: The Case for Halting AI Development | Lex Fridman Podcast #371",
+      "publishedAt": "2023-04-13",
+      "youtube": "VcVfceTsD0A",
+      "duration": 10093,
+      "automatic": true
+    },
+    {
+      "id": "yt-Osh0-J3T2nY",
+      "showId": "lex-fridman",
+      "title": "Edward Frenkel: Reality is a Paradox - Mathematics, Physics, Truth & Love | Lex Fridman Podcast #370",
+      "publishedAt": "2023-04-10",
+      "youtube": "Osh0-J3T2nY",
+      "duration": 13599,
+      "automatic": true
+    },
+    {
+      "id": "yt-gPfriiHBBek",
+      "showId": "lex-fridman",
+      "title": "Paul Rosolie: Amazon Jungle, Uncontacted Tribes, Anacondas, and Ayahuasca | Lex Fridman Podcast #369",
+      "publishedAt": "2023-04-04",
+      "youtube": "gPfriiHBBek",
+      "duration": 12898,
+      "automatic": true
+    },
+    {
+      "id": "yt-AaTRHFaaPG8",
+      "showId": "lex-fridman",
+      "title": "Eliezer Yudkowsky: Dangers of AI and the End of Human Civilization | Lex Fridman Podcast #368",
+      "publishedAt": "2023-03-30",
+      "youtube": "AaTRHFaaPG8",
+      "duration": 11871,
+      "automatic": true
+    },
+    {
+      "id": "yt-L_Guz73e6fw",
+      "showId": "lex-fridman",
+      "title": "Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI | Lex Fridman Podcast #367",
+      "publishedAt": "2023-03-25",
+      "youtube": "L_Guz73e6fw",
+      "duration": 8637,
+      "automatic": true
+    },
+    {
+      "id": "yt-qtOKrG_wK5A",
+      "showId": "lex-fridman",
+      "title": "Shannon Curry: Johnny Depp & Amber Heard Trial, Marriage, Dating & Love | Lex Fridman Podcast #366",
+      "publishedAt": "2023-03-21",
+      "youtube": "qtOKrG_wK5A",
+      "duration": 6403,
+      "automatic": true
+    },
+    {
+      "id": "yt-Qyrjgf-_Vdk",
+      "showId": "lex-fridman",
+      "title": "Sam Harris: Trump, Pandemic, Twitter, Elon, Bret, IDW, Kanye, AI & UFOs | Lex Fridman Podcast #365",
+      "publishedAt": "2023-03-14",
+      "youtube": "Qyrjgf-_Vdk",
+      "duration": 16066,
+      "automatic": true
+    },
+    {
+      "id": "yt-8EguLJgkc54",
+      "showId": "lex-fridman",
+      "title": "Chris Voss: FBI Hostage Negotiator | Lex Fridman Podcast #364",
+      "publishedAt": "2023-03-10",
+      "youtube": "8EguLJgkc54",
+      "duration": 7817,
+      "automatic": true
+    },
+    {
+      "id": "yt-hLZ6PACCBy8",
+      "showId": "lex-fridman",
+      "title": "B-Team Jiu Jitsu: Craig Jones, Nicky Rod, and Nicky Ryan | Lex Fridman Podcast #363",
+      "publishedAt": "2023-03-06",
+      "youtube": "hLZ6PACCBy8",
+      "duration": 10203,
+      "automatic": true
+    },
+    {
+      "id": "yt-XiCxj-bXu5M",
+      "showId": "lex-fridman",
+      "title": "Ginni Rometty: IBM CEO on Leadership, Power, and Adversity | Lex Fridman Podcast #362",
+      "publishedAt": "2023-03-02",
+      "youtube": "XiCxj-bXu5M",
+      "duration": 6736,
+      "automatic": true
+    },
+    {
+      "id": "yt-J1lN9zkK_k0",
+      "showId": "lex-fridman",
+      "title": "Aaron Smith-Levin: Scientology | Lex Fridman Podcast #361",
+      "publishedAt": "2023-02-25",
+      "youtube": "J1lN9zkK_k0",
+      "duration": 7987,
+      "automatic": true
+    },
+    {
+      "id": "yt-GkZz2I6sK08",
+      "showId": "lex-fridman",
+      "title": "Tim Urban: Tribalism, Marxism, Liberalism, Social Justice, and Politics | Lex Fridman Podcast #360",
+      "publishedAt": "2023-02-20",
+      "youtube": "GkZz2I6sK08",
+      "duration": 11239,
+      "automatic": true
+    },
+    {
+      "id": "yt-y3cw_9ELpQw",
+      "showId": "lex-fridman",
+      "title": "Andrew Strominger: Black Holes, Quantum Gravity, and Theoretical Physics | Lex Fridman Podcast #359",
+      "publishedAt": "2023-02-15",
+      "youtube": "y3cw_9ELpQw",
+      "duration": 8374,
+      "automatic": true
+    },
+    {
+      "id": "yt-cFSrxSBrgSc",
+      "showId": "lex-fridman",
+      "title": "Aella: Sex Work, OnlyFans, Porn, Escorting, Dating, and Human Sexuality | Lex Fridman Podcast #358",
+      "publishedAt": "2023-02-10",
+      "youtube": "cFSrxSBrgSc",
+      "duration": 14269,
+      "automatic": true
+    },
+    {
+      "id": "yt-jRBksDVs4tg",
+      "showId": "lex-fridman",
+      "title": "Paul Conti: Narcissism, Sociopathy, Envy, and the Nature of Good and Evil | Lex Fridman Podcast #357",
+      "publishedAt": "2023-02-07",
+      "youtube": "jRBksDVs4tg",
+      "duration": 11848,
+      "automatic": true
+    },
+    {
+      "id": "yt-5eK5A_43pkE",
+      "showId": "lex-fridman",
+      "title": "Tim Dodd: SpaceX, Starship, Rocket Engines, and Future of Space Travel | Lex Fridman Podcast #356",
+      "publishedAt": "2023-02-02",
+      "youtube": "5eK5A_43pkE",
+      "duration": 18945,
+      "automatic": true
+    },
+    {
+      "id": "yt-uZN5xjoS6TU",
+      "showId": "lex-fridman",
+      "title": "David Kipping: Alien Civilizations and Habitable Worlds | Lex Fridman Podcast #355",
+      "publishedAt": "2023-01-28",
+      "youtube": "uZN5xjoS6TU",
+      "duration": 13630,
+      "automatic": true
+    },
+    {
+      "id": "yt-GvX-heRWFfA",
+      "showId": "lex-fridman",
+      "title": "Jeremi Suri: Civil War, Slavery, Freedom, and Democracy | Lex Fridman Podcast #354",
+      "publishedAt": "2023-01-25",
+      "youtube": "GvX-heRWFfA",
+      "duration": 10793,
+      "automatic": true
+    },
+    {
+      "id": "yt-aJoRMFWn2Jk",
+      "showId": "lex-fridman",
+      "title": "Dennis Whyte: Nuclear Fusion and the Future of Energy | Lex Fridman Podcast #353",
+      "publishedAt": "2023-01-21",
+      "youtube": "aJoRMFWn2Jk",
+      "duration": 11287,
+      "automatic": true
+    },
+    {
+      "id": "yt-BOKCNUqbpH0",
+      "showId": "lex-fridman",
+      "title": "Omar Suleiman: Islam | Lex Fridman Podcast #352",
+      "publishedAt": "2023-01-17",
+      "youtube": "BOKCNUqbpH0",
+      "duration": 10973,
+      "automatic": true
+    },
+    {
+      "id": "yt-Z3_PwvvfxIU",
+      "showId": "lex-fridman",
+      "title": "MrBeast: Future of YouTube, Twitter, TikTok, and Instagram | Lex Fridman Podcast #351",
+      "publishedAt": "2023-01-11",
+      "youtube": "Z3_PwvvfxIU",
+      "duration": 8267,
+      "automatic": true
+    },
+    {
+      "id": "yt-NXU_M4030nE",
+      "showId": "lex-fridman",
+      "title": "Betül Kaçar: Origin of Life, Ancient DNA, Panspermia, and Aliens | Lex Fridman Podcast #350",
+      "publishedAt": "2022-12-29",
+      "youtube": "NXU_M4030nE",
+      "duration": 9618,
+      "automatic": true
+    },
+    {
+      "id": "yt-pNlfHgHJweQ",
+      "showId": "lex-fridman",
+      "title": "Bhaskar Sunkara: Socialism and Communism | Lex Fridman Podcast #349",
+      "publishedAt": "2022-12-22",
+      "youtube": "pNlfHgHJweQ",
+      "duration": 13355,
+      "automatic": true
+    },
+    {
+      "id": "yt-yyBosLx7bbM",
+      "showId": "lex-fridman",
+      "title": "Nathalie Cabrol: Search for Alien Life | Lex Fridman Podcast #348",
+      "publishedAt": "2022-12-19",
+      "youtube": "yyBosLx7bbM",
+      "duration": 7585,
+      "automatic": true
+    },
+    {
+      "id": "yt-NUkXluf3OYA",
+      "showId": "lex-fridman",
+      "title": "Michael Malice: Christmas Special | Lex Fridman Podcast #347",
+      "publishedAt": "2022-12-15",
+      "youtube": "NUkXluf3OYA",
+      "duration": 13253,
+      "automatic": true
+    },
+    {
+      "id": "yt-9PIOoJMMptA",
+      "showId": "lex-fridman",
+      "title": "Ed Calderon: Mexican Drug Cartels | Lex Fridman Podcast #346",
+      "publishedAt": "2022-12-12",
+      "youtube": "9PIOoJMMptA",
+      "duration": 14721,
+      "automatic": true
+    },
+    {
+      "id": "yt-hi9Rf0oLdHk",
+      "showId": "lex-fridman",
+      "title": "Coffeezilla: SBF, FTX, Fraud, Scams, Fake Gurus, Money, Fame, and Power | Lex Fridman Podcast #345",
+      "publishedAt": "2022-12-09",
+      "youtube": "hi9Rf0oLdHk",
+      "duration": 13579,
+      "automatic": true
+    },
+    {
+      "id": "yt-2oHH4aClJQs",
+      "showId": "lex-fridman",
+      "title": "Noam Brown: AI vs Humans in Poker and Games of Strategic Negotiation | Lex Fridman Podcast #344",
+      "publishedAt": "2022-12-06",
+      "youtube": "2oHH4aClJQs",
+      "duration": 8961,
+      "automatic": true
+    },
+    {
+      "id": "yt-FhfmGM6hswI",
+      "showId": "lex-fridman",
+      "title": "Roger Gracie: Greatest Jiu Jitsu Competitor of All Time | Lex Fridman Podcast #343",
+      "publishedAt": "2022-12-03",
+      "youtube": "FhfmGM6hswI",
+      "duration": 10773,
+      "automatic": true
+    },
+    {
+      "id": "yt-H9AAnV59ddE",
+      "showId": "lex-fridman",
+      "title": "Todd Howard: Skyrim, Elder Scrolls 6, Fallout, and Starfield | Lex Fridman Podcast #342",
+      "publishedAt": "2022-11-29",
+      "youtube": "H9AAnV59ddE",
+      "duration": 9892,
+      "automatic": true
+    },
+    {
+      "id": "yt--DVyjdw4t9I",
+      "showId": "lex-fridman",
+      "title": "Guido van Rossum: Python and the Future of Programming | Lex Fridman Podcast #341",
+      "publishedAt": "2022-11-26",
+      "youtube": "-DVyjdw4t9I",
+      "duration": 11751,
+      "automatic": true
+    },
+    {
+      "id": "yt-4KiO8GRgwDk",
+      "showId": "lex-fridman",
+      "title": "Chris Tarbell: FBI Agent Who Took Down Silk Road | Lex Fridman Podcast #340",
+      "publishedAt": "2022-11-22",
+      "youtube": "4KiO8GRgwDk",
+      "duration": 10563,
+      "automatic": true
+    },
+    {
+      "id": "yt-5Gk9gIpGvSE",
+      "showId": "lex-fridman",
+      "title": "Climate Change Debate: Bjørn Lomborg and Andrew Revkin | Lex Fridman Podcast #339",
+      "publishedAt": "2022-11-18",
+      "youtube": "5Gk9gIpGvSE",
+      "duration": 15066,
+      "automatic": true
+    },
+    {
+      "id": "yt-kFQUDCgMjRc",
+      "showId": "lex-fridman",
+      "title": "Chamath Palihapitiya: Money, Success, Startups, Energy, Poker & Happiness | Lex Fridman Podcast #338",
+      "publishedAt": "2022-11-15",
+      "youtube": "kFQUDCgMjRc",
+      "duration": 10644,
+      "automatic": true
+    },
+    {
+      "id": "yt-bqeuFiAUU4o",
+      "showId": "lex-fridman",
+      "title": "Destiny: Politics, Free Speech, Controversy, Sex, War, and Relationships | Lex Fridman Podcast #337",
+      "publishedAt": "2022-11-11",
+      "youtube": "bqeuFiAUU4o",
+      "duration": 15334,
+      "automatic": true
+    },
+    {
+      "id": "yt-AF8DOS4C2KM",
+      "showId": "lex-fridman",
+      "title": "Ben Shapiro: Politics, Kanye, Trump, Biden, Hitler, Extremism, and War | Lex Fridman Podcast #336",
+      "publishedAt": "2022-11-07",
+      "youtube": "AF8DOS4C2KM",
+      "duration": 9085,
+      "automatic": true
+    },
+    {
+      "id": "yt-vNhSCF9i8Qs",
+      "showId": "lex-fridman",
+      "title": "Fiona Hill: Vladimir Putin and Donald Trump | Lex Fridman Podcast #335",
+      "publishedAt": "2022-11-04",
+      "youtube": "vNhSCF9i8Qs",
+      "duration": 11965,
+      "automatic": true
+    },
+    {
+      "id": "yt-OYsYgzzsdT0",
+      "showId": "lex-fridman",
+      "title": "Abbas Amanat: Iran Protests, Mahsa Amini, History, CIA & Nuclear Weapons | Lex Fridman Podcast #334",
+      "publishedAt": "2022-11-02",
+      "youtube": "OYsYgzzsdT0",
+      "duration": 11158,
+      "automatic": true
+    },
+    {
+      "id": "yt-cdiD-9MMpb0",
+      "showId": "lex-fridman",
+      "title": "Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI | Lex Fridman Podcast #333",
+      "publishedAt": "2022-10-29",
+      "youtube": "cdiD-9MMpb0",
+      "duration": 12528,
+      "automatic": true
+    },
+    {
+      "id": "yt-4AWLcxTGZPA",
+      "showId": "lex-fridman",
+      "title": "Kanye 'Ye' West Interview | Lex Fridman Podcast #332",
+      "publishedAt": "2022-10-24",
+      "youtube": "4AWLcxTGZPA",
+      "duration": 8790,
+      "automatic": true
+    },
+    {
+      "id": "yt-VeH7qKZr0WI",
+      "showId": "lex-fridman",
+      "title": "Balaji Srinivasan: How to Fix Government, Twitter, Science, and the FDA | Lex Fridman Podcast #331",
+      "publishedAt": "2022-10-20",
+      "youtube": "VeH7qKZr0WI",
+      "duration": 28072,
+      "automatic": true
+    },
+    {
+      "id": "yt-oJNvxYEcVAY",
+      "showId": "lex-fridman",
+      "title": "Hikaru Nakamura: Chess, Magnus, Kasparov, and the Psychology of Greatness | Lex Fridman Podcast #330",
+      "publishedAt": "2022-10-17",
+      "youtube": "oJNvxYEcVAY",
+      "duration": 10122,
+      "automatic": true
+    },
+    {
+      "id": "yt-ZFntEFXKDHM",
+      "showId": "lex-fridman",
+      "title": "Kate Darling: Social Robots, Ethics, Privacy and the Future of MIT | Lex Fridman Podcast #329",
+      "publishedAt": "2022-10-15",
+      "youtube": "ZFntEFXKDHM",
+      "duration": 11013,
+      "automatic": true
+    },
+    {
+      "id": "yt-iZRbD7q1n-U",
+      "showId": "lex-fridman",
+      "title": "John Danaher: Grappling, Jiu Jitsu, ADCC, and Animal Combat | Lex Fridman Podcast #328",
+      "publishedAt": "2022-10-10",
+      "youtube": "iZRbD7q1n-U",
+      "duration": 17319,
+      "automatic": true
+    },
+    {
+      "id": "yt-iSMpTmibeDw",
+      "showId": "lex-fridman",
+      "title": "GothamChess: Hans Niemann, Magnus Carlsen, Cheating Scandal & Chess Bots | Lex Fridman Podcast #327",
+      "publishedAt": "2022-10-07",
+      "youtube": "iSMpTmibeDw",
+      "duration": 12799,
+      "automatic": true
+    },
+    {
+      "id": "yt-q6zEzZCtkXw",
+      "showId": "lex-fridman",
+      "title": "Annaka Harris: Free Will, Consciousness, and the Nature of Reality | Lex Fridman Podcast #326",
+      "publishedAt": "2022-10-05",
+      "youtube": "q6zEzZCtkXw",
+      "duration": 9580,
+      "automatic": true
+    },
+    {
+      "id": "yt-p3lsYlod5OU",
+      "showId": "lex-fridman",
+      "title": "Michael Levin: Biology, Life, Aliens, Evolution, Embryogenesis & Xenobots | Lex Fridman Podcast #325",
+      "publishedAt": "2022-10-01",
+      "youtube": "p3lsYlod5OU",
+      "duration": 10821,
+      "automatic": true
+    },
+    {
+      "id": "yt-rKnoNfajUgM",
+      "showId": "lex-fridman",
+      "title": "Daniel Negreanu: Poker | Lex Fridman Podcast #324",
+      "publishedAt": "2022-09-27",
+      "youtube": "rKnoNfajUgM",
+      "duration": 8488,
+      "automatic": true
+    },
+    {
+      "id": "yt-xewD1apJNhw",
+      "showId": "lex-fridman",
+      "title": "Will Sasso: Comedy, MADtv, AI, Friendship, Madness, and Pro Wrestling | Lex Fridman Podcast #323",
+      "publishedAt": "2022-09-24",
+      "youtube": "xewD1apJNhw",
+      "duration": 8515,
+      "automatic": true
+    },
+    {
+      "id": "yt-36_rM7wpN5A",
+      "showId": "lex-fridman",
+      "title": "Rana el Kaliouby: Emotion AI, Social Robots, and Self-Driving Cars | Lex Fridman Podcast #322",
+      "publishedAt": "2022-09-21",
+      "youtube": "36_rM7wpN5A",
+      "duration": 9382,
+      "automatic": true
+    },
+    {
+      "id": "yt-ykY69lSpDdo",
+      "showId": "lex-fridman",
+      "title": "Ray Kurzweil: Singularity, Superintelligence, and Immortality | Lex Fridman Podcast #321",
+      "publishedAt": "2022-09-17",
+      "youtube": "ykY69lSpDdo",
+      "duration": 5772,
+      "automatic": true
+    },
+    {
+      "id": "yt-SK4kMPmgKW0",
+      "showId": "lex-fridman",
+      "title": "Christopher Capozzola: World War I, Ideology, Propaganda, and Politics | Lex Fridman Podcast #320",
+      "publishedAt": "2022-09-14",
+      "youtube": "SK4kMPmgKW0",
+      "duration": 8136,
+      "automatic": true
+    },
+    {
+      "id": "yt-srUlKNLZTas",
+      "showId": "lex-fridman",
+      "title": "Botez Sisters: Chess, Streaming, and Fame | Lex Fridman Podcast #319",
+      "publishedAt": "2022-09-09",
+      "youtube": "srUlKNLZTas",
+      "duration": 9337,
+      "automatic": true
+    },
+    {
+      "id": "yt-tOtdJcco3YM",
+      "showId": "lex-fridman",
+      "title": "Nick Lane: Origin of Life, Evolution, Aliens, Biology, and Consciousness | Lex Fridman Podcast #318",
+      "publishedAt": "2022-09-07",
+      "youtube": "tOtdJcco3YM",
+      "duration": 13381,
+      "automatic": true
+    },
+    {
+      "id": "yt-yImlXr5Tr8g",
+      "showId": "lex-fridman",
+      "title": "John Vervaeke: Meaning Crisis, Atheism, Religion & the Search for Wisdom | Lex Fridman Podcast #317",
+      "publishedAt": "2022-09-04",
+      "youtube": "yImlXr5Tr8g",
+      "duration": 11461,
+      "automatic": true
+    },
+    {
+      "id": "yt-7uHGlfeCBbE",
+      "showId": "lex-fridman",
+      "title": "Noam Chomsky: Putin, Ukraine, China, and Nuclear War | Lex Fridman Podcast #316",
+      "publishedAt": "2022-08-31",
+      "youtube": "7uHGlfeCBbE",
+      "duration": 2832,
+      "automatic": true
+    },
+    {
+      "id": "yt-0ZO28NtkwwQ",
+      "showId": "lex-fridman",
+      "title": "Magnus Carlsen: Greatest Chess Player of All Time | Lex Fridman Podcast #315",
+      "publishedAt": "2022-08-27",
+      "youtube": "0ZO28NtkwwQ",
+      "duration": 9113,
+      "automatic": true
+    },
+    {
+      "id": "yt-eF-E40pxxbI",
+      "showId": "lex-fridman",
+      "title": "Liv Boeree: Poker, Game Theory, AI, Simulation, Aliens & Existential Risk | Lex Fridman Podcast #314",
+      "publishedAt": "2022-08-24",
+      "youtube": "eF-E40pxxbI",
+      "duration": 12940,
+      "automatic": true
+    },
+    {
+      "id": "yt-sY8aFSY2zv4",
+      "showId": "lex-fridman",
+      "title": "Jordan Peterson: Life, Death, Power, Fame, and Meaning | Lex Fridman Podcast #313",
+      "publishedAt": "2022-08-19",
+      "youtube": "sY8aFSY2zv4",
+      "duration": 11013,
+      "automatic": true
+    },
+    {
+      "id": "yt-jdIyNMkusLE",
+      "showId": "lex-fridman",
+      "title": "Duncan Trussell: Comedy, Sentient Robots, Suffering, Love & Burning Man | Lex Fridman Podcast #312",
+      "publishedAt": "2022-08-16",
+      "youtube": "jdIyNMkusLE",
+      "duration": 11992,
+      "automatic": true
+    },
+    {
+      "id": "yt-Q6tDV3BhrcM",
+      "showId": "lex-fridman",
+      "title": "Magatte Wade: Africa, Capitalism, Communism, and the Future of Humanity | Lex Fridman Podcast #311",
+      "publishedAt": "2022-08-13",
+      "youtube": "Q6tDV3BhrcM",
+      "duration": 12784,
+      "automatic": true
+    },
+    {
+      "id": "yt-T3FC7qIAGZk",
+      "showId": "lex-fridman",
+      "title": "Andrew Bustamante: CIA Spy | Lex Fridman Podcast #310",
+      "publishedAt": "2022-08-08",
+      "youtube": "T3FC7qIAGZk",
+      "duration": 13989,
+      "automatic": true
+    },
+    {
+      "id": "yt-I845O57ZSy4",
+      "showId": "lex-fridman",
+      "title": "John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets | Lex Fridman Podcast #309",
+      "publishedAt": "2022-08-04",
+      "youtube": "I845O57ZSy4",
+      "duration": 18891,
+      "automatic": true
+    },
+    {
+      "id": "yt-qLDp-aYnR1Y",
+      "showId": "lex-fridman",
+      "title": "Ryan Graves: UFOs, Fighter Jets, and Aliens | Lex Fridman Podcast #308",
+      "publishedAt": "2022-08-01",
+      "youtube": "qLDp-aYnR1Y",
+      "duration": 9120,
+      "automatic": true
+    },
+    {
+      "id": "yt-VBPTFlpv31k",
+      "showId": "lex-fridman",
+      "title": "Brian Armstrong: Coinbase, Cryptocurrency, and Government Regulation | Lex Fridman Podcast #307",
+      "publishedAt": "2022-07-29",
+      "youtube": "VBPTFlpv31k",
+      "duration": 8965,
+      "automatic": true
+    },
+    {
+      "id": "yt-aGBLRlLe7X8",
+      "showId": "lex-fridman",
+      "title": "Oriol Vinyals: Deep Learning and Artificial General Intelligence | Lex Fridman Podcast #306",
+      "publishedAt": "2022-07-26",
+      "youtube": "aGBLRlLe7X8",
+      "duration": 7809,
+      "automatic": true
+    },
+    {
+      "id": "yt-50r-5ULcWgY",
+      "showId": "lex-fridman",
+      "title": "Martin Rees: Black Holes, Alien Life, Dark Matter, and the Big Bang | Lex Fridman Podcast #305",
+      "publishedAt": "2022-07-23",
+      "youtube": "50r-5ULcWgY",
+      "duration": 7997,
+      "automatic": true
+    },
+    {
+      "id": "yt-WgytXF0SPh0",
+      "showId": "lex-fridman",
+      "title": "Bishop Robert Barron: Christianity and the Catholic Church | Lex Fridman Podcast #304",
+      "publishedAt": "2022-07-20",
+      "youtube": "WgytXF0SPh0",
+      "duration": 6872,
+      "automatic": true
+    },
+    {
+      "id": "yt-1XGiTDWfdpM",
+      "showId": "lex-fridman",
+      "title": "Steve Keen: Marxism, Capitalism, and Economics | Lex Fridman Podcast #303",
+      "publishedAt": "2022-07-17",
+      "youtube": "1XGiTDWfdpM",
+      "duration": 12662,
+      "automatic": true
+    },
+    {
+      "id": "yt-hppbxV9C63g",
+      "showId": "lex-fridman",
+      "title": "Richard Haier: IQ Tests, Human Intelligence, and Group Differences | Lex Fridman Podcast #302",
+      "publishedAt": "2022-07-14",
+      "youtube": "hppbxV9C63g",
+      "duration": 9856,
+      "automatic": true
+    },
+    {
+      "id": "yt-dSVLjAdo8UA",
+      "showId": "lex-fridman",
+      "title": "Jack Barsky: KGB Spy | Lex Fridman Podcast #301",
+      "publishedAt": "2022-07-09",
+      "youtube": "dSVLjAdo8UA",
+      "duration": 13054,
+      "automatic": true
+    },
+    {
+      "id": "yt-gk4tEO4jDUM",
+      "showId": "lex-fridman",
+      "title": "Joe Rogan: Comedy, Controversy, Aliens, UFOs, Putin, CIA, and Freedom | Lex Fridman Podcast #300",
+      "publishedAt": "2022-07-04",
+      "youtube": "gk4tEO4jDUM",
+      "duration": 6081,
+      "automatic": true
+    },
+    {
+      "id": "yt-Gfr50f6ZBvo",
+      "showId": "lex-fridman",
+      "title": "Demis Hassabis: DeepMind - AI, Superintelligence & the Future of Humanity | Lex Fridman Podcast #299",
+      "publishedAt": "2022-07-01",
+      "youtube": "Gfr50f6ZBvo",
+      "duration": 7839,
+      "automatic": true
+    },
+    {
+      "id": "yt-j4PEu4sVD40",
+      "showId": "lex-fridman",
+      "title": "Susan Cain: The Power of Introverts and Loneliness | Lex Fridman Podcast #298",
+      "publishedAt": "2022-06-28",
+      "youtube": "j4PEu4sVD40",
+      "duration": 7184,
+      "automatic": true
+    },
+    {
+      "id": "yt-XOPO9J7DIXw",
+      "showId": "lex-fridman",
+      "title": "Jonathan Reisman: The Human Body - From Sex & Sperm to Hands & Heart | Lex Fridman Podcast #297",
+      "publishedAt": "2022-06-25",
+      "youtube": "XOPO9J7DIXw",
+      "duration": 9832,
+      "automatic": true
+    },
+    {
+      "id": "yt-EG7I6Bt_NZY",
+      "showId": "lex-fridman",
+      "title": "Douglas Murray: Racism, Marxism, and the War on the West | Lex Fridman Podcast #296",
+      "publishedAt": "2022-06-21",
+      "youtube": "EG7I6Bt_NZY",
+      "duration": 9511,
+      "automatic": true
+    },
+    {
+      "id": "yt-o0Bi-q89j5Y",
+      "showId": "lex-fridman",
+      "title": "Richard Wolff: Marxism and Communism | Lex Fridman Podcast #295",
+      "publishedAt": "2022-06-17",
+      "youtube": "o0Bi-q89j5Y",
+      "duration": 10432,
+      "automatic": true
+    },
+    {
+      "id": "yt-4oDZyOf6CW4",
+      "showId": "lex-fridman",
+      "title": "Tony Fadell: iPhone, iPod, Nest, Steve Jobs, Design, and Engineering | Lex Fridman Podcast #294",
+      "publishedAt": "2022-06-15",
+      "youtube": "4oDZyOf6CW4",
+      "duration": 9986,
+      "automatic": true
+    },
+    {
+      "id": "yt-reYdQYZ9Rj4",
+      "showId": "lex-fridman",
+      "title": "Donald Hoffman: Reality is an Illusion - How Evolution Hid the Truth | Lex Fridman Podcast #293",
+      "publishedAt": "2022-06-12",
+      "youtube": "reYdQYZ9Rj4",
+      "duration": 11776,
+      "automatic": true
+    },
+    {
+      "id": "yt-KBZP4rLk6bk",
+      "showId": "lex-fridman",
+      "title": "Robin Hanson: Alien Civilizations, UFOs, and the Future of Humanity | Lex Fridman Podcast #292",
+      "publishedAt": "2022-06-09",
+      "youtube": "KBZP4rLk6bk",
+      "duration": 15211,
+      "automatic": true
+    },
+    {
+      "id": "yt-f0un-l1L8Zw",
+      "showId": "lex-fridman",
+      "title": "Jonathan Haidt: The Case Against Social Media | Lex Fridman Podcast #291",
+      "publishedAt": "2022-06-04",
+      "youtube": "f0un-l1L8Zw",
+      "duration": 6126,
+      "automatic": true
+    },
+    {
+      "id": "yt-jvGZkf87aCs",
+      "showId": "lex-fridman",
+      "title": "Dan Reynolds: Imagine Dragons | Lex Fridman Podcast #290",
+      "publishedAt": "2022-05-30",
+      "youtube": "jvGZkf87aCs",
+      "duration": 7921,
+      "automatic": true
+    },
+    {
+      "id": "yt-2a7CDKqWcZ0",
+      "showId": "lex-fridman",
+      "title": "Stephen Kotkin: Putin, Stalin, Hitler, Zelenskyy, and War in Ukraine | Lex Fridman Podcast #289",
+      "publishedAt": "2022-05-25",
+      "youtube": "2a7CDKqWcZ0",
+      "duration": 9670,
+      "automatic": true
+    },
+    {
+      "id": "yt-iZjby1LkTWQ",
+      "showId": "lex-fridman",
+      "title": "Sarma Melngailis: Bad Vegan, Fraud, Prison, and Sociopathy | Lex Fridman Podcast #288",
+      "publishedAt": "2022-05-23",
+      "youtube": "iZjby1LkTWQ",
+      "duration": 15301,
+      "automatic": true
+    },
+    {
+      "id": "yt-tOTenjh_8hw",
+      "showId": "lex-fridman",
+      "title": "Bobby Lee: Comedy, Skyrim, Sex Robots, Love, Fame, and Power | Lex Fridman Podcast #287",
+      "publishedAt": "2022-05-20",
+      "youtube": "tOTenjh_8hw",
+      "duration": 5949,
+      "automatic": true
+    },
+    {
+      "id": "yt-ygAqYC8JOQI",
+      "showId": "lex-fridman",
+      "title": "Oliver Stone: Vladimir Putin and War in Ukraine | Lex Fridman Podcast #286",
+      "publishedAt": "2022-05-17",
+      "youtube": "ygAqYC8JOQI",
+      "duration": 6759,
+      "automatic": true
+    },
+    {
+      "id": "yt-YbJZnShMQAo",
+      "showId": "lex-fridman",
+      "title": "Glenn Loury: Race, Racism, Identity Politics, and Cancel Culture | Lex Fridman Podcast #285",
+      "publishedAt": "2022-05-14",
+      "youtube": "YbJZnShMQAo",
+      "duration": 12744,
+      "automatic": true
+    },
+    {
+      "id": "yt-gp4U5aH_T6A",
+      "showId": "lex-fridman",
+      "title": "Saifedean Ammous: Bitcoin, Anarchy, and Austrian Economics | Lex Fridman Podcast #284",
+      "publishedAt": "2022-05-11",
+      "youtube": "gp4U5aH_T6A",
+      "duration": 15281,
+      "automatic": true
+    },
+    {
+      "id": "yt-1C2tPFCGL1U",
+      "showId": "lex-fridman",
+      "title": "Chris Mason: Space Travel, Colonization, and Long-Term Survival in Space | Lex Fridman Podcast #283",
+      "publishedAt": "2022-05-08",
+      "youtube": "1C2tPFCGL1U",
+      "duration": 10505,
+      "automatic": true
+    },
+    {
+      "id": "yt-sndW9hzX-wA",
+      "showId": "lex-fridman",
+      "title": "David Buss: Sex, Dating, Relationships, and Sex Differences | Lex Fridman Podcast #282",
+      "publishedAt": "2022-05-04",
+      "youtube": "sndW9hzX-wA",
+      "duration": 12763,
+      "automatic": true
+    },
+    {
+      "id": "yt-KOwm7GUjcg8",
+      "showId": "lex-fridman",
+      "title": "Grimes: Music, AI, and the Future of Humanity | Lex Fridman Podcast #281",
+      "publishedAt": "2022-04-29",
+      "youtube": "KOwm7GUjcg8",
+      "duration": 7499,
+      "automatic": true
+    },
+    {
+      "id": "yt-KMgPxVnKLSk",
+      "showId": "lex-fridman",
+      "title": "Cristiano Amon: Qualcomm CEO | Lex Fridman Podcast #280",
+      "publishedAt": "2022-04-27",
+      "youtube": "KMgPxVnKLSk",
+      "duration": 4150,
+      "automatic": true
+    },
+    {
+      "id": "yt-SFxIazwNP_0",
+      "showId": "lex-fridman",
+      "title": "Alien Debate: Sara Walker and Lee Cronin | Lex Fridman Podcast #279",
+      "publishedAt": "2022-04-24",
+      "youtube": "SFxIazwNP_0",
+      "duration": 14723,
+      "automatic": true
+    },
+    {
+      "id": "yt-dHTgffkpeYo",
+      "showId": "lex-fridman",
+      "title": "Skye Fitzgerald: Hunger, War, and Human Suffering | Lex Fridman Podcast #278",
+      "publishedAt": "2022-04-20",
+      "youtube": "dHTgffkpeYo",
+      "duration": 8948,
+      "automatic": true
+    },
+    {
+      "id": "yt-lvh3g7eszVQ",
+      "showId": "lex-fridman",
+      "title": "Andrew Huberman: Focus, Stress, Relationships, and Friendship | Lex Fridman Podcast #277",
+      "publishedAt": "2022-04-17",
+      "youtube": "lvh3g7eszVQ",
+      "duration": 12322,
+      "automatic": true
+    },
+    {
+      "id": "yt-mC43pZkpTec",
+      "showId": "lex-fridman",
+      "title": "Michael Saylor: Bitcoin, Inflation, and the Future of Money | Lex Fridman Podcast #276",
+      "publishedAt": "2022-04-14",
+      "youtube": "mC43pZkpTec",
+      "duration": 14215,
+      "automatic": true
+    },
+    {
+      "id": "yt-H_szemxPcTI",
+      "showId": "lex-fridman",
+      "title": "Rick Rubin: Legendary Music Producer | Lex Fridman Podcast #275",
+      "publishedAt": "2022-04-10",
+      "youtube": "H_szemxPcTI",
+      "duration": 7457,
+      "automatic": true
+    },
+    {
+      "id": "yt-OaeYUm06in0",
+      "showId": "lex-fridman",
+      "title": "Karl Deisseroth: Depression, Schizophrenia, and Psychiatry | Lex Fridman Podcast #274",
+      "publishedAt": "2022-04-07",
+      "youtube": "OaeYUm06in0",
+      "duration": 12089,
+      "automatic": true
+    },
+    {
+      "id": "yt-DbXjoXnIxQo",
+      "showId": "lex-fridman",
+      "title": "Chris Blattman: War and Violence | Lex Fridman Podcast #273",
+      "publishedAt": "2022-04-03",
+      "youtube": "DbXjoXnIxQo",
+      "duration": 10107,
+      "automatic": true
+    },
+    {
+      "id": "yt-cC1LFC0KFSw",
+      "showId": "lex-fridman",
+      "title": "Brett Johnson: US Most Wanted Cybercriminal | Lex Fridman Podcast #272",
+      "publishedAt": "2022-03-27",
+      "youtube": "cC1LFC0KFSw",
+      "duration": 13645,
+      "automatic": true
+    },
+    {
+      "id": "yt-KW8Vjs84Fxg",
+      "showId": "lex-fridman",
+      "title": "Ariel Ekblaw: Space Colonization and Self-Assembling Space Megastructures | Lex Fridman Podcast #271",
+      "publishedAt": "2022-03-23",
+      "youtube": "KW8Vjs84Fxg",
+      "duration": 6410,
+      "automatic": true
+    },
+    {
+      "id": "yt-urdNsyZBqhQ",
+      "showId": "lex-fridman",
+      "title": "David Wolpe: Judaism | Lex Fridman Podcast #270",
+      "publishedAt": "2022-03-16",
+      "youtube": "urdNsyZBqhQ",
+      "duration": 7856,
+      "automatic": true
+    },
+    {
+      "id": "yt-ZecQ64l-gKM",
+      "showId": "lex-fridman",
+      "title": "Lee Cronin: Origin of Life, Aliens, Complexity, and Consciousness | Lex Fridman Podcast #269",
+      "publishedAt": "2022-03-11",
+      "youtube": "ZecQ64l-gKM",
+      "duration": 14751,
+      "automatic": true
+    },
+    {
+      "id": "yt-Y3VBCWIDEzk",
+      "showId": "lex-fridman",
+      "title": "Robert Proctor: Nazi Science and Ideology | Lex Fridman Podcast #268",
+      "publishedAt": "2022-03-05",
+      "youtube": "Y3VBCWIDEzk",
+      "duration": 10182,
+      "automatic": true
+    },
+    {
+      "id": "yt-5zOHSysMmH0",
+      "showId": "lex-fridman",
+      "title": "Mark Zuckerberg: Meta, Facebook, Instagram, and the Metaverse | Lex Fridman Podcast #267",
+      "publishedAt": "2022-02-26",
+      "youtube": "5zOHSysMmH0",
+      "duration": 7213,
+      "automatic": true
+    },
+    {
+      "id": "yt-hy2G3PhGm-g",
+      "showId": "lex-fridman",
+      "title": "Nicole Perlroth: Cybersecurity and the Weapons of Cyberwar | Lex Fridman Podcast #266",
+      "publishedAt": "2022-02-20",
+      "youtube": "hy2G3PhGm-g",
+      "duration": 7295,
+      "automatic": true
+    },
+    {
+      "id": "yt-nvBEXXnNaNQ",
+      "showId": "lex-fridman",
+      "title": "Devon Larratt: Arm Wrestling | Lex Fridman Podcast #265",
+      "publishedAt": "2022-02-16",
+      "youtube": "nvBEXXnNaNQ",
+      "duration": 7829,
+      "automatic": true
+    },
+    {
+      "id": "yt-0Jd7fJgFkPU",
+      "showId": "lex-fridman",
+      "title": "Tim Urban: Elon Musk, Neuralink, AI, Aliens, and the Future of Humanity | Lex Fridman Podcast #264",
+      "publishedAt": "2022-02-13",
+      "youtube": "0Jd7fJgFkPU",
+      "duration": 9423,
+      "automatic": true
+    },
+    {
+      "id": "yt-arrokG3wCdE",
+      "showId": "lex-fridman",
+      "title": "John Abramson: Big Pharma | Lex Fridman Podcast #263",
+      "publishedAt": "2022-02-11",
+      "youtube": "arrokG3wCdE",
+      "duration": 8249,
+      "automatic": true
+    },
+    {
+      "id": "yt-uTCc2-1tbBQ",
+      "showId": "lex-fridman",
+      "title": "Garry Nolan: UFOs and Aliens | Lex Fridman Podcast #262",
+      "publishedAt": "2022-02-06",
+      "youtube": "uTCc2-1tbBQ",
+      "duration": 6179,
+      "automatic": true
+    },
+    {
+      "id": "yt-BCdV6BMMpOo",
+      "showId": "lex-fridman",
+      "title": "Philip Goff: Consciousness, Panpsychism, and the Philosophy of Mind | Lex Fridman Podcast #261",
+      "publishedAt": "2022-02-03",
+      "youtube": "BCdV6BMMpOo",
+      "duration": 9991,
+      "automatic": true
+    },
+    {
+      "id": "yt-KdmDtqB46Jc",
+      "showId": "lex-fridman",
+      "title": "Georges St-Pierre, John Danaher & Gordon Ryan: The Greatest of All Time | Lex Fridman Podcast #260",
+      "publishedAt": "2022-01-30",
+      "youtube": "KdmDtqB46Jc",
+      "duration": 10742,
+      "automatic": true
+    },
+    {
+      "id": "yt-3Z7WimACqG8",
+      "showId": "lex-fridman",
+      "title": "Thomas Tull: From Batman Dark Knight Trilogy to AI and The Rolling Stones | Lex Fridman Podcast #259",
+      "publishedAt": "2022-01-26",
+      "youtube": "3Z7WimACqG8",
+      "duration": 8200,
+      "automatic": true
+    },
+    {
+      "id": "yt-SGzMElJ11Cc",
+      "showId": "lex-fridman",
+      "title": "Yann LeCun: Dark Matter of Intelligence and Self-Supervised Learning | Lex Fridman Podcast #258",
+      "publishedAt": "2022-01-22",
+      "youtube": "SGzMElJ11Cc",
+      "duration": 9911,
+      "automatic": true
+    },
+    {
+      "id": "yt-nhGwJLXzHs8",
+      "showId": "lex-fridman",
+      "title": "Brian Keating: Cosmology, Astrophysics, Aliens & Losing the Nobel Prize | Lex Fridman Podcast #257",
+      "publishedAt": "2022-01-18",
+      "youtube": "nhGwJLXzHs8",
+      "duration": 14382,
+      "automatic": true
+    },
+    {
+      "id": "yt-Q24cpnHzx8I",
+      "showId": "lex-fridman",
+      "title": "Nationalism Debate: Yaron Brook and Yoram Hazony | Lex Fridman Podcast #256",
+      "publishedAt": "2022-01-15",
+      "youtube": "Q24cpnHzx8I",
+      "duration": 10685,
+      "automatic": true
+    },
+    {
+      "id": "yt-WzsivT_Ap1w",
+      "showId": "lex-fridman",
+      "title": "Mark Normand: Comedy! | Lex Fridman Podcast #255",
+      "publishedAt": "2022-01-08",
+      "youtube": "WzsivT_Ap1w",
+      "duration": 6608,
+      "automatic": true
+    },
+    {
+      "id": "yt-oIOGUYOPAsA",
+      "showId": "lex-fridman",
+      "title": "Jay Bhattacharya: The Case Against Lockdowns | Lex Fridman Podcast #254",
+      "publishedAt": "2022-01-04",
+      "youtube": "oIOGUYOPAsA",
+      "duration": 8509,
+      "automatic": true
+    },
+    {
+      "id": "yt-B2tXN7ZnSfU",
+      "showId": "lex-fridman",
+      "title": "Michael Malice: New Year's Special | Lex Fridman Podcast #253",
+      "publishedAt": "2021-12-31",
+      "youtube": "B2tXN7ZnSfU",
+      "duration": 12222,
+      "automatic": true
+    },
+    {
+      "id": "yt-DxREm3s1scA",
+      "showId": "lex-fridman",
+      "title": "Elon Musk: SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI | Lex Fridman Podcast #252",
+      "publishedAt": "2021-12-28",
+      "youtube": "DxREm3s1scA",
+      "duration": 9108,
+      "automatic": true
+    },
+    {
+      "id": "yt-TISMidxdZoc",
+      "showId": "lex-fridman",
+      "title": "Ray Dalio: Money, Power, and the Collapse of Empires | Lex Fridman Podcast #251",
+      "publishedAt": "2021-12-25",
+      "youtube": "TISMidxdZoc",
+      "duration": 5558,
+      "automatic": true
+    },
+    {
+      "id": "yt-X0-SXS6zdEQ",
+      "showId": "lex-fridman",
+      "title": "Peter Wang: Python and the Source Code of Humans, Computers, and Reality | Lex Fridman Podcast #250",
+      "publishedAt": "2021-12-23",
+      "youtube": "X0-SXS6zdEQ",
+      "duration": 10001,
+      "automatic": true
+    },
+    {
+      "id": "yt-Z_LhPMhkEdw",
+      "showId": "lex-fridman",
+      "title": "Albert Bourla: Pfizer CEO | Lex Fridman Podcast #249",
+      "publishedAt": "2021-12-18",
+      "youtube": "Z_LhPMhkEdw",
+      "duration": 4084,
+      "automatic": true
+    },
+    {
+      "id": "yt-Vrz8YDl9CeA",
+      "showId": "lex-fridman",
+      "title": "Norman Naimark: Genocide, Stalin, Hitler, Mao, and Absolute Power | Lex Fridman Podcast #248",
+      "publishedAt": "2021-12-13",
+      "youtube": "Vrz8YDl9CeA",
+      "duration": 8320,
+      "automatic": true
+    },
+    {
+      "id": "yt-K78jqx9fx2I",
+      "showId": "lex-fridman",
+      "title": "Jamie Metzl: Lab Leak Theory | Lex Fridman Podcast #247",
+      "publishedAt": "2021-12-08",
+      "youtube": "K78jqx9fx2I",
+      "duration": 17710,
+      "automatic": true
+    },
+    {
+      "id": "yt-nDDJFvuFXdc",
+      "showId": "lex-fridman",
+      "title": "Peter Woit: Theories of Everything & Why String Theory is Not Even Wrong | Lex Fridman Podcast #246",
+      "publishedAt": "2021-12-03",
+      "youtube": "nDDJFvuFXdc",
+      "duration": 8157,
+      "automatic": true
+    },
+    {
+      "id": "yt-Ww6pfsWmkdY",
+      "showId": "lex-fridman",
+      "title": "Tom Brands: Iowa Wrestling | Lex Fridman Podcast #245",
+      "publishedAt": "2021-11-30",
+      "youtube": "Ww6pfsWmkdY",
+      "duration": 3303,
+      "automatic": true
+    },
+    {
+      "id": "yt-CDiqA4SJNpA",
+      "showId": "lex-fridman",
+      "title": "Robert Crews: Afghanistan, Taliban, Bin Laden, and War in the Middle East | Lex Fridman Podcast #244",
+      "publishedAt": "2021-11-28",
+      "youtube": "CDiqA4SJNpA",
+      "duration": 9768,
+      "automatic": true
+    },
+    {
+      "id": "yt-3pvpNKUPbIY",
+      "showId": "lex-fridman",
+      "title": "Kevin Systrom: Instagram | Lex Fridman Podcast #243",
+      "publishedAt": "2021-11-23",
+      "youtube": "3pvpNKUPbIY",
+      "duration": 9879,
+      "automatic": true
+    },
+    {
+      "id": "yt-tApj7Q37P2k",
+      "showId": "lex-fridman",
+      "title": "Ben Askren: Wrestling and MMA | Lex Fridman Podcast #242",
+      "publishedAt": "2021-11-20",
+      "youtube": "tApj7Q37P2k",
+      "duration": 8128,
+      "automatic": true
+    },
+    {
+      "id": "yt-U_AREIyd0Fc",
+      "showId": "lex-fridman",
+      "title": "Boris Sofman: Waymo, Cozmo, Self-Driving Cars, and the Future of Robotics | Lex Fridman Podcast #241",
+      "publishedAt": "2021-11-16",
+      "youtube": "U_AREIyd0Fc",
+      "duration": 11654,
+      "automatic": true
+    },
+    {
+      "id": "yt-xAfdSak2fs8",
+      "showId": "lex-fridman",
+      "title": "Neal Stephenson: Sci-Fi, Space, Aliens, AI, VR & the Future of Humanity | Lex Fridman Podcast #240",
+      "publishedAt": "2021-11-11",
+      "youtube": "xAfdSak2fs8",
+      "duration": 9592,
+      "automatic": true
+    },
+    {
+      "id": "yt-xF6x1ftN-H4",
+      "showId": "lex-fridman",
+      "title": "Niall Ferguson: History of Money, Power, War, and Truth | Lex Fridman Podcast #239",
+      "publishedAt": "2021-11-08",
+      "youtube": "xF6x1ftN-H4",
+      "duration": 9674,
+      "automatic": true
+    },
+    {
+      "id": "yt-mRZE-SJShkE",
+      "showId": "lex-fridman",
+      "title": "Francis Collins: National Institutes of Health (NIH) | Lex Fridman Podcast #238",
+      "publishedAt": "2021-11-05",
+      "youtube": "mRZE-SJShkE",
+      "duration": 5214,
+      "automatic": true
+    },
+    {
+      "id": "yt-a3Wpy6gE4So",
+      "showId": "lex-fridman",
+      "title": "Steve Viscelli: Trucking and the Decline of the American Dream | Lex Fridman Podcast #237",
+      "publishedAt": "2021-11-03",
+      "youtube": "a3Wpy6gE4So",
+      "duration": 11537,
+      "automatic": true
+    },
+    {
+      "id": "yt-uy1fX2vOAEE",
+      "showId": "lex-fridman",
+      "title": "Jimmy Pedro: Judo and the Forging of Champions | Lex Fridman Podcast #236",
+      "publishedAt": "2021-10-31",
+      "youtube": "uy1fX2vOAEE",
+      "duration": 8588,
+      "automatic": true
+    },
+    {
+      "id": "yt-80OvNaEgmmw",
+      "showId": "lex-fridman",
+      "title": "Michael Mina: Rapid COVID Testing | Lex Fridman Podcast #235",
+      "publishedAt": "2021-10-29",
+      "youtube": "80OvNaEgmmw",
+      "duration": 6407,
+      "automatic": true
+    },
+    {
+      "id": "yt-4-SGpEInX_c",
+      "showId": "lex-fridman",
+      "title": "Stephen Wolfram: Complexity and the Fabric of Reality | Lex Fridman Podcast #234",
+      "publishedAt": "2021-10-27",
+      "youtube": "4-SGpEInX_c",
+      "duration": 13123,
+      "automatic": true
+    },
+    {
+      "id": "yt-3LWNY70Oj4A",
+      "showId": "lex-fridman",
+      "title": "Carl Hart: Heroin, Cocaine, MDMA, Alcohol & the Role of Drugs in Society | Lex Fridman Podcast #233",
+      "publishedAt": "2021-10-23",
+      "youtube": "3LWNY70Oj4A",
+      "duration": 4263,
+      "automatic": true
+    },
+    {
+      "id": "yt-98HZanvAJ8Y",
+      "showId": "lex-fridman",
+      "title": "Brian Greene: Quantum Gravity, The Big Bang, Aliens, Death, and Meaning | Lex Fridman Podcast #232",
+      "publishedAt": "2021-10-20",
+      "youtube": "98HZanvAJ8Y",
+      "duration": 6345,
+      "automatic": true
+    },
+    {
+      "id": "yt-kSbMU5CbFM0",
+      "showId": "lex-fridman",
+      "title": "Alex Gladstein: Bitcoin, Authoritarianism, and Human Rights | Lex Fridman Podcast #231",
+      "publishedAt": "2021-10-16",
+      "youtube": "kSbMU5CbFM0",
+      "duration": 9217,
+      "automatic": true
+    },
+    {
+      "id": "yt-PbN3HzKkW4M",
+      "showId": "lex-fridman",
+      "title": "Kelsi Sheren: War, Artillery, PTSD, and Love | Lex Fridman Podcast #230",
+      "publishedAt": "2021-10-14",
+      "youtube": "PbN3HzKkW4M",
+      "duration": 14766,
+      "automatic": true
+    },
+    {
+      "id": "yt-YJF01_ztxwY",
+      "showId": "lex-fridman",
+      "title": "Richard Wrangham: Violence, Sex, and Fire in Human Evolution | Lex Fridman Podcast #229",
+      "publishedAt": "2021-10-10",
+      "youtube": "YJF01_ztxwY",
+      "duration": 9322,
+      "automatic": true
+    },
+    {
+      "id": "yt-Iau6W5pjy9Y",
+      "showId": "lex-fridman",
+      "title": "RZA: Wu-Tang Clan, Kung Fu, Chess, God, Life, and Death | Lex Fridman Podcast #228",
+      "publishedAt": "2021-10-05",
+      "youtube": "Iau6W5pjy9Y",
+      "duration": 5180,
+      "automatic": true
+    },
+    {
+      "id": "yt-cC1HszE5Hcw",
+      "showId": "lex-fridman",
+      "title": "Sean Kelly: Existentialism, Nihilism, and the Search for Meaning | Lex Fridman Podcast #227",
+      "publishedAt": "2021-09-30",
+      "youtube": "cC1HszE5Hcw",
+      "duration": 10378,
+      "automatic": true
+    },
+    {
+      "id": "yt-KZnGSVwIpeU",
+      "showId": "lex-fridman",
+      "title": "Jo Boaler: How to Learn Math | Lex Fridman Podcast #226",
+      "publishedAt": "2021-09-27",
+      "youtube": "KZnGSVwIpeU",
+      "duration": 5441,
+      "automatic": true
+    },
+    {
+      "id": "yt-EwueqdgIvq4",
+      "showId": "lex-fridman",
+      "title": "Jeffrey Shainline: Neuromorphic Computing and Optoelectronic Intelligence | Lex Fridman Podcast #225",
+      "publishedAt": "2021-09-26",
+      "youtube": "EwueqdgIvq4",
+      "duration": 10603,
+      "automatic": true
+    },
+    {
+      "id": "yt-gFEE3w7F0ww",
+      "showId": "lex-fridman",
+      "title": "Travis Oliphant: NumPy, SciPy, Anaconda, Python & Scientific Programming | Lex Fridman Podcast #224",
+      "publishedAt": "2021-09-23",
+      "youtube": "gFEE3w7F0ww",
+      "duration": 11125,
+      "automatic": true
+    },
+    {
+      "id": "yt-uiNpESmPioQ",
+      "showId": "lex-fridman",
+      "title": "Travis Stevens: Judo, Olympics, and Mental Toughness | Lex Fridman Podcast #223",
+      "publishedAt": "2021-09-21",
+      "youtube": "uiNpESmPioQ",
+      "duration": 13363,
+      "automatic": true
+    },
+    {
+      "id": "yt-Ui38ZzTymDY",
+      "showId": "lex-fridman",
+      "title": "Jay McClelland: Neural Networks and the Emergence of Cognition | Lex Fridman Podcast #222",
+      "publishedAt": "2021-09-20",
+      "youtube": "Ui38ZzTymDY",
+      "duration": 9118,
+      "automatic": true
+    },
+    {
+      "id": "yt-3wMKoSRbGVs",
+      "showId": "lex-fridman",
+      "title": "Douglas Lenat: Cyc and the Quest to Solve Common Sense Reasoning in AI | Lex Fridman Podcast #221",
+      "publishedAt": "2021-09-15",
+      "youtube": "3wMKoSRbGVs",
+      "duration": 10376,
+      "automatic": true
+    },
+    {
+      "id": "yt-hZenJc1fa70",
+      "showId": "lex-fridman",
+      "title": "Niels Jorgensen: New York Firefighters and the Heroes of 9/11 | Lex Fridman Podcast #220",
+      "publishedAt": "2021-09-11",
+      "youtube": "hZenJc1fa70",
+      "duration": 9849,
+      "automatic": true
+    },
+    {
+      "id": "yt-EE1R8FYUJm0",
+      "showId": "lex-fridman",
+      "title": "Donald Knuth: Programming, Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast #219",
+      "publishedAt": "2021-09-09",
+      "youtube": "EE1R8FYUJm0",
+      "duration": 8487,
+      "automatic": true
+    },
+    {
+      "id": "yt-Fx0G6DHMfXM",
+      "showId": "lex-fridman",
+      "title": "Jaron Lanier: Virtual Reality, Social Media & the Future of Humans and AI | Lex Fridman Podcast #218",
+      "publishedAt": "2021-09-06",
+      "youtube": "Fx0G6DHMfXM",
+      "duration": 6750,
+      "automatic": true
+    },
+    {
+      "id": "yt-nre0QT9LN6w",
+      "showId": "lex-fridman",
+      "title": "Rodney Brooks: Robotics | Lex Fridman Podcast #217",
+      "publishedAt": "2021-09-03",
+      "youtube": "nre0QT9LN6w",
+      "duration": 8692,
+      "automatic": true
+    },
+    {
+      "id": "yt-G433fa01oMU",
+      "showId": "lex-fridman",
+      "title": "Vincent Racaniello: Viruses and Vaccines | Lex Fridman Podcast #216",
+      "publishedAt": "2021-09-01",
+      "youtube": "G433fa01oMU",
+      "duration": 12521,
+      "automatic": true
+    },
+    {
+      "id": "yt-U5OD8MjYnOM",
+      "showId": "lex-fridman",
+      "title": "Wojciech Zaremba: OpenAI Codex, GPT-3, Robotics, and the Future of AI | Lex Fridman Podcast #215",
+      "publishedAt": "2021-08-29",
+      "youtube": "U5OD8MjYnOM",
+      "duration": 10293,
+      "automatic": true
+    },
+    {
+      "id": "yt-TRdL6ZzWBS0",
+      "showId": "lex-fridman",
+      "title": "Jed Buchwald: Isaac Newton and the Philosophy of Science | Lex Fridman Podcast #214",
+      "publishedAt": "2021-08-27",
+      "youtube": "TRdL6ZzWBS0",
+      "duration": 6737,
+      "automatic": true
+    },
+    {
+      "id": "yt-J48bm21q8_A",
+      "showId": "lex-fridman",
+      "title": "Barry Barish: Gravitational Waves and the Most Precise Device Ever Built | Lex Fridman Podcast #213",
+      "publishedAt": "2021-08-23",
+      "youtube": "J48bm21q8_A",
+      "duration": 8576,
+      "automatic": true
+    },
+    {
+      "id": "yt-rIpUf-Vy2JA",
+      "showId": "lex-fridman",
+      "title": "Joscha Bach: Nature of Reality, Dreams, and Consciousness | Lex Fridman Podcast #212",
+      "publishedAt": "2021-08-21",
+      "youtube": "rIpUf-Vy2JA",
+      "duration": 11542,
+      "automatic": true
+    },
+    {
+      "id": "yt-oYQh1ZNkC70",
+      "showId": "lex-fridman",
+      "title": "Brian Muraresku: The Secret History of Psychedelics | Lex Fridman Podcast #211",
+      "publishedAt": "2021-08-15",
+      "youtube": "oYQh1ZNkC70",
+      "duration": 6748,
+      "automatic": true
+    },
+    {
+      "id": "yt-Hc4XvHTlW3s",
+      "showId": "lex-fridman",
+      "title": "Matt Walker: Sleep | Lex Fridman Podcast #210",
+      "publishedAt": "2021-08-11",
+      "youtube": "Hc4XvHTlW3s",
+      "duration": 10098,
+      "automatic": true
+    },
+    {
+      "id": "yt-ndMahzDCH1Y",
+      "showId": "lex-fridman",
+      "title": "Luís and João Batalha: Fermat's Library and the Art of Studying Papers | Lex Fridman Podcast #209",
+      "publishedAt": "2021-08-09",
+      "youtube": "ndMahzDCH1Y",
+      "duration": 10493,
+      "automatic": true
+    },
+    {
+      "id": "yt-Z1KwkpTUbkg",
+      "showId": "lex-fridman",
+      "title": "Jeff Hawkins: The Thousand Brains Theory of Intelligence | Lex Fridman Podcast #208",
+      "publishedAt": "2021-08-08",
+      "youtube": "Z1KwkpTUbkg",
+      "duration": 8309,
+      "automatic": true
+    },
+    {
+      "id": "yt-e4Bet29PVPY",
+      "showId": "lex-fridman",
+      "title": "Chris Duffin: The Mad Scientist of Strength | Lex Fridman Podcast #207",
+      "publishedAt": "2021-08-03",
+      "youtube": "e4Bet29PVPY",
+      "duration": 9777,
+      "automatic": true
+    },
+    {
+      "id": "yt-FUS6ceIvUnI",
+      "showId": "lex-fridman",
+      "title": "Ishan Misra: Self-Supervised Deep Learning in Computer Vision | Lex Fridman Podcast #206",
+      "publishedAt": "2021-07-31",
+      "youtube": "FUS6ceIvUnI",
+      "duration": 9030,
+      "automatic": true
+    },
+    {
+      "id": "yt-0RTWSJAqTPg",
+      "showId": "lex-fridman",
+      "title": "Zach Bitter: Ultramarathon Running | Lex Fridman Podcast #205",
+      "publishedAt": "2021-07-29",
+      "youtube": "0RTWSJAqTPg",
+      "duration": 10908,
+      "automatic": true
+    },
+    {
+      "id": "yt-j4_VyRDOmN4",
+      "showId": "lex-fridman",
+      "title": "Cumrun Vafa: String Theory | Lex Fridman Podcast #204",
+      "publishedAt": "2021-07-26",
+      "youtube": "j4_VyRDOmN4",
+      "duration": 8002,
+      "automatic": true
+    },
+    {
+      "id": "yt-ew8U43IXTfk",
+      "showId": "lex-fridman",
+      "title": "Anya Fernald: Regenerative Farming and the Art of Cooking Meat | Lex Fridman Podcast #203",
+      "publishedAt": "2021-07-23",
+      "youtube": "ew8U43IXTfk",
+      "duration": 6294,
+      "automatic": true
+    },
+    {
+      "id": "yt-2tUiLxtrLxk",
+      "showId": "lex-fridman",
+      "title": "Rick Doblin: Psychedelics | Lex Fridman Podcast #202",
+      "publishedAt": "2021-07-21",
+      "youtube": "2tUiLxtrLxk",
+      "duration": 9366,
+      "automatic": true
+    },
+    {
+      "id": "yt-tm7poMupE8k",
+      "showId": "lex-fridman",
+      "title": "Konstantin Batygin: Planet 9 and the Edge of Our Solar System | Lex Fridman Podcast #201",
+      "publishedAt": "2021-07-19",
+      "youtube": "tm7poMupE8k",
+      "duration": 9594,
+      "automatic": true
+    },
+    {
+      "id": "yt-R5rNoV1Qy_Q",
+      "showId": "lex-fridman",
+      "title": "Michael Malice: Totalitarianism and Anarchy | Lex Fridman Podcast #200",
+      "publishedAt": "2021-07-15",
+      "youtube": "R5rNoV1Qy_Q",
+      "duration": 9441,
+      "automatic": true
+    },
+    {
+      "id": "yt-Udh22kuLebg",
+      "showId": "lex-fridman",
+      "title": "Roger Reaves: Smuggling Drugs for Pablo Escobar and the Medellin Cartel | Lex Fridman Podcast #199",
+      "publishedAt": "2021-07-11",
+      "youtube": "Udh22kuLebg",
+      "duration": 7788,
+      "automatic": true
+    },
+    {
+      "id": "yt--tDQ74I3Ovs",
+      "showId": "lex-fridman",
+      "title": "Sara Walker: The Origin of Life on Earth and Alien Worlds | Lex Fridman Podcast #198",
+      "publishedAt": "2021-07-09",
+      "youtube": "-tDQ74I3Ovs",
+      "duration": 7168,
+      "automatic": true
+    },
+    {
+      "id": "yt-n2RcVEftY48",
+      "showId": "lex-fridman",
+      "title": "Jocko Willink: War, Leadership, and Discipline | Lex Fridman Podcast #197",
+      "publishedAt": "2021-07-05",
+      "youtube": "n2RcVEftY48",
+      "duration": 7058,
+      "automatic": true
+    },
+    {
+      "id": "yt-usDqSEKDVsA",
+      "showId": "lex-fridman",
+      "title": "Yeonmi Park: North Korea | Lex Fridman Podcast #196",
+      "publishedAt": "2021-07-01",
+      "youtube": "usDqSEKDVsA",
+      "duration": 7249,
+      "automatic": true
+    },
+    {
+      "id": "yt-CGAvsmokB4c",
+      "showId": "lex-fridman",
+      "title": "Clara Sousa-Silva: Searching for Signs of Life on Venus and Other Planets | Lex Fridman Podcast #195",
+      "publishedAt": "2021-06-28",
+      "youtube": "CGAvsmokB4c",
+      "duration": 7092,
+      "automatic": true
+    },
+    {
+      "id": "yt-TG6BuSjwP4o",
+      "showId": "lex-fridman",
+      "title": "Bret Weinstein: Truth, Science, and Censorship in the Time of a Pandemic | Lex Fridman Podcast #194",
+      "publishedAt": "2021-06-25",
+      "youtube": "TG6BuSjwP4o",
+      "duration": 11830,
+      "automatic": true
+    },
+    {
+      "id": "yt-cuD9uNFXnU8",
+      "showId": "lex-fridman",
+      "title": "Rob Reid: The Existential Threat of Engineered Viruses and Lab Leaks | Lex Fridman Podcast #193",
+      "publishedAt": "2021-06-21",
+      "youtube": "cuD9uNFXnU8",
+      "duration": 10753,
+      "automatic": true
+    },
+    {
+      "id": "yt-FKh8hjJNhWc",
+      "showId": "lex-fridman",
+      "title": "Charles Hoskinson: Cardano | Lex Fridman Podcast #192",
+      "publishedAt": "2021-06-16",
+      "youtube": "FKh8hjJNhWc",
+      "duration": 17871,
+      "automatic": true
+    },
+    {
+      "id": "yt-hGRNUw559SE",
+      "showId": "lex-fridman",
+      "title": "Daniel Schmachtenberger: Steering Civilization Away from Self-Destruction | Lex Fridman Podcast #191",
+      "publishedAt": "2021-06-14",
+      "youtube": "hGRNUw559SE",
+      "duration": 15320,
+      "automatic": true
+    },
+    {
+      "id": "yt-tueAcSiiqYA",
+      "showId": "lex-fridman",
+      "title": "Jordan Ellenberg: Mathematics of High-Dimensional Shapes and Geometries | Lex Fridman Podcast #190",
+      "publishedAt": "2021-06-13",
+      "youtube": "tueAcSiiqYA",
+      "duration": 9708,
+      "automatic": true
+    },
+    {
+      "id": "yt-jhKZIq3SlYE",
+      "showId": "lex-fridman",
+      "title": "David Sinclair: Extending the Human Lifespan Beyond 100 Years | Lex Fridman Podcast #189",
+      "publishedAt": "2021-06-07",
+      "youtube": "jhKZIq3SlYE",
+      "duration": 6094,
+      "automatic": true
+    },
+    {
+      "id": "yt-XW0QZmtbjvs",
+      "showId": "lex-fridman",
+      "title": "Vitalik Buterin: Ethereum 2.0 | Lex Fridman Podcast #188",
+      "publishedAt": "2021-06-03",
+      "youtube": "XW0QZmtbjvs",
+      "duration": 10921,
+      "automatic": true
+    },
+    {
+      "id": "yt-LDTe8uFqbws",
+      "showId": "lex-fridman",
+      "title": "Frank Wilczek: Physics of Quarks, Dark Matter, Complexity, Life & Aliens | Lex Fridman Podcast #187",
+      "publishedAt": "2021-05-29",
+      "youtube": "LDTe8uFqbws",
+      "duration": 8541,
+      "automatic": true
+    },
+    {
+      "id": "yt-1YbcB6b4A2U",
+      "showId": "lex-fridman",
+      "title": "Bryan Johnson: Kernel Brain-Computer Interfaces | Lex Fridman Podcast #186",
+      "publishedAt": "2021-05-24",
+      "youtube": "1YbcB6b4A2U",
+      "duration": 9090,
+      "automatic": true
+    },
+    {
+      "id": "yt-4dC_nRYIDZU",
+      "showId": "lex-fridman",
+      "title": "Sam Harris: Consciousness, Free Will, Psychedelics, AI, UFOs, and Meaning | Lex Fridman Podcast #185",
+      "publishedAt": "2021-05-20",
+      "youtube": "4dC_nRYIDZU",
+      "duration": 11840,
+      "automatic": true
+    },
+    {
+      "id": "yt-85F0FDsPHf8",
+      "showId": "lex-fridman",
+      "title": "Katherine de Kleer: Planets, Moons, Asteroids & Life in Our Solar System | Lex Fridman Podcast #184",
+      "publishedAt": "2021-05-17",
+      "youtube": "85F0FDsPHf8",
+      "duration": 7014,
+      "automatic": true
+    },
+    {
+      "id": "yt-6z1JwZbX4dQ",
+      "showId": "lex-fridman",
+      "title": "Po-Shen Loh: Mathematics, Math Olympiad, Combinatorics & Contact Tracing | Lex Fridman Podcast #183",
+      "publishedAt": "2021-05-14",
+      "youtube": "6z1JwZbX4dQ",
+      "duration": 8415,
+      "automatic": true
+    },
+    {
+      "id": "yt-ktuw6Ow4sd0",
+      "showId": "lex-fridman",
+      "title": "John Danaher: The Path to Mastery in Jiu Jitsu, Grappling, Judo, and MMA | Lex Fridman Podcast #182",
+      "publishedAt": "2021-05-09",
+      "youtube": "ktuw6Ow4sd0",
+      "duration": 13074,
+      "automatic": true
+    },
+    {
+      "id": "yt-TPXTmVdlyoc",
+      "showId": "lex-fridman",
+      "title": "Sergey Nazarov: Chainlink, Smart Contracts, and Oracle Networks | Lex Fridman Podcast #181",
+      "publishedAt": "2021-05-01",
+      "youtube": "TPXTmVdlyoc",
+      "duration": 10797,
+      "automatic": true
+    },
+    {
+      "id": "yt-USnqkUAr_3w",
+      "showId": "lex-fridman",
+      "title": "Jeremi Suri: History of American Power | Lex Fridman Podcast #180",
+      "publishedAt": "2021-04-30",
+      "youtube": "USnqkUAr_3w",
+      "duration": 7728,
+      "automatic": true
+    },
+    {
+      "id": "yt-fIPxfzfOTxk",
+      "showId": "lex-fridman",
+      "title": "Georges St-Pierre: The Science of Fighting | Lex Fridman Podcast #179",
+      "publishedAt": "2021-04-26",
+      "youtube": "fIPxfzfOTxk",
+      "duration": 9789,
+      "automatic": true
+    },
+    {
+      "id": "yt-Pl3x4GINtBQ",
+      "showId": "lex-fridman",
+      "title": "Michael Malice and Yaron Brook: Ayn Rand, Human Nature, and Anarchy | Lex Fridman Podcast #178",
+      "publishedAt": "2021-04-24",
+      "youtube": "Pl3x4GINtBQ",
+      "duration": 15919,
+      "automatic": true
+    },
+    {
+      "id": "yt-CY_LEa9xQtg",
+      "showId": "lex-fridman",
+      "title": "Risto Miikkulainen: Neuroevolution and Evolutionary Computation | Lex Fridman Podcast #177",
+      "publishedAt": "2021-04-19",
+      "youtube": "CY_LEa9xQtg",
+      "duration": 6977,
+      "automatic": true
+    },
+    {
+      "id": "yt-HrehEWYj16s",
+      "showId": "lex-fridman",
+      "title": "Robert Breedlove: Philosophy of Bitcoin from First Principles | Lex Fridman Podcast #176",
+      "publishedAt": "2021-04-17",
+      "youtube": "HrehEWYj16s",
+      "duration": 14629,
+      "automatic": true
+    },
+    {
+      "id": "yt-dmVqpx4YOY4",
+      "showId": "lex-fridman",
+      "title": "Yannis Pappas: History and Comedy | Lex Fridman Podcast #175",
+      "publishedAt": "2021-04-12",
+      "youtube": "dmVqpx4YOY4",
+      "duration": 6649,
+      "automatic": true
+    },
+    {
+      "id": "yt-7Grseeycor4",
+      "showId": "lex-fridman",
+      "title": "Tyler Cowen: Economic Growth & the Fight Against Conformity & Mediocrity | Lex Fridman Podcast #174",
+      "publishedAt": "2021-04-10",
+      "youtube": "7Grseeycor4",
+      "duration": 7798,
+      "automatic": true
+    },
+    {
+      "id": "yt-mDyBbGCiBUU",
+      "showId": "lex-fridman",
+      "title": "Nic Carter: Bitcoin Core Values, Layered Scaling, and Blocksize Debates | Lex Fridman Podcast #173",
+      "publishedAt": "2021-04-01",
+      "youtube": "mDyBbGCiBUU",
+      "duration": 8835,
+      "automatic": true
+    },
+    {
+      "id": "yt-UOEpe17nPhE",
+      "showId": "lex-fridman",
+      "title": "Ryan Schiller: Librex and the Free Exchange of Ideas on College Campuses | Lex Fridman Podcast #172",
+      "publishedAt": "2021-03-30",
+      "youtube": "UOEpe17nPhE",
+      "duration": 8802,
+      "automatic": true
+    },
+    {
+      "id": "yt-IHg6ixt3CKc",
+      "showId": "lex-fridman",
+      "title": "Anthony Pompliano: Bitcoin | Lex Fridman Podcast #171",
+      "publishedAt": "2021-03-25",
+      "youtube": "IHg6ixt3CKc",
+      "duration": 10936,
+      "automatic": true
+    },
+    {
+      "id": "yt-Iuven0crywo",
+      "showId": "lex-fridman",
+      "title": "Ronald Sullivan: The Ideal of Justice in the Face of Controversy and Evil | Lex Fridman Podcast #170",
+      "publishedAt": "2021-03-22",
+      "youtube": "Iuven0crywo",
+      "duration": 6217,
+      "automatic": true
+    },
+    {
+      "id": "yt-VHg9sfOzBbY",
+      "showId": "lex-fridman",
+      "title": "Ryan Hall: Solving Martial Arts from First Principles | Lex Fridman Podcast #169",
+      "publishedAt": "2021-03-20",
+      "youtube": "VHg9sfOzBbY",
+      "duration": 10409,
+      "automatic": true
+    },
+    {
+      "id": "yt-zNdhgOk4-fE",
+      "showId": "lex-fridman",
+      "title": "Silvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin & Ethereum | Lex Fridman Podcast #168",
+      "publishedAt": "2021-03-15",
+      "youtube": "zNdhgOk4-fE",
+      "duration": 6822,
+      "automatic": true
+    },
+    {
+      "id": "yt-grceJbuPUXI",
+      "showId": "lex-fridman",
+      "title": "Saagar Enjeti: Politics, History, and Power | Lex Fridman Podcast #167",
+      "publishedAt": "2021-03-14",
+      "youtube": "grceJbuPUXI",
+      "duration": 11343,
+      "automatic": true
+    },
+    {
+      "id": "yt-y3Umo_jd5AA",
+      "showId": "lex-fridman",
+      "title": "Cal Newport: Deep Work, Focus, Productivity, Email, and Social Media | Lex Fridman Podcast #166",
+      "publishedAt": "2021-03-05",
+      "youtube": "y3Umo_jd5AA",
+      "duration": 10985,
+      "automatic": true
+    },
+    {
+      "id": "yt-ClxRHJPz8aQ",
+      "showId": "lex-fridman",
+      "title": "Andrew Huberman: Sleep, Dreams, Creativity, Fasting, and Neuroplasticity | Lex Fridman Podcast #164",
+      "publishedAt": "2021-02-28",
+      "youtube": "ClxRHJPz8aQ",
+      "duration": 10404,
+      "automatic": true
+    },
+    {
+      "id": "yt-ifX_JnBfxTY",
+      "showId": "lex-fridman",
+      "title": "Eric Weinstein: Difficult Conversations, Freedom of Speech, and Physics | Lex Fridman Podcast #163",
+      "publishedAt": "2021-02-23",
+      "youtube": "ifX_JnBfxTY",
+      "duration": 9521,
+      "automatic": true
+    },
+    {
+      "id": "yt-G4hL5Om4IJ4",
+      "showId": "lex-fridman",
+      "title": "Jim Keller: The Future of Computing, AI, Life, and Consciousness | Lex Fridman Podcast #162",
+      "publishedAt": "2021-02-18",
+      "youtube": "G4hL5Om4IJ4",
+      "duration": 9555,
+      "automatic": true
+    },
+    {
+      "id": "yt-d2bYwYxqJCM",
+      "showId": "lex-fridman",
+      "title": "Jason Calacanis: Startups, Angel Investing, Capitalism, and Friendship | Lex Fridman Podcast #161",
+      "publishedAt": "2021-02-15",
+      "youtube": "d2bYwYxqJCM",
+      "duration": 7870,
+      "automatic": true
+    },
+    {
+      "id": "yt-krB0enBeSiE",
+      "showId": "lex-fridman",
+      "title": "Brendan Eich: JavaScript, Firefox, Mozilla, and Brave | Lex Fridman Podcast #160",
+      "publishedAt": "2021-02-12",
+      "youtube": "krB0enBeSiE",
+      "duration": 10759,
+      "automatic": true
+    },
+    {
+      "id": "yt-ziQSpuST6Es",
+      "showId": "lex-fridman",
+      "title": "Richard Craib: WallStreetBets, Numerai, and the Future of Stock Trading | Lex Fridman Podcast #159",
+      "publishedAt": "2021-02-07",
+      "youtube": "ziQSpuST6Es",
+      "duration": 6596,
+      "automatic": true
+    },
+    {
+      "id": "yt-QSPtSNqUCUw",
+      "showId": "lex-fridman",
+      "title": "Zev Weinstein: The Next Generation of Big Ideas and Brave Minds | Lex Fridman Podcast #158",
+      "publishedAt": "2021-02-05",
+      "youtube": "QSPtSNqUCUw",
+      "duration": 6272,
+      "automatic": true
+    },
+    {
+      "id": "yt-CejJ2aVRUE8",
+      "showId": "lex-fridman",
+      "title": "Natalya Bailey: Rocket Engines and Electric Spacecraft Propulsion | Lex Fridman Podcast #157",
+      "publishedAt": "2021-02-01",
+      "youtube": "CejJ2aVRUE8",
+      "duration": 5681,
+      "automatic": true
+    },
+    {
+      "id": "yt-8wYZjOzfTUk",
+      "showId": "lex-fridman",
+      "title": "Tim Dillon: Comedy, Power, Conspiracy Theories, and Freedom | Lex Fridman Podcast #156",
+      "publishedAt": "2021-01-29",
+      "youtube": "8wYZjOzfTUk",
+      "duration": 8561,
+      "automatic": true
+    },
+    {
+      "id": "yt-RL4j4KPwNGM",
+      "showId": "lex-fridman",
+      "title": "Max Tegmark: AI and Physics | Lex Fridman Podcast #155",
+      "publishedAt": "2021-01-18",
+      "youtube": "RL4j4KPwNGM",
+      "duration": 10964,
+      "automatic": true
+    },
+    {
+      "id": "yt-plcc6E-E1uU",
+      "showId": "lex-fridman",
+      "title": "Avi Loeb: Aliens, Black Holes, and the Mystery of the Oumuamua | Lex Fridman Podcast #154",
+      "publishedAt": "2021-01-14",
+      "youtube": "plcc6E-E1uU",
+      "duration": 9831,
+      "automatic": true
+    },
+    {
+      "id": "yt-I51DuprOb0o",
+      "showId": "lex-fridman",
+      "title": "Dmitry Korkin: Evolution of Proteins, Viruses, Life, and AI | Lex Fridman Podcast #153",
+      "publishedAt": "2021-01-11",
+      "youtube": "I51DuprOb0o",
+      "duration": 7957,
+      "automatic": true
+    },
+    {
+      "id": "yt-pRzelZlKl7E",
+      "showId": "lex-fridman",
+      "title": "Dan Gable: Olympic Wrestling, Mental Toughness & the Making of Champions | Lex Fridman Podcast #152",
+      "publishedAt": "2021-01-09",
+      "youtube": "pRzelZlKl7E",
+      "duration": 4202,
+      "automatic": true
+    },
+    {
+      "id": "yt-yTWa-Z1UQwU",
+      "showId": "lex-fridman",
+      "title": "Dan Kokotov: Speech Recognition with AI and Humans | Lex Fridman Podcast #151",
+      "publishedAt": "2021-01-04",
+      "youtube": "yTWa-Z1UQwU",
+      "duration": 5327,
+      "automatic": true
+    },
+    {
+      "id": "yt-uykM3NhJbso",
+      "showId": "lex-fridman",
+      "title": "Michael Malice: Freedom, Hope, and Happiness Amidst Chaos | Lex Fridman Podcast #150",
+      "publishedAt": "2020-12-31",
+      "youtube": "uykM3NhJbso",
+      "duration": 10973,
+      "automatic": true
+    },
+    {
+      "id": "yt-iqBh7G4uDR8",
+      "showId": "lex-fridman",
+      "title": "Diana Walsh Pasulka: Aliens, Technology, Religion & the Nature of Belief | Lex Fridman Podcast #149",
+      "publishedAt": "2020-12-28",
+      "youtube": "iqBh7G4uDR8",
+      "duration": 10514,
+      "automatic": true
+    },
+    {
+      "id": "yt-yzMVEbs8Zz0",
+      "showId": "lex-fridman",
+      "title": "Charles Isbell and Michael Littman: Machine Learning and Education | Lex Fridman Podcast #148",
+      "publishedAt": "2020-12-26",
+      "youtube": "yzMVEbs8Zz0",
+      "duration": 7067,
+      "automatic": true
+    },
+    {
+      "id": "yt-P6prRXkI5HM",
+      "showId": "lex-fridman",
+      "title": "Dmitri Dolgov: Waymo and the Future of Self-Driving Cars | Lex Fridman Podcast #147",
+      "publishedAt": "2020-12-20",
+      "youtube": "P6prRXkI5HM",
+      "duration": 8590,
+      "automatic": true
+    },
+    {
+      "id": "yt-L-RuvUkcyJI",
+      "showId": "lex-fridman",
+      "title": "Michael Mina: Rapid Testing, Viruses, and the Engineering Mindset | Lex Fridman Podcast #146",
+      "publishedAt": "2020-12-19",
+      "youtube": "L-RuvUkcyJI",
+      "duration": 8051,
+      "automatic": true
+    },
+    {
+      "id": "yt-ICj8p5jPd3Y",
+      "showId": "lex-fridman",
+      "title": "Matthew Johnson: Psychedelics | Lex Fridman Podcast #145",
+      "publishedAt": "2020-12-14",
+      "youtube": "ICj8p5jPd3Y",
+      "duration": 12898,
+      "automatic": true
+    },
+    {
+      "id": "yt-c9AbECvRt20",
+      "showId": "lex-fridman",
+      "title": "Michael Littman: Reinforcement Learning and the Future of AI | Lex Fridman Podcast #144",
+      "publishedAt": "2020-12-13",
+      "youtube": "c9AbECvRt20",
+      "duration": 6993,
+      "automatic": true
+    },
+    {
+      "id": "yt-RvhpncC5jZ8",
+      "showId": "lex-fridman",
+      "title": "John Clarke: The Art of Fighting and the Pursuit of Excellence | Lex Fridman Podcast #143",
+      "publishedAt": "2020-12-06",
+      "youtube": "RvhpncC5jZ8",
+      "duration": 10490,
+      "automatic": true
+    },
+    {
+      "id": "yt-bgNzUxyS-kQ",
+      "showId": "lex-fridman",
+      "title": "Manolis Kellis: Meaning of Life, the Universe, and Everything | Lex Fridman Podcast #142",
+      "publishedAt": "2020-11-30",
+      "youtube": "bgNzUxyS-kQ",
+      "duration": 7857,
+      "automatic": true
+    },
+    {
+      "id": "yt-NOReE-3EBhI",
+      "showId": "lex-fridman",
+      "title": "Erik Brynjolfsson: Economics of AI, Social Networks, and Technology | Lex Fridman Podcast #141",
+      "publishedAt": "2020-11-25",
+      "youtube": "NOReE-3EBhI",
+      "duration": 5990,
+      "automatic": true
+    },
+    {
+      "id": "yt-S_AFc_BXht4",
+      "showId": "lex-fridman",
+      "title": "Lisa Feldman Barrett: Love, Evolution, and the Human Brain | Lex Fridman Podcast #140",
+      "publishedAt": "2020-11-20",
+      "youtube": "S_AFc_BXht4",
+      "duration": 8138,
+      "automatic": true
+    },
+    {
+      "id": "yt-Ktj050DxG7Q",
+      "showId": "lex-fridman",
+      "title": "Andrew Huberman: Neuroscience of Optimal Performance | Lex Fridman Podcast #139",
+      "publishedAt": "2020-11-16",
+      "youtube": "Ktj050DxG7Q",
+      "duration": 9135,
+      "automatic": true
+    },
+    {
+      "id": "yt-SOr1YYRljV8",
+      "showId": "lex-fridman",
+      "title": "Yaron Brook: Ayn Rand and the Philosophy of Objectivism | Lex Fridman Podcast #138",
+      "publishedAt": "2020-11-13",
+      "youtube": "SOr1YYRljV8",
+      "duration": 10186,
+      "automatic": true
+    },
+    {
+      "id": "yt-WxfA1OSev4c",
+      "showId": "lex-fridman",
+      "title": "Alex Filippenko: Supernovae, Dark Energy, Aliens & the Expanding Universe | Lex Fridman Podcast #137",
+      "publishedAt": "2020-11-08",
+      "youtube": "WxfA1OSev4c",
+      "duration": 9348,
+      "automatic": true
+    },
+    {
+      "id": "yt--k-ztNsBM54",
+      "showId": "lex-fridman",
+      "title": "Dan Carlin: Hardcore History | Lex Fridman Podcast #136",
+      "publishedAt": "2020-11-03",
+      "youtube": "-k-ztNsBM54",
+      "duration": 12086,
+      "automatic": true
+    },
+    {
+      "id": "yt-LAyZ8IYfGxQ",
+      "showId": "lex-fridman",
+      "title": "Charles Isbell: Computing, Interactive AI, and Race in America | Lex Fridman Podcast #135",
+      "publishedAt": "2020-11-02",
+      "youtube": "LAyZ8IYfGxQ",
+      "duration": 8631,
+      "automatic": true
+    },
+    {
+      "id": "yt-o2nG7-eXxko",
+      "showId": "lex-fridman",
+      "title": "Eric Weinstein: On the Nature of Good and Evil, Genius and Madness | Lex Fridman Podcast #134",
+      "publishedAt": "2020-10-30",
+      "youtube": "o2nG7-eXxko",
+      "duration": 10310,
+      "automatic": true
+    },
+    {
+      "id": "yt-Aq9UPIXbtKI",
+      "showId": "lex-fridman",
+      "title": "Manolis Kellis: Biology of Disease | Lex Fridman Podcast #133",
+      "publishedAt": "2020-10-25",
+      "youtube": "Aq9UPIXbtKI",
+      "duration": 9298,
+      "automatic": true
+    },
+    {
+      "id": "yt-_L3gNaAVjQ4",
+      "showId": "lex-fridman",
+      "title": "George Hotz: Hacking the Simulation & Learning to Drive with Neural Nets | Lex Fridman Podcast #132",
+      "publishedAt": "2020-10-22",
+      "youtube": "_L3gNaAVjQ4",
+      "duration": 11326,
+      "automatic": true
+    },
+    {
+      "id": "yt-nWTvXbQHwWs",
+      "showId": "lex-fridman",
+      "title": "Chris Lattner: The Future of Computing and Programming Languages | Lex Fridman Podcast #131",
+      "publishedAt": "2020-10-19",
+      "youtube": "nWTvXbQHwWs",
+      "duration": 9761,
+      "automatic": true
+    },
+    {
+      "id": "yt-nAMjv0NAESM",
+      "showId": "lex-fridman",
+      "title": "Scott Aaronson: Computational Complexity and Consciousness | Lex Fridman Podcast #130",
+      "publishedAt": "2020-10-12",
+      "youtube": "nAMjv0NAESM",
+      "duration": 6757,
+      "automatic": true
+    },
+    {
+      "id": "yt-NbdRIVCBqNI",
+      "showId": "lex-fridman",
+      "title": "Lisa Feldman Barrett: Counterintuitive Ideas About How the Brain Works | Lex Fridman Podcast #129",
+      "publishedAt": "2020-10-04",
+      "youtube": "NbdRIVCBqNI",
+      "duration": 8417,
+      "automatic": true
+    },
+    {
+      "id": "yt-BIk1zUy8ehU",
+      "showId": "lex-fridman",
+      "title": "Michael Malice: Anarchy, Democracy, Libertarianism, Love, and Trolling | Lex Fridman Podcast #128",
+      "publishedAt": "2020-10-02",
+      "youtube": "BIk1zUy8ehU",
+      "duration": 12032,
+      "automatic": true
+    },
+    {
+      "id": "yt-FKCJWkPehdY",
+      "showId": "lex-fridman",
+      "title": "Joe Rogan: Fear, Love, Chaos, and the Joe Rogan Experience | Lex Fridman Podcast #127",
+      "publishedAt": "2020-09-26",
+      "youtube": "FKCJWkPehdY",
+      "duration": 4564,
+      "automatic": true
+    },
+    {
+      "id": "yt-IT__Nrr3PNI",
+      "showId": "lex-fridman",
+      "title": "James Gosling: Java, JVM, Emacs, and the Early Days of Computing | Lex Fridman Podcast #126",
+      "publishedAt": "2020-09-24",
+      "youtube": "IT__Nrr3PNI",
+      "duration": 6661,
+      "automatic": true
+    },
+    {
+      "id": "yt-hhEwWghH_XM",
+      "showId": "lex-fridman",
+      "title": "Ryan Hall: Martial Arts and the Philosophy of Violence, Power, and Grace | Lex Fridman Podcast #125",
+      "publishedAt": "2020-09-20",
+      "youtube": "hhEwWghH_XM",
+      "duration": 13694,
+      "automatic": true
+    },
+    {
+      "id": "yt--t1_ffaFXao",
+      "showId": "lex-fridman",
+      "title": "Stephen Wolfram: Fundamental Theory of Physics, Life, and the Universe | Lex Fridman Podcast #124",
+      "publishedAt": "2020-09-15",
+      "youtube": "-t1_ffaFXao",
+      "duration": 15819,
+      "automatic": true
+    },
+    {
+      "id": "yt-t06rkOOUa7g",
+      "showId": "lex-fridman",
+      "title": "Manolis Kellis: Origin of Life, Humans, Ideas, Suffering, and Happiness | Lex Fridman Podcast #123",
+      "publishedAt": "2020-09-12",
+      "youtube": "t06rkOOUa7g",
+      "duration": 7853,
+      "automatic": true
+    },
+    {
+      "id": "yt-aB8zcAttP1E",
+      "showId": "lex-fridman",
+      "title": "David Fravor: UFOs, Aliens, Fighter Jets, and Aerospace Engineering | Lex Fridman Podcast #122",
+      "publishedAt": "2020-09-08",
+      "youtube": "aB8zcAttP1E",
+      "duration": 14184,
+      "automatic": true
+    },
+    {
+      "id": "yt-_AGPbvCDBCk",
+      "showId": "lex-fridman",
+      "title": "Eugenia Kuyda: Friendship with an AI Companion | Lex Fridman Podcast #121",
+      "publishedAt": "2020-09-05",
+      "youtube": "_AGPbvCDBCk",
+      "duration": 10867,
+      "automatic": true
+    },
+    {
+      "id": "yt-PUAdj3w3wO4",
+      "showId": "lex-fridman",
+      "title": "François Chollet: Measures of Intelligence | Lex Fridman Podcast #120",
+      "publishedAt": "2020-08-31",
+      "youtube": "PUAdj3w3wO4",
+      "duration": 9261,
+      "automatic": true
+    },
+    {
+      "id": "yt-386s-y1aRRo",
+      "showId": "lex-fridman",
+      "title": "David Eagleman: Neuroplasticity and the Livewired Brain | Lex Fridman Podcast #119",
+      "publishedAt": "2020-08-26",
+      "youtube": "386s-y1aRRo",
+      "duration": 6084,
+      "automatic": true
+    },
+    {
+      "id": "yt-U_6AYX42gkU",
+      "showId": "lex-fridman",
+      "title": "Grant Sanderson: Math, Manim, Neural Networks & Teaching with 3Blue1Brown | Lex Fridman Podcast #118",
+      "publishedAt": "2020-08-23",
+      "youtube": "U_6AYX42gkU",
+      "duration": 7706,
+      "automatic": true
+    },
+    {
+      "id": "yt-qfKyNxfyWbo",
+      "showId": "lex-fridman",
+      "title": "Sheldon Solomon: Death and Meaning | Lex Fridman Podcast #117",
+      "publishedAt": "2020-08-20",
+      "youtube": "qfKyNxfyWbo",
+      "duration": 10584,
+      "automatic": true
+    },
+    {
+      "id": "yt--jA2ABHBc6Y",
+      "showId": "lex-fridman",
+      "title": "Sara Seager: Search for Planets and Life Outside Our Solar System | Lex Fridman Podcast #116",
+      "publishedAt": "2020-08-16",
+      "youtube": "-jA2ABHBc6Y",
+      "duration": 6095,
+      "automatic": true
+    },
+    {
+      "id": "yt-tg_m_LxxRwM",
+      "showId": "lex-fridman",
+      "title": "Dileep George: Brain-Inspired AI | Lex Fridman Podcast #115",
+      "publishedAt": "2020-08-14",
+      "youtube": "tg_m_LxxRwM",
+      "duration": 7806,
+      "automatic": true
+    },
+    {
+      "id": "yt-A22Ej6kb2wo",
+      "showId": "lex-fridman",
+      "title": "Russ Tedrake: Underactuated Robotics, Control, Dynamics and Touch | Lex Fridman Podcast #114",
+      "publishedAt": "2020-08-09",
+      "youtube": "A22Ej6kb2wo",
+      "duration": 10126,
+      "automatic": true
+    },
+    {
+      "id": "yt-brslF-Cy3HU",
+      "showId": "lex-fridman",
+      "title": "Manolis Kellis: Human Genome and Evolutionary Dynamics | Lex Fridman Podcast #113",
+      "publishedAt": "2020-07-31",
+      "youtube": "brslF-Cy3HU",
+      "duration": 8964,
+      "automatic": true
+    },
+    {
+      "id": "yt-pDSEjaDCtOU",
+      "showId": "lex-fridman",
+      "title": "Ian Hutchinson: Nuclear Fusion, Plasma Physics, and Religion | Lex Fridman Podcast #112",
+      "publishedAt": "2020-07-29",
+      "youtube": "pDSEjaDCtOU",
+      "duration": 7276,
+      "automatic": true
+    },
+    {
+      "id": "yt-KllCrlfLuzs",
+      "showId": "lex-fridman",
+      "title": "Richard Karp: Algorithms and Computational Complexity | Lex Fridman Podcast #111",
+      "publishedAt": "2020-07-26",
+      "youtube": "KllCrlfLuzs",
+      "duration": 7653,
+      "automatic": true
+    },
+    {
+      "id": "yt-LRYkH-fAVGE",
+      "showId": "lex-fridman",
+      "title": "Jitendra Malik: Computer Vision | Lex Fridman Podcast #110",
+      "publishedAt": "2020-07-21",
+      "youtube": "LRYkH-fAVGE",
+      "duration": 6097,
+      "automatic": true
+    },
+    {
+      "id": "yt-O9upVbGSBFo",
+      "showId": "lex-fridman",
+      "title": "Brian Kernighan: UNIX, C, AWK, AMPL, and Go Programming | Lex Fridman Podcast #109",
+      "publishedAt": "2020-07-18",
+      "youtube": "O9upVbGSBFo",
+      "duration": 6190,
+      "automatic": true
+    },
+    {
+      "id": "yt-kxi-_TT_-Nc",
+      "showId": "lex-fridman",
+      "title": "Sergey Levine: Robotics and Machine Learning | Lex Fridman Podcast #108",
+      "publishedAt": "2020-07-14",
+      "youtube": "kxi-_TT_-Nc",
+      "duration": 5851,
+      "automatic": true
+    },
+    {
+      "id": "yt-llh-2pqSGrs",
+      "showId": "lex-fridman",
+      "title": "Peter Singer: Suffering in Humans, Animals, and AI | Lex Fridman Podcast #107",
+      "publishedAt": "2020-07-08",
+      "youtube": "llh-2pqSGrs",
+      "duration": 4154,
+      "automatic": true
+    },
+    {
+      "id": "yt-3t06ajvBtl0",
+      "showId": "lex-fridman",
+      "title": "Matt Botvinick: Neuroscience, Psychology, and AI at DeepMind | Lex Fridman Podcast #106",
+      "publishedAt": "2020-07-03",
+      "youtube": "3t06ajvBtl0",
+      "duration": 7232,
+      "automatic": true
+    },
+    {
+      "id": "yt-9LQffCdHHlQ",
+      "showId": "lex-fridman",
+      "title": "Robert Langer: Edison of Medicine | Lex Fridman Podcast #105",
+      "publishedAt": "2020-06-30",
+      "youtube": "9LQffCdHHlQ",
+      "duration": 3734,
+      "automatic": true
+    },
+    {
+      "id": "yt-naed4C4hfAg",
+      "showId": "lex-fridman",
+      "title": "David Patterson: Computer Architecture and Data Storage | Lex Fridman Podcast #104",
+      "publishedAt": "2020-06-27",
+      "youtube": "naed4C4hfAg",
+      "duration": 6591,
+      "automatic": true
+    },
+    {
+      "id": "yt-OpSmCKe27WE",
+      "showId": "lex-fridman",
+      "title": "Ben Goertzel: Artificial General Intelligence | Lex Fridman Podcast #103",
+      "publishedAt": "2020-06-22",
+      "youtube": "OpSmCKe27WE",
+      "duration": 14938,
+      "automatic": true
+    },
+    {
+      "id": "yt-PgtedwKGhXs",
+      "showId": "lex-fridman",
+      "title": "Steven Pressfield: The War of Art | Lex Fridman Podcast #102",
+      "publishedAt": "2020-06-20",
+      "youtube": "PgtedwKGhXs",
+      "duration": 5249,
+      "automatic": true
+    },
+    {
+      "id": "yt-P-2P3MSZrBM",
+      "showId": "lex-fridman",
+      "title": "Joscha Bach: Artificial Consciousness and the Nature of Reality | Lex Fridman Podcast #101",
+      "publishedAt": "2020-06-13",
+      "youtube": "P-2P3MSZrBM",
+      "duration": 10818,
+      "automatic": true
+    },
+    {
+      "id": "yt-NwzuibY5kUs",
+      "showId": "lex-fridman",
+      "title": "Karl Friston: Neuroscience and the Free Energy Principle | Lex Fridman Podcast #99",
+      "publishedAt": "2020-05-28",
+      "youtube": "NwzuibY5kUs",
+      "duration": 5342,
+      "automatic": true
+    },
+    {
+      "id": "yt-7KTbEn7PiaY",
+      "showId": "lex-fridman",
+      "title": "Kate Darling: Social Robotics | Lex Fridman Podcast #98",
+      "publishedAt": "2020-05-23",
+      "youtube": "7KTbEn7PiaY",
+      "duration": 4356,
+      "automatic": true
+    },
+    {
+      "id": "yt-M1-v-dXIzho",
+      "showId": "lex-fridman",
+      "title": "Sertac Karaman: Robots That Fly and Robots That Drive | Lex Fridman Podcast #97",
+      "publishedAt": "2020-05-20",
+      "youtube": "M1-v-dXIzho",
+      "duration": 4971,
+      "automatic": true
+    },
+    {
+      "id": "yt-aYwDs9LTN50",
+      "showId": "lex-fridman",
+      "title": "Stephen Schwarzman: Going Big in Business, Investing, and AI | Lex Fridman Podcast #96",
+      "publishedAt": "2020-05-15",
+      "youtube": "aYwDs9LTN50",
+      "duration": 4216,
+      "automatic": true
+    },
+    {
+      "id": "yt-HhY95m-WD_E",
+      "showId": "lex-fridman",
+      "title": "Dawn Song: Adversarial Machine Learning and Computer Security | Lex Fridman Podcast #95",
+      "publishedAt": "2020-05-12",
+      "youtube": "HhY95m-WD_E",
+      "duration": 7956,
+      "automatic": true
+    },
+    {
+      "id": "yt-13CZPWmke6A",
+      "showId": "lex-fridman",
+      "title": "Ilya Sutskever: Deep Learning | Lex Fridman Podcast #94",
+      "publishedAt": "2020-05-08",
+      "youtube": "13CZPWmke6A",
+      "duration": 5848,
+      "automatic": true
+    },
+    {
+      "id": "yt-xlMTWfkQqbY",
+      "showId": "lex-fridman",
+      "title": "Daphne Koller: Biomedicine and Machine Learning | Lex Fridman Podcast #93",
+      "publishedAt": "2020-05-05",
+      "youtube": "xlMTWfkQqbY",
+      "duration": 4324,
+      "automatic": true
+    },
+    {
+      "id": "yt-8A-5gIW0-eI",
+      "showId": "lex-fridman",
+      "title": "Harry Cliff: Particle Physics and the Large Hadron Collider | Lex Fridman Podcast #92",
+      "publishedAt": "2020-04-29",
+      "youtube": "8A-5gIW0-eI",
+      "duration": 5900,
+      "automatic": true
+    },
+    {
+      "id": "yt-60KJz1BVTyU",
+      "showId": "lex-fridman",
+      "title": "Jack Dorsey: Square, Cryptocurrency, and Artificial Intelligence | Lex Fridman Podcast #91",
+      "publishedAt": "2020-04-24",
+      "youtube": "60KJz1BVTyU",
+      "duration": 3074,
+      "automatic": true
+    },
+    {
+      "id": "yt-CwyOUS8TSl0",
+      "showId": "lex-fridman",
+      "title": "Dmitry Korkin: Computational Biology of Coronavirus | Lex Fridman Podcast #90",
+      "publishedAt": "2020-04-22",
+      "youtube": "CwyOUS8TSl0",
+      "duration": 7742,
+      "automatic": true
+    },
+    {
+      "id": "yt-ez773teNFYA",
+      "showId": "lex-fridman",
+      "title": "Stephen Wolfram: Cellular Automata, Computation, and Physics | Lex Fridman Podcast #89",
+      "publishedAt": "2020-04-18",
+      "youtube": "ez773teNFYA",
+      "duration": 11469,
+      "automatic": true
+    },
+    {
+      "id": "yt-rIAZJNe7YtE",
+      "showId": "lex-fridman",
+      "title": "Eric Weinstein: Geometric Unity and the Call for New Ideas & Institutions | Lex Fridman Podcast #88",
+      "publishedAt": "2020-04-13",
+      "youtube": "rIAZJNe7YtE",
+      "duration": 9996,
+      "automatic": true
+    },
+    {
+      "id": "yt-5f-JlzBuUUU",
+      "showId": "lex-fridman",
+      "title": "Richard Dawkins: Evolution, Intelligence, Simulation, and Memes | Lex Fridman Podcast #87",
+      "publishedAt": "2020-04-09",
+      "youtube": "5f-JlzBuUUU",
+      "duration": 4041,
+      "automatic": true
+    },
+    {
+      "id": "yt-uPUEq8d73JI",
+      "showId": "lex-fridman",
+      "title": "David Silver: AlphaGo, AlphaZero, and Deep Reinforcement Learning | Lex Fridman Podcast #86",
+      "publishedAt": "2020-04-03",
+      "youtube": "uPUEq8d73JI",
+      "duration": 6481,
+      "automatic": true
+    },
+    {
+      "id": "yt-orMtwOz6Db0",
+      "showId": "lex-fridman",
+      "title": "Roger Penrose: Physics of Consciousness and the Infinite Universe | Lex Fridman Podcast #85",
+      "publishedAt": "2020-03-31",
+      "youtube": "orMtwOz6Db0",
+      "duration": 5277,
+      "automatic": true
+    },
+    {
+      "id": "yt-rfKiTGj-zeQ",
+      "showId": "lex-fridman",
+      "title": "Nick Bostrom: Simulation and Superintelligence | Lex Fridman Podcast #83",
+      "publishedAt": "2020-03-26",
+      "youtube": "rfKiTGj-zeQ",
+      "duration": 6998,
+      "automatic": true
+    },
+    {
+      "id": "yt-_TTNGq9djU4",
+      "showId": "lex-fridman",
+      "title": "Simon Sinek: Leadership, Hard Work, Optimism and the Infinite Game | Lex Fridman Podcast #82",
+      "publishedAt": "2020-03-21",
+      "youtube": "_TTNGq9djU4",
+      "duration": 2269,
+      "automatic": true
+    },
+    {
+      "id": "yt-iOCfIFBBpVY",
+      "showId": "lex-fridman",
+      "title": "Anca Dragan: Human-Robot Interaction and Reward Engineering | Lex Fridman Podcast #81",
+      "publishedAt": "2020-03-19",
+      "youtube": "iOCfIFBBpVY",
+      "duration": 5913,
+      "automatic": true
+    },
+    {
+      "id": "yt-3x1b_S6Qp2Q",
+      "showId": "lex-fridman",
+      "title": "Vitalik Buterin: Ethereum, Cryptocurrency, and the Future of Money | Lex Fridman Podcast #80",
+      "publishedAt": "2020-03-16",
+      "youtube": "3x1b_S6Qp2Q",
+      "duration": 5704,
+      "automatic": true
+    },
+    {
+      "id": "yt-WgLo4gmEraU",
+      "showId": "lex-fridman",
+      "title": "Lee Smolin: Quantum Gravity and Einstein's Unfinished Revolution | Lex Fridman Podcast #79",
+      "publishedAt": "2020-03-07",
+      "youtube": "WgLo4gmEraU",
+      "duration": 4192,
+      "automatic": true
+    },
+    {
+      "id": "yt-7jFdxd1qX2g",
+      "showId": "lex-fridman",
+      "title": "Ann Druyan: Cosmos, Carl Sagan, Voyager, and the Beauty of Science | Lex Fridman Podcast #78",
+      "publishedAt": "2020-03-05",
+      "youtube": "7jFdxd1qX2g",
+      "duration": 4152,
+      "automatic": true
+    },
+    {
+      "id": "yt-gU-mkuMU428",
+      "showId": "lex-fridman",
+      "title": "Alex Garland: Ex Machina, Devs, Annihilation, and the Poetry of Science | Lex Fridman Podcast #77",
+      "publishedAt": "2020-03-03",
+      "youtube": "gU-mkuMU428",
+      "duration": 4269,
+      "automatic": true
+    },
+    {
+      "id": "yt-DKyzcbNr8WE",
+      "showId": "lex-fridman",
+      "title": "John Hopfield: Physics View of the Mind and Neurobiology | Lex Fridman Podcast #76",
+      "publishedAt": "2020-02-29",
+      "youtube": "DKyzcbNr8WE",
+      "duration": 4369,
+      "automatic": true
+    },
+    {
+      "id": "yt-E1AxVXt2Gv4",
+      "showId": "lex-fridman",
+      "title": "Marcus Hutter: Universal Artificial Intelligence, AIXI, and AGI | Lex Fridman Podcast #75",
+      "publishedAt": "2020-02-26",
+      "youtube": "E1AxVXt2Gv4",
+      "duration": 5996,
+      "automatic": true
+    },
+    {
+      "id": "yt-EYIKy_FM9x0",
+      "showId": "lex-fridman",
+      "title": "Michael I. Jordan: Machine Learning, Recommender Systems, and Future of AI | Lex Fridman Podcast #74",
+      "publishedAt": "2020-02-24",
+      "youtube": "EYIKy_FM9x0",
+      "duration": 6349,
+      "automatic": true
+    },
+    {
+      "id": "yt-0jspaMLxBig",
+      "showId": "lex-fridman",
+      "title": "Andrew Ng: Deep Learning, Education, and Real-World AI | Lex Fridman Podcast #73",
+      "publishedAt": "2020-02-20",
+      "youtube": "0jspaMLxBig",
+      "duration": 5350,
+      "automatic": true
+    },
+    {
+      "id": "yt-uX5t8EivCaM",
+      "showId": "lex-fridman",
+      "title": "Scott Aaronson: Quantum Computing | Lex Fridman Podcast #72",
+      "publishedAt": "2020-02-17",
+      "youtube": "uX5t8EivCaM",
+      "duration": 5622,
+      "automatic": true
+    },
+    {
+      "id": "yt-bQa7hpUpMzM",
+      "showId": "lex-fridman",
+      "title": "Vladimir Vapnik: Predicates, Invariants, and the Essence of Intelligence | Lex Fridman Podcast #71",
+      "publishedAt": "2020-02-14",
+      "youtube": "bQa7hpUpMzM",
+      "duration": 6296,
+      "automatic": true
+    },
+    {
+      "id": "yt-Nb2tebYAaOA",
+      "showId": "lex-fridman",
+      "title": "Jim Keller: Moore's Law, Microprocessors, and First Principles | Lex Fridman Podcast #70",
+      "publishedAt": "2020-02-05",
+      "youtube": "Nb2tebYAaOA",
+      "duration": 5684,
+      "automatic": true
+    },
+    {
+      "id": "yt-LW59lMvxmY4",
+      "showId": "lex-fridman",
+      "title": "David Chalmers: The Hard Problem of Consciousness | Lex Fridman Podcast #69",
+      "publishedAt": "2020-01-29",
+      "youtube": "LW59lMvxmY4",
+      "duration": 5929,
+      "automatic": true
+    },
+    {
+      "id": "yt-nkWmiNRPU-c",
+      "showId": "lex-fridman",
+      "title": "Cristos Goodrow: YouTube Algorithm | Lex Fridman Podcast #68",
+      "publishedAt": "2020-01-25",
+      "youtube": "nkWmiNRPU-c",
+      "duration": 5452,
+      "automatic": true
+    },
+    {
+      "id": "yt-OJQepiqSWvg",
+      "showId": "lex-fridman",
+      "title": "Paul Krugman: Economics of Innovation, Automation, Safety Nets & UBI | Lex Fridman Podcast #67",
+      "publishedAt": "2020-01-21",
+      "youtube": "OJQepiqSWvg",
+      "duration": 3792,
+      "automatic": true
+    },
+    {
+      "id": "yt-J21-7AsUcgM",
+      "showId": "lex-fridman",
+      "title": "Ayanna Howard: Human-Robot Interaction & Ethics of Safety-Critical Systems | Lex Fridman Podcast #66",
+      "publishedAt": "2020-01-17",
+      "youtube": "J21-7AsUcgM",
+      "duration": 5997,
+      "automatic": true
+    },
+    {
+      "id": "yt-UwwBG-MbniY",
+      "showId": "lex-fridman",
+      "title": "Daniel Kahneman: Thinking Fast and Slow, Deep Learning, and AI | Lex Fridman Podcast #65",
+      "publishedAt": "2020-01-14",
+      "youtube": "UwwBG-MbniY",
+      "duration": 4721,
+      "automatic": true
+    },
+    {
+      "id": "yt-U_lKUK2MCsg",
+      "showId": "lex-fridman",
+      "title": "Grant Sanderson: 3Blue1Brown and the Beauty of Mathematics | Lex Fridman Podcast #64",
+      "publishedAt": "2020-01-07",
+      "youtube": "U_lKUK2MCsg",
+      "duration": 3766,
+      "automatic": true
+    },
+    {
+      "id": "yt-oCkkjnpS2f8",
+      "showId": "lex-fridman",
+      "title": "Stephen Kotkin: Stalin, Putin, and the Nature of Power | Lex Fridman Podcast #63",
+      "publishedAt": "2020-01-03",
+      "youtube": "oCkkjnpS2f8",
+      "duration": 5842,
+      "automatic": true
+    },
+    {
+      "id": "yt-2BdBfsXbST8",
+      "showId": "lex-fridman",
+      "title": "Donald Knuth: Algorithms, Complexity, and The Art of Computer Programming | Lex Fridman Podcast #62",
+      "publishedAt": "2019-12-30",
+      "youtube": "2BdBfsXbST8",
+      "duration": 6356,
+      "automatic": true
+    },
+    {
+      "id": "yt-ImKkaeUx1MU",
+      "showId": "lex-fridman",
+      "title": "Melanie Mitchell: Concepts, Analogies, Common Sense & Future of AI | Lex Fridman Podcast #61",
+      "publishedAt": "2019-12-28",
+      "youtube": "ImKkaeUx1MU",
+      "duration": 6760,
+      "automatic": true
+    },
+    {
+      "id": "yt-IUHkhB366tE",
+      "showId": "lex-fridman",
+      "title": "Jim Gates: Supersymmetry, String Theory and Proving Einstein Right | Lex Fridman Podcast #60",
+      "publishedAt": "2019-12-25",
+      "youtube": "IUHkhB366tE",
+      "duration": 5700,
+      "automatic": true
+    },
+    {
+      "id": "yt-ZPPAOakITeQ",
+      "showId": "lex-fridman",
+      "title": "Sebastian Thrun: Flying Cars, Autonomous Vehicles, and Education | Lex Fridman Podcast #59",
+      "publishedAt": "2019-12-21",
+      "youtube": "ZPPAOakITeQ",
+      "duration": 4715,
+      "automatic": true
+    },
+    {
+      "id": "yt-3qMemn__kK8",
+      "showId": "lex-fridman",
+      "title": "Michael Stevens: Vsauce | Lex Fridman Podcast #58",
+      "publishedAt": "2019-12-17",
+      "youtube": "3qMemn__kK8",
+      "duration": 3513,
+      "automatic": true
+    },
+    {
+      "id": "yt-Ad89JYS-uZM",
+      "showId": "lex-fridman",
+      "title": "Rohit Prasad: Amazon Alexa and Conversational AI | Lex Fridman Podcast #57",
+      "publishedAt": "2019-12-14",
+      "youtube": "Ad89JYS-uZM",
+      "duration": 6358,
+      "automatic": true
+    },
+    {
+      "id": "yt-pEBI0vF45ic",
+      "showId": "lex-fridman",
+      "title": "Judea Pearl: Causal Reasoning, Counterfactuals, and the Path to AGI | Lex Fridman Podcast #56",
+      "publishedAt": "2019-12-11",
+      "youtube": "pEBI0vF45ic",
+      "duration": 4981,
+      "automatic": true
+    },
+    {
+      "id": "yt-0-3kw5BEKB8",
+      "showId": "lex-fridman",
+      "title": "Whitney Cummings: Comedy, Robotics, Neurology, and Love | Lex Fridman Podcast #55",
+      "publishedAt": "2019-12-05",
+      "youtube": "0-3kw5BEKB8",
+      "duration": 4618,
+      "automatic": true
+    },
+    {
+      "id": "yt-M95m2EFb7IQ",
+      "showId": "lex-fridman",
+      "title": "Ray Dalio: Principles, the Economic Machine, AI & the Arc of Life | Lex Fridman Podcast #54",
+      "publishedAt": "2019-12-02",
+      "youtube": "M95m2EFb7IQ",
+      "duration": 5420,
+      "automatic": true
+    },
+    {
+      "id": "yt-cMscNuSUy0I",
+      "showId": "lex-fridman",
+      "title": "Noam Chomsky: Language, Cognition, and Deep Learning | Lex Fridman Podcast #53",
+      "publishedAt": "2019-11-29",
+      "youtube": "cMscNuSUy0I",
+      "duration": 2146,
+      "automatic": true
+    },
+    {
+      "id": "yt-lEZPfmGCEk0",
+      "showId": "lex-fridman",
+      "title": "Gilbert Strang: Linear Algebra, Teaching, and MIT OpenCourseWare | Lex Fridman Podcast #52",
+      "publishedAt": "2019-11-25",
+      "youtube": "lEZPfmGCEk0",
+      "duration": 2993,
+      "automatic": true
+    },
+    {
+      "id": "yt-2fI6bYnRgSc",
+      "showId": "lex-fridman",
+      "title": "Dava Newman: Space Exploration, Space Suits, and Life on Mars | Lex Fridman Podcast #51",
+      "publishedAt": "2019-11-22",
+      "youtube": "2fI6bYnRgSc",
+      "duration": 2373,
+      "automatic": true
+    },
+    {
+      "id": "yt-AzdxbzHtjgs",
+      "showId": "lex-fridman",
+      "title": "Michael Kearns: Algorithmic Fairness, Privacy & Ethics | Lex Fridman Podcast #50",
+      "publishedAt": "2019-11-19",
+      "youtube": "AzdxbzHtjgs",
+      "duration": 6536,
+      "automatic": true
+    },
+    {
+      "id": "yt-smK9dgdTl40",
+      "showId": "lex-fridman",
+      "title": "Elon Musk: Neuralink, AI, Autopilot, and the Pale Blue Dot | Lex Fridman Podcast #49",
+      "publishedAt": "2019-11-12",
+      "youtube": "smK9dgdTl40",
+      "duration": 2170,
+      "automatic": true
+    },
+    {
+      "id": "yt-uTxRF5ag27A",
+      "showId": "lex-fridman",
+      "title": "Bjarne Stroustrup: C++ | Lex Fridman Podcast #48",
+      "publishedAt": "2019-11-07",
+      "youtube": "uTxRF5ag27A",
+      "duration": 6433,
+      "automatic": true
+    },
+    {
+      "id": "yt-iNqqOLscOBY",
+      "showId": "lex-fridman",
+      "title": "Sean Carroll: Quantum Mechanics and the Many-Worlds Interpretation | Lex Fridman Podcast #47",
+      "publishedAt": "2019-11-01",
+      "youtube": "iNqqOLscOBY",
+      "duration": 5398,
+      "automatic": true
+    },
+    {
+      "id": "yt-8RVa0THWUWw",
+      "showId": "lex-fridman",
+      "title": "Garry Kasparov: Chess, Deep Blue, AI, and Putin | Lex Fridman Podcast #46",
+      "publishedAt": "2019-10-27",
+      "youtube": "8RVa0THWUWw",
+      "duration": 3324,
+      "automatic": true
+    },
+    {
+      "id": "yt-kD5yc1LQrpQ",
+      "showId": "lex-fridman",
+      "title": "Michio Kaku: Future of Humans, Aliens, Space Travel & Physics | Lex Fridman Podcast #45",
+      "publishedAt": "2019-10-22",
+      "youtube": "kD5yc1LQrpQ",
+      "duration": 3660,
+      "automatic": true
+    },
+    {
+      "id": "yt-Whtt2H5_isM",
+      "showId": "lex-fridman",
+      "title": "David Ferrucci: IBM Watson, Jeopardy & Deep Conversations with AI | Lex Fridman Podcast #44",
+      "publishedAt": "2019-10-11",
+      "youtube": "Whtt2H5_isM",
+      "duration": 8672,
+      "automatic": true
+    },
+    {
+      "id": "yt-vNOTDn3D_RI",
+      "showId": "lex-fridman",
+      "title": "Gary Marcus: Toward a Hybrid of Deep Learning and Symbolic AI | Lex Fridman Podcast #43",
+      "publishedAt": "2019-10-03",
+      "youtube": "vNOTDn3D_RI",
+      "duration": 5101,
+      "automatic": true
+    },
+    {
+      "id": "yt-_VPxEcT_Adc",
+      "showId": "lex-fridman",
+      "title": "Peter Norvig: Artificial Intelligence: A Modern Approach | Lex Fridman Podcast #42",
+      "publishedAt": "2019-09-30",
+      "youtube": "_VPxEcT_Adc",
+      "duration": 3793,
+      "automatic": true
+    },
+    {
+      "id": "yt-s78hvV3QLUE",
+      "showId": "lex-fridman",
+      "title": "Leonard Susskind: Quantum Mechanics, String Theory and Black Holes | Lex Fridman Podcast #41",
+      "publishedAt": "2019-09-26",
+      "youtube": "s78hvV3QLUE",
+      "duration": 3450,
+      "automatic": true
+    },
+    {
+      "id": "yt-x0-zGdlpTeg",
+      "showId": "lex-fridman",
+      "title": "Regina Barzilay: Deep Learning for Cancer Diagnosis and Treatment | Lex Fridman Podcast #40",
+      "publishedAt": "2019-09-23",
+      "youtube": "x0-zGdlpTeg",
+      "duration": 4649,
+      "automatic": true
+    },
+    {
+      "id": "yt-1d9Dj9dT_pw",
+      "showId": "lex-fridman",
+      "title": "Colin Angle: iRobot CEO | Lex Fridman Podcast #39",
+      "publishedAt": "2019-09-19",
+      "youtube": "1d9Dj9dT_pw",
+      "duration": 2258,
+      "automatic": true
+    },
+    {
+      "id": "yt-Bo8MY4JpiXE",
+      "showId": "lex-fridman",
+      "title": "François Chollet: Keras, Deep Learning, and the Progress of AI | Lex Fridman Podcast #38",
+      "publishedAt": "2019-09-14",
+      "youtube": "Bo8MY4JpiXE",
+      "duration": 7190,
+      "automatic": true
+    },
+    {
+      "id": "yt-HYsLTNXMl1Q",
+      "showId": "lex-fridman",
+      "title": "Vijay Kumar: Flying Robots | Lex Fridman Podcast #37",
+      "publishedAt": "2019-09-08",
+      "youtube": "HYsLTNXMl1Q",
+      "duration": 3407,
+      "automatic": true
+    },
+    {
+      "id": "yt-SGSOCuByo24",
+      "showId": "lex-fridman",
+      "title": "Yann LeCun: Deep Learning, ConvNets, and Self-Supervised Learning | Lex Fridman Podcast #36",
+      "publishedAt": "2019-08-31",
+      "youtube": "SGSOCuByo24",
+      "duration": 4558,
+      "automatic": true
+    },
+    {
+      "id": "yt-J6XcP4JOHmk",
+      "showId": "lex-fridman",
+      "title": "Jeremy Howard: fast.ai Deep Learning Courses and Research | Lex Fridman Podcast #35",
+      "publishedAt": "2019-08-27",
+      "youtube": "J6XcP4JOHmk",
+      "duration": 6251,
+      "automatic": true
+    },
+    {
+      "id": "yt-i6rnzk8VU24",
+      "showId": "lex-fridman",
+      "title": "Pamela McCorduck: Machines Who Think and the Early Days of AI | Lex Fridman Podcast #34",
+      "publishedAt": "2019-08-23",
+      "youtube": "i6rnzk8VU24",
+      "duration": 3606,
+      "automatic": true
+    },
+    {
+      "id": "yt-anXep8kBOCg",
+      "showId": "lex-fridman",
+      "title": "Keoki Jackson: Lockheed Martin | Lex Fridman Podcast #33",
+      "publishedAt": "2019-08-19",
+      "youtube": "anXep8kBOCg",
+      "duration": 4386,
+      "automatic": true
+    },
+    {
+      "id": "yt-lVHRs3uTHNI",
+      "showId": "lex-fridman",
+      "title": "Paola Arlotta: Brain Development from Stem Cell to Organoid | Lex Fridman Podcast #32",
+      "publishedAt": "2019-08-12",
+      "youtube": "lVHRs3uTHNI",
+      "duration": 3462,
+      "automatic": true
+    },
+    {
+      "id": "yt-iwcYp-XT7UI",
+      "showId": "lex-fridman",
+      "title": "George Hotz: Comma.ai, OpenPilot, and Autonomous Vehicles | Lex Fridman Podcast #31",
+      "publishedAt": "2019-08-05",
+      "youtube": "iwcYp-XT7UI",
+      "duration": 7177,
+      "automatic": true
+    },
+    {
+      "id": "yt-QDN6xvhAw94",
+      "showId": "lex-fridman",
+      "title": "Kevin Scott: Microsoft CTO | Lex Fridman Podcast #30",
+      "publishedAt": "2019-08-01",
+      "youtube": "QDN6xvhAw94",
+      "duration": 3464,
+      "automatic": true
+    },
+    {
+      "id": "yt-v-9Mpe7NhkM",
+      "showId": "lex-fridman",
+      "title": "Gustav Soderstrom: Spotify | Lex Fridman Podcast #29",
+      "publishedAt": "2019-07-29",
+      "youtube": "v-9Mpe7NhkM",
+      "duration": 6424,
+      "automatic": true
+    },
+    {
+      "id": "yt-Tj6NOfdfa4o",
+      "showId": "lex-fridman",
+      "title": "Chris Urmson: Self-Driving Cars at Aurora, Google, CMU, and DARPA | Lex Fridman Podcast #28",
+      "publishedAt": "2019-07-22",
+      "youtube": "Tj6NOfdfa4o",
+      "duration": 2688,
+      "automatic": true
+    },
+    {
+      "id": "yt-cQ48rP_Rs4g",
+      "showId": "lex-fridman",
+      "title": "Kai-Fu Lee: AI Superpowers - China and Silicon Valley | Lex Fridman Podcast #27",
+      "publishedAt": "2019-07-15",
+      "youtube": "cQ48rP_Rs4g",
+      "duration": 5187,
+      "automatic": true
+    },
+    {
+      "id": "yt-l-NJrvyRo0c",
+      "showId": "lex-fridman",
+      "title": "Sean Carroll: The Nature of the Universe, Life, and Intelligence | Lex Fridman Podcast #26",
+      "publishedAt": "2019-07-10",
+      "youtube": "l-NJrvyRo0c",
+      "duration": 2090,
+      "automatic": true
+    },
+    {
+      "id": "yt--EVqrDlAqYo",
+      "showId": "lex-fridman",
+      "title": "Jeff Hawkins: Thousand Brains Theory of Intelligence | Lex Fridman Podcast #25",
+      "publishedAt": "2019-07-01",
+      "youtube": "-EVqrDlAqYo",
+      "duration": 7782,
+      "automatic": true
+    },
+    {
+      "id": "yt-kq0VO1FqE6I",
+      "showId": "lex-fridman",
+      "title": "Rosalind Picard: Affective Computing, Emotion, Privacy, and Health | Lex Fridman Podcast #24",
+      "publishedAt": "2019-06-17",
+      "youtube": "kq0VO1FqE6I",
+      "duration": 3612,
+      "automatic": true
+    },
+    {
+      "id": "yt-q0mokx-iiws",
+      "showId": "lex-fridman",
+      "title": "Gavin Miller: Adobe Research | Lex Fridman Podcast #23",
+      "publishedAt": "2019-06-10",
+      "youtube": "q0mokx-iiws",
+      "duration": 4152,
+      "automatic": true
+    },
+    {
+      "id": "yt-NERNE4UThHU",
+      "showId": "lex-fridman",
+      "title": "Rajat Monga: TensorFlow | Lex Fridman Podcast #22",
+      "publishedAt": "2019-06-03",
+      "youtube": "NERNE4UThHU",
+      "duration": 4258,
+      "automatic": true
+    },
+    {
+      "id": "yt-yCd3CzGSte8",
+      "showId": "lex-fridman",
+      "title": "Chris Lattner: Compilers, LLVM, Swift, TPU, and ML Accelerators | Lex Fridman Podcast #21",
+      "publishedAt": "2019-05-13",
+      "youtube": "yCd3CzGSte8",
+      "duration": 4386,
+      "automatic": true
+    },
+    {
+      "id": "yt-Kedt2or9xlo",
+      "showId": "lex-fridman",
+      "title": "Oriol Vinyals: DeepMind AlphaStar, StarCraft, and Language | Lex Fridman Podcast #20",
+      "publishedAt": "2019-04-29",
+      "youtube": "Kedt2or9xlo",
+      "duration": 6361,
+      "automatic": true
+    },
+    {
+      "id": "yt-Z6rxFNMGdn0",
+      "showId": "lex-fridman",
+      "title": "Ian Goodfellow: Generative Adversarial Networks (GANs) | Lex Fridman Podcast #19",
+      "publishedAt": "2019-04-18",
+      "youtube": "Z6rxFNMGdn0",
+      "duration": 4117,
+      "automatic": true
+    },
+    {
+      "id": "yt-dEv99vxKjVI",
+      "showId": "lex-fridman",
+      "title": "Elon Musk: Tesla Autopilot | Lex Fridman Podcast #18",
+      "publishedAt": "2019-04-12",
+      "youtube": "dEv99vxKjVI",
+      "duration": 1965,
+      "automatic": true
+    },
+    {
+      "id": "yt-bIrEM2FbOLU",
+      "showId": "lex-fridman",
+      "title": "Greg Brockman: OpenAI and AGI | Lex Fridman Podcast #17",
+      "publishedAt": "2019-04-03",
+      "youtube": "bIrEM2FbOLU",
+      "duration": 5107,
+      "automatic": true
+    },
+    {
+      "id": "yt-2wq9x2QcZN0",
+      "showId": "lex-fridman",
+      "title": "Eric Weinstein: Revolutionary Ideas in Science, Math, and Society | Lex Fridman Podcast #16",
+      "publishedAt": "2019-03-20",
+      "youtube": "2wq9x2QcZN0",
+      "duration": 4916,
+      "automatic": true
+    },
+    {
+      "id": "yt-Er7Dy8rvqOc",
+      "showId": "lex-fridman",
+      "title": "Leslie Kaelbling: Reinforcement Learning, Planning, and Robotics | Lex Fridman Podcast #15",
+      "publishedAt": "2019-03-12",
+      "youtube": "Er7Dy8rvqOc",
+      "duration": 3684,
+      "automatic": true
+    },
+    {
+      "id": "yt-YUYagvESisE",
+      "showId": "lex-fridman",
+      "title": "Kyle Vogt: Cruise Automation | Lex Fridman Podcast #14",
+      "publishedAt": "2019-02-07",
+      "youtube": "YUYagvESisE",
+      "duration": 3324,
+      "automatic": true
+    },
+    {
+      "id": "yt-aSyZvBrPAyk",
+      "showId": "lex-fridman",
+      "title": "Tomaso Poggio: Brains, Minds, and Machines | Lex Fridman Podcast #13",
+      "publishedAt": "2019-01-19",
+      "youtube": "aSyZvBrPAyk",
+      "duration": 4821,
+      "automatic": true
+    },
+    {
+      "id": "yt-b7bStIQovcY",
+      "showId": "lex-fridman",
+      "title": "Tuomas Sandholm: Poker and Game Theory | Lex Fridman Podcast #12",
+      "publishedAt": "2018-12-28",
+      "youtube": "b7bStIQovcY",
+      "duration": 3977,
+      "automatic": true
+    },
+    {
+      "id": "yt-3FIo6evmweo",
+      "showId": "lex-fridman",
+      "title": "Juergen Schmidhuber: Godel Machines, Meta-Learning, and LSTMs | Lex Fridman Podcast #11",
+      "publishedAt": "2018-12-23",
+      "youtube": "3FIo6evmweo",
+      "duration": 4799,
+      "automatic": true
+    },
+    {
+      "id": "yt-l-mYLq6eZPY",
+      "showId": "lex-fridman",
+      "title": "Pieter Abbeel: Deep Reinforcement Learning | Lex Fridman Podcast #10",
+      "publishedAt": "2018-12-16",
+      "youtube": "l-mYLq6eZPY",
+      "duration": 2565,
+      "automatic": true
+    },
+    {
+      "id": "yt-KsZI5oXBC0k",
+      "showId": "lex-fridman",
+      "title": "Stuart Russell: Long-Term Future of Artificial Intelligence | Lex Fridman Podcast #9",
+      "publishedAt": "2018-12-09",
+      "youtube": "KsZI5oXBC0k",
+      "duration": 5181,
+      "automatic": true
+    },
+    {
+      "id": "yt-hIC9FQpxVwQ",
+      "showId": "lex-fridman",
+      "title": "Eric Schmidt: Google | Lex Fridman Podcast #8",
+      "publishedAt": "2018-12-04",
+      "youtube": "hIC9FQpxVwQ",
+      "duration": 1988,
+      "automatic": true
+    },
+    {
+      "id": "yt-KZkYSSE8HHI",
+      "showId": "lex-fridman",
+      "title": "Jeff Atwood: Stack Overflow and Coding Horror | Lex Fridman Podcast #7",
+      "publishedAt": "2018-11-29",
+      "youtube": "KZkYSSE8HHI",
+      "duration": 4809,
+      "automatic": true
+    },
+    {
+      "id": "yt-ghwaIiE3Nd8",
+      "showId": "lex-fridman",
+      "title": "Guido van Rossum: Python | Lex Fridman Podcast #6",
+      "publishedAt": "2018-11-22",
+      "youtube": "ghwaIiE3Nd8",
+      "duration": 5205,
+      "automatic": true
+    },
+    {
+      "id": "yt-STFcvzoxVw4",
+      "showId": "lex-fridman",
+      "title": "Vladimir Vapnik: Statistical Learning | Lex Fridman Podcast #5",
+      "publishedAt": "2018-11-16",
+      "youtube": "STFcvzoxVw4",
+      "duration": 3243,
+      "automatic": true
+    },
+    {
+      "id": "yt-azOmzumh0vQ",
+      "showId": "lex-fridman",
+      "title": "Yoshua Bengio: Deep Learning | Lex Fridman Podcast #4",
+      "publishedAt": "2018-10-20",
+      "youtube": "azOmzumh0vQ",
+      "duration": 2539,
+      "automatic": true
+    },
+    {
+      "id": "yt-epQxfSp-rdU",
+      "showId": "lex-fridman",
+      "title": "Steven Pinker: AI in the Age of Reason | Lex Fridman Podcast #3",
+      "publishedAt": "2018-10-17",
+      "youtube": "epQxfSp-rdU",
+      "duration": 2274,
+      "automatic": true
+    },
+    {
+      "id": "yt-piHkfmeU7Wo",
+      "showId": "lex-fridman",
+      "title": "Christof Koch: Consciousness | Lex Fridman Podcast #2",
+      "publishedAt": "2018-05-29",
+      "youtube": "piHkfmeU7Wo",
+      "duration": 3474,
+      "automatic": true
+    },
+    {
+      "id": "yt-Gi8LUnhP5yU",
+      "showId": "lex-fridman",
+      "title": "Max Tegmark: Life 3.0 | Lex Fridman Podcast #1",
+      "publishedAt": "2018-04-19",
+      "youtube": "Gi8LUnhP5yU",
+      "duration": 4978,
       "automatic": true
     }
   ]
