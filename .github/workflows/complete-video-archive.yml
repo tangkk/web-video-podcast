@@ -39,7 +39,7 @@ jobs:
         if: steps.pending.outputs.needed == 'true'
         with:
           node-version: 22
-      - name: Backfill all 50 YouTube channels
+      - name: Backfill all configured YouTube channels
         if: steps.pending.outputs.needed == 'true'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -62,8 +62,8 @@ jobs:
           const report = JSON.parse(fs.readFileSync('scripts/backfill-report.json'));
           const latest = new Map();
           for (const video of data.episodes) latest.set(video.showId, (latest.get(video.showId) ?? 0) + 1);
-          const replacements = ['npr-newsmakers', 'dashu-mandarin', 'rest-is-politics', 'rest-is-politics-us', 'one-night-talk', 'outcasts-853', 'manki-cantonese-podcast'];
-          if (catalog.shows.length !== 50 || report.totals.sources !== 50 || report.totals.failed !== 0) {
+          const replacements = ['npr-newsmakers', 'dashu-mandarin', 'rest-is-politics', 'rest-is-politics-us', 'one-night-talk', 'outcasts-853', 'manki-cantonese-podcast','joe-rogan','theo-von','shawn-ryan','all-in-podcast','broken-record'];
+          if (catalog.shows.length < 55 || report.totals.sources !== catalog.shows.length || report.totals.checked !== catalog.shows.length || report.totals.failed !== 0) {
             throw new Error('Not all 50 channels completed successfully: ' + JSON.stringify(report.totals));
           }
           if (data.episodes.length < 10000) throw new Error('Archive incomplete: only ' + data.episodes.length + ' episodes');
