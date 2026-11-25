@@ -2,7 +2,8 @@ import fs from 'node:fs/promises';
 
 const backfill = process.argv.includes('--backfill');
 const dryRun = process.argv.includes('--dry-run');
-const selected = process.argv.find(arg => arg.startsWith('--show='))?.slice(7);
+const selected = process.argv.find(arg => arg.startsWith('--show='))?.slice(7).split(',');
+const strictSources = process.argv.includes('--strict-sources');
 const key = process.env.YOUTUBE_API_KEY;
 if (!key) throw new Error('YOUTUBE_API_KEY is required. Configure it in GitHub Actions secrets.');
 const sources = JSON.parse(await fs.readFile(new URL('./video-sources.json', import.meta.url), 'utf8'));
@@ -10,7 +11,8 @@ const catalogFile = new URL('../episodes.json', import.meta.url);
 const catalog = JSON.parse(await fs.readFile(catalogFile, 'utf8'));
 const directory = JSON.parse(await fs.readFile(new URL('../catalog.json', import.meta.url), 'utf8'));
 const allowedShows = new Set(directory.shows.map(show => show.id));
-const target = sources.filter(s => !selected || s.showId === selected);
+const target = sources.filter(s => !selected || selected.includes(s.showId));
+if (selected && target.length !== new Set(selected).size) throw new Error('Unknown or duplicate --show source');
 if (!target.length) throw new Error('No sources selected');
 const videoIdRe = /^[A-Za-z0-9_-]{11}$/;
 const channelIdRe = /^UC[A-Za-z0-9_-]{22}$/;
@@ -127,6 +129,12 @@ for (const source of target) {
 }
 if (failed === target.length) {
   throw new Error('All ' + failed + ' sources failed; preserving existing catalog.');
+}
+if (strictSources) {
+  const empty = sourceResults.filter(s => s.status !== 'ok' || s.eligible === 0);
+  if (empty.length) {
+    throw new Error('Strict channel verification failed: ' + empty.map(s => s.showId + '(' + (s.error || 'no valid public embeddable full episodes') + ')').join(', '));
+  }
 }
 if (failed > 0) {
   console.warn('PARTIAL SYNC: ' + failed + '/' + target.length +
