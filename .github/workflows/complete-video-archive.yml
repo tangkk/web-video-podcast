@@ -1,0 +1,112 @@
+name: Complete video podcast archive rollout
+
+on:
+  schedule:
+    # YouTube API daily quota resets at midnight US Pacific; wait at least one hour.
+    - cron: '15 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: video-archive-rollout
+  cancel-in-progress: false
+
+jobs:
+  complete:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Confirm rollout still needed
+        id: pending
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          merged="$(gh api repos/${GITHUB_REPOSITORY}/pulls/1 --jq '.merged')"
+          if [ "$merged" = "true" ]; then
+            echo "needed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "needed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.pending.outputs.needed == 'true'
+        with:
+          ref: feature/full-youtube-archive
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        if: steps.pending.outputs.needed == 'true'
+        with:
+          node-version: 22
+      - name: Backfill all 50 YouTube channels
+        if: steps.pending.outputs.needed == 'true'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          set -o pipefail
+          test -n "$YOUTUBE_API_KEY"
+          node --input-type=module --check < app.js
+          node --input-type=module --check < sync.js
+          node --check scripts/sync-youtube.mjs
+          node scripts/sync-youtube.mjs --backfill 2>&1 | tee backfill-run.log
+          node scripts/validate-catalog.mjs
+      - name: Strictly verify backfill coverage
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const catalog = JSON.parse(fs.readFileSync('catalog.json'));
+          const data = JSON.parse(fs.readFileSync('episodes.json'));
+          const report = JSON.parse(fs.readFileSync('scripts/backfill-report.json'));
+          const latest = new Map();
+          for (const video of data.episodes) latest.set(video.showId, (latest.get(video.showId) ?? 0) + 1);
+          const replacements = ['npr-newsmakers', 'dashu-mandarin', 'rest-is-politics', 'rest-is-politics-us', 'one-night-talk', 'outcasts-853', 'manki-cantonese-podcast'];
+          if (catalog.shows.length !== 50 || report.totals.sources !== 50 || report.totals.failed !== 0) {
+            throw new Error('Not all 50 channels completed successfully: ' + JSON.stringify(report.totals));
+          }
+          if (data.episodes.length < 10000) throw new Error('Archive incomplete: only ' + data.episodes.length + ' episodes');
+          for (const id of replacements) {
+            if (!latest.get(id)) throw new Error('Replacement show has no embeddable episode: ' + id);
+          }
+          if (data.episodes.some(e => !e.youtube)) throw new Error('An external-only episode remains');
+          console.log('Verified', data.episodes.length, 'episodes in', catalog.shows.length, 'shows.');
+          for (const id of replacements) console.log(id + ': ' + latest.get(id));
+          NODE
+      - name: Preserve complete backfill on feature branch
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add episodes.json scripts/backfill-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save verified complete video podcast archive [skip ci]'
+            for attempt in 1 2 3; do
+              git fetch origin feature/full-youtube-archive
+              git rebase origin/feature/full-youtube-archive
+              if git push origin HEAD:feature/full-youtube-archive; then
+                break
+              fi
+              if [ "$attempt" = "3" ]; then exit 1; fi
+            done
+          fi
+      - name: Merge validated upgrade and start Pages deployment
+        if: steps.pending.outputs.needed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sha="$(git rev-parse HEAD)"
+          if [ "$(gh pr view 1 --json isDraft --jq '.isDraft')" = "true" ]; then
+            gh pr ready 1
+          fi
+          gh api -X PUT "repos/${GITHUB_REPOSITORY}/pulls/1/merge" \
+            -f sha="$sha" -f merge_method=merge
+          gh workflow run video-pages.yml --ref main
+      - name: Upload diagnostic logs if unsuccessful
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-rollout-failure-logs
+          path: backfill-run.log
+          if-no-files-found: ignore
