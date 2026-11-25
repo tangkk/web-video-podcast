@@ -1,0 +1,70 @@
+name: Verify and import five official podcast channels
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-new-podcasts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: new-podcast-verification
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify official video uploads and import embeddable full episodes
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          test -n "$YOUTUBE_API_KEY"
+          node --check scripts/sync-youtube.mjs
+          node scripts/validate-catalog.mjs
+          node scripts/sync-youtube.mjs --backfill --show=joe-rogan,theo-von,shawn-ryan,all-in-podcast,broken-record --strict-sources
+          node scripts/validate-catalog.mjs
+      - name: Independently check all five show collections
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const episodes = JSON.parse(fs.readFileSync('episodes.json', 'utf8')).episodes;
+          const sources = ['joe-rogan','theo-von','shawn-ryan','all-in-podcast','broken-record'];
+          for (const id of sources) {
+            const found = episodes.filter(e => e.showId === id);
+            if (found.length === 0) throw new Error('No validated video episodes: '+id);
+            if (found.some(e => !/^[A-Za-z0-9_-]{11}$/.test(e.youtube) || !e.publishedAt || !(e.duration > 0)))
+              throw new Error('Invalid episode metadata: '+id);
+            console.log(id+': '+found.length+' valid YouTube episodes');
+          }
+          NODE
+      - name: Commit verified episodes with safe remote reconciliation
+        run: |
+          git add episodes.json
+          if git diff --cached --quiet; then
+            echo "No new episodes."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Import verified official video episodes for five new podcasts'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo 'Validated videos published to main.'
+              exit 0
+            fi
+          done
+          exit 1
