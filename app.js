@@ -144,7 +144,8 @@ function render() {
     tab.setAttribute('aria-pressed', String(tab.dataset.view === state.view));
   }
   const query = normalize(elements.search.value.trim());
-  const matches = show => (state.language === 'all' || show.language === state.language)
+  const matches = show => (!show.pendingVerification || show.episodes.length > 0)
+    && (state.language === 'all' || show.language === state.language)
     && (state.topic === 'all' || state.topic === show.category)
     && (!state.favoritesOnly || favorites.has(show.id));
   const matching = [...shows.values()].filter(matches);
@@ -186,7 +187,8 @@ function renderShowEpisodes(show) {
 
 function renderRoute() {
   const id = /^#show\/([a-z0-9-]+)$/.exec(location.hash)?.[1];
-  const show = shows.get(id);
+  const candidate = shows.get(id);
+  const show = candidate && (!candidate.pendingVerification || candidate.episodes.length > 0) ? candidate : undefined;
   elements.browse.hidden = Boolean(show);
   elements.detail.hidden = !show;
   $('.toolbar').hidden = Boolean(show);
@@ -422,7 +424,8 @@ async function boot() {
     }
     makeChips(elements.languages, languages, state.language);
     makeChips(elements.topics, topics, state.topic);
-    $('#footer-count').textContent = `${shows.size} 檔節目 · ${episodes.size} 集已選影片`;
+    const visibleShows = [...shows.values()].filter(show => !show.pendingVerification || show.episodes.length > 0).length;
+    $('#footer-count').textContent = `${visibleShows} 檔節目 · ${episodes.size} 集已選影片`;
     render();
     renderRoute();
   } catch (error) {
