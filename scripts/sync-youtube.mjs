@@ -122,7 +122,9 @@ for (const source of target) {
     console.error(source.showId + ': ' + error.message);
   }
 }
-if (failed === target.length) throw new Error('All sources failed; preserving episodes.json');
+if (failed === target.length || (backfill && failed > 0)) {
+  throw new Error(failed + ' sources failed during ' + (backfill ? 'full historical backfill' : 'daily sync') + '; preserving existing catalog.');
+}
 
 // Validate ALL catalogued YouTube videos, including old manually curated ones and
 // videos not covered by today's limited discovery scan.
