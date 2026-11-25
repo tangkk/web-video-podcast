@@ -3,6 +3,8 @@ name: Verify video archive upgrade
 on:
   push:
     branches: [feature/full-youtube-archive]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
