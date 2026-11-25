@@ -9,7 +9,9 @@
       "taiwan-law",
       "han-talk",
       "hong-kong-bean",
-      "npr-newsmakers"
+      "npr-newsmakers",
+      "rest-is-politics",
+      "rest-is-politics-us"
     ],
     "tech": [
       "diary-of-a-ceo",
@@ -32,7 +34,8 @@
       "houhousyut",
       "cinespot",
       "philosophy-live",
-      "dashu-mandarin"
+      "dashu-mandarin",
+      "manki-cantonese-podcast"
     ],
     "science": [
       "huberman-lab",
@@ -53,7 +56,9 @@
       "shen-talk",
       "spoti-talk",
       "do-show",
-      "uson"
+      "uson",
+      "one-night-talk",
+      "outcasts-853"
     ]
   },
   "episodes": [
