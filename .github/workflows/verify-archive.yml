@@ -3,6 +3,8 @@ name: Verify and backfill video podcast archives
 on:
   push:
     branches: [feature/full-youtube-archive]
+    paths:
+      - '.github/workflows/verify-archive.yml'
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -72,7 +74,19 @@ jobs:
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git commit -m 'Record YouTube archive backfill results [skip ci]'
-            git push origin HEAD:feature/full-youtube-archive
+            # The API scan takes several minutes. Preserve commits pushed while it ran.
+            # Rebase the generated data commit onto the current feature head; never force-push.
+            for attempt in 1 2 3; do
+              git fetch origin feature/full-youtube-archive
+              git rebase origin/feature/full-youtube-archive
+              if git push origin HEAD:feature/full-youtube-archive; then
+                echo "Archive committed to the latest feature branch."
+                exit 0
+              fi
+              echo "Remote moved again; retrying safe rebase ($attempt/3)"
+            done
+            echo "::error::Unable to push backfill after three safe attempts"
+            exit 1
           fi
       - name: Mark backfill unsuccessful
         if: github.event_name != 'pull_request' && steps.backfill.outputs.exit_code != '0'
