@@ -67,7 +67,7 @@ jobs:
       - name: Commit validated archive once
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/feature/full-youtube-archive'
         run: |
-          git add -A -- episodes.json scripts/backfill-report.json scripts/backfill-failure.md
+          git add -A -- episodes.json scripts/
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
