@@ -32,23 +32,48 @@ jobs:
           node --check scripts/sync-youtube.mjs
           node scripts/validate-catalog.mjs
       - name: Full historical backfill (feature branch only)
+        id: backfill
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/feature/full-youtube-archive'
+        continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
+          set +e
           if [ -z "$YOUTUBE_API_KEY" ]; then
-            echo "::error::YOUTUBE_API_KEY secret is missing"
-            exit 1
+            echo "YOUTUBE_API_KEY secret is unavailable" | tee /tmp/backfill.log
+            code=1
+          else
+            node scripts/sync-youtube.mjs --backfill 2>&1 | tee /tmp/backfill.log
+            code=${PIPESTATUS[0]}
           fi
-          node scripts/sync-youtube.mjs --backfill
-          node scripts/validate-catalog.mjs
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -ne 0 ]; then
+            {
+              echo "# Backfill error report"
+              echo ""
+              echo "Commit: $GITHUB_SHA"
+              echo "Run: $GITHUB_RUN_ID"
+              echo "Exit code: $code"
+              echo ""
+              echo '## Last 80 lines'
+              echo '~~~'
+              tail -n 80 /tmp/backfill.log
+              echo '~~~'
+            } > scripts/backfill-failure.md
+          else
+            rm -f scripts/backfill-failure.md
+            node scripts/validate-catalog.mjs
+          fi
       - name: Commit validated archive once
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/feature/full-youtube-archive'
         run: |
-          git add episodes.json scripts/backfill-report.json
+          git add -A -- episodes.json scripts/backfill-report.json scripts/backfill-failure.md
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'Backfill complete YouTube video podcast archive [skip ci]'
+            git commit -m 'Record YouTube archive backfill results [skip ci]'
             git push origin HEAD:feature/full-youtube-archive
           fi
+      - name: Mark backfill unsuccessful
+        if: github.event_name != 'pull_request' && steps.backfill.outputs.exit_code != '0'
+        run: exit 1
