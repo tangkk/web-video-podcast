@@ -92,3 +92,14 @@ dialog::backdrop { background: #151514bf; }
   .card h2, .card h3 { font-size: .94rem; }
   .meta { font-size: .8rem; }
 }
+
+#sync-toggle { margin-top: 12px; }
+#sync-panel { width: min(470px, calc(100% - 24px)); }
+#sync-title { margin: 0; font-size: 1.25rem; }
+.sync-body { padding: 0 16px 16px; }
+.sync-body p { margin: 0 0 12px; color: var(--muted); }
+.sync-body label { display: block; margin-bottom: 4px; }
+#sync-key { width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; }
+.sync-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+#sync-status { margin: 12px 0 0; }
+#sync-panel button:disabled { opacity: .5; cursor: default; }

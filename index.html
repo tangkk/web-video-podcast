@@ -7,8 +7,8 @@
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Web Video Podcasts</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./app.js" type="module"></script>
+  <link rel="stylesheet" href="./styles.css?v=2">
+  <script src="./app.js?v=2" type="module"></script>
 </head>
 <body>
   <main class="page">
@@ -16,6 +16,7 @@
       <a class="brand" href="#" aria-label="Web Video Podcasts 首頁"><span class="brand-icon" aria-hidden="true">▶</span> WEB VIDEO PODCASTS</a>
       <h1>Web Video Podcasts<span>.</span></h1>
       <p>完整單集，隨時開看。探索英語、國語與粵語的影片播客。</p>
+      <button id="sync-toggle" class="pill" type="button" aria-haspopup="dialog">同步</button>
     </header>
     <section class="toolbar" aria-label="搜尋與篩選">
       <label class="search">
@@ -57,6 +58,27 @@
       <div id="chapters" class="chapters" hidden></div>
       <a id="source" class="pill" target="_blank" rel="noopener noreferrer">在原平台觀看</a>
     </div>
+  </dialog>
+  <dialog id="sync-panel" aria-labelledby="sync-title">
+    <header class="watch-top">
+      <h2 id="sync-title">多裝置同步</h2>
+      <button id="sync-close" class="icon" type="button" aria-label="關閉同步設定">×</button>
+    </header>
+    <form class="sync-body">
+      <p>在其他裝置輸入同一組同步碼，即可合併收藏與觀看進度。</p>
+      <label for="sync-key">同步碼</label>
+      <input id="sync-key" name="sync-key" type="text" maxlength="256" autocomplete="off" autocapitalize="none" spellcheck="false" autofocus>
+      <div class="sync-actions">
+        <button id="sync-generate" class="pill" type="button">產生同步碼</button>
+        <button id="sync-copy" class="pill" type="button">複製同步碼</button>
+      </div>
+      <div class="sync-actions">
+        <button class="pill primary" type="submit">儲存並同步</button>
+        <button id="sync-now" class="pill" type="button">立即同步</button>
+        <button id="sync-disconnect" class="pill" type="button">中斷同步</button>
+      </div>
+      <p id="sync-status" role="status"></p>
+    </form>
   </dialog>
 </body>
 </html>
