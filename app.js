@@ -6,7 +6,7 @@ const elements = {
   browse: $('#browse'), directory: $('#directory'), summary: $('#summary'),
   detail: $('#detail'), favorites: $('#favorites'), recent: $('#recent'),
   watch: $('#watch'), screen: $('#screen'), chapters: $('#chapters'),
-  watchTitle: $('#watch-title'), watchShow: $('#watch-show'), watchState: $('#watch-state'), source: $('#source')
+  watchTitle: $('#watch-title'), watchShow: $('#watch-show'), watchPublished: $('#watch-published'), watchState: $('#watch-state'), source: $('#source')
 };
 const languages = { all: '全部', en: '英語', cmn: '國語', yue: '粵語' };
 const topics = {
@@ -289,6 +289,7 @@ async function openVideo(episode, trigger) {
   current = session;
   elements.watchTitle.textContent = episode.title;
   elements.watchShow.textContent = show.name;
+  elements.watchPublished.textContent = episode.publishedAt ? `發布日期：${date(episode.publishedAt)}` : '發布日期未提供';
   elements.watchState.textContent = defaultMessage;
   elements.source.href = episodeUrl(episode);
   elements.chapters.hidden = true;
