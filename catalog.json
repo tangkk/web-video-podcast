@@ -482,6 +482,46 @@
       "topic": "音樂人與創作深度訪談",
       "url": "https://www.youtube.com/channel/UCZ8_-dTIxnLOLt3jfH5XHJw",
       "pendingVerification": true
+    },
+    {
+      "id": "kill-tony",
+      "name": "Kill Tony",
+      "language": "en",
+      "topic": "現場喜劇與脫口秀",
+      "url": "https://www.youtube.com/channel/UCwzCMiicL-hBUzyjWiJaseg",
+      "pendingVerification": true
+    },
+    {
+      "id": "flagrant",
+      "name": "Flagrant",
+      "language": "en",
+      "topic": "喜劇、文化與人物",
+      "url": "https://www.youtube.com/channel/UC5PstSsGrRwj2o6asQpC4Rg",
+      "pendingVerification": true
+    },
+    {
+      "id": "rick-beato-interviews",
+      "name": "Rick Beato · Musician Interviews",
+      "language": "en",
+      "topic": "音樂人與製作人深度訪談",
+      "url": "https://www.youtube.com/channel/UCJquYOG5EL82sKTfH9aMA9Q",
+      "pendingVerification": true
+    },
+    {
+      "id": "h3-podcast",
+      "name": "H3 Podcast",
+      "language": "en",
+      "topic": "喜劇、網路文化與時事",
+      "url": "https://www.youtube.com/channel/UCLtREJY21xRfCuEKvdki1Kw",
+      "pendingVerification": true
+    },
+    {
+      "id": "club-random",
+      "name": "Club Random with Bill Maher",
+      "language": "en",
+      "topic": "喜劇、人物與長訪談",
+      "url": "https://www.youtube.com/channel/UC8efBuMd2Tsolb5uTfpex3A",
+      "pendingVerification": true
     }
   ]
 }
