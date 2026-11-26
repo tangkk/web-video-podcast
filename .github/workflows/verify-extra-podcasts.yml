@@ -1,0 +1,89 @@
+name: Verify and import five additional video podcasts
+
+on:
+  schedule:
+    # After daily YouTube quota reset; run after the first five podcast verification.
+    - cron: '40 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: podcast-channel-imports
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Check verified completion marker
+        id: pending
+        run: |
+          if test -f scripts/extra-five-podcasts-verified.json; then
+            echo 'needed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'needed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-node@v4
+        if: steps.pending.outputs.needed == 'true'
+        with:
+          node-version: 22
+      - name: Scan every official channel upload and validate embedding permissions
+        if: steps.pending.outputs.needed == 'true'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          test -n "$YOUTUBE_API_KEY"
+          node --check scripts/sync-youtube.mjs
+          node scripts/validate-catalog.mjs
+          node scripts/sync-youtube.mjs --backfill --show=kill-tony,flagrant,rick-beato-interviews,h3-podcast,club-random --strict-sources
+          node scripts/validate-catalog.mjs
+      - name: Audit five completed source scans
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const episodes=JSON.parse(fs.readFileSync('episodes.json','utf8')).episodes;
+          const report=JSON.parse(fs.readFileSync('scripts/backfill-report.json','utf8'));
+          const ids=['kill-tony','flagrant','rick-beato-interviews','h3-podcast','club-random'];
+          if(report.totals.sources!==5 || report.totals.checked!==5 || report.totals.failed!==0)
+            throw new Error('One or more YouTube Data API full-history scans failed');
+          const verified={};
+          for(const id of ids){
+            const source=report.sources.find(s=>s.showId===id);
+            const videos=episodes.filter(e=>e.showId===id);
+            if(!source||source.status!=='ok'||source.eligible<1||!videos.length)
+              throw new Error('No validated complete video episodes for '+id);
+            if(videos.some(v=>!/^[A-Za-z0-9_-]{11}$/.test(v.youtube)||!v.publishedAt||!(v.duration>0)))
+              throw new Error('Invalid episode metadata for '+id);
+            verified[id]={scanned:source.scanned,eligible:source.eligible,episodes:videos.length};
+            console.log(id+': '+videos.length+' eligible public embeddable episodes');
+          }
+          fs.writeFileSync('scripts/extra-five-podcasts-verified.json',JSON.stringify({
+            verifiedAt:new Date().toISOString(),shows:verified,
+            policy:'Complete uploads playlist scan plus YouTube Data API v3 videos.status.embeddable and privacyStatus checks'
+          },null,2)+String.fromCharCode(10));
+          NODE
+      - name: Publish validated catalog and audit marker
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          git add episodes.json scripts/extra-five-podcasts-verified.json
+          if git diff --cached --quiet; then
+            echo 'Already up to date'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Import verified video episodes for five additional podcasts'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
