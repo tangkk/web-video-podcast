@@ -1,0 +1,82 @@
+name: Validate Cantonese podcast replacement
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-cantonese-replacement.yml'
+  schedule:
+    - cron: '35 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cantonese-replacement-validation
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Check whether complete replacement scan passed
+        id: pending
+        run: |
+          if test -f scripts/cantonese-replacement-verified.json; then
+            echo 'needed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'needed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-node@v4
+        if: steps.pending.outputs.needed == 'true'
+        with:
+          node-version: 22
+      - name: Verify complete official channel history and embeddability
+        if: steps.pending.outputs.needed == 'true'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          test -n "$YOUTUBE_API_KEY"
+          node scripts/validate-catalog.mjs
+          node scripts/sync-youtube.mjs --backfill --show=houhousyut --strict-sources
+          node scripts/validate-catalog.mjs
+      - name: Audit eligible episodes and save evidence
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const eps=JSON.parse(fs.readFileSync('episodes.json','utf8')).episodes;
+          const report=JSON.parse(fs.readFileSync('scripts/backfill-report.json','utf8'));
+          const source=report.sources.find(s=>s.showId==='houhousyut');
+          const count=eps.filter(e=>e.showId==='houhousyut').length;
+          if(report.totals.sources!==1||report.totals.checked!==1||report.totals.failed!==0||
+             source?.status!=='ok'||!source.eligible||!count)
+            throw new Error('Replacement failed full-history verification');
+          fs.writeFileSync('scripts/cantonese-replacement-verified.json',JSON.stringify({
+            show:'做咩啫 Whatsuuup',showId:'houhousyut',
+            channelId:'UCO-AwbH1CWhGyAtlJ5ARCxA',
+            verifiedAt:new Date().toISOString(),
+            scanned:source.scanned,eligible:source.eligible,episodes:count,
+            checks:'YouTube Data API public and embeddable, episode duration and title filters'
+          },null,2)+String.fromCharCode(10));
+          console.log('Verified Cantonese replacement:',count,'episodes from',source.scanned,'uploads');
+          NODE
+      - name: Publish verified replacement
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          git add episodes.json scripts/cantonese-replacement-verified.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Publish fully verified Cantonese podcast replacement'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
