@@ -1,6 +1,10 @@
 name: Complete video podcast archive rollout
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/complete-video-archive.yml'
   schedule:
     # YouTube API daily quota resets at midnight US Pacific; wait at least one hour.
     - cron: '15 9 * * *'
@@ -25,7 +29,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh api "repos/${GITHUB_REPOSITORY}/contents/scripts/backfill-report.json?ref=main" >/dev/null 2>&1; then
+          # Only an independently validated complete archive marker should disable retries.
+          if gh api "repos/${GITHUB_REPOSITORY}/contents/scripts/full-archive-verified.json?ref=main" >/dev/null 2>&1; then
             echo "needed=false" >> "$GITHUB_OUTPUT"
           else
             echo "needed=true" >> "$GITHUB_OUTPUT"
@@ -73,6 +78,18 @@ jobs:
           if (data.episodes.some(e => !e.youtube)) throw new Error('An external-only episode remains');
           console.log('Verified', data.episodes.length, 'episodes in', catalog.shows.length, 'shows.');
           for (const id of replacements) console.log(id + ': ' + latest.get(id));
+          NODE
+      - name: Write durable full-archive completion marker
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const report=JSON.parse(fs.readFileSync('scripts/backfill-report.json','utf8'));
+          fs.writeFileSync('scripts/full-archive-verified.json',JSON.stringify({
+            verifiedAt:new Date().toISOString(),sources:report.totals.sources,
+            checked:report.totals.checked,failed:report.totals.failed,
+            episodes:report.totals.episodes
+          },null,2)+String.fromCharCode(10));
           NODE
       - name: Save complete archive on main
         if: steps.pending.outputs.needed == 'true'
