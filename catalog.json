@@ -212,13 +212,12 @@
     },
     {
       "id": "houhousyut",
-      "name": "好好傾 Podcast",
+      "name": "做咩啫 Whatsuuup",
       "language": "yue",
-      "topic": "广州、香港与粤语文化",
-      "url": "https://www.youtube.com/@houhousyut",
-      "recentVideoEvidence": "2026-10-10",
-      "notes": "查到 EP11、EP12，部分早期节目分上下集",
-      "evidenceUrl": "https://www.youtube.com/watch?v=8Scw1lslfPc"
+      "topic": "香港生活、電影與粵語聊天",
+      "url": "https://www.youtube.com/channel/UCO-AwbH1CWhGyAtlJ5ARCxA",
+      "notes": "官方 YouTube 節目，完整單集在 YouTube API 公開及嵌入驗證後顯示",
+      "pendingVerification": true
     },
     {
       "id": "cinespot",
