@@ -74,6 +74,9 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'Publish fully verified Cantonese podcast replacement'
+          # The full-history scanner writes a local diagnostic report. Do not
+          # let this uncommitted report block rebasing the verified catalog.
+          git restore -- scripts/backfill-report.json
           for attempt in 1 2 3; do
             git fetch origin main
             git rebase origin/main
