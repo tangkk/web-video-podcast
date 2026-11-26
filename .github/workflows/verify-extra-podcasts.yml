@@ -1,9 +1,6 @@
 name: Verify and import five additional video podcasts
 
 on:
-  schedule:
-    # After daily YouTube quota reset; run after the first five podcast verification.
-    - cron: '40 8 * * *'
   workflow_dispatch:
 
 permissions:
