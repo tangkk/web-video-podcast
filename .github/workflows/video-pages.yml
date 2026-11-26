@@ -13,8 +13,8 @@ on:
       - catalog.json
       - episodes.json
   schedule:
-    - cron: '17 0 * * *'
-    - cron: '43 1 * * 0'
+    # Daily incremental update after the YouTube Data API quota reset (08:00 UTC during PST).
+    - cron: '25 8 * * *'
   workflow_dispatch:
     inputs:
       deploy_only:
@@ -51,7 +51,7 @@ jobs:
             echo "::error::Configure repository secret YOUTUBE_API_KEY before scheduling the new sync."
             exit 1
           fi
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "43 1 * * 0" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             node scripts/sync-youtube.mjs --backfill
           else
             node scripts/sync-youtube.mjs
