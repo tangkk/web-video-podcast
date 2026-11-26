@@ -62,9 +62,9 @@ jobs:
           const report = JSON.parse(fs.readFileSync('scripts/backfill-report.json'));
           const latest = new Map();
           for (const video of data.episodes) latest.set(video.showId, (latest.get(video.showId) ?? 0) + 1);
-          const replacements = ['npr-newsmakers', 'dashu-mandarin', 'rest-is-politics', 'rest-is-politics-us', 'one-night-talk', 'outcasts-853', 'manki-cantonese-podcast','joe-rogan','theo-von','shawn-ryan','all-in-podcast','broken-record'];
-          if (catalog.shows.length < 55 || report.totals.sources !== catalog.shows.length || report.totals.checked !== catalog.shows.length || report.totals.failed !== 0) {
-            throw new Error('Not all 50 channels completed successfully: ' + JSON.stringify(report.totals));
+          const replacements = ['npr-newsmakers', 'dashu-mandarin', 'rest-is-politics', 'rest-is-politics-us', 'one-night-talk', 'outcasts-853', 'manki-cantonese-podcast','joe-rogan','theo-von','shawn-ryan','all-in-podcast','broken-record','kill-tony','flagrant','rick-beato-interviews','h3-podcast','club-random'];
+          if (catalog.shows.length !== 60 || report.totals.sources !== catalog.shows.length || report.totals.checked !== catalog.shows.length || report.totals.failed !== 0) {
+            throw new Error('Not all 60 channels completed successfully: ' + JSON.stringify(report.totals));
           }
           if (data.episodes.length < 10000) throw new Error('Archive incomplete: only ' + data.episodes.length + ' episodes');
           for (const id of replacements) {
