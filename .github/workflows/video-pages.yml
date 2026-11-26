@@ -1,4 +1,5 @@
 name: Update and deploy video podcasts
+# Cantonese replacement verified and published; refresh the deployed episode catalog.
 
 on:
   push:
