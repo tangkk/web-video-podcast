@@ -1,13 +1,6 @@
 name: Complete video podcast archive rollout
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/complete-video-archive.yml'
-  schedule:
-    # YouTube API daily quota resets at midnight US Pacific; wait at least one hour.
-    - cron: '15 9 * * *'
   workflow_dispatch:
 
 permissions:
