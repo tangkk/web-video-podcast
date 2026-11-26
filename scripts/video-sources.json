@@ -320,5 +320,38 @@
     "channelId": "UCZ8_-dTIxnLOLt3jfH5XHJw",
     "minMinutes": 30,
     "excludePattern": "Highlights?|Clips?|Shorts?|Trailer|Teaser|Preview"
+  },
+  {
+    "showId": "kill-tony",
+    "channelId": "UCwzCMiicL-hBUzyjWiJaseg",
+    "minMinutes": 55,
+    "titlePattern": "^KILL TONY\\s*#\\s*\\d+\\b|^Kill Tony\\s*#\\s*\\d+\\b",
+    "excludePattern": "Clips?|Highlights?|Shorts?|Trailer|Preview"
+  },
+  {
+    "showId": "flagrant",
+    "channelId": "UC5PstSsGrRwj2o6asQpC4Rg",
+    "minMinutes": 50,
+    "excludePattern": "^(?:Clips?|Highlights?|Shorts?|Trailer|Teaser|Preview)(?:\\b|[:：])"
+  },
+  {
+    "showId": "rick-beato-interviews",
+    "channelId": "UCJquYOG5EL82sKTfH9aMA9Q",
+    "minMinutes": 35,
+    "titlePattern": "Interview|Conversations? (?:with|w/)",
+    "excludePattern": "Shorts?|Clips?|Highlights?|Preview|Trailer"
+  },
+  {
+    "showId": "h3-podcast",
+    "channelId": "UCLtREJY21xRfCuEKvdki1Kw",
+    "minMinutes": 55,
+    "excludePattern": "^(?:Clips?|Highlights?|Shorts?|Trailer|Teaser|Preview)(?:\\b|[:：])"
+  },
+  {
+    "showId": "club-random",
+    "channelId": "UC8efBuMd2Tsolb5uTfpex3A",
+    "minMinutes": 45,
+    "titlePattern": "Club Random with Bill Maher",
+    "excludePattern": "Highlights?|Clips?|Shorts?|Trailer|Teaser|Preview"
   }
 ]
