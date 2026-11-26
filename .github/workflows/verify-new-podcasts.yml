@@ -1,9 +1,6 @@
 name: Verify and import five official podcast channels
 
 on:
-  schedule:
-    # Reset of YouTube daily API quota is at midnight US Pacific (08:00 UTC in November).
-    - cron: '10 8 * * *'
   workflow_dispatch:
 
 permissions:
