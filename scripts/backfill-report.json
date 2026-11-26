@@ -1,0 +1,372 @@
+{
+  "generatedAt": "2026-11-26T10:29:08.550Z",
+  "sources": [
+    {
+      "showId": "diary-of-a-ceo",
+      "scanned": 967,
+      "eligible": 552,
+      "status": "ok"
+    },
+    {
+      "showId": "huberman-lab",
+      "scanned": 561,
+      "eligible": 451,
+      "status": "ok"
+    },
+    {
+      "showId": "lex-fridman",
+      "scanned": 872,
+      "eligible": 502,
+      "status": "ok"
+    },
+    {
+      "showId": "dwarkesh",
+      "scanned": 1120,
+      "eligible": 137,
+      "status": "ok"
+    },
+    {
+      "showId": "modern-wisdom",
+      "scanned": 4909,
+      "eligible": 1196,
+      "status": "ok"
+    },
+    {
+      "showId": "rich-roll",
+      "scanned": 2202,
+      "eligible": 717,
+      "status": "ok"
+    },
+    {
+      "showId": "conan",
+      "scanned": 12452,
+      "eligible": 93,
+      "status": "ok"
+    },
+    {
+      "showId": "decoder",
+      "scanned": 566,
+      "eligible": 118,
+      "status": "ok"
+    },
+    {
+      "showId": "pivot",
+      "scanned": 798,
+      "eligible": 188,
+      "status": "ok"
+    },
+    {
+      "showId": "startalk",
+      "scanned": 1927,
+      "eligible": 554,
+      "status": "ok"
+    },
+    {
+      "showId": "rest-is-history",
+      "scanned": 989,
+      "eligible": 475,
+      "status": "ok"
+    },
+    {
+      "showId": "bailingguo",
+      "scanned": 2516,
+      "eligible": 206,
+      "status": "ok"
+    },
+    {
+      "showId": "valley101",
+      "scanned": 354,
+      "eligible": 156,
+      "status": "ok"
+    },
+    {
+      "showId": "bumingbai",
+      "scanned": 500,
+      "eligible": 64,
+      "status": "ok"
+    },
+    {
+      "showId": "afei",
+      "scanned": 1175,
+      "eligible": 329,
+      "status": "ok"
+    },
+    {
+      "showId": "boyin",
+      "scanned": 286,
+      "eligible": 136,
+      "status": "ok"
+    },
+    {
+      "showId": "drinking-library",
+      "scanned": 477,
+      "eligible": 146,
+      "status": "ok"
+    },
+    {
+      "showId": "drink-with-mario",
+      "scanned": 1532,
+      "eligible": 606,
+      "status": "ok"
+    },
+    {
+      "showId": "onyourpsy",
+      "scanned": 712,
+      "eligible": 388,
+      "status": "ok"
+    },
+    {
+      "showId": "laichieagle",
+      "scanned": 473,
+      "eligible": 92,
+      "status": "ok"
+    },
+    {
+      "showId": "orangetalk",
+      "scanned": 10399,
+      "eligible": 14,
+      "status": "ok"
+    },
+    {
+      "showId": "randgad",
+      "scanned": 745,
+      "eligible": 327,
+      "status": "ok"
+    },
+    {
+      "showId": "houhousyut",
+      "scanned": 62,
+      "eligible": 0,
+      "status": "ok"
+    },
+    {
+      "showId": "cinespot",
+      "scanned": 607,
+      "eligible": 239,
+      "status": "ok"
+    },
+    {
+      "showId": "roadside",
+      "scanned": 563,
+      "eligible": 72,
+      "status": "ok"
+    },
+    {
+      "showId": "green-bean",
+      "scanned": 2144,
+      "eligible": 171,
+      "status": "ok"
+    },
+    {
+      "showId": "philosophy-live",
+      "scanned": 717,
+      "eligible": 21,
+      "status": "ok"
+    },
+    {
+      "showId": "lenny",
+      "scanned": 1870,
+      "eligible": 362,
+      "status": "ok"
+    },
+    {
+      "showId": "mel",
+      "scanned": 1655,
+      "eligible": 546,
+      "status": "ok"
+    },
+    {
+      "showId": "vergecast",
+      "scanned": 6678,
+      "eligible": 585,
+      "status": "ok"
+    },
+    {
+      "showId": "waveform",
+      "scanned": 424,
+      "eligible": 323,
+      "status": "ok"
+    },
+    {
+      "showId": "no-priors",
+      "scanned": 459,
+      "eligible": 186,
+      "status": "ok"
+    },
+    {
+      "showId": "twit",
+      "scanned": 725,
+      "eligible": 723,
+      "status": "ok"
+    },
+    {
+      "showId": "acquired",
+      "scanned": 141,
+      "eligible": 52,
+      "status": "ok"
+    },
+    {
+      "showId": "hard-fork",
+      "scanned": 711,
+      "eligible": 16,
+      "status": "ok"
+    },
+    {
+      "showId": "zhixing",
+      "scanned": 315,
+      "eligible": 3,
+      "status": "ok"
+    },
+    {
+      "showId": "taiwan-law",
+      "scanned": 1755,
+      "eligible": 811,
+      "status": "ok"
+    },
+    {
+      "showId": "han-talk",
+      "scanned": 17048,
+      "eligible": 434,
+      "status": "ok"
+    },
+    {
+      "showId": "shen-talk",
+      "scanned": 39,
+      "eligible": 21,
+      "status": "ok"
+    },
+    {
+      "showId": "spoti-talk",
+      "scanned": 702,
+      "eligible": 77,
+      "status": "ok"
+    },
+    {
+      "showId": "do-show",
+      "scanned": 74,
+      "eligible": 35,
+      "status": "ok"
+    },
+    {
+      "showId": "hong-kong-bean",
+      "scanned": 2144,
+      "eligible": 3,
+      "status": "ok"
+    },
+    {
+      "showId": "uson",
+      "scanned": 1108,
+      "eligible": 99,
+      "status": "ok"
+    },
+    {
+      "showId": "npr-newsmakers",
+      "scanned": 3779,
+      "eligible": 16,
+      "status": "ok"
+    },
+    {
+      "showId": "dashu-mandarin",
+      "scanned": 483,
+      "eligible": 228,
+      "status": "ok"
+    },
+    {
+      "showId": "rest-is-politics",
+      "scanned": 1240,
+      "eligible": 530,
+      "status": "ok"
+    },
+    {
+      "showId": "rest-is-politics-us",
+      "scanned": 1000,
+      "eligible": 228,
+      "status": "ok"
+    },
+    {
+      "showId": "one-night-talk",
+      "scanned": 1235,
+      "eligible": 105,
+      "status": "ok"
+    },
+    {
+      "showId": "outcasts-853",
+      "scanned": 1256,
+      "eligible": 72,
+      "status": "ok"
+    },
+    {
+      "showId": "manki-cantonese-podcast",
+      "scanned": 3118,
+      "eligible": 40,
+      "status": "ok"
+    },
+    {
+      "showId": "joe-rogan",
+      "scanned": 3680,
+      "eligible": 2349,
+      "status": "ok"
+    },
+    {
+      "showId": "theo-von",
+      "scanned": 1467,
+      "eligible": 652,
+      "status": "ok"
+    },
+    {
+      "showId": "shawn-ryan",
+      "scanned": 3898,
+      "eligible": 391,
+      "status": "ok"
+    },
+    {
+      "showId": "all-in-podcast",
+      "scanned": 1069,
+      "eligible": 199,
+      "status": "ok"
+    },
+    {
+      "showId": "broken-record",
+      "scanned": 584,
+      "eligible": 298,
+      "status": "ok"
+    },
+    {
+      "showId": "kill-tony",
+      "scanned": 659,
+      "eligible": 382,
+      "status": "ok"
+    },
+    {
+      "showId": "flagrant",
+      "scanned": 701,
+      "eligible": 431,
+      "status": "ok"
+    },
+    {
+      "showId": "rick-beato-interviews",
+      "scanned": 2416,
+      "eligible": 84,
+      "status": "ok"
+    },
+    {
+      "showId": "h3-podcast",
+      "scanned": 1652,
+      "eligible": 1194,
+      "status": "ok"
+    },
+    {
+      "showId": "club-random",
+      "scanned": 2055,
+      "eligible": 237,
+      "status": "ok"
+    }
+  ],
+  "totals": {
+    "sources": 60,
+    "checked": 60,
+    "failed": 0,
+    "newlyFound": 17673,
+    "episodes": 19667
+  }
+}
