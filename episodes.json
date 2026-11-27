@@ -73,6 +73,69 @@
   },
   "episodes": [
     {
+      "id": "yt-7uXtzRAf4PM",
+      "showId": "valley101",
+      "title": "E261｜表演有效、组团出海，韩国美妆如何抢占美国市场？",
+      "publishedAt": "2026-11-27",
+      "youtube": "7uXtzRAf4PM",
+      "duration": 5423,
+      "automatic": true
+    },
+    {
+      "id": "yt-acV7rjzcU_8",
+      "showId": "drink-with-mario",
+      "title": "S8EP188 國際職場上，台灣人最常犯的職場地雷｜國際職涯教練｜讀者太太",
+      "publishedAt": "2026-11-27",
+      "youtube": "acV7rjzcU_8",
+      "duration": 3918,
+      "automatic": true
+    },
+    {
+      "id": "yt-cf1n4m2TajQ",
+      "showId": "joe-rogan",
+      "title": "Joe Rogan Experience #2588 - Deric Poston & Ehsan Ahmad",
+      "publishedAt": "2026-11-27",
+      "youtube": "cf1n4m2TajQ",
+      "duration": 10380,
+      "automatic": true
+    },
+    {
+      "id": "yt-EpRL9NGWYgI",
+      "showId": "waveform",
+      "title": "Tech We're Thankful For",
+      "publishedAt": "2026-11-27",
+      "youtube": "EpRL9NGWYgI",
+      "duration": 5001,
+      "automatic": true
+    },
+    {
+      "id": "yt-sAi8N5WkDdU",
+      "showId": "dashu-mandarin",
+      "title": "We're Getting OLD… Are We Really Ready?! | Chinese Podcast #229",
+      "publishedAt": "2026-11-27",
+      "youtube": "sAi8N5WkDdU",
+      "duration": 3260,
+      "automatic": true
+    },
+    {
+      "id": "yt-xjGEwKmQP_U",
+      "showId": "uson",
+      "title": "與Son對話 | 肥姨姨（下集） | 肥姨姨再爆金句！學歷唔代表能力、做人唔使被職業綁死 | 張慧敏 | 職場慧眼 | 中文字幕",
+      "publishedAt": "2026-11-27",
+      "youtube": "xjGEwKmQP_U",
+      "duration": 2738,
+      "automatic": true
+    },
+    {
+      "id": "yt--V8jDI2-qgw",
+      "showId": "joe-rogan",
+      "title": "Joe Rogan Experience #2587 - Anthony Kim",
+      "publishedAt": "2026-11-26",
+      "youtube": "-V8jDI2-qgw",
+      "duration": 7834,
+      "automatic": true
+    },
+    {
       "id": "yt-29lKgbmCai8",
       "showId": "onyourpsy",
       "title": "內向者的不愛社交，反而隔絕了市場雜訊和明牌誘惑。從財富階梯看階段任務，正職X投資雙引擎穩步前行｜哇賽心觀點（ft.愛瑞克）",
@@ -82,12 +145,102 @@
       "automatic": true
     },
     {
+      "id": "yt-A1YgtEMCJXU",
+      "showId": "shawn-ryan",
+      "title": "The Book of Genesis",
+      "publishedAt": "2026-11-26",
+      "youtube": "A1YgtEMCJXU",
+      "duration": 24091,
+      "automatic": true
+    },
+    {
+      "id": "yt-EExHJXx1rQ0",
+      "showId": "rest-is-history",
+      "title": "Did The Hawaiians think Captain Cook Was God?",
+      "publishedAt": "2026-11-26",
+      "youtube": "EExHJXx1rQ0",
+      "duration": 4410,
+      "automatic": true
+    },
+    {
+      "id": "yt-ELFEJvsZ0ss",
+      "showId": "rest-is-politics-us",
+      "title": "The Real RFK Jr: MAHA’s Wake Up Call",
+      "publishedAt": "2026-11-26",
+      "youtube": "ELFEJvsZ0ss",
+      "duration": 2387,
+      "automatic": true
+    },
+    {
+      "id": "yt-i3R3nXFvOUs",
+      "showId": "rich-roll",
+      "title": "A Guide To Plant-Based Nutrition In 2026",
+      "publishedAt": "2026-11-26",
+      "youtube": "i3R3nXFvOUs",
+      "duration": 6404,
+      "automatic": true
+    },
+    {
+      "id": "yt-kIQPEWLfp5Y",
+      "showId": "modern-wisdom",
+      "title": "Q&A: Age Gaps, Sexual Frustration & Performance Anxiety",
+      "publishedAt": "2026-11-26",
+      "youtube": "kIQPEWLfp5Y",
+      "duration": 5966,
+      "automatic": true
+    },
+    {
+      "id": "yt-KVDs3-zuTyo",
+      "showId": "huberman-lab",
+      "title": "Essentials: How to Learn Better & Create Your Best Future | Tim Ferriss",
+      "publishedAt": "2026-11-26",
+      "youtube": "KVDs3-zuTyo",
+      "duration": 2193,
+      "automatic": true
+    },
+    {
       "id": "yt-N7rShowwYro",
       "showId": "mel",
-      "title": "What Makes a Good Life? The Science of Better Relationships with Dr. Nicholas Epley",
+      "title": "What Makes a Good Life? The Secret to Happiness, Better Relationships, & More Connection",
       "publishedAt": "2026-11-26",
       "youtube": "N7rShowwYro",
       "duration": 4083,
+      "automatic": true
+    },
+    {
+      "id": "yt-o5dxT0FrqcE",
+      "showId": "rest-is-politics",
+      "title": "Are World Leaders Choosing to COP-out of Climate? | With Mishal Husain",
+      "publishedAt": "2026-11-26",
+      "youtube": "o5dxT0FrqcE",
+      "duration": 3163,
+      "automatic": true
+    },
+    {
+      "id": "yt-PEwGsE23FfI",
+      "showId": "taiwan-law",
+      "title": "政治歸政治 #233｜選前解析！投不投你都該參與的一場選舉",
+      "publishedAt": "2026-11-26",
+      "youtube": "PEwGsE23FfI",
+      "duration": 4003,
+      "automatic": true
+    },
+    {
+      "id": "yt-qvynvHzIqyQ",
+      "showId": "afei",
+      "title": "兒虐、食物中毒頻傳選民憂心 北東南選民怎麼選出好首長？ft. 馬克吐司 @markistoast  | 斐姨所思【阿姨想知道】 EP328",
+      "publishedAt": "2026-11-26",
+      "youtube": "qvynvHzIqyQ",
+      "duration": 1350,
+      "automatic": true
+    },
+    {
+      "id": "yt-SbZL1SXuVbE",
+      "showId": "conan",
+      "title": "Conan and the Quazys (Full Episode) | Conan O'Brien Needs A Friend",
+      "publishedAt": "2026-11-26",
+      "youtube": "SbZL1SXuVbE",
+      "duration": 1327,
       "automatic": true
     },
     {
@@ -273,7 +426,7 @@
     {
       "id": "yt-4Unch--PmW0",
       "showId": "diary-of-a-ceo",
-      "title": "The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail! | Steve Eisman",
+      "title": "Billionaire's WARNING: The AI Bubble Is A Massive Lie! | Steve Eisman",
       "publishedAt": "2026-11-23",
       "youtube": "4Unch--PmW0",
       "duration": 5639
@@ -430,7 +583,7 @@
     {
       "id": "yt-yAWNNGzbY_4",
       "showId": "rest-is-history",
-      "title": "How Captain Cook Became History’s Greatest Explorer",
+      "title": "Captain Cook: To the Ends of the Earth",
       "publishedAt": "2026-11-23",
       "youtube": "yAWNNGzbY_4",
       "duration": 4786,
@@ -936,7 +1089,7 @@
     {
       "id": "yt-1mDHHi398ig",
       "showId": "diary-of-a-ceo",
-      "title": "Russian Sex Spy: I Was Trained To Control A Man's Mind With Sex! | John Kiriakou & Aliia Roza",
+      "title": "How I Seduce A Man In 5 Seconds!! | John Kiriakou & Aliia Roza",
       "publishedAt": "2026-11-16",
       "youtube": "1mDHHi398ig",
       "duration": 7452,
@@ -1735,7 +1888,7 @@
     {
       "id": "yt-VyqLmiZSLG4",
       "showId": "modern-wisdom",
-      "title": "The Life You Want Will Cost You Everything - Bugzy Malone (4K)",
+      "title": "A Man Must Take Responsibility For His Own Life - Bugzy Malone (4K)",
       "publishedAt": "2026-11-09",
       "youtube": "VyqLmiZSLG4",
       "duration": 7624,
