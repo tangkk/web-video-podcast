@@ -73,6 +73,33 @@
   },
   "episodes": [
     {
+      "id": "yt-1rponSUD1L8",
+      "showId": "modern-wisdom",
+      "title": "Jensen Huang Returns, GTA VI & Hailey Bieber’s Rhode Rage - Rabbit Hole #7",
+      "publishedAt": "2026-11-28",
+      "youtube": "1rponSUD1L8",
+      "duration": 6733,
+      "automatic": true
+    },
+    {
+      "id": "yt-IySamCL0xMM",
+      "showId": "han-talk",
+      "title": "【下班瀚你聊】2026-11-28 Ep.430 激戰2026!九合一大選開票特別報導 @TheStormMedia",
+      "publishedAt": "2026-11-28",
+      "youtube": "IySamCL0xMM",
+      "duration": 14741,
+      "automatic": true
+    },
+    {
+      "id": "yt-Mmog0-WIE0w",
+      "showId": "randgad",
+      "title": "亂gad 第843集 - 皮褸黃回歸 / Tesla FSD Reality View / Bambu Lab P3C / SpaceX 太空 AI / MAGI-2",
+      "publishedAt": "2026-11-28",
+      "youtube": "Mmog0-WIE0w",
+      "duration": 5508,
+      "automatic": true
+    },
+    {
       "id": "yt-7uXtzRAf4PM",
       "showId": "valley101",
       "title": "E261｜表演有效、组团出海，韩国美妆如何抢占美国市场？",
@@ -100,6 +127,15 @@
       "automatic": true
     },
     {
+      "id": "yt-CtxuF6wESZA",
+      "showId": "rick-beato-interviews",
+      "title": "The Peter Gabriel Interview",
+      "publishedAt": "2026-11-27",
+      "youtube": "CtxuF6wESZA",
+      "duration": 3602,
+      "automatic": true
+    },
+    {
       "id": "yt-EpRL9NGWYgI",
       "showId": "waveform",
       "title": "Tech We're Thankful For",
@@ -115,6 +151,15 @@
       "publishedAt": "2026-11-27",
       "youtube": "sAi8N5WkDdU",
       "duration": 3260,
+      "automatic": true
+    },
+    {
+      "id": "yt-TbKkN1cesTo",
+      "showId": "dwarkesh",
+      "title": "An honest conversation about what's happening in AI",
+      "publishedAt": "2026-11-27",
+      "youtube": "TbKkN1cesTo",
+      "duration": 5762,
       "automatic": true
     },
     {
@@ -443,7 +488,7 @@
     {
       "id": "yt-Anlh9h-W7H0",
       "showId": "mel",
-      "title": "It Took Me 58 Years to Realize What I’ll Tell You in 1 Hour – My Best Life Advice",
+      "title": "It Took Me 58 Years to Realize What I’ll Tell You in 1 Hour",
       "publishedAt": "2026-11-23",
       "youtube": "Anlh9h-W7H0",
       "duration": 2937,
@@ -979,6 +1024,15 @@
       "publishedAt": "2026-11-17",
       "youtube": "_2cYwwCO7qM",
       "duration": 2683
+    },
+    {
+      "id": "yt-_R0VuKk5iFs",
+      "showId": "taiwan-law",
+      "title": "政治歸政治 #231｜民調為何要封關？珞亦貴智封關前談民調",
+      "publishedAt": "2026-11-17",
+      "youtube": "_R0VuKk5iFs",
+      "duration": 6006,
+      "automatic": true
     },
     {
       "id": "yt-10ZOp2q7HmU",
@@ -1888,7 +1942,7 @@
     {
       "id": "yt-VyqLmiZSLG4",
       "showId": "modern-wisdom",
-      "title": "A Man Must Take Responsibility For His Own Life - Bugzy Malone (4K)",
+      "title": "The Life You Want Will Cost You Everything - Bugzy Malone (4K)",
       "publishedAt": "2026-11-09",
       "youtube": "VyqLmiZSLG4",
       "duration": 7624,
